@@ -1,7 +1,8 @@
 # Replications and comparisons
 
 All numbers on the corrected test sets (v2: 78 DI, v3: 103 DI + 35 DI in paragraphs), same translations for every
-scoring step. Paired counts are **fixed / broken** vs the original model; p = exact McNemar on DI. Per-arm files with
+scoring step. Paired counts are **shifted / reverted** vs the original model (on DI: moved to / away from the preferred imperfetto;
+on controls, "broken" = moved into a wrong reading); p = exact McNemar on DI. Per-arm files with
 every translation and verdict: `results/arms/`.
 
 ## Three editor sessions

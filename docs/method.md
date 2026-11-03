@@ -10,17 +10,23 @@ not add an ability". Their published logs make this concrete: in Astra's own fin
 accuracy on the problems the original model already finished is 93.9 % before and after the edit, and all the gain
 (1.4 % → 56.7 %) is on the problems where it looped.
 
-We wanted the same experiment on a problem we actually have: not looping, but a systematic translation error in a
-model we use. The question is the same — can a frontier model, reading weights and activations, change a specific
-behaviour by editing weights directly — on a narrow, useful target.
+We wanted the same experiment on something we actually use: not removing a failure, but shifting how a model we use
+translates one construction. The question is the same — can a frontier model, reading weights and activations, change a
+specific behaviour by editing weights directly — on a narrow target chosen by us.
 
 ## Target
 
-Gemma 4 translates most Italian tenses well (we first probed Gemma 4 31B on 255 sentences: tense, capitalisation,
-titles, punctuation, all fine). The recurring calque is the English past perfect with *for/since* for a situation still
-going on at a past moment (**DI**): correct Italian is imperfetto + *da*, Gemma often writes trapassato + *per*.
-Gemma 4 12B makes it about a quarter of the time, Gemma 4 31B about a fifth. The trapassato *is* correct when the
-period was already over (**DD**), so a fix has to separate the two.
+Gemma 4 translates Italian tenses well (we first probed Gemma 4 31B on 255 sentences: tense, capitalisation, titles,
+punctuation, all fine). What it does systematically is render the English past perfect with *for/since*, for a
+situation still going on at a past moment (**DI**), with the trapassato + *per*: «Si era nascosto in soffitta per mesi
+quando…». That is correct Italian. The imperfetto + *da* («Si nascondeva in soffitta da mesi quando…») is equally
+correct and is the form the author, a native speaker, prefers in this context, because it states that the situation was
+still going on, as the English does. Gemma 4 12B uses the trapassato in about a quarter of these sentences, Gemma 4 31B
+in about a fifth.
+
+So the task is a **targeted preference shift**, not an error fix: move DI to the imperfetto, and leave the trapassato
+where the period was already over (**DD**), where the imperfetto would change the meaning. Our earlier documents and
+the judge rubric call the trapassato form on DI an "error"; read it as "non-preferred form".
 
 ## Data
 

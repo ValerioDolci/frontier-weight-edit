@@ -1,55 +1,65 @@
 # frontier-weight-edit
 
-**Can a frontier model fix a real, systematic error in another model by editing its weights by hand?**
+**Can a frontier model steer another model's behaviour, precisely and only where we want, by editing its weights by hand?**
 
 In November 2026 MIT CSAIL published [*Sparks of Weight-Space Programming*](https://rikiyat.github.io/blog/weight-space-programming/)
 (Takehi, Teoh, Zhang, Khattab): GPT-6 Astra read the weights of Qwen3.5-0.8B and edited them directly, without training,
-and the model's math scores jumped. Their model had a looping problem. Mine doesn't: what I see every day is that Gemma 4
-makes a **systematic English→Italian translation error**. So I set up the same kind of experiment on that use case, with
-Claude Opus 5.5 as the editor and Gemma 4 12B-it as the model to fix.
+and the model's math scores jumped by removing a looping failure. I wanted to try the same idea on something I use every
+day — local models translating into Italian — and on a different kind of change: not fixing a failure, but **shifting a
+translation toward a specific, preferred form, in one context only**. Claude Opus 5.5 was the editor, Gemma 4 12B-it
+the model.
 
 > *He had been hiding in the attic for months when the soldiers found him.*
-> Gemma 4 12B: «Si era nascosto in soffitta **per** mesi quando i soldati lo hanno trovato.» (calque: sounds finished)
+> Gemma 4 12B: «Si era nascosto in soffitta **per** mesi quando i soldati lo hanno trovato.»
 > after the edit: «Si **nascondeva** in soffitta **da** mesi quando i soldati lo trovarono.»
 
+Both are correct Italian. The second (imperfetto + *da*) is the form I prefer here: it says explicitly that he was still
+hiding when they came, as the English does. The goal was to make Gemma choose it **only** in that situation, and keep
+the trapassato when the period was really over (*He had lived in Paris for ten years, but by 1990 he had moved back* →
+«Aveva vissuto a Parigi per dieci anni…»), where the imperfetto would change the meaning.
+
 **Short version.** With no gradients and no training, in about two hours and 27-30 forward passes, Claude rewrote 4-8
-MLP neurons of Gemma (a 60-105 KB diff) and cut the error on unseen sentences from 26 % to 5 %, and from 32 % to 16 % on
-an independent test set, while leaving 182 of 200 general-domain translations word-for-word identical. It is in line with
-what MIT found: the model already had the information it needed (from layer ~26 a linear probe separates "still going
-on" from "already over" with AUC ≈ 0.95) and the edit makes it use it. It also shows the approach works on a useful,
-narrow behaviour, not only on removing a failure, and that it can be more surgical than fine-tuning.
+MLP neurons of Gemma (92 thousand of its 11.9 billion parameters, a 100 KB diff). On unseen sentences, the share of target
+sentences still rendered with the trapassato fell from 26 % to 5 %, and from 32 % to 16 % on an independent test set,
+while the finished-period sentences kept their trapassato and 182 of 200 general-domain translations stayed word-for-word
+identical. In line with MIT's finding, the model already had the information (from layer ~26 a linear probe separates
+"still going on" from "already over" with AUC ≈ 0.95); the edit makes it use it for a choice we picked.
 
-## The error
+## The construction
 
-English past perfect + *for/since* for something **still going on** at a past moment (category **DI**) should become
-imperfetto + *da*; Gemma often writes trapassato + *per*. The trapassato is correct, though, when the period was
-**already over** (*He had lived in Paris for ten years, but by 1990 he had moved back*, category **DD**). So the fix must
-tell the two apart; simply preferring one tense breaks the other case.
+English past perfect + *for/since* for something **still going on** at a past moment (category **DI**): Gemma usually
+writes trapassato + *per*; the preferred form is imperfetto + *da*. Same construction, period **already over**
+(category **DD**): the trapassato must stay. Controls also cover present perfect (DURP), finished past (PERF), habitual
+*would* (HAB) and conditional *would* (COND), which the edit must not touch.
 
 ## Results
 
-Error rate on DI, judged by an LLM on the tense rule only (greedy decoding). The editor never saw the test sets.
-Test v2: 257 items (78 DI); test v3: 292 items written independently in mixed styles (103 DI, 35 DI inside paragraphs).
+Share of DI sentences still in the non-preferred (trapassato) form, judged by an LLM on the tense/aspect rule only
+(greedy decoding). The editor never saw the test sets. Test v2: 257 items (78 DI); test v3: 292 items written
+independently in mixed styles (103 DI, 35 DI inside paragraphs). "Controls broken" = control sentences that the change
+pushed into a wrong reading (e.g. imperfetto for a finished period).
 
 | | DI v2 | DI v3 | DI in paragraphs | controls broken | FLORES unchanged | COMET FLORES |
 |---|---|---|---|---|---|---|
-| Gemma 4 12B-it | 26 % | 32 % | 12 / 35 errors | — | 200 / 200 | 0.8945 |
-| B0 — rule in the system prompt | 4 % | 2 % | 3 / 35 | **49** (DD 67 %, PERF 36 % on v2) | 82 | 0.8911 |
+| Gemma 4 12B-it | 26 % | 32 % | 12 / 35 | — | 200 / 200 | 0.8945 |
+| B0 — preference written in the system prompt | 4 % | 2 % | 3 / 35 | **49** (DD 67 %, PERF 36 % on v2) | 82 | 0.8911 |
 | B1 — difference-of-means ablation | 49 % | 75 % | 20 / 35 | **53** | 43 | 0.8896 |
 | B2 — LoRA, minimal-edit targets (fair) | 12 % | 23 % | 7 / 35 | 0 | 120 | 0.8947 |
 | **e50 — Claude edit** | **12 %** | **23 %** | 11 / 35 | **1** | **177** | **0.8945** |
 | **e50c — Claude edit, second session** | **5 %** | **16 %** | 10 / 35 | **2** | **182** | **0.8945** |
 
-Paired, original → edited, on DI: e50 fixes 11 / breaks 0 (v2, exact McNemar p = 0.001) and 9 / 0 (v3, p = 0.004);
+Paired, original → edited, on DI: e50 shifts 11 / reverts 0 (v2, exact McNemar p = 0.001) and 9 / 0 (v3, p = 0.004);
 e50c 16 / 0 (v2) and 17 / 0 (v3), p < 0.0001.
 
-- **Prompting** fixes DI but applies the imperfetto everywhere; the **naive ablation** recipe makes everything worse.
-- **LoRA** on the same practice data is the real competitor: it matches e50 on the target, is better inside paragraphs
-  and breaks no controls, but changes 80 of 200 general translations where the Claude edits change 18-23.
-- **Quality beyond the tense** (blind pairwise comparison of every changed translation, original vs edited, by Claude
-  Sonnet 5.5): on changed DI sentences e50c is better 45 times, worse 11, tie 24; e50 26 / 17 / 3. Reading e50c's 36
-  judged fixes by hand: 33 are correct Italian, 2 contain a new error (the non-word «Bevava», «Le stava cercando gli
-  occhiali»), 1 keeps the calque's *per*.
+- **Prompting** shifts the form but everywhere, including finished periods; the **naive ablation** recipe breaks the
+  past tenses altogether.
+- **LoRA** on the same practice data is the real competitor: it shifts as many sentences as e50, does better inside
+  paragraphs and breaks no controls, but changes 80 of 200 unrelated translations where the Claude edits change 18-23.
+- **Only the verb moves.** In e50c's 33 shifted sentences the change is the verb form (imperfetto in 31, progressive
+  *stava + gerundio* in 2) and *per* → *da* in 26; 30 of them change at most 4 words. Reading all 36 judged shifts by
+  hand: 33 are clean, 2 introduce a new mistake (the non-word «Bevava», «Le stava cercando gli occhiali»), 1 keeps *per*.
+  A blind pairwise check of every changed translation (Claude Sonnet 5.5) prefers e50c's version 45 times, the
+  original 11 times, 24 ties.
 
 Everything per arm, with every translation and verdict: [results/](results/). Full comparison, replications and the
 LoRA details: [docs/replications.md](docs/replications.md).
@@ -94,9 +104,9 @@ technically enforce: [docs/method.md](docs/method.md).
 
 ## Limits
 
-- One error type, one model (12B), three sessions (two succeeded; one crashed because of my harness).
-- The main judge checks only the tense; the overall-quality check and our own reading are on top, not a substitute for
-  a native-speaker audit of every item.
+- One construction, one model (12B), three sessions (two succeeded; one crashed because of my harness).
+- Both renderings are usually correct Italian: this is a preference, chosen by the author (a native speaker), not an
+  error fix. The judge checks only the tense; the overall-quality check and our own reading are on top.
 - The judge, the second judge, the practice-set writer and the editor are all Claude models.
 - Two test-v2 sentences had leaked into the editor's prompt as examples; they are excluded from every number here.
 
