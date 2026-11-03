@@ -1,0 +1,21 @@
+{"kind": "read", "weights": "original", "positions": "all", "save": "test1",
+"layers": [0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 47],
+"capture": ["resid"],
+"items": [
+{"id": 78, "it": "Fumava da vent'anni quando finalmente ha smesso."},
+{"id": 78, "it": "Aveva fumato per vent'anni quando finalmente ha smesso."},
+{"id": 273, "it": "Aspettavano in stazione da tre ore quando finalmente arrivò l'annuncio."},
+{"id": 273, "it": "Avevano aspettato in stazione per tre ore quando finalmente arrivò l'annuncio."},
+{"id": 112, "it": "Quando il sipario si è alzato, gli attori provavano da otto settimane."},
+{"id": 112, "it": "Quando il sipario si è alzato, gli attori avevano provato per otto settimane."},
+{"id": 116, "it": "Il villaggio era senza elettricità da una settimana quando finalmente arrivò il soccorso."},
+{"id": 116, "it": "Il villaggio era rimasto senza elettricità per una settimana quando finalmente arrivò il soccorso."},
+{"id": 236, "it": "Vivevamo in quel minuscolo appartamento da sei anni quando il proprietario ha aumentato l'affitto."},
+{"id": 236, "it": "Avevamo vissuto in quel minuscolo appartamento per sei anni quando il proprietario ha aumentato l'affitto."},
+{"id": 384, "it": "Ero in piedi sotto la pioggia da venti minuti quando finalmente è apparso l'autobus."},
+{"id": 384, "it": "Ero rimasto in piedi sotto la pioggia per venti minuti quando finalmente è apparso l'autobus."},
+{"id": 18, "it": "Sofia suonava il violino da dieci anni quando ha dato il suo ultimo recital nel 2017."},
+{"id": 18, "it": "Sofia aveva suonato il violino per dieci anni quando ha dato il suo ultimo recital nel 2017."},
+{"id": 564, "it": "Maria studiava pianoforte da otto anni quando lo abbandonò all'università."},
+{"id": 564, "it": "Maria aveva studiato pianoforte per otto anni quando lo abbandonò all'università."}
+]}

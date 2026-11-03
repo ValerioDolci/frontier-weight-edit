@@ -1,0 +1,16 @@
+{
+ "results": {
+  "r16_lr1e-4_ep3": [
+   6,
+   3,
+   3
+  ],
+  "r8_lr5e-5_ep2": [
+   9,
+   5,
+   4
+  ]
+ },
+ "pick": "r16_lr1e-4_ep3",
+ "rule": "fewest total held-out errors (DI + controls); tie -> smaller adapter"
+}

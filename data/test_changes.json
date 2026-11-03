@@ -1,0 +1,258 @@
+[
+ {
+  "set": "v2",
+  "line": 0,
+  "text": "We had been waiting for two hours when the train finally arrived.",
+  "old": "DI",
+  "new": null,
+  "reason": "appears as the worked example in the editor prompt (leak)"
+ },
+ {
+  "set": "v2",
+  "line": 59,
+  "text": "She had been writing the novel for ten years when it was finally published.",
+  "old": "DI",
+  "new": null,
+  "reason": "ambiguous (blind relabel: writing may have finished before publication)"
+ },
+ {
+  "set": "v2",
+  "line": 80,
+  "text": "He had lived in Paris for ten years, but by 1990 he had moved back to Rome.",
+  "old": "DD",
+  "new": null,
+  "reason": "appears as the DD example in the editor prompt (leak)"
+ },
+ {
+  "set": "v3",
+  "line": 77,
+  "text": "By the time the treaty expired, the alliance had held for more than half a century.",
+  "old": "DI",
+  "new": null,
+  "reason": "ambiguous: period ends exactly at expiry; trapassato also natural"
+ },
+ {
+  "set": "v3",
+  "line": 82,
+  "text": "By the time the snow stopped, it had been falling for three days and nights.",
+  "old": "DI",
+  "new": null,
+  "reason": "ambiguous: snowfall ends at reference point; trapassato natural"
+ },
+ {
+  "set": "v3",
+  "line": 121,
+  "text": "She had lived in Lisbon for six years when she finally moved back to Toronto to care for her mother.",
+  "old": "DD",
+  "new": "DI",
+  "reason": "still living in Lisbon when she moved"
+ },
+ {
+  "set": "v3",
+  "line": 122,
+  "text": "By the time the war broke out, the family had already farmed that valley for three generations and then sold it to a railway company.",
+  "old": "DD",
+  "new": null,
+  "reason": "ambiguous: 'by the time' clashes with 'then sold'"
+ },
+ {
+  "set": "v3",
+  "line": 126,
+  "text": "They had not spoken to each other for almost twenty years when they met again at their father's funeral.",
+  "old": "DD",
+  "new": "DI",
+  "reason": "silence still ongoing when they met"
+ },
+ {
+  "set": "v3",
+  "line": 130,
+  "text": "The emperor had ruled for thirty-one years when he was finally deposed in a palace coup.",
+  "old": "DD",
+  "new": "DI",
+  "reason": "still ruling when deposed"
+ },
+ {
+  "set": "v3",
+  "line": 131,
+  "text": "I had not seen my brother for five years before he turned up at my door last Christmas.",
+  "old": "DD",
+  "new": null,
+  "reason": "ambiguous: non-event ongoing, but 'before' allows trapassato"
+ },
+ {
+  "set": "v3",
+  "line": 138,
+  "text": "The ceasefire had held for barely a week when fighting resumed along the border on Tuesday.",
+  "old": "DD",
+  "new": "DI",
+  "reason": "ceasefire still holding when fighting resumed"
+ },
+ {
+  "set": "v3",
+  "line": 139,
+  "text": "For a decade the village had had no doctor, but in 1952 a young physician arrived from the city.",
+  "old": "DD",
+  "new": "DI",
+  "reason": "still no doctor until 1952"
+ },
+ {
+  "set": "v3",
+  "line": 142,
+  "text": "We had rented that flat for four years when the landlord sold the building and we had to move out.",
+  "old": "DD",
+  "new": "DI",
+  "reason": "still renting when the building was sold"
+ },
+ {
+  "set": "v3",
+  "line": 144,
+  "text": "He hadn't smoked for ten years, but after the accident in 2015 he started again.",
+  "old": "DD",
+  "new": "DI",
+  "reason": "still not smoking until 2015 relapse"
+ },
+ {
+  "set": "v3",
+  "line": 151,
+  "text": "I'd known her for ages before we started working together, so it wasn't awkward,\" Tom said.",
+  "old": "DD",
+  "new": "DI",
+  "reason": "knowing her still ongoing when work began"
+ },
+ {
+  "set": "v3",
+  "line": 154,
+  "text": "The factory had not produced a single car for eight months when the government finally intervened.",
+  "old": "DD",
+  "new": "DI",
+  "reason": "non-production still ongoing when government intervened"
+ },
+ {
+  "set": "v3",
+  "line": 155,
+  "text": "Before the Normans arrived, the Saxon lords had held these lands for generations.",
+  "old": "DD",
+  "new": null,
+  "reason": "ambiguous: holding ongoing at arrival, but ended by conquest"
+ },
+ {
+  "set": "v3",
+  "line": 157,
+  "text": "The king had been in exile for nine years when he was restored to the throne in 1660.",
+  "old": "DD",
+  "new": "DI",
+  "reason": "exile still ongoing when restored"
+ },
+ {
+  "set": "v3",
+  "line": 160,
+  "text": "The pipeline had leaked for at least three days before anyone noticed it on Monday morning.",
+  "old": "DD",
+  "new": "DI",
+  "reason": "leak still ongoing when noticed"
+ },
+ {
+  "set": "v3",
+  "line": 161,
+  "text": "He'd been sober for a whole year before that wedding, and then everything fell apart,\" she sighed.",
+  "old": "DD",
+  "new": "DI",
+  "reason": "sobriety still ongoing at the wedding"
+ },
+ {
+  "set": "v3",
+  "line": 167,
+  "text": "I had not seen my brother for almost a decade when he turned up at the funeral,\" Daniel said. \"We shook hands like strangers and then talked until dawn.",
+  "old": "PDD",
+  "new": "PDI",
+  "reason": "not-seeing ongoing until he turned up"
+ },
+ {
+  "set": "v3",
+  "line": 169,
+  "text": "The siege had lasted for nearly two years by the time the city surrendered in the spring of 1453. Its walls, once thought impregnable, had been breached in several places.",
+  "old": "PDD",
+  "new": "PDI",
+  "reason": "siege still ongoing when city surrendered"
+ },
+ {
+  "set": "v3",
+  "line": 172,
+  "text": "We had been married for twenty years when we decided to separate,\" my aunt told me over coffee. \"It was the calmest conversation we ever had.",
+  "old": "PDD",
+  "new": "PDI",
+  "reason": "still married when they decided"
+ },
+ {
+  "set": "v3",
+  "line": 178,
+  "text": "She had trained for this race for eight months, and then she twisted her ankle the week before,\" the coach explained. \"It was heartbreaking to watch her pull out.",
+  "old": "PDD",
+  "new": "PDI",
+  "reason": "training still ongoing when ankle twisted"
+ },
+ {
+  "set": "v3",
+  "line": 179,
+  "text": "The ceasefire had held for barely a fortnight when fighting resumed along the northern border on Friday. Aid agencies warned that thousands of civilians were again at risk.",
+  "old": "PDD",
+  "new": "PDI",
+  "reason": "ceasefire holding when fighting resumed"
+ },
+ {
+  "set": "v3",
+  "line": 185,
+  "text": "He had not seen his brother for twelve years when they finally met at the funeral.",
+  "old": "PERF",
+  "new": "DI",
+  "reason": "had not seen for, still ongoing when met"
+ },
+ {
+  "set": "v3",
+  "line": 194,
+  "text": "She had not eaten for a day and a half by the time the rescuers reached her.",
+  "old": "PERF",
+  "new": "DI",
+  "reason": "had not eaten for, ongoing when rescued"
+ },
+ {
+  "set": "v3",
+  "line": 200,
+  "text": "We've known each other for years, but we only became friends last summer.",
+  "old": "PERF",
+  "new": "DURP",
+  "reason": "have known for years, still true now"
+ },
+ {
+  "set": "v3",
+  "line": 207,
+  "text": "She had worked at the bank for thirty years when she was suddenly let go.",
+  "old": "PERF",
+  "new": "DI",
+  "reason": "had worked for, ongoing when let go"
+ },
+ {
+  "set": "v3",
+  "line": 220,
+  "text": "Since 2019, the foundation has funded more than forty scholarships for students from rural areas.",
+  "old": "DURP",
+  "new": null,
+  "reason": "ambiguous: cumulative result counted since date; passato prossimo"
+ },
+ {
+  "set": "v3",
+  "line": 229,
+  "text": "The ministry has not commented on the allegations since they first appeared in the press on Friday.",
+  "old": "DURP",
+  "new": null,
+  "reason": "ambiguous: non-event since Friday; passato prossimo natural"
+ },
+ {
+  "set": "v3",
+  "line": 239,
+  "text": "She hasn't touched the piano since her teacher died, though it still stands in the hall.",
+  "old": "DURP",
+  "new": null,
+  "reason": "ambiguous: non-event since death; 'non ha più toccato' natural"
+ }
+]

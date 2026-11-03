@@ -1,0 +1,104 @@
+[
+ {
+  "tensor": "model.language_model.layers.31.mlp.down_proj.weight",
+  "shape": [
+   3840,
+   15360
+  ],
+  "axis": 1,
+  "indices": [
+   1697,
+   4468,
+   8697,
+   12377
+  ],
+  "n_changed": 15357,
+  "sha256_base": "bb7ba703bc66df7bb579f261d64ec7b150e78a73f0696323ac51d6767ade2855",
+  "sha256_edited": "b96e9e97120c39968ed997f598c84cdbd9ce3ce00fc5af536ffd423251409190"
+ },
+ {
+  "tensor": "model.language_model.layers.31.mlp.gate_proj.weight",
+  "shape": [
+   15360,
+   3840
+  ],
+  "axis": 0,
+  "indices": [
+   1697,
+   4468,
+   8697,
+   12377
+  ],
+  "n_changed": 15359,
+  "sha256_base": "72147c3fff4312662503a4cd3ddb3bd6bac45b79292b4326a9d8030a0c6919eb",
+  "sha256_edited": "301d75969a3cccf6548115caac1a2cb5228ee821b206e316a2dbef69eeea226b"
+ },
+ {
+  "tensor": "model.language_model.layers.31.mlp.up_proj.weight",
+  "shape": [
+   15360,
+   3840
+  ],
+  "axis": 0,
+  "indices": [
+   1697,
+   4468,
+   8697,
+   12377
+  ],
+  "n_changed": 15359,
+  "sha256_base": "1ae2ed526c077550bb4258b2cb3fe410a96ff009e26b3128e69e81fcf8f5485a",
+  "sha256_edited": "d5e1651c5ed1b4f40f1b85504c24fd4b041a81651cdd3c92909e0c27a9384414"
+ },
+ {
+  "tensor": "model.language_model.layers.34.mlp.down_proj.weight",
+  "shape": [
+   3840,
+   15360
+  ],
+  "axis": 1,
+  "indices": [
+   2178,
+   8863,
+   9458,
+   10654
+  ],
+  "n_changed": 15355,
+  "sha256_base": "f2e2c306761e4c195932f460afb17a176c28ef9fde57fdb1036a6c0ec27e9926",
+  "sha256_edited": "8374e9bfd52645061e32d20d82529388dd9eafd3e80cd65348dc286f04a07103"
+ },
+ {
+  "tensor": "model.language_model.layers.34.mlp.gate_proj.weight",
+  "shape": [
+   15360,
+   3840
+  ],
+  "axis": 0,
+  "indices": [
+   2178,
+   8863,
+   9458,
+   10654
+  ],
+  "n_changed": 15358,
+  "sha256_base": "1b3d1d91c82ddc253f9b80887e97ce07c9c8ff8f1bf7a375c3128959a316a220",
+  "sha256_edited": "5cd117bd5f38a45a8c896189a6ccc94017129814d8ed8715576cdededbfd68e7"
+ },
+ {
+  "tensor": "model.language_model.layers.34.mlp.up_proj.weight",
+  "shape": [
+   15360,
+   3840
+  ],
+  "axis": 0,
+  "indices": [
+   2178,
+   8863,
+   9458,
+   10654
+  ],
+  "n_changed": 15360,
+  "sha256_base": "c302edb6083757c385a77416a67e02a5eb58c75d7a76fbfa6128c83452c7d461",
+  "sha256_edited": "778f89e2f56553c39e1754409152181c3df06633bd812655be21fb1286af97e7"
+ }
+]

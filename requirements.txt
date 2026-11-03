@@ -1,0 +1,9 @@
+torch>=2.6
+transformers==5.16.1     # the version used for every number here (Gemma 4 support)
+accelerate>=1.0
+safetensors
+numpy
+peft==0.21.2             # baselines/b2_lora.py and LoRA adapters in scripts/evaluate.py
+anthropic>=1.0           # judge (scripts/judge.py, JUDGE_BACKEND=sdk) and harness/broker.py
+unbabel-comet            # optional: COMET on FLORES (scripts/evaluate.py comet)
+pytest                   # tests/

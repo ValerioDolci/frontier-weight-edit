@@ -1,0 +1,1822 @@
+[
+[
+0,
+"DI",
+"We had been waiting for two hours when the train finally arrived.",
+"DI",
+"waiting still ongoing when train arrived"
+],
+[
+1,
+"DI",
+"He had been studying medicine for three years when he decided to switch to law.",
+"DI",
+"studying ongoing when he decided to switch"
+],
+[
+2,
+"DI",
+"The patient had been in a coma for three weeks when he suddenly opened his eyes.",
+"DI",
+"coma ongoing until he opened eyes"
+],
+[
+3,
+"DI",
+"When I met him, he had lived in that village for thirty years.",
+"DI",
+"still living there when I met him"
+],
+[
+4,
+"DI",
+"She had been working at the factory for a decade when it closed.",
+"DI",
+"working there until factory closed"
+],
+[
+5,
+"DI",
+"They had been driving for six hours when the car broke down.",
+"DI",
+"driving ongoing when car broke down"
+],
+[
+6,
+"DI",
+"I had been sleeping for only twenty minutes when the phone rang.",
+"DI",
+"sleeping interrupted by phone ringing"
+],
+[
+7,
+"DI",
+"By the time the doctor arrived, the child had had a fever for three days.",
+"DI",
+"fever still ongoing when doctor arrived"
+],
+[
+8,
+"DI",
+"When the storm hit, the sailors had been at sea for two months.",
+"DI",
+"still at sea when storm hit"
+],
+[
+9,
+"DI",
+"We had known each other for ten years when we finally got married.",
+"DI",
+"still knew each other at wedding"
+],
+[
+10,
+"DI",
+"He had been living in London for five years when the war broke out.",
+"DI",
+"still living in London at war"
+],
+[
+11,
+"DI",
+"The two countries had been at peace for a century when the conflict began.",
+"DI",
+"peace lasted until conflict began"
+],
+[
+12,
+"DI",
+"She had been playing the violin for twelve years when she joined the orchestra.",
+"DI",
+"still playing violin when joining orchestra"
+],
+[
+13,
+"DI",
+"When the rescuers found them, the climbers had been trapped for four days.",
+"DI",
+"still trapped when rescuers found them"
+],
+[
+14,
+"DI",
+"The old man had been sitting on the bench for hours when someone finally spoke to him.",
+"DI",
+"still sitting when someone spoke"
+],
+[
+15,
+"DI",
+"I had been reading for an hour when I realised I had missed my stop.",
+"DI",
+"reading ongoing when he realised"
+],
+[
+16,
+"DI",
+"When the company was sold, my father had been its director for twenty years.",
+"DI",
+"still director when company was sold"
+],
+[
+17,
+"DI",
+"The students had been protesting for a week when the minister resigned.",
+"DI",
+"protests ongoing when minister resigned"
+],
+[
+18,
+"DI",
+"By the time I got there, the guests had been eating for an hour.",
+"DI",
+"guests still eating when I arrived"
+],
+[
+19,
+"DI",
+"She had been teaching in that school for fifteen years when she was offered the job of headmistress.",
+"DI",
+"still teaching when offered headship"
+],
+[
+20,
+"DI",
+"When the letter arrived, they had been married for exactly fifty years.",
+"DI",
+"still married when letter arrived"
+],
+[
+21,
+"DI",
+"The firefighters had been fighting the blaze for ten hours when it started to rain.",
+"DI",
+"fighting blaze ongoing when rain started"
+],
+[
+22,
+"DI",
+"He had been running for forty minutes when he felt a pain in his knee.",
+"DI",
+"running ongoing when knee pain came"
+],
+[
+23,
+"DI",
+"When we bought the house, it had been empty for years.",
+"DI",
+"house still empty when bought"
+],
+[
+24,
+"DI",
+"The dog had been barking for half an hour when the neighbours called the police.",
+"DI",
+"barking ongoing when neighbours called"
+],
+[
+25,
+"DI",
+"I had been working on the report all morning when the computer crashed.",
+"DI",
+"working all morning, interrupted by crash"
+],
+[
+26,
+"DI",
+"When the news reached them, the soldiers had been fighting for three days without rest.",
+"DI",
+"still fighting when news reached them"
+],
+[
+27,
+"DI",
+"The baby had been crying for an hour when her mother came home.",
+"DI",
+"crying ongoing when mother came home"
+],
+[
+28,
+"DI",
+"They had been living in a tent for months when the government finally gave them a house.",
+"DI",
+"still in tent when given house"
+],
+[
+29,
+"DI",
+"When I called her, she had been trying to reach me for days.",
+"DI",
+"still trying to reach me when called"
+],
+[
+30,
+"DI",
+"The team had been losing for most of the season when the new coach arrived.",
+"DI",
+"losing still ongoing when coach arrived"
+],
+[
+31,
+"DI",
+"He had been unemployed for almost a year when he found the advertisement.",
+"DI",
+"unemployment ongoing when he found advertisement"
+],
+[
+32,
+"DI",
+"When the police stopped him, he had been driving without a licence for years.",
+"DI",
+"driving without licence ongoing when stopped"
+],
+[
+33,
+"DI",
+"We had been walking in the rain for an hour when we found a small café.",
+"DI",
+"walking still ongoing when café found"
+],
+[
+34,
+"DI",
+"By the time the bus came, I had been standing in the cold for forty minutes.",
+"DI",
+"standing ongoing until bus came"
+],
+[
+35,
+"DI",
+"The museum had been closed for renovation for two years when it reopened to the public.",
+"DI",
+"closure ongoing up to reopening moment"
+],
+[
+36,
+"DI",
+"When she finally told him the truth, she had been lying to him for months.",
+"DI",
+"lying ongoing when she told truth"
+],
+[
+37,
+"DI",
+"The negotiations had been going on for weeks when an agreement was reached.",
+"DI",
+"negotiations ongoing when agreement reached"
+],
+[
+38,
+"DI",
+"My grandparents had been running the shop for forty years when they decided to retire.",
+"DI",
+"running shop ongoing when deciding to retire"
+],
+[
+39,
+"DI",
+"The prisoner had been in jail for twenty years when new evidence proved his innocence.",
+"DI",
+"imprisonment ongoing when evidence emerged"
+],
+[
+40,
+"DI",
+"When the ambulance arrived, the man had been lying on the pavement for an hour.",
+"DI",
+"lying on pavement ongoing at arrival"
+],
+[
+41,
+"DI",
+"The river had been rising for three days when the dam broke.",
+"DI",
+"river rising ongoing when dam broke"
+],
+[
+42,
+"DI",
+"I had been learning Japanese for two years when I first visited Tokyo.",
+"DI",
+"still learning Japanese at first visit"
+],
+[
+43,
+"DI",
+"When the war ended, my grandmother had been waiting for news of her brother for four years.",
+"DI",
+"waiting still ongoing when war ended"
+],
+[
+44,
+"DI",
+"They had been arguing for the whole evening when the lights went out.",
+"DI",
+"arguing ongoing when lights went out"
+],
+[
+45,
+"DI",
+"She had had the same car for twenty years when it finally stopped working.",
+"DI",
+"owning car ongoing until it stopped"
+],
+[
+46,
+"DI",
+"The village had been without water for a week when the trucks arrived.",
+"DI",
+"without water ongoing when trucks arrived"
+],
+[
+47,
+"DI",
+"He had been hiding in the attic for months when the soldiers found him.",
+"DI",
+"hiding ongoing when soldiers found him"
+],
+[
+48,
+"DI",
+"The band had been touring for a year when the singer lost her voice.",
+"DI",
+"touring ongoing when singer lost voice"
+],
+[
+49,
+"DI",
+"When the new manager arrived, the employees had been working without a contract for months.",
+"DI",
+"working without contract ongoing at arrival"
+],
+[
+50,
+"DI",
+"I had been living abroad for so long that I had forgotten some Italian words.",
+"DI",
+"still living abroad at that past moment"
+],
+[
+51,
+"DI",
+"We had been friends since childhood, so I trusted him completely.",
+"DI",
+"friendship since childhood still ongoing then"
+],
+[
+52,
+"DI",
+"The road had been closed since the landslide, so we took the long way.",
+"DI",
+"road closure since landslide still ongoing"
+],
+[
+53,
+"DI",
+"The shop had belonged to his family for three generations when he sold it.",
+"DI",
+"family ownership ongoing until sale"
+],
+[
+54,
+"DI",
+"When I found the photograph, it had been lying in the drawer for decades.",
+"DI",
+"photo still lying in drawer when found"
+],
+[
+55,
+"DI",
+"The scientists had been studying the virus for years when the epidemic started.",
+"DI",
+"studying ongoing when epidemic started"
+],
+[
+56,
+"DI",
+"When the plane finally landed, the passengers had been sitting on the runway for three hours.",
+"DI",
+"sitting on runway ongoing until landing"
+],
+[
+57,
+"DI",
+"The farmers had been praying for rain for months when the first clouds appeared.",
+"DI",
+"praying ongoing when clouds appeared"
+],
+[
+58,
+"DI",
+"He had been feeling tired for weeks when he finally went to the doctor.",
+"DI",
+"tiredness ongoing when he saw doctor"
+],
+[
+59,
+"DI",
+"She had been writing the novel for ten years when it was finally published.",
+"AMBIG",
+"writing likely finished before publication; DI/DD unclear"
+],
+[
+60,
+"DI",
+"When I arrived in Milan, my sister had been living there for six months.",
+"DI",
+"sister still living there when I arrived"
+],
+[
+61,
+"DI",
+"The workers had been on strike for a month when the factory owner agreed to meet them.",
+"DI",
+"strike ongoing when owner agreed"
+],
+[
+62,
+"DI",
+"By the time the results were announced, we had been waiting for almost three weeks.",
+"DI",
+"waiting still ongoing at announcement"
+],
+[
+63,
+"DI",
+"The old bridge had been standing for five centuries when the flood destroyed it.",
+"DI",
+"bridge still standing when flood hit"
+],
+[
+64,
+"DI",
+"The children had been playing in the garden for hours when it started to snow.",
+"DI",
+"playing ongoing when snow started"
+],
+[
+65,
+"DI",
+"When the fire started, the building had been abandoned for years.",
+"DI",
+"building still abandoned when fire started"
+],
+[
+66,
+"DI",
+"He had been looking for his glasses for twenty minutes when he realised they were on his head.",
+"DI",
+"search ongoing at moment of realisation"
+],
+[
+67,
+"DI",
+"When they finally met, the two brothers had not spoken to each other for fifteen years.",
+"DI",
+"non-speaking state ongoing until meeting"
+],
+[
+68,
+"DI",
+"The machine had been making a strange noise for days when it finally stopped.",
+"DI",
+"noise ongoing until it stopped"
+],
+[
+69,
+"DI",
+"The town had been under siege for six months when the army arrived.",
+"DI",
+"siege ongoing when army arrived"
+],
+[
+70,
+"DI",
+"When I joined the company, Marco had been working there since 2005.",
+"DI",
+"Marco still working there, since 2005"
+],
+[
+71,
+"DI",
+"The light had been flickering for a week when the electrician came.",
+"DI",
+"flickering ongoing when electrician came"
+],
+[
+72,
+"DI",
+"By the time she retired, she had been singing in the choir for forty years.",
+"DI",
+"singing ongoing up to retirement moment"
+],
+[
+73,
+"DI",
+"The cat had been missing for three days when it came home on its own.",
+"DI",
+"cat still missing until return"
+],
+[
+74,
+"DI",
+"When the teacher came back, the pupils had been talking for ten minutes.",
+"DI",
+"talking ongoing when teacher returned"
+],
+[
+75,
+"DI",
+"The restaurant had been losing customers for months when the chef decided to change the menu.",
+"DI",
+"losing customers ongoing at decision"
+],
+[
+76,
+"DI",
+"The ship had been sailing for weeks when the crew saw land.",
+"DI",
+"sailing ongoing when land sighted"
+],
+[
+77,
+"DI",
+"When I opened the fridge, the milk had been sitting there for a month.",
+"DI",
+"milk still sitting there when opened"
+],
+[
+78,
+"DI",
+"The volcano had been dormant for centuries when it suddenly erupted.",
+"DI",
+"dormancy ongoing until eruption"
+],
+[
+79,
+"DI",
+"The couple had been dating for six years when they bought their first flat.",
+"DI",
+"dating ongoing when they bought flat"
+],
+[
+80,
+"DD",
+"He had lived in Paris for ten years, but by 1990 he had moved back to Rome.",
+"DD",
+"Paris period over, moved back by 1990"
+],
+[
+81,
+"DD",
+"Years before, she had worked as a nurse for a decade, and then she had changed careers completely.",
+"DD",
+"nursing decade over, then changed careers"
+],
+[
+82,
+"DD",
+"As a child he had studied the piano for six years, but he had given it up long before we met.",
+"DD",
+"piano study ended long before meeting"
+],
+[
+83,
+"DD",
+"They had been married for twenty years before the divorce, which happened in 2001.",
+"DD",
+"marriage ended with 2001 divorce"
+],
+[
+84,
+"DD",
+"She had lived in Berlin for three years in her twenties and still spoke some German.",
+"DD",
+"Berlin stay finished in her twenties"
+],
+[
+85,
+"DD",
+"He had worked in the mine for thirty years, until the accident in 1975 forced him to stop.",
+"DD",
+"mine work ended with 1975 accident"
+],
+[
+86,
+"DD",
+"We had stayed in that hotel for a week the previous summer, so we knew the owner.",
+"DD",
+"hotel stay finished previous summer"
+],
+[
+87,
+"DD",
+"Before moving to Turin, they had lived in Naples for five years.",
+"DD",
+"Naples period over before moving"
+],
+[
+88,
+"DD",
+"He had played football for a local team for ten years, but he had stopped at the age of thirty.",
+"DD",
+"football ended at age thirty"
+],
+[
+89,
+"DD",
+"She had taught at the university for twenty years before she retired in 2010.",
+"DD",
+"teaching ended with 2010 retirement"
+],
+[
+90,
+"DD",
+"The museum had been closed for two years in the eighties, but by then it was open again.",
+"DD",
+"closure in the eighties, over by then"
+],
+[
+91,
+"DD",
+"I had studied French for three years at school, but I had forgotten almost everything.",
+"DD",
+"school study period finished long before"
+],
+[
+92,
+"DD",
+"My father had served in the navy for twelve years before he became a fisherman.",
+"DD",
+"navy service ended before becoming fisherman"
+],
+[
+93,
+"DD",
+"The factory had produced shoes for a century before it was turned into apartments.",
+"DD",
+"production ended with conversion to apartments"
+],
+[
+94,
+"DD",
+"They had lived together for two years and then split up long before the wedding was planned.",
+"DD",
+"relationship ended long before wedding planning"
+],
+[
+95,
+"DD",
+"He had been sick for a week in January, but by March he was fine.",
+"DD",
+"January illness over by March"
+],
+[
+96,
+"DD",
+"She had worked for that newspaper for eight years before joining the television.",
+"DD",
+"newspaper job ended before television"
+],
+[
+97,
+"DD",
+"We had waited for an hour that morning, so we were not surprised by the delay in the evening.",
+"DD",
+"morning wait over before evening"
+],
+[
+98,
+"DD",
+"Long ago, the monks had lived in the abbey for three centuries before abandoning it.",
+"DD",
+"monks' stay ended with abandonment"
+],
+[
+99,
+"DD",
+"He had been mayor for two terms before he went back to teaching.",
+"DD",
+"mayoral terms finished before teaching again"
+],
+[
+100,
+"DD",
+"The bridge had stood for five hundred years before it was replaced in 1960.",
+"DD",
+"period closed by 1960 replacement"
+],
+[
+101,
+"DD",
+"As a young man, he had travelled for two years across South America before settling down.",
+"DD",
+"travels ended before settling down"
+],
+[
+102,
+"DD",
+"She had sung in the choir for a few years as a teenager, but she had stopped after university.",
+"DD",
+"choir singing stopped after university"
+],
+[
+103,
+"DD",
+"I had lived in that flat for only six months before I found a better one.",
+"DD",
+"stay ended when better flat found"
+],
+[
+104,
+"DD",
+"The company had made a loss for three years in a row before the new strategy turned things around.",
+"DD",
+"losses ended with new strategy"
+],
+[
+105,
+"DD",
+"They had trained for months for the marathon, and in the end they all finished it.",
+"DD",
+"training completed, marathon finished"
+],
+[
+106,
+"DD",
+"He had been in prison for five years in his youth, but nobody in the village knew.",
+"DD",
+"prison term in youth, long over"
+],
+[
+107,
+"DD",
+"She had owned a bakery for fifteen years before selling it and moving to the coast.",
+"DD",
+"ownership ended with sale"
+],
+[
+108,
+"DD",
+"We had been neighbours for ten years before they moved to Canada.",
+"DD",
+"neighbourhood ended when they moved"
+],
+[
+109,
+"DD",
+"The theatre had been empty for a decade before a young director brought it back to life.",
+"DD",
+"emptiness ended with director's revival"
+],
+[
+110,
+"DD",
+"My grandmother had worked in the fields for forty years before she finally stopped.",
+"DD",
+"field work ended when she stopped"
+],
+[
+111,
+"DD",
+"He had studied engineering for two years before dropping out to start a band.",
+"DD",
+"studies ended by dropping out"
+],
+[
+112,
+"DD",
+"The two cities had been rivals for centuries, but by the twentieth century the rivalry had faded.",
+"DD",
+"rivalry faded by twentieth century"
+],
+[
+113,
+"DD",
+"She had played tennis professionally for eight years before an injury ended her career.",
+"DD",
+"career ended by injury"
+],
+[
+114,
+"DD",
+"They had rented the house for three summers before deciding to buy it.",
+"DD",
+"renting period closed by purchase decision"
+],
+[
+115,
+"DD",
+"He had lived alone for many years after his wife's death, but later he remarried.",
+"DD",
+"living alone ended with remarriage"
+],
+[
+116,
+"DD",
+"The old king had ruled for forty years before his son took the throne.",
+"DD",
+"reign ended when son took throne"
+],
+[
+117,
+"DD",
+"I had worked as a waiter for two summers while I was at university.",
+"DD",
+"university summer job, finished period"
+],
+[
+118,
+"DD",
+"The shop had been open for only a year before it went bankrupt.",
+"DD",
+"opening period ended by bankruptcy"
+],
+[
+119,
+"DD",
+"She had been engaged to a doctor for three years before she met my father.",
+"DD",
+"engagement period before meeting father, likely ended"
+],
+[
+120,
+"HAB",
+"When I was a child, my grandmother would wake up at five and bake bread for the whole street.",
+"HAB",
+"childhood routine, repeated daily action"
+],
+[
+121,
+"HAB",
+"Every summer we would drive to the coast and stay in the same small hotel.",
+"HAB",
+"every summer, repeated past action"
+],
+[
+122,
+"HAB",
+"On Sundays my father would read the newspaper aloud while we ate breakfast.",
+"HAB",
+"on Sundays, recurring past habit"
+],
+[
+123,
+"HAB",
+"In those years she would walk to work, even when it rained.",
+"HAB",
+"in those years, habitual walking"
+],
+[
+124,
+"HAB",
+"After school, the boys would gather behind the church and play football until dark.",
+"HAB",
+"after school, repeated gathering"
+],
+[
+125,
+"HAB",
+"Whenever he was nervous, he would tap his fingers on the table.",
+"HAB",
+"whenever nervous, habitual gesture"
+],
+[
+126,
+"HAB",
+"For years after the war, he would wake up at four and lie awake listening to the trains.",
+"HAB",
+"for years, repeated waking habit"
+],
+[
+127,
+"HAB",
+"Back then, the fishermen would leave the harbour before dawn and return at noon.",
+"HAB",
+"back then, fishermen's routine"
+],
+[
+128,
+"HAB",
+"My mother would always hide the chocolate on the top shelf, but we would find it anyway.",
+"HAB",
+"always hide, repeated finding: habit"
+],
+[
+129,
+"HAB",
+"Each evening the old man would feed the pigeons in the square.",
+"HAB",
+"each evening, recurring feeding"
+],
+[
+130,
+"HAB",
+"During the winter, we would sit by the fire and tell stories.",
+"HAB",
+"during winter, repeated storytelling"
+],
+[
+131,
+"HAB",
+"At university, I would study in the library until it closed at midnight.",
+"HAB",
+"at university, habitual studying"
+],
+[
+132,
+"HAB",
+"Whenever it snowed, the school would close and we would build snowmen in the park.",
+"HAB",
+"whenever it snowed, repeated events"
+],
+[
+133,
+"HAB",
+"My uncle would visit us every Christmas and bring us oranges from Sicily.",
+"HAB",
+"every Christmas, recurring visit"
+],
+[
+134,
+"HAB",
+"When they lived in Paris, they would eat lunch in the same café every day.",
+"HAB",
+"every day in Paris, habit"
+],
+[
+135,
+"HAB",
+"As a young doctor, she would work thirty-six-hour shifts without complaining.",
+"HAB",
+"as young doctor, habitual shifts"
+],
+[
+136,
+"HAB",
+"The teacher would write a quote on the blackboard every morning before class.",
+"HAB",
+"every morning, teacher's routine"
+],
+[
+137,
+"HAB",
+"In the evenings my grandfather would smoke his pipe on the balcony and watch the street.",
+"HAB",
+"in the evenings, habitual smoking"
+],
+[
+138,
+"HAB",
+"We would often argue about politics, but we would always end the night laughing.",
+"HAB",
+"often argue, always end: habit"
+],
+[
+139,
+"HAB",
+"Every time the phone rang, the dog would start barking.",
+"HAB",
+"every time phone rang, repeated"
+],
+[
+140,
+"HAB",
+"In the eighties, people would queue for hours to buy concert tickets.",
+"HAB",
+"in the eighties, general past habit"
+],
+[
+141,
+"HAB",
+"On rainy afternoons, my sister and I would play cards in the kitchen.",
+"HAB",
+"on rainy afternoons, recurring play"
+],
+[
+142,
+"HAB",
+"The monks would rise before sunrise to pray in silence.",
+"HAB",
+"monks' habitual rising to pray"
+],
+[
+143,
+"HAB",
+"When I worked at the bakery, I would get home covered in flour.",
+"HAB",
+"when worked at bakery, repeated"
+],
+[
+144,
+"HAB",
+"My neighbour would water his tomatoes every evening at exactly seven o'clock.",
+"HAB",
+"every evening at seven, routine"
+],
+[
+145,
+"HAB",
+"Twice a week the market would fill the square with stalls and noise.",
+"HAB",
+"twice a week, recurring market"
+],
+[
+146,
+"HAB",
+"As children, we would spend entire days in the woods without telling anyone.",
+"HAB",
+"as children, habitual whole days"
+],
+[
+147,
+"HAB",
+"Before the bridge was built, travellers would cross the river by ferry.",
+"HAB",
+"before bridge, travellers' habitual crossing"
+],
+[
+148,
+"HAB",
+"He would call his mother every Sunday, no matter where he was.",
+"HAB",
+"every Sunday, recurring call"
+],
+[
+149,
+"HAB",
+"In the old days, the baker would deliver bread to our door on a bicycle.",
+"HAB",
+"in the old days, habitual delivery"
+],
+[
+150,
+"HAB",
+"When I was learning English, I would watch films with subtitles every night.",
+"HAB",
+"would watch every night, past habit"
+],
+[
+151,
+"HAB",
+"The village women would wash their clothes at the fountain.",
+"HAB",
+"would wash, habitual past action"
+],
+[
+152,
+"HAB",
+"Every Friday night, the whole family would gather at my aunt's house for dinner.",
+"HAB",
+"every Friday would gather, past habit"
+],
+[
+153,
+"HAB",
+"When the factory was still open, the workers would stop at the bar for a coffee on the way home.",
+"HAB",
+"would stop, repeated past routine"
+],
+[
+154,
+"HAB",
+"My grandparents would dance in the kitchen whenever their favourite song came on the radio.",
+"HAB",
+"would dance whenever, past habit"
+],
+[
+155,
+"HAB",
+"At the end of each month, she would pay all the bills and write everything in a notebook.",
+"HAB",
+"each month would pay, past routine"
+],
+[
+156,
+"HAB",
+"In high school, Marco would copy my homework on the bus.",
+"HAB",
+"would copy on bus, past habit"
+],
+[
+157,
+"HAB",
+"During the holidays, the children would sleep in the attic.",
+"HAB",
+"during holidays would sleep, past habit"
+],
+[
+158,
+"HAB",
+"Whenever we visited, the cat would hide under the bed.",
+"HAB",
+"whenever we visited would hide, habit"
+],
+[
+159,
+"HAB",
+"The priest would ring the bell himself because there was no one else to do it.",
+"HAB",
+"would ring the bell regularly, habit"
+],
+[
+160,
+"HAB",
+"In summer the shepherds would take the sheep up to the mountain pastures.",
+"HAB",
+"in summer would take sheep, habit"
+],
+[
+161,
+"HAB",
+"My first boss would shout at everyone, but he would never fire anybody.",
+"HAB",
+"would shout, would never fire: habitual"
+],
+[
+162,
+"HAB",
+"When it got dark, the street lamps would come on one by one.",
+"HAB",
+"would come on every dusk, repeated"
+],
+[
+163,
+"HAB",
+"We would meet at the station every morning and take the same train.",
+"HAB",
+"would meet every morning, past habit"
+],
+[
+164,
+"HAB",
+"Every night before bed, my father would check that all the doors were locked.",
+"HAB",
+"every night would check, past habit"
+],
+[
+165,
+"HAB",
+"When she was sad, she would go for long walks along the river.",
+"HAB",
+"when sad would go walking, habit"
+],
+[
+166,
+"HAB",
+"In those days, letters would take weeks to arrive from America.",
+"HAB",
+"in those days would take weeks, typical"
+],
+[
+167,
+"HAB",
+"The old professor would fall asleep during his own lectures.",
+"HAB",
+"would fall asleep, recurring past behaviour"
+],
+[
+168,
+"HAB",
+"Every autumn, my grandmother would make jam with the plums from the garden.",
+"HAB",
+"every autumn would make jam, habit"
+],
+[
+169,
+"HAB",
+"Whenever I visited Naples, my cousins would take me out for pizza.",
+"HAB",
+"whenever visited would take me, habit"
+],
+[
+170,
+"DURP",
+"I have been living in Milan for ten years.",
+"DURP",
+"have been living for, still ongoing"
+],
+[
+171,
+"DURP",
+"She has been working at the hospital since 2015.",
+"DURP",
+"has been working since, still ongoing"
+],
+[
+172,
+"DURP",
+"We have known each other for twenty years.",
+"DURP",
+"have known for, state continues now"
+],
+[
+173,
+"DURP",
+"They have been waiting for the bus for half an hour.",
+"DURP",
+"have been waiting for, still waiting"
+],
+[
+174,
+"DURP",
+"He has been studying Italian for six months.",
+"DURP",
+"has been studying for, ongoing now"
+],
+[
+175,
+"DURP",
+"I have had this car since I was eighteen.",
+"DURP",
+"have had since, still owns it"
+],
+[
+176,
+"DURP",
+"How long have you been living here?",
+"DURP",
+"how long have been living, ongoing"
+],
+[
+177,
+"DURP",
+"It has been raining since this morning.",
+"DURP",
+"has been raining since, still raining"
+],
+[
+178,
+"DURP",
+"My parents have been married for forty years.",
+"DURP",
+"have been married for, still married"
+],
+[
+179,
+"DURP",
+"The shop has been closed for three weeks.",
+"DURP",
+"has been closed for, still closed"
+],
+[
+180,
+"DURP",
+"I have been trying to call you for two hours.",
+"DURP",
+"present perfect continuous + for, still trying now"
+],
+[
+181,
+"DURP",
+"She has been teaching at this school since the nineties.",
+"DURP",
+"present perfect continuous + since, still teaching"
+],
+[
+182,
+"DURP",
+"We have been looking for a new flat for months.",
+"DURP",
+"still looking now, for months"
+],
+[
+183,
+"DURP",
+"He has been sick since Monday.",
+"DURP",
+"still sick now, since Monday"
+],
+[
+184,
+"DURP",
+"I have been feeling tired for a few days.",
+"DURP",
+"still feeling tired, for a few days"
+],
+[
+185,
+"DURP",
+"The company has been losing money for years.",
+"DURP",
+"still losing money, for years"
+],
+[
+186,
+"DURP",
+"They have lived in this house since their children were born.",
+"DURP",
+"still living there since children born"
+],
+[
+187,
+"DURP",
+"I have been playing the piano since I was six.",
+"DURP",
+"still playing piano since age six"
+],
+[
+188,
+"DURP",
+"How long have you known Paolo?",
+"DURP",
+"how long known: still knowing now"
+],
+[
+189,
+"DURP",
+"The baby has been crying for an hour.",
+"DURP",
+"baby still crying, for an hour"
+],
+[
+190,
+"DURP",
+"Our team has been working on this project since January.",
+"DURP",
+"still working on project since January"
+],
+[
+191,
+"DURP",
+"He has been a member of the club for fifteen years.",
+"DURP",
+"still a member, for fifteen years"
+],
+[
+192,
+"DURP",
+"I have been learning to drive for three months, but I still can't park.",
+"DURP",
+"still learning to drive, three months"
+],
+[
+193,
+"DURP",
+"The road has been under construction since last spring.",
+"DURP",
+"still under construction since spring"
+],
+[
+194,
+"DURP",
+"She has been writing that novel for a decade.",
+"DURP",
+"still writing novel, for a decade"
+],
+[
+195,
+"DURP",
+"We have been friends since primary school.",
+"DURP",
+"still friends since primary school"
+],
+[
+196,
+"DURP",
+"The museum has been open to the public since 1952.",
+"DURP",
+"still open since 1952"
+],
+[
+197,
+"DURP",
+"I've been waiting for your answer for a week.",
+"DURP",
+"still waiting, for a week"
+],
+[
+198,
+"DURP",
+"My brother has been unemployed for almost a year.",
+"DURP",
+"still unemployed, almost a year"
+],
+[
+199,
+"DURP",
+"The two countries have been at war for decades.",
+"DURP",
+"still at war for decades"
+],
+[
+200,
+"DURP",
+"They have been dating for six months.",
+"DURP",
+"still dating, six months"
+],
+[
+201,
+"DURP",
+"He has been running the restaurant since his father retired.",
+"DURP",
+"still running restaurant since retirement"
+],
+[
+202,
+"DURP",
+"I have been saving money for a new bicycle since September.",
+"DURP",
+"still saving since September"
+],
+[
+203,
+"DURP",
+"The printer has been broken for days.",
+"DURP",
+"still broken for days"
+],
+[
+204,
+"DURP",
+"She has been living abroad for so long that she dreams in French.",
+"DURP",
+"still living abroad, for so long"
+],
+[
+205,
+"COND",
+"If I had more time, I would learn to play the guitar.",
+"COND",
+"second conditional hypothetical"
+],
+[
+206,
+"COND",
+"I would love to visit Japan one day.",
+"COND",
+"would love: conditional wish"
+],
+[
+207,
+"COND",
+"Would you mind closing the window?",
+"COND",
+"polite request"
+],
+[
+208,
+"COND",
+"If it stopped raining, we would go for a walk.",
+"COND",
+"second conditional hypothetical"
+],
+[
+209,
+"COND",
+"She would never forgive me if I told her the truth.",
+"COND",
+"hypothetical with if-clause"
+],
+[
+210,
+"COND",
+"If I were you, I would accept the offer.",
+"COND",
+"Hypothetical advice with 'if I were you'"
+],
+[
+211,
+"COND",
+"I would have called you if I had known you were in town.",
+"COND",
+"Third conditional, past hypothetical"
+],
+[
+212,
+"COND",
+"What would you do if you won the lottery?",
+"COND",
+"Second conditional hypothetical question"
+],
+[
+213,
+"COND",
+"He would have passed the exam if he had studied harder.",
+"COND",
+"Third conditional, unrealized past"
+],
+[
+214,
+"COND",
+"We would be happy to help you with the move.",
+"COND",
+"Polite conditional offer"
+],
+[
+215,
+"COND",
+"If they lived closer, we would see them more often.",
+"COND",
+"Second conditional, unreal present"
+],
+[
+216,
+"COND",
+"Without your help, I would have lost everything.",
+"COND",
+"Implied conditional, unrealized past"
+],
+[
+217,
+"COND",
+"I would rather stay at home tonight.",
+"COND",
+"'Would rather' preference, condizionale"
+],
+[
+218,
+"COND",
+"It would be better to leave before the traffic gets bad.",
+"COND",
+"Hypothetical evaluation, 'sarebbe meglio'"
+],
+[
+219,
+"COND",
+"If you asked her, she would probably say yes.",
+"COND",
+"Second conditional hypothetical"
+],
+[
+220,
+"COND",
+"They would have arrived earlier if the train had not been delayed.",
+"COND",
+"Third conditional, unrealized past"
+],
+[
+221,
+"COND",
+"Would it be possible to change the date of the meeting?",
+"COND",
+"Polite request"
+],
+[
+222,
+"COND",
+"In your place, I would talk to a lawyer.",
+"COND",
+"Hypothetical advice"
+],
+[
+223,
+"COND",
+"If the shop were open on Sundays, I would buy my bread there.",
+"COND",
+"Second conditional, unreal present"
+],
+[
+224,
+"COND",
+"I would like a glass of water, please.",
+"COND",
+"Polite 'would like' request"
+],
+[
+225,
+"COND",
+"She would have been a great doctor if she had finished her studies.",
+"COND",
+"Third conditional, unrealized past"
+],
+[
+226,
+"COND",
+"If I could choose, I would live by the sea.",
+"COND",
+"Second conditional hypothetical wish"
+],
+[
+227,
+"COND",
+"Would you help me carry these boxes?",
+"COND",
+"Polite request"
+],
+[
+228,
+"COND",
+"We would have won the match if the referee had been fair.",
+"COND",
+"Third conditional, unrealized past"
+],
+[
+229,
+"COND",
+"If he really loved her, he would call her more often.",
+"COND",
+"Second conditional, unreal present"
+],
+[
+230,
+"COND",
+"It would take at least three days to repair the roof.",
+"COND",
+"Hypothetical estimate, 'ci vorrebbero'"
+],
+[
+231,
+"COND",
+"I would never have imagined such a thing.",
+"COND",
+"Past conditional, 'non avrei mai immaginato'"
+],
+[
+232,
+"COND",
+"If we left now, we would arrive before dinner.",
+"COND",
+"Second conditional hypothetical"
+],
+[
+233,
+"COND",
+"You would feel better if you slept more.",
+"COND",
+"Second conditional hypothetical"
+],
+[
+234,
+"COND",
+"If the weather were nicer, the children would be playing outside.",
+"COND",
+"Second conditional, progressive"
+],
+[
+235,
+"PERF",
+"I lived in Rome for ten years before moving to Florence.",
+"PERF",
+"Simple past, finished period before moving"
+],
+[
+236,
+"PERF",
+"She worked at the hospital for five years and then left.",
+"PERF",
+"Simple past, finished period then left"
+],
+[
+237,
+"PERF",
+"We waited for an hour, but nobody came.",
+"PERF",
+"Simple past, finished one-hour wait"
+],
+[
+238,
+"PERF",
+"He studied Italian for six months last year.",
+"PERF",
+"Simple past, finished period last year"
+],
+[
+239,
+"PERF",
+"I have lived in five different countries.",
+"PERF",
+"Present perfect experience, passato prossimo"
+],
+[
+240,
+"PERF",
+"They have visited Venice three times.",
+"PERF",
+"present perfect, experience counted: passato prossimo"
+],
+[
+241,
+"PERF",
+"My grandfather worked in the mine for thirty years, until he retired in 1980.",
+"PERF",
+"simple past, finished period ending 1980"
+],
+[
+242,
+"PERF",
+"I have read that book twice.",
+"PERF",
+"present perfect experience, read twice"
+],
+[
+243,
+"PERF",
+"She stayed in London for a week and then went home.",
+"PERF",
+"simple past, finished week-long stay"
+],
+[
+244,
+"PERF",
+"We have already eaten, thank you.",
+"PERF",
+"present perfect result, already eaten"
+],
+[
+245,
+"PERF",
+"He played tennis for many years when he was young, but he stopped after the accident.",
+"PERF",
+"simple past, finished period, stopped after accident"
+],
+[
+246,
+"PERF",
+"I have never been to Sardinia.",
+"PERF",
+"present perfect experience, never been"
+],
+[
+247,
+"PERF",
+"They lived together for two years and then broke up.",
+"PERF",
+"simple past, finished cohabitation period"
+],
+[
+248,
+"PERF",
+"The shop was closed for three weeks last summer.",
+"PERF",
+"simple past, finished closure last summer"
+],
+[
+249,
+"PERF",
+"I have just finished my report.",
+"PERF",
+"present perfect, just completed action"
+],
+[
+250,
+"PERF",
+"He was sick for a week in January.",
+"PERF",
+"simple past, finished week in January"
+],
+[
+251,
+"PERF",
+"She has written three novels so far.",
+"PERF",
+"present perfect, count so far: passato prossimo"
+],
+[
+252,
+"PERF",
+"We talked for hours that night.",
+"PERF",
+"simple past, finished period that night"
+],
+[
+253,
+"PERF",
+"The museum was closed for renovation from 2010 to 2014.",
+"PERF",
+"simple past, bounded period 2010-2014"
+],
+[
+254,
+"PERF",
+"I have lost my keys again.",
+"PERF",
+"present perfect result, lost keys"
+],
+[
+255,
+"PERF",
+"They were married for forty years, until she died.",
+"PERF",
+"simple past, finished period until death"
+],
+[
+256,
+"PERF",
+"He has broken his leg, so he can't come.",
+"PERF",
+"present perfect result, broken leg"
+],
+[
+257,
+"PERF",
+"I slept for twelve hours after the trip.",
+"PERF",
+"simple past, finished twelve-hour sleep"
+],
+[
+258,
+"PERF",
+"The company has opened a new office in Bari.",
+"PERF",
+"present perfect result, new office opened"
+],
+[
+259,
+"PERF",
+"She taught at this school for twenty years before retiring.",
+"PERF",
+"simple past, finished period before retiring"
+]
+]

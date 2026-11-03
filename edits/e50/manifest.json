@@ -1,0 +1,92 @@
+[
+ {
+  "tensor": "model.language_model.layers.30.mlp.down_proj.weight",
+  "shape": [
+   3840,
+   15360
+  ],
+  "axis": 1,
+  "indices": [
+   12872,
+   13770
+  ],
+  "n_changed": 7675,
+  "sha256_base": "9880e5e673d6e3b7c3749c53d2d235c955e3b79475397be03e57c61426e56316",
+  "sha256_edited": "7b31f9fc0f2ba97f066fe3a9118c5c58cda64904bb07d6f1b00cdcefd7758ba4"
+ },
+ {
+  "tensor": "model.language_model.layers.30.mlp.gate_proj.weight",
+  "shape": [
+   15360,
+   3840
+  ],
+  "axis": 0,
+  "indices": [
+   12872,
+   13770
+  ],
+  "n_changed": 7679,
+  "sha256_base": "966a28fb8fe4cd4f0c8191f627cbb8a240ff1de25b61d2950018a34ae678a222",
+  "sha256_edited": "fcb62f3f56ce4ae3ede3b366bd56eb9a5a69dc45b14cb1da0aa990e941f96ceb"
+ },
+ {
+  "tensor": "model.language_model.layers.30.mlp.up_proj.weight",
+  "shape": [
+   15360,
+   3840
+  ],
+  "axis": 0,
+  "indices": [
+   12872,
+   13770
+  ],
+  "n_changed": 7677,
+  "sha256_base": "4fc43d16589aed33c32f901f65757becdbfc157e8cf8fcf59546ff7f2d359cb1",
+  "sha256_edited": "c920c9fa704527e43a071f22c5db67d5d4b830de75c97f266d269f90ea90fee7"
+ },
+ {
+  "tensor": "model.language_model.layers.40.mlp.down_proj.weight",
+  "shape": [
+   3840,
+   15360
+  ],
+  "axis": 1,
+  "indices": [
+   11803,
+   11980
+  ],
+  "n_changed": 7678,
+  "sha256_base": "36c2e91547f901a3594c056de7f331cee70582483b86985e5b217d4c226912c8",
+  "sha256_edited": "e295cc860a5eeaf53094b24a059e71b8d89040f957654a4ad414d5ac2cad3064"
+ },
+ {
+  "tensor": "model.language_model.layers.40.mlp.gate_proj.weight",
+  "shape": [
+   15360,
+   3840
+  ],
+  "axis": 0,
+  "indices": [
+   11803,
+   11980
+  ],
+  "n_changed": 7680,
+  "sha256_base": "74d59820f796cc3a6d3bef3923f5833c5f1ae2033f7da1e1aff81a214f297cbb",
+  "sha256_edited": "5eeb580327c26a30fd4fa3e082339be867d34b33e66bc93f060a1c626c325b5e"
+ },
+ {
+  "tensor": "model.language_model.layers.40.mlp.up_proj.weight",
+  "shape": [
+   15360,
+   3840
+  ],
+  "axis": 0,
+  "indices": [
+   11803,
+   11980
+  ],
+  "n_changed": 7677,
+  "sha256_base": "b70c3f2ae475c6113523a4544362e74b1dc9bbb71667a151dc13aec7b595df33",
+  "sha256_edited": "099e390071eced55100f6b2813cc01ae25e22305eda2f1d32f89c238ba16edc6"
+ }
+]

@@ -1,0 +1,81 @@
+{
+ "results": {
+  "r16_lr1e-4_ep3": {
+   "per_cat": {
+    "COND": {
+     "n": 8,
+     "base_err": 0,
+     "lora_err": 0
+    },
+    "DI": {
+     "n": 52,
+     "base_err": 17,
+     "lora_err": 2
+    },
+    "DURP": {
+     "n": 12,
+     "base_err": 1,
+     "lora_err": 0
+    },
+    "DD": {
+     "n": 26,
+     "base_err": 1,
+     "lora_err": 1
+    },
+    "PERF": {
+     "n": 12,
+     "base_err": 0,
+     "lora_err": 0
+    },
+    "HAB": {
+     "n": 12,
+     "base_err": 0,
+     "lora_err": 0
+    }
+   },
+   "DI_err": 2,
+   "DI_base": 17,
+   "other_err": 1,
+   "other_base": 2
+  },
+  "r8_lr5e-5_ep2": {
+   "per_cat": {
+    "COND": {
+     "n": 8,
+     "base_err": 0,
+     "lora_err": 0
+    },
+    "DI": {
+     "n": 52,
+     "base_err": 17,
+     "lora_err": 2
+    },
+    "DURP": {
+     "n": 12,
+     "base_err": 1,
+     "lora_err": 0
+    },
+    "DD": {
+     "n": 26,
+     "base_err": 1,
+     "lora_err": 3
+    },
+    "PERF": {
+     "n": 12,
+     "base_err": 0,
+     "lora_err": 0
+    },
+    "HAB": {
+     "n": 12,
+     "base_err": 0,
+     "lora_err": 0
+    }
+   },
+   "DI_err": 2,
+   "DI_base": 17,
+   "other_err": 3,
+   "other_base": 2
+  }
+ },
+ "pick": "r8_lr5e-5_ep2"
+}

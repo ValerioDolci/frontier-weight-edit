@@ -1,0 +1,3990 @@
+{
+ "v2": {
+  "summary": {
+   "DI": {
+    "n": 78,
+    "err": 10,
+    "other": 0,
+    "fixed": 13,
+    "broken": 3,
+    "identical": 8,
+    "mcnemar_p": 0.021271
+   },
+   "DD": {
+    "n": 39,
+    "err": 0,
+    "other": 0,
+    "fixed": 3,
+    "broken": 0,
+    "identical": 17,
+    "mcnemar_p": 0.25
+   },
+   "HAB": {
+    "n": 50,
+    "err": 0,
+    "other": 0,
+    "fixed": 1,
+    "broken": 0,
+    "identical": 32,
+    "mcnemar_p": 1.0
+   },
+   "DURP": {
+    "n": 35,
+    "err": 1,
+    "other": 0,
+    "fixed": 0,
+    "broken": 1,
+    "identical": 27,
+    "mcnemar_p": 1.0
+   },
+   "COND": {
+    "n": 30,
+    "err": 0,
+    "other": 0,
+    "fixed": 0,
+    "broken": 0,
+    "identical": 25,
+    "mcnemar_p": 1.0
+   },
+   "PERF": {
+    "n": 25,
+    "err": 0,
+    "other": 0,
+    "fixed": 0,
+    "broken": 0,
+    "identical": 19,
+    "mcnemar_p": 1.0
+   }
+  },
+  "rows": [
+   {
+    "id": 0,
+    "cat": "DI",
+    "en": "He had been studying medicine for three years when he decided to switch to law.",
+    "hyp": "Studiava medicina da tre anni quando decise di passare a giurisprudenza.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 1,
+    "cat": "DI",
+    "en": "The patient had been in a coma for three weeks when he suddenly opened his eyes.",
+    "hyp": "Il paziente era stato in coma per tre settimane quando improvvisamente aprì gli occhi.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 2,
+    "cat": "DI",
+    "en": "When I met him, he had lived in that village for thirty years.",
+    "hyp": "Quando lo conobbi, viveva in quel villaggio da trent'anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 3,
+    "cat": "DI",
+    "en": "She had been working at the factory for a decade when it closed.",
+    "hyp": "Lavorava in fabbrica da dieci anni quando chiuse.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 4,
+    "cat": "DI",
+    "en": "They had been driving for six hours when the car broke down.",
+    "hyp": "Guidavano da sei ore quando l'auto si è guastata.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 5,
+    "cat": "DI",
+    "en": "I had been sleeping for only twenty minutes when the phone rang.",
+    "hyp": "Dormivo da appena venti minuti quando squillò il telefono.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 6,
+    "cat": "DI",
+    "en": "By the time the doctor arrived, the child had had a fever for three days.",
+    "hyp": "Quando arrivò il medico, il bambino aveva la febbre da tre giorni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 7,
+    "cat": "DI",
+    "en": "When the storm hit, the sailors had been at sea for two months.",
+    "hyp": "Quando si abbatté la tempesta, i marinai erano in mare da due mesi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 8,
+    "cat": "DI",
+    "en": "We had known each other for ten years when we finally got married.",
+    "hyp": "Ci conoscevamo da dieci anni quando finalmente ci sposammo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 9,
+    "cat": "DI",
+    "en": "He had been living in London for five years when the war broke out.",
+    "hyp": "Viveva a Londra da cinque anni quando scoppiò la guerra.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 10,
+    "cat": "DI",
+    "en": "The two countries had been at peace for a century when the conflict began.",
+    "hyp": "I due paesi erano in pace da un secolo quando iniziò il conflitto.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 11,
+    "cat": "DI",
+    "en": "She had been playing the violin for twelve years when she joined the orchestra.",
+    "hyp": "Suonava il violino da dodici anni quando entrò nell'orchestra.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 12,
+    "cat": "DI",
+    "en": "When the rescuers found them, the climbers had been trapped for four days.",
+    "hyp": "Quando i soccorritori li trovarono, gli alpinisti erano intrappolati da quattro giorni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 13,
+    "cat": "DI",
+    "en": "The old man had been sitting on the bench for hours when someone finally spoke to him.",
+    "hyp": "Il vecchio era seduto sulla panchina da ore quando qualcuno finalmente gli rivolse la parola.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 14,
+    "cat": "DI",
+    "en": "I had been reading for an hour when I realised I had missed my stop.",
+    "hyp": "Leggevo da un'ora quando mi sono reso conto di aver perso la mia fermata.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 15,
+    "cat": "DI",
+    "en": "When the company was sold, my father had been its director for twenty years.",
+    "hyp": "Quando l'azienda fu venduta, mio padre era stato il suo direttore per vent'anni.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 16,
+    "cat": "DI",
+    "en": "The students had been protesting for a week when the minister resigned.",
+    "hyp": "Gli studenti protestavano da una settimana quando il ministro si dimise.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 17,
+    "cat": "DI",
+    "en": "By the time I got there, the guests had been eating for an hour.",
+    "hyp": "Quando sono arrivato, gli ospiti mangiavano da un'ora.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 18,
+    "cat": "DI",
+    "en": "She had been teaching in that school for fifteen years when she was offered the job of headmistress.",
+    "hyp": "Insegnava in quella scuola da quindici anni quando le offrirono il posto di preside.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 19,
+    "cat": "DI",
+    "en": "When the letter arrived, they had been married for exactly fifty years.",
+    "hyp": "Quando arrivò la lettera, erano sposati da esattamente cinquant'anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 20,
+    "cat": "DI",
+    "en": "The firefighters had been fighting the blaze for ten hours when it started to rain.",
+    "hyp": "I vigili del fuoco combattevano l'incendio da dieci ore quando iniziò a piovere.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 21,
+    "cat": "DI",
+    "en": "He had been running for forty minutes when he felt a pain in his knee.",
+    "hyp": "Correva da quaranta minuti quando sentì un dolore al ginocchio.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 22,
+    "cat": "DI",
+    "en": "When we bought the house, it had been empty for years.",
+    "hyp": "Quando compramammo la casa, era rimasta vuota per anni.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 23,
+    "cat": "DI",
+    "en": "The dog had been barking for half an hour when the neighbours called the police.",
+    "hyp": "Il cane abbaiava da mezz'ora quando i vicini chiamarono la polizia.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 24,
+    "cat": "DI",
+    "en": "I had been working on the report all morning when the computer crashed.",
+    "hyp": "Lavoravo al rapporto da tutta la mattina quando il computer si è bloccato.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 25,
+    "cat": "DI",
+    "en": "When the news reached them, the soldiers had been fighting for three days without rest.",
+    "hyp": "Quando la notizia li raggiunse, i soldati combattevano da tre giorni senza riposo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 26,
+    "cat": "DI",
+    "en": "The baby had been crying for an hour when her mother came home.",
+    "hyp": "Il bambino piangeva da un'ora quando la madre tornò a casa.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 27,
+    "cat": "DI",
+    "en": "They had been living in a tent for months when the government finally gave them a house.",
+    "hyp": "Vivevano in una tenda da mesi quando il governo finalmente diede loro una casa.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 28,
+    "cat": "DI",
+    "en": "When I called her, she had been trying to reach me for days.",
+    "hyp": "Quando la chiamai, cercava di contattarmi da giorni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 29,
+    "cat": "DI",
+    "en": "The team had been losing for most of the season when the new coach arrived.",
+    "hyp": "La squadra perdeva da gran parte della stagione quando arrivò il nuovo allenatore.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 30,
+    "cat": "DI",
+    "en": "He had been unemployed for almost a year when he found the advertisement.",
+    "hyp": "Era disoccupato da quasi un anno quando trovò l'annuncio.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 31,
+    "cat": "DI",
+    "en": "When the police stopped him, he had been driving without a licence for years.",
+    "hyp": "Quando la polizia lo fermò, guidava senza patente da anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 32,
+    "cat": "DI",
+    "en": "We had been walking in the rain for an hour when we found a small café.",
+    "hyp": "Camminavamo sotto la pioggia da un'ora quando trovammo un piccolo caffè.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 33,
+    "cat": "DI",
+    "en": "By the time the bus came, I had been standing in the cold for forty minutes.",
+    "hyp": "Quando arrivò l'autobus, stavo aspettando al freddo da quaranta minuti.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 34,
+    "cat": "DI",
+    "en": "The museum had been closed for renovation for two years when it reopened to the public.",
+    "hyp": "Il museo era rimasto chiuso per ristrutturazione per due anni quando riaprì al pubblico.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 35,
+    "cat": "DI",
+    "en": "When she finally told him the truth, she had been lying to him for months.",
+    "hyp": "Quando finalmente gli disse la verità, gli aveva mentito per mesi.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 36,
+    "cat": "DI",
+    "en": "The negotiations had been going on for weeks when an agreement was reached.",
+    "hyp": "Le trattative andavano avanti da settimane quando si giunse a un accordo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 37,
+    "cat": "DI",
+    "en": "My grandparents had been running the shop for forty years when they decided to retire.",
+    "hyp": "I miei nonni gestivano il negozio da quarant'anni quando decisero di andare in pensione.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 38,
+    "cat": "DI",
+    "en": "The prisoner had been in jail for twenty years when new evidence proved his innocence.",
+    "hyp": "Il prigioniero era stato in carcere per vent'anni quando nuove prove dimostrarono la sua innocenza.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 39,
+    "cat": "DI",
+    "en": "When the ambulance arrived, the man had been lying on the pavement for an hour.",
+    "hyp": "Quando arrivò l'ambulanza, l'uomo giaceva sul marciapiede da un'ora.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 40,
+    "cat": "DI",
+    "en": "The river had been rising for three days when the dam broke.",
+    "hyp": "Il fiume cresceva da tre giorni quando la diga cedette.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 41,
+    "cat": "DI",
+    "en": "I had been learning Japanese for two years when I first visited Tokyo.",
+    "hyp": "Studiavo giapponese da due anni quando visitai Tokyo per la prima volta.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 42,
+    "cat": "DI",
+    "en": "When the war ended, my grandmother had been waiting for news of her brother for four years.",
+    "hyp": "Quando la guerra finì, mia nonna aspettava notizie di suo fratello da quattro anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 43,
+    "cat": "DI",
+    "en": "They had been arguing for the whole evening when the lights went out.",
+    "hyp": "Litigavano da tutta la sera quando si spensero le luci.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 44,
+    "cat": "DI",
+    "en": "She had had the same car for twenty years when it finally stopped working.",
+    "hyp": "Aveva avuto la stessa macchina per vent'anni quando finalmente smise di funzionare.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 45,
+    "cat": "DI",
+    "en": "The village had been without water for a week when the trucks arrived.",
+    "hyp": "Il villaggio era senza acqua da una settimana quando arrivarono i camion.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 46,
+    "cat": "DI",
+    "en": "He had been hiding in the attic for months when the soldiers found him.",
+    "hyp": "Si nascondeva in soffitta da mesi quando i soldati lo trovarono.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 47,
+    "cat": "DI",
+    "en": "The band had been touring for a year when the singer lost her voice.",
+    "hyp": "La band era in tour da un anno quando la cantante perse la voce.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 48,
+    "cat": "DI",
+    "en": "When the new manager arrived, the employees had been working without a contract for months.",
+    "hyp": "Quando arrivò il nuovo responsabile, i dipendenti lavoravano senza un contratto da mesi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 49,
+    "cat": "DI",
+    "en": "I had been living abroad for so long that I had forgotten some Italian words.",
+    "hyp": "Vivevo all'estero da così tanto tempo che avevo dimenticato alcune parole italiane.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 50,
+    "cat": "DI",
+    "en": "We had been friends since childhood, so I trusted him completely.",
+    "hyp": "Eravamo amici fin da bambini, quindi mi fidavo di lui ciecamente.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 51,
+    "cat": "DI",
+    "en": "The road had been closed since the landslide, so we took the long way.",
+    "hyp": "La strada era chiusa da quando ci fu la frana, quindi facemmo la strada lunga.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 52,
+    "cat": "DI",
+    "en": "The shop had belonged to his family for three generations when he sold it.",
+    "hyp": "Il negozio era stato di proprietà della sua famiglia per tre generazioni quando lo vendette.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 53,
+    "cat": "DI",
+    "en": "When I found the photograph, it had been lying in the drawer for decades.",
+    "hyp": "Quando trovai la fotografia, giaceva nel cassetto da decenni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 54,
+    "cat": "DI",
+    "en": "The scientists had been studying the virus for years when the epidemic started.",
+    "hyp": "Gli scienziati studiavano il virus da anni quando scoppiò l'epidemia.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 55,
+    "cat": "DI",
+    "en": "When the plane finally landed, the passengers had been sitting on the runway for three hours.",
+    "hyp": "Quando l'aereo atterrò finalmente, i passeggeri erano seduti sulla pista da tre ore.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 56,
+    "cat": "DI",
+    "en": "The farmers had been praying for rain for months when the first clouds appeared.",
+    "hyp": "Gli agricoltori pregavano per la pioggia da mesi quando comparvero le prime nuvole.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 57,
+    "cat": "DI",
+    "en": "He had been feeling tired for weeks when he finally went to the doctor.",
+    "hyp": "Si sentiva stanco da settimane quando finalmente andò dal medico.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 58,
+    "cat": "DI",
+    "en": "When I arrived in Milan, my sister had been living there for six months.",
+    "hyp": "Quando sono arrivato a Milano, mia sorella ci viveva da sei mesi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 59,
+    "cat": "DI",
+    "en": "The workers had been on strike for a month when the factory owner agreed to meet them.",
+    "hyp": "Gli operai erano in sciopero da un mese quando il proprietario della fabbrica accettò di incontrarli.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 60,
+    "cat": "DI",
+    "en": "By the time the results were announced, we had been waiting for almost three weeks.",
+    "hyp": "Quando i risultati furono annunciati, aspettavamo da quasi tre settimane.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 61,
+    "cat": "DI",
+    "en": "The old bridge had been standing for five centuries when the flood destroyed it.",
+    "hyp": "Il vecchio ponte restava in piedi da cinque secoli quando l'alluvione lo distrusse.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 62,
+    "cat": "DI",
+    "en": "The children had been playing in the garden for hours when it started to snow.",
+    "hyp": "I bambini giocavano in giardino da ore quando iniziò a nevicare.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 63,
+    "cat": "DI",
+    "en": "When the fire started, the building had been abandoned for years.",
+    "hyp": "Quando scoppiò l'incendio, l'edificio era stato abbandonato per anni.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 64,
+    "cat": "DI",
+    "en": "He had been looking for his glasses for twenty minutes when he realised they were on his head.",
+    "hyp": "Cercava gli occhiali da venti minuti quando si rese conto che erano sulla testa.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 65,
+    "cat": "DI",
+    "en": "When they finally met, the two brothers had not spoken to each other for fifteen years.",
+    "hyp": "Quando si incontrarono finalmente, i due fratelli non si parlavano da quindici anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 66,
+    "cat": "DI",
+    "en": "The machine had been making a strange noise for days when it finally stopped.",
+    "hyp": "La macchina faceva un rumore strano da giorni quando finalmente si fermò.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 67,
+    "cat": "DI",
+    "en": "The town had been under siege for six months when the army arrived.",
+    "hyp": "La città era sotto assedio da sei mesi quando arrivò l'esercito.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 68,
+    "cat": "DI",
+    "en": "When I joined the company, Marco had been working there since 2005.",
+    "hyp": "Quando entrai in azienda, Marco ci lavorava dal 2005.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 69,
+    "cat": "DI",
+    "en": "The light had been flickering for a week when the electrician came.",
+    "hyp": "La luce tremolava da una settimana quando arrivò l'elettricista.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 70,
+    "cat": "DI",
+    "en": "By the time she retired, she had been singing in the choir for forty years.",
+    "hyp": "Quando andò in pensione, cantava nel coro da quarant'anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 71,
+    "cat": "DI",
+    "en": "The cat had been missing for three days when it came home on its own.",
+    "hyp": "Il gatto era sparito da tre giorni quando tornò a casa da solo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 72,
+    "cat": "DI",
+    "en": "When the teacher came back, the pupils had been talking for ten minutes.",
+    "hyp": "Quando l'insegnante tornò, gli alunni parlavano da dieci minuti.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 73,
+    "cat": "DI",
+    "en": "The restaurant had been losing customers for months when the chef decided to change the menu.",
+    "hyp": "Il ristorante perdeva clienti da mesi quando lo chef decise di cambiare il menù.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 74,
+    "cat": "DI",
+    "en": "The ship had been sailing for weeks when the crew saw land.",
+    "hyp": "La nave navigava da settimane quando l'equipaggio vide terra.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 75,
+    "cat": "DI",
+    "en": "When I opened the fridge, the milk had been sitting there for a month.",
+    "hyp": "Quando ho aperto il frigorifero, il latte era lì da un mese.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 76,
+    "cat": "DI",
+    "en": "The volcano had been dormant for centuries when it suddenly erupted.",
+    "hyp": "Il vulcano era rimasto dormiente per secoli quando improvvisamente eruttò.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 77,
+    "cat": "DI",
+    "en": "The couple had been dating for six years when they bought their first flat.",
+    "hyp": "La coppia stava insieme da sei anni quando comprò il loro primo appartamento.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 78,
+    "cat": "DD",
+    "en": "Years before, she had worked as a nurse for a decade, and then she had changed careers completely.",
+    "hyp": "Anni prima, aveva lavorato come infermiera per un decennio, e poi aveva cambiato completamente carriera.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 79,
+    "cat": "DD",
+    "en": "As a child he had studied the piano for six years, but he had given it up long before we met.",
+    "hyp": "Da bambino aveva studiato il pianoforte per sei anni, ma lo aveva abbandonato molto prima che ci conoscessimo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 80,
+    "cat": "DD",
+    "en": "They had been married for twenty years before the divorce, which happened in 2001.",
+    "hyp": "Erano stati sposati per vent'anni prima del divorzio, avvenuto nel 2001.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 81,
+    "cat": "DD",
+    "en": "She had lived in Berlin for three years in her twenties and still spoke some German.",
+    "hyp": "Aveva vissuto a Berlino per tre anni nei suoi vent'anni e parlava ancora un po' di tedesco.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 82,
+    "cat": "DD",
+    "en": "He had worked in the mine for thirty years, until the accident in 1975 forced him to stop.",
+    "hyp": "Aveva lavorato nella miniera per trent'anni, finché l'incidente del 1975 lo costrinse a smettere.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 83,
+    "cat": "DD",
+    "en": "We had stayed in that hotel for a week the previous summer, so we knew the owner.",
+    "hyp": "Eravamo stati in quell'albergo per una settimana l'estate precedente, quindi conoscevamo il proprietario.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 84,
+    "cat": "DD",
+    "en": "Before moving to Turin, they had lived in Naples for five years.",
+    "hyp": "Prima di trasferirsi a Torino, avevano vissuto a Napoli per cinque anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 85,
+    "cat": "DD",
+    "en": "He had played football for a local team for ten years, but he had stopped at the age of thirty.",
+    "hyp": "Aveva giocato a calcio per una squadra locale per dieci anni, ma aveva smesso all'età di trent'anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 86,
+    "cat": "DD",
+    "en": "She had taught at the university for twenty years before she retired in 2010.",
+    "hyp": "Aveva insegnato all'università per vent'anni prima di andare in pensione nel 2010.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 87,
+    "cat": "DD",
+    "en": "The museum had been closed for two years in the eighties, but by then it was open again.",
+    "hyp": "Il museo era rimasto chiuso per due anni negli anni ottanta, ma a quel punto era di nuovo aperto.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 88,
+    "cat": "DD",
+    "en": "I had studied French for three years at school, but I had forgotten almost everything.",
+    "hyp": "Avevo studiato francese per tre anni a scuola, ma avevo dimenticato quasi tutto.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 89,
+    "cat": "DD",
+    "en": "My father had served in the navy for twelve years before he became a fisherman.",
+    "hyp": "Mio padre aveva prestato servizio nella marina per dodici anni prima di diventare pescatore.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 90,
+    "cat": "DD",
+    "en": "The factory had produced shoes for a century before it was turned into apartments.",
+    "hyp": "La fabbrica aveva prodotto scarpe per un secolo prima di essere trasformata in appartamenti.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 91,
+    "cat": "DD",
+    "en": "They had lived together for two years and then split up long before the wedding was planned.",
+    "hyp": "Avevano convissuto per due anni e poi si erano lasciati molto prima che il matrimonio venisse pianificato.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 92,
+    "cat": "DD",
+    "en": "He had been sick for a week in January, but by March he was fine.",
+    "hyp": "Era stato malato per una settimana a gennaio, ma a marzo stava bene.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 93,
+    "cat": "DD",
+    "en": "She had worked for that newspaper for eight years before joining the television.",
+    "hyp": "Aveva lavorato per quel giornale per otto anni prima di passare alla televisione.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 94,
+    "cat": "DD",
+    "en": "We had waited for an hour that morning, so we were not surprised by the delay in the evening.",
+    "hyp": "Avevamo aspettato per un'ora quella mattina, quindi non ci sorprese il ritardo la sera.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 95,
+    "cat": "DD",
+    "en": "Long ago, the monks had lived in the abbey for three centuries before abandoning it.",
+    "hyp": "Molto tempo prima, i monaci avevano vissuto nell'abbazia per tre secoli prima di abbandonarla.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 96,
+    "cat": "DD",
+    "en": "He had been mayor for two terms before he went back to teaching.",
+    "hyp": "Era stato sindaco per due mandati prima di tornare a insegnare.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 97,
+    "cat": "DD",
+    "en": "The bridge had stood for five hundred years before it was replaced in 1960.",
+    "hyp": "Il ponte era rimasto in piedi per cinquecento anni prima di essere sostituito nel 1960.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 98,
+    "cat": "DD",
+    "en": "As a young man, he had travelled for two years across South America before settling down.",
+    "hyp": "Da giovane, aveva viaggiato per due anni in Sud America prima di stabilirsi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 99,
+    "cat": "DD",
+    "en": "She had sung in the choir for a few years as a teenager, but she had stopped after university.",
+    "hyp": "Aveva cantato nel coro per qualche anno da adolescente, ma aveva smesso dopo l'università.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 100,
+    "cat": "DD",
+    "en": "I had lived in that flat for only six months before I found a better one.",
+    "hyp": "Avevo vissuto in quell'appartamento per soli sei mesi prima di trovarne uno migliore.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 101,
+    "cat": "DD",
+    "en": "The company had made a loss for three years in a row before the new strategy turned things around.",
+    "hyp": "L'azienda aveva registrato perdite per tre anni consecutivi prima che la nuova strategia invertisse la situazione.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 102,
+    "cat": "DD",
+    "en": "They had trained for months for the marathon, and in the end they all finished it.",
+    "hyp": "Si erano allenati per mesi per la maratona e alla fine l'hanno finita tutti.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 103,
+    "cat": "DD",
+    "en": "He had been in prison for five years in his youth, but nobody in the village knew.",
+    "hyp": "Era stato in prigione per cinque anni da giovane, ma nessuno nel villaggio lo sapeva.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 104,
+    "cat": "DD",
+    "en": "She had owned a bakery for fifteen years before selling it and moving to the coast.",
+    "hyp": "Aveva gestito una panetteria per quindici anni prima di venderla e trasferirsi sulla costa.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 105,
+    "cat": "DD",
+    "en": "We had been neighbours for ten years before they moved to Canada.",
+    "hyp": "Eravamo stati vicini di casa per dieci anni prima che si trasferissero in Canada.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 106,
+    "cat": "DD",
+    "en": "The theatre had been empty for a decade before a young director brought it back to life.",
+    "hyp": "Il teatro era rimasto vuoto per un decennio prima che un giovane regista lo riportasse in vita.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 107,
+    "cat": "DD",
+    "en": "My grandmother had worked in the fields for forty years before she finally stopped.",
+    "hyp": "Mia nonna aveva lavorato nei campi per quarant'anni prima di smettere finalmente.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 108,
+    "cat": "DD",
+    "en": "He had studied engineering for two years before dropping out to start a band.",
+    "hyp": "Aveva studiato ingegneria per due anni prima di abbandonare gli studi per formare una band.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 109,
+    "cat": "DD",
+    "en": "The two cities had been rivals for centuries, but by the twentieth century the rivalry had faded.",
+    "hyp": "Le due città erano state rivali per secoli, ma nel ventesimo secolo la rivalità era svanita.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 110,
+    "cat": "DD",
+    "en": "She had played tennis professionally for eight years before an injury ended her career.",
+    "hyp": "Aveva giocato a tennis da professionista per otto anni prima che un infortunio ponesse fine alla sua carriera.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 111,
+    "cat": "DD",
+    "en": "They had rented the house for three summers before deciding to buy it.",
+    "hyp": "Avevano affittato la casa per tre estati prima di decidere di comprarla.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 112,
+    "cat": "DD",
+    "en": "He had lived alone for many years after his wife's death, but later he remarried.",
+    "hyp": "Aveva vissuto solo per molti anni dopo la morte della moglie, ma poi si risposò.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 113,
+    "cat": "DD",
+    "en": "The old king had ruled for forty years before his son took the throne.",
+    "hyp": "Il vecchio re aveva regnato per quarant'anni prima che suo figlio salisse al trono.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 114,
+    "cat": "DD",
+    "en": "I had worked as a waiter for two summers while I was at university.",
+    "hyp": "Avevo lavorato come cameriere per due estati mentre andavo all'università.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 115,
+    "cat": "DD",
+    "en": "The shop had been open for only a year before it went bankrupt.",
+    "hyp": "Il negozio era stato aperto per un solo anno prima di fallire.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 116,
+    "cat": "DD",
+    "en": "She had been engaged to a doctor for three years before she met my father.",
+    "hyp": "Era stata promessa a un medico per tre anni prima di conoscere mio padre.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 117,
+    "cat": "HAB",
+    "en": "When I was a child, my grandmother would wake up at five and bake bread for the whole street.",
+    "hyp": "Quando ero bambino, mia nonna si svegliava alle cinque e preparava il pane per tutta la strada.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 118,
+    "cat": "HAB",
+    "en": "Every summer we would drive to the coast and stay in the same small hotel.",
+    "hyp": "Ogni estate andavamo sulla costa e soggiornavamo nello stesso piccolo hotel.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 119,
+    "cat": "HAB",
+    "en": "On Sundays my father would read the newspaper aloud while we ate breakfast.",
+    "hyp": "La domenica mio padre leggeva il giornale ad alta voce mentre facevamo colazione.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 120,
+    "cat": "HAB",
+    "en": "In those years she would walk to work, even when it rained.",
+    "hyp": "In quegli anni andava al lavoro a piedi, anche quando pioveva.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 121,
+    "cat": "HAB",
+    "en": "After school, the boys would gather behind the church and play football until dark.",
+    "hyp": "Dopo la scuola, i ragazzi si radunavano dietro la chiesa e giocavano a calcio fino al buio.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 122,
+    "cat": "HAB",
+    "en": "Whenever he was nervous, he would tap his fingers on the table.",
+    "hyp": "Ogni volta che era nervoso, tamburellava le dita sul tavolo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 123,
+    "cat": "HAB",
+    "en": "For years after the war, he would wake up at four and lie awake listening to the trains.",
+    "hyp": "Per anni dopo la guerra, si svegliava alle quattro e restava sveglio ad ascoltare i treni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 124,
+    "cat": "HAB",
+    "en": "Back then, the fishermen would leave the harbour before dawn and return at noon.",
+    "hyp": "All'epoca, i pescatori lasciavano il porto prima dell'alba e tornavano a mezzogiorno.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 125,
+    "cat": "HAB",
+    "en": "My mother would always hide the chocolate on the top shelf, but we would find it anyway.",
+    "hyp": "Mia madre nascondeva sempre il cioccolato sullo scaffale più alto, ma noi lo trovavamo comunque.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 126,
+    "cat": "HAB",
+    "en": "Each evening the old man would feed the pigeons in the square.",
+    "hyp": "Ogni sera il vecchio dava da mangiare ai piccioni nella piazza.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 127,
+    "cat": "HAB",
+    "en": "During the winter, we would sit by the fire and tell stories.",
+    "hyp": "Durante l'inverno, ci sedevamo accanto al fuoco e raccontavamo storie.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 128,
+    "cat": "HAB",
+    "en": "At university, I would study in the library until it closed at midnight.",
+    "hyp": "All'università, studiavo in biblioteca fino alla chiusura a mezzanotte.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 129,
+    "cat": "HAB",
+    "en": "Whenever it snowed, the school would close and we would build snowmen in the park.",
+    "hyp": "Ogni volta che nevicava, la scuola chiudeva e noi costruivamo pupazzi di neve al parco.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 130,
+    "cat": "HAB",
+    "en": "My uncle would visit us every Christmas and bring us oranges from Sicily.",
+    "hyp": "Mio zio ci visitava ogni Natale e ci portava delle arance dalla Sicilia.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 131,
+    "cat": "HAB",
+    "en": "When they lived in Paris, they would eat lunch in the same café every day.",
+    "hyp": "Quando vivevano a Parigi, pranzavano nello stesso caffè ogni giorno.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 132,
+    "cat": "HAB",
+    "en": "As a young doctor, she would work thirty-six-hour shifts without complaining.",
+    "hyp": "Da giovane dottoressa, faceva turni di trentasei ore senza lamentarsi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 133,
+    "cat": "HAB",
+    "en": "The teacher would write a quote on the blackboard every morning before class.",
+    "hyp": "L'insegnante scriveva una citazione sulla lavagna ogni mattina prima della lezione.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 134,
+    "cat": "HAB",
+    "en": "In the evenings my grandfather would smoke his pipe on the balcony and watch the street.",
+    "hyp": "La sera mio nonno fumava la pipa sul balcone e guardava la strada.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 135,
+    "cat": "HAB",
+    "en": "We would often argue about politics, but we would always end the night laughing.",
+    "hyp": "Spesso discutevamo di politica, ma finivamo sempre la serata ridendo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 136,
+    "cat": "HAB",
+    "en": "Every time the phone rang, the dog would start barking.",
+    "hyp": "Ogni volta che squillava il telefono, il cane iniziava ad abbaiare.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 137,
+    "cat": "HAB",
+    "en": "In the eighties, people would queue for hours to buy concert tickets.",
+    "hyp": "Negli anni ottanta, la gente faceva ore di fila per comprare i biglietti dei concerti.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 138,
+    "cat": "HAB",
+    "en": "On rainy afternoons, my sister and I would play cards in the kitchen.",
+    "hyp": "Nei pomeriggi di pioggia, io e mia sorella giocavamo a carte in cucina.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 139,
+    "cat": "HAB",
+    "en": "The monks would rise before sunrise to pray in silence.",
+    "hyp": "I monaci si alzavano prima dell'alba per pregare in silenzio.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 140,
+    "cat": "HAB",
+    "en": "When I worked at the bakery, I would get home covered in flour.",
+    "hyp": "Quando lavoravo in panetteria, tornavo a casa ricoperto di farina.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 141,
+    "cat": "HAB",
+    "en": "My neighbour would water his tomatoes every evening at exactly seven o'clock.",
+    "hyp": "Il mio vicino innaffucciava i pomodori ogni sera alle sette in punto.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 142,
+    "cat": "HAB",
+    "en": "Twice a week the market would fill the square with stalls and noise.",
+    "hyp": "Due volte alla settimana il mercato riempiva la piazza di bancarelle e rumore.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 143,
+    "cat": "HAB",
+    "en": "As children, we would spend entire days in the woods without telling anyone.",
+    "hyp": "Da bambini, passavamo intere giornate nei boschi senza dirlo a nessuno.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 144,
+    "cat": "HAB",
+    "en": "Before the bridge was built, travellers would cross the river by ferry.",
+    "hyp": "Prima che il ponte venisse costruito, i viaggiatori attraversavano il fiume in traghetto.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 145,
+    "cat": "HAB",
+    "en": "He would call his mother every Sunday, no matter where he was.",
+    "hyp": "Chiamava sua madre ogni domenica, non importava dove si trovasse.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 146,
+    "cat": "HAB",
+    "en": "In the old days, the baker would deliver bread to our door on a bicycle.",
+    "hyp": "Ai vecchi tempi, il fornaio consegnava il pane alla nostra porta in bicicletta.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 147,
+    "cat": "HAB",
+    "en": "When I was learning English, I would watch films with subtitles every night.",
+    "hyp": "Quando imparavo l'inglese, guardavo film con i sottotitoli ogni sera.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 148,
+    "cat": "HAB",
+    "en": "The village women would wash their clothes at the fountain.",
+    "hyp": "Le donne del villaggio lavavano i panni alla fontana.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 149,
+    "cat": "HAB",
+    "en": "Every Friday night, the whole family would gather at my aunt's house for dinner.",
+    "hyp": "Ogni venerdì sera, tutta la famiglia si riuniva a casa di mia zia per cena.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 150,
+    "cat": "HAB",
+    "en": "When the factory was still open, the workers would stop at the bar for a coffee on the way home.",
+    "hyp": "Quando la fabbrica era ancora aperta, gli operai si fermavano al bar per un caffè sulla strada di casa.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 151,
+    "cat": "HAB",
+    "en": "My grandparents would dance in the kitchen whenever their favourite song came on the radio.",
+    "hyp": "I miei nonni ballavano in cucina ogni volta che passava la loro canzone preferita alla radio.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 152,
+    "cat": "HAB",
+    "en": "At the end of each month, she would pay all the bills and write everything in a notebook.",
+    "hyp": "Alla fine di ogni mese, lei pagava tutte le bollette e scriveva tutto in un quaderno.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 153,
+    "cat": "HAB",
+    "en": "In high school, Marco would copy my homework on the bus.",
+    "hyp": "Alle superiori, Marco copiava i miei compiti sull'autobus.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 154,
+    "cat": "HAB",
+    "en": "During the holidays, the children would sleep in the attic.",
+    "hyp": "Durante le vacanze, i bambini dormivano in soffitta.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 155,
+    "cat": "HAB",
+    "en": "Whenever we visited, the cat would hide under the bed.",
+    "hyp": "Ogni volta che andavamo in visita, il gatto si nascondeva sotto il letto.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 156,
+    "cat": "HAB",
+    "en": "The priest would ring the bell himself because there was no one else to do it.",
+    "hyp": "Il prete suonava la campanella lui stesso perché non c'era nessun altro a farlo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 157,
+    "cat": "HAB",
+    "en": "In summer the shepherds would take the sheep up to the mountain pastures.",
+    "hyp": "In estate i pastori portavano le pecore ai pascoli di montagna.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 158,
+    "cat": "HAB",
+    "en": "My first boss would shout at everyone, but he would never fire anybody.",
+    "hyp": "Il mio primo capo urlava a tutti, ma non licenzava mai nessuno.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 159,
+    "cat": "HAB",
+    "en": "When it got dark, the street lamps would come on one by one.",
+    "hyp": "Quando faceva buio, i lampioni si accendevano uno alla volta.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 160,
+    "cat": "HAB",
+    "en": "We would meet at the station every morning and take the same train.",
+    "hyp": "Ci incontravamo alla stazione ogni mattina e prendevamo lo stesso treno.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 161,
+    "cat": "HAB",
+    "en": "Every night before bed, my father would check that all the doors were locked.",
+    "hyp": "Ogni sera prima di andare a dormire, mio padre controllava che tutte le porte fossero chiuse a chiave.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 162,
+    "cat": "HAB",
+    "en": "When she was sad, she would go for long walks along the river.",
+    "hyp": "Quando era triste, faceva lunghe passeggiate lungo il fiume.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 163,
+    "cat": "HAB",
+    "en": "In those days, letters would take weeks to arrive from America.",
+    "hyp": "In quei giorni, le lettere impiegavano settimane per arrivare dall'America.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 164,
+    "cat": "HAB",
+    "en": "The old professor would fall asleep during his own lectures.",
+    "hyp": "Il vecchio professore si addormentava durante le sue stesse lezioni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 165,
+    "cat": "HAB",
+    "en": "Every autumn, my grandmother would make jam with the plums from the garden.",
+    "hyp": "Ogni autunno, mia nonna faceva la marmellata con le prugne del giardino.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 166,
+    "cat": "HAB",
+    "en": "Whenever I visited Naples, my cousins would take me out for pizza.",
+    "hyp": "Ogni volta che visitavo Napoli, i miei cugini mi portavano a mangiare la pizza.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 167,
+    "cat": "DURP",
+    "en": "I have been living in Milan for ten years.",
+    "hyp": "Vivo a Milano da dieci anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 168,
+    "cat": "DURP",
+    "en": "She has been working at the hospital since 2015.",
+    "hyp": "Lavora all'ospedale dal 2015.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 169,
+    "cat": "DURP",
+    "en": "We have known each other for twenty years.",
+    "hyp": "Ci conosciamo da vent'anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 170,
+    "cat": "DURP",
+    "en": "They have been waiting for the bus for half an hour.",
+    "hyp": "Aspettano l'autobus da mezz'ora.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 171,
+    "cat": "DURP",
+    "en": "He has been studying Italian for six months.",
+    "hyp": "Studia l'italiano da sei mesi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 172,
+    "cat": "DURP",
+    "en": "I have had this car since I was eighteen.",
+    "hyp": "Ho questa macchina da quando avevo diciotto anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 173,
+    "cat": "DURP",
+    "en": "How long have you been living here?",
+    "hyp": "Da quanto tempo vivi qui?",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 174,
+    "cat": "DURP",
+    "en": "It has been raining since this morning.",
+    "hyp": "Piove da questa mattina.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 175,
+    "cat": "DURP",
+    "en": "My parents have been married for forty years.",
+    "hyp": "I miei genitori sono sposati da quarant'anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 176,
+    "cat": "DURP",
+    "en": "The shop has been closed for three weeks.",
+    "hyp": "Il negozio è chiuso da tre settimane.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 177,
+    "cat": "DURP",
+    "en": "I have been trying to call you for two hours.",
+    "hyp": "Ti sto cercando di chiamare da due ore.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 178,
+    "cat": "DURP",
+    "en": "She has been teaching at this school since the nineties.",
+    "hyp": "Insegna in questa scuola dagli anni novanta.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 179,
+    "cat": "DURP",
+    "en": "We have been looking for a new flat for months.",
+    "hyp": "Cerchiamo un nuovo appartamento da mesi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 180,
+    "cat": "DURP",
+    "en": "He has been sick since Monday.",
+    "hyp": "È malato da lunedì.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 181,
+    "cat": "DURP",
+    "en": "I have been feeling tired for a few days.",
+    "hyp": "Mi sento stanco da alcuni giorni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 182,
+    "cat": "DURP",
+    "en": "The company has been losing money for years.",
+    "hyp": "L'azienda ha perso soldi per anni.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 183,
+    "cat": "DURP",
+    "en": "They have lived in this house since their children were born.",
+    "hyp": "Vivono in questa casa da quando sono nati i loro figli.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 184,
+    "cat": "DURP",
+    "en": "I have been playing the piano since I was six.",
+    "hyp": "Suono il pianoforte da quando avevo sei anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 185,
+    "cat": "DURP",
+    "en": "How long have you known Paolo?",
+    "hyp": "Da quanto tempo conosci Paolo?",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 186,
+    "cat": "DURP",
+    "en": "The baby has been crying for an hour.",
+    "hyp": "Il bambino piange da un'ora.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 187,
+    "cat": "DURP",
+    "en": "Our team has been working on this project since January.",
+    "hyp": "Il nostro team lavora a questo progetto da gennaio.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 188,
+    "cat": "DURP",
+    "en": "He has been a member of the club for fifteen years.",
+    "hyp": "È un membro del club da quindici anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 189,
+    "cat": "DURP",
+    "en": "I have been learning to drive for three months, but I still can't park.",
+    "hyp": "Imparo a guidare da tre mesi, ma non riesco ancora a parcheggiare.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 190,
+    "cat": "DURP",
+    "en": "The road has been under construction since last spring.",
+    "hyp": "La strada è in costruzione dalla scorsa primavera.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 191,
+    "cat": "DURP",
+    "en": "She has been writing that novel for a decade.",
+    "hyp": "Scrive quel romanzo da dieci anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 192,
+    "cat": "DURP",
+    "en": "We have been friends since primary school.",
+    "hyp": "Siamo amici dalla scuola primaria.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 193,
+    "cat": "DURP",
+    "en": "The museum has been open to the public since 1952.",
+    "hyp": "Il museo è aperto al pubblico dal 1952.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 194,
+    "cat": "DURP",
+    "en": "I've been waiting for your answer for a week.",
+    "hyp": "Aspetto la tua risposta da una settimana.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 195,
+    "cat": "DURP",
+    "en": "My brother has been unemployed for almost a year.",
+    "hyp": "Mio fratello è disoccupato da quasi un anno.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 196,
+    "cat": "DURP",
+    "en": "The two countries have been at war for decades.",
+    "hyp": "I due paesi sono in guerra da decenni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 197,
+    "cat": "DURP",
+    "en": "They have been dating for six months.",
+    "hyp": "Stanno insieme da sei mesi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 198,
+    "cat": "DURP",
+    "en": "He has been running the restaurant since his father retired.",
+    "hyp": "Gestisce il ristorante da quando suo padre è andato in pensione.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 199,
+    "cat": "DURP",
+    "en": "I have been saving money for a new bicycle since September.",
+    "hyp": "Risparmio soldi per una bicicletta nuova da settembre.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 200,
+    "cat": "DURP",
+    "en": "The printer has been broken for days.",
+    "hyp": "La stampante è rotta da giorni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 201,
+    "cat": "DURP",
+    "en": "She has been living abroad for so long that she dreams in French.",
+    "hyp": "Vive all'estero da così tanto tempo che sogna in francese.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 202,
+    "cat": "COND",
+    "en": "If I had more time, I would learn to play the guitar.",
+    "hyp": "Se avessi più tempo, imparerei a suonare la chitarra.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 203,
+    "cat": "COND",
+    "en": "I would love to visit Japan one day.",
+    "hyp": "Mi piacerebbe molto visitare il Giappone un giorno.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 204,
+    "cat": "COND",
+    "en": "Would you mind closing the window?",
+    "hyp": "Ti dispiacerebbe chiudere la finestra?",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 205,
+    "cat": "COND",
+    "en": "If it stopped raining, we would go for a walk.",
+    "hyp": "Se smettesse di piovere, andremmo a fare una passeggiata.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 206,
+    "cat": "COND",
+    "en": "She would never forgive me if I told her the truth.",
+    "hyp": "Non mi perdonerebbe mai se le dicessi la verità.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 207,
+    "cat": "COND",
+    "en": "If I were you, I would accept the offer.",
+    "hyp": "Se fossi in te, accetterei l'offerta.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 208,
+    "cat": "COND",
+    "en": "I would have called you if I had known you were in town.",
+    "hyp": "Ti avrei chiamato se avessi saputo che eri in città.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 209,
+    "cat": "COND",
+    "en": "What would you do if you won the lottery?",
+    "hyp": "Cosa faresti se vincessi alla lotteria?",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 210,
+    "cat": "COND",
+    "en": "He would have passed the exam if he had studied harder.",
+    "hyp": "Avrebbe superato l'esame se avesse studiato di più.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 211,
+    "cat": "COND",
+    "en": "We would be happy to help you with the move.",
+    "hyp": "Saremmo lieti di aiutarvi con il trasloco.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 212,
+    "cat": "COND",
+    "en": "If they lived closer, we would see them more often.",
+    "hyp": "Se vivessero più vicini, li vedremmo più spesso.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 213,
+    "cat": "COND",
+    "en": "Without your help, I would have lost everything.",
+    "hyp": "Senza il tuo aiuto, avrei perso tutto.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 214,
+    "cat": "COND",
+    "en": "I would rather stay at home tonight.",
+    "hyp": "Preferirei restare a casa stasera.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 215,
+    "cat": "COND",
+    "en": "It would be better to leave before the traffic gets bad.",
+    "hyp": "Sarebbe meglio partire prima che il traffico peggiori.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 216,
+    "cat": "COND",
+    "en": "If you asked her, she would probably say yes.",
+    "hyp": "Se glielo chiedessi, probabilmente direbbe di sì.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 217,
+    "cat": "COND",
+    "en": "They would have arrived earlier if the train had not been delayed.",
+    "hyp": "Sarebbero arrivati prima se il treno non si fosse ritardato.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 218,
+    "cat": "COND",
+    "en": "Would it be possible to change the date of the meeting?",
+    "hyp": "Sarebbe possibile cambiare la data della riunione?",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 219,
+    "cat": "COND",
+    "en": "In your place, I would talk to a lawyer.",
+    "hyp": "Al tuo posto, parlerei con un avvocato.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 220,
+    "cat": "COND",
+    "en": "If the shop were open on Sundays, I would buy my bread there.",
+    "hyp": "Se il negozio fosse aperto la domenica, comprerei il pane lì.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 221,
+    "cat": "COND",
+    "en": "I would like a glass of water, please.",
+    "hyp": "Vorrei un bicchiere d'acqua, per favore.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 222,
+    "cat": "COND",
+    "en": "She would have been a great doctor if she had finished her studies.",
+    "hyp": "Sarebbe stata una grande dottoressa se avesse finito gli studi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 223,
+    "cat": "COND",
+    "en": "If I could choose, I would live by the sea.",
+    "hyp": "Se potessi scegliere, vivrei vicino al mare.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 224,
+    "cat": "COND",
+    "en": "Would you help me carry these boxes?",
+    "hyp": "Mi daresti una mano a trasportare queste scatole?",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 225,
+    "cat": "COND",
+    "en": "We would have won the match if the referee had been fair.",
+    "hyp": "Avremmo vinto la partita se l'arbitro fosse stato equo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 226,
+    "cat": "COND",
+    "en": "If he really loved her, he would call her more often.",
+    "hyp": "Se la amasse davvero, la chiamerebbe più spesso.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 227,
+    "cat": "COND",
+    "en": "It would take at least three days to repair the roof.",
+    "hyp": "Ci vorrebbero almeno tre giorni per riparare il tetto.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 228,
+    "cat": "COND",
+    "en": "I would never have imagined such a thing.",
+    "hyp": "Non avrei mai immaginato una cosa del genere.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 229,
+    "cat": "COND",
+    "en": "If we left now, we would arrive before dinner.",
+    "hyp": "Se partissimo ora, arriveremmo prima di cena.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 230,
+    "cat": "COND",
+    "en": "You would feel better if you slept more.",
+    "hyp": "Ti sentiresti meglio se dormissi di più.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 231,
+    "cat": "COND",
+    "en": "If the weather were nicer, the children would be playing outside.",
+    "hyp": "Se il tempo fosse più bello, i bambini starebbero giocando fuori.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 232,
+    "cat": "PERF",
+    "en": "I lived in Rome for ten years before moving to Florence.",
+    "hyp": "Ho vissuto a Roma per dieci anni prima di trasferirmi a Firenze.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 233,
+    "cat": "PERF",
+    "en": "She worked at the hospital for five years and then left.",
+    "hyp": "Ha lavorato all'ospedale per cinque anni e poi se n'è andata.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 234,
+    "cat": "PERF",
+    "en": "We waited for an hour, but nobody came.",
+    "hyp": "Abbiamo aspettato per un'ora, ma nessuno è venuto.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 235,
+    "cat": "PERF",
+    "en": "He studied Italian for six months last year.",
+    "hyp": "Ha studiato italiano per sei mesi l'anno scorso.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 236,
+    "cat": "PERF",
+    "en": "I have lived in five different countries.",
+    "hyp": "Ho vissuto in cinque paesi diversi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 237,
+    "cat": "PERF",
+    "en": "They have visited Venice three times.",
+    "hyp": "Hanno visitato Venezia tre volte.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 238,
+    "cat": "PERF",
+    "en": "My grandfather worked in the mine for thirty years, until he retired in 1980.",
+    "hyp": "Mio nonno ha lavorato nella miniera per trent'anni, fino al pensionamento nel 1980.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 239,
+    "cat": "PERF",
+    "en": "I have read that book twice.",
+    "hyp": "Ho letto quel libro due volte.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 240,
+    "cat": "PERF",
+    "en": "She stayed in London for a week and then went home.",
+    "hyp": "È rimasta a Londra per una settimana e poi è tornata a casa.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 241,
+    "cat": "PERF",
+    "en": "We have already eaten, thank you.",
+    "hyp": "Abbiamo già mangiato, grazie.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 242,
+    "cat": "PERF",
+    "en": "He played tennis for many years when he was young, but he stopped after the accident.",
+    "hyp": "Ha giocato a tennis per molti anni quando era giovane, ma ha smesso dopo l'incidente.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 243,
+    "cat": "PERF",
+    "en": "I have never been to Sardinia.",
+    "hyp": "Non sono mai stato in Sardegna.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 244,
+    "cat": "PERF",
+    "en": "They lived together for two years and then broke up.",
+    "hyp": "Hanno vissuto insieme per due anni e poi si sono lasciati.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 245,
+    "cat": "PERF",
+    "en": "The shop was closed for three weeks last summer.",
+    "hyp": "Il negozio è stato chiuso per tre settimane la scorsa estate.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 246,
+    "cat": "PERF",
+    "en": "I have just finished my report.",
+    "hyp": "Ho appena finito il mio rapporto.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 247,
+    "cat": "PERF",
+    "en": "He was sick for a week in January.",
+    "hyp": "È stato malato per una settimana a gennaio.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 248,
+    "cat": "PERF",
+    "en": "She has written three novels so far.",
+    "hyp": "Finora ha scritto tre romanzi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 249,
+    "cat": "PERF",
+    "en": "We talked for hours that night.",
+    "hyp": "Parlammo per ore quella notte.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 250,
+    "cat": "PERF",
+    "en": "The museum was closed for renovation from 2010 to 2014.",
+    "hyp": "Il museo è stato chiuso per ristrutturazione dal 2010 al 2014.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 251,
+    "cat": "PERF",
+    "en": "I have lost my keys again.",
+    "hyp": "Ho perso di nuovo le chiavi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 252,
+    "cat": "PERF",
+    "en": "They were married for forty years, until she died.",
+    "hyp": "Erano stati sposati per quarant'anni, finché lei non è morta.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 253,
+    "cat": "PERF",
+    "en": "He has broken his leg, so he can't come.",
+    "hyp": "Si è rotto una gamba, quindi non può venire.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 254,
+    "cat": "PERF",
+    "en": "I slept for twelve hours after the trip.",
+    "hyp": "Ho dormito per dodici ore dopo il viaggio.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 255,
+    "cat": "PERF",
+    "en": "The company has opened a new office in Bari.",
+    "hyp": "L'azienda ha aperto un nuovo ufficio a Bari.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 256,
+    "cat": "PERF",
+    "en": "She taught at this school for twenty years before retiring.",
+    "hyp": "Ha insegnato in questa scuola per vent'anni prima di andare in pensione.",
+    "hyp_verdict": "ok"
+   }
+  ]
+ },
+ "flores": {
+  "comet": 0.8937,
+  "chrf": 57.86,
+  "identical": 49,
+  "better_0.02": 13,
+  "worse_0.02": 23
+ },
+ "v3": {
+  "summary": {
+   "DI": {
+    "n": 103,
+    "err": 21,
+    "other": 1,
+    "fixed": 17,
+    "broken": 5,
+    "identical": 13,
+    "mcnemar_p": 0.016901
+   },
+   "PDI": {
+    "n": 35,
+    "err": 8,
+    "other": 0,
+    "fixed": 5,
+    "broken": 1,
+    "identical": 0,
+    "mcnemar_p": 0.21875
+   },
+   "DD": {
+    "n": 30,
+    "err": 1,
+    "other": 0,
+    "fixed": 0,
+    "broken": 0,
+    "identical": 14,
+    "mcnemar_p": 1.0
+   },
+   "PDD": {
+    "n": 10,
+    "err": 0,
+    "other": 0,
+    "fixed": 0,
+    "broken": 0,
+    "identical": 1,
+    "mcnemar_p": 1.0
+   },
+   "PERF": {
+    "n": 26,
+    "err": 0,
+    "other": 0,
+    "fixed": 0,
+    "broken": 0,
+    "identical": 13,
+    "mcnemar_p": 1.0
+   },
+   "DURP": {
+    "n": 28,
+    "err": 9,
+    "other": 0,
+    "fixed": 3,
+    "broken": 2,
+    "identical": 7,
+    "mcnemar_p": 1.0
+   },
+   "HAB": {
+    "n": 30,
+    "err": 1,
+    "other": 0,
+    "fixed": 3,
+    "broken": 0,
+    "identical": 11,
+    "mcnemar_p": 0.25
+   },
+   "COND": {
+    "n": 30,
+    "err": 0,
+    "other": 0,
+    "fixed": 1,
+    "broken": 0,
+    "identical": 13,
+    "mcnemar_p": 1.0
+   }
+  },
+  "rows": [
+   {
+    "id": 0,
+    "cat": "DI",
+    "en": "By the time the ambulance arrived, the injured climber had been lying in the snow for nearly four hours.",
+    "hyp": "Quando arrivò l'ambulanza, l'alpinista ferito giaceva nella neve da quasi quattro ore.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 1,
+    "cat": "DI",
+    "en": "Officials said the suspect had been living under a false name since 2014 when police arrested him in Lyon.",
+    "hyp": "Le autorità hanno dichiarato che il sospettato viveva con un nome falso dal 2014 quando la polizia lo ha arrestato a Lione.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 2,
+    "cat": "DI",
+    "en": "By the time the merger was announced, the two companies had been negotiating for over eighteen months.",
+    "hyp": "Quando la fusione fu annunciata, le due aziende negoziavano da oltre diciotto mesi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 3,
+    "cat": "DI",
+    "en": "The old house had stood empty since the war when the Hendersons bought it.",
+    "hyp": "La vecchia casa era rimasta vuota dalla guerra quando i Henderson l'hanno comprata.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 4,
+    "cat": "DI",
+    "en": "I'd been trying to call you for an hour when you finally picked up!",
+    "hyp": "Ti cercavo da un'ora quando finalmente hai risposto!",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 5,
+    "cat": "DI",
+    "en": "The server had been running without a reboot for 412 days when the power supply failed.",
+    "hyp": "Il server era in funzione senza riavvii da 412 giorni quando l'alimentatore si guastò.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 6,
+    "cat": "DI",
+    "en": "By 1914, the empire had been declining for more than a century.",
+    "hyp": "Nel 1914, l'impero declinava da più di un secolo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 7,
+    "cat": "DI",
+    "en": "Rain had been falling since dawn when the first villagers noticed the river rising.",
+    "hyp": "Pioveva dall'alba quando i primi abitanti del villaggio notarono che il fiume stava salendo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 8,
+    "cat": "DI",
+    "en": "They had known each other for barely a week when he proposed.",
+    "hyp": "Si conoscevano da appena una settimana quando lui fece la proposta.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 9,
+    "cat": "DI",
+    "en": "The patient had not eaten anything for three days when she was admitted.",
+    "hyp": "La paziente non aveva mangiato nulla per tre giorni quando fu ricoverata.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 10,
+    "cat": "DI",
+    "en": "Margaret had been teaching piano in the same small room since 1962 when the school finally closed.",
+    "hyp": "Margaret insegnava pianoforte nella stessa piccola stanza dal 1962 quando la scuola chiuse finalmente.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 11,
+    "cat": "DI",
+    "en": "Our team had been debugging the memory leak for two weeks when someone spotted the missing free() call.",
+    "hyp": "Il nostro team cercava di risolvere il memory leak da due settimane quando qualcuno notò la chiamata free() mancante.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 12,
+    "cat": "DI",
+    "en": "How long had you been standing there when I came in?",
+    "hyp": "Da quanto tempo eri lì quando sono entrato?",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 13,
+    "cat": "DI",
+    "en": "The economy had been shrinking for five consecutive quarters when the central bank cut rates.",
+    "hyp": "L'economia si era contratta per cinque trimestri consecutivi quando la banca centrale tagliò i tassi.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 14,
+    "cat": "DI",
+    "en": "I had been driving for almost nine hours when the engine light came on.",
+    "hyp": "Guidavo da quasi nove ore quando si è accesa la spia del motore.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 15,
+    "cat": "DI",
+    "en": "The village had had no electricity since the storm when the repair crews reached it.",
+    "hyp": "Il villaggio era senza elettricità dal temporale quando arrivarono le squadre di riparazione.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 16,
+    "cat": "DI",
+    "en": "By the time the board intervened, the CEO had been ignoring the auditors' warnings for months.",
+    "hyp": "Quando il consiglio intervenne, l'amministratore delegato ignorava gli avvertimenti dei revisori da mesi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 17,
+    "cat": "DI",
+    "en": "The monks had been copying the manuscript for nearly a year when the abbey was sacked.",
+    "hyp": "I monaci copiavano il manoscritto da quasi un anno quando l'abbazia fu saccheggiata.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 18,
+    "cat": "DI",
+    "en": "We hadn't had a proper holiday for ages when my aunt offered us her cottage.",
+    "hyp": "Non avevamo fatto una vera vacanza da anni quando mia zia ci offrì il suo cottage.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 19,
+    "cat": "DI",
+    "en": "Rescue workers had been digging through the rubble for thirty hours when they heard a faint cry.",
+    "hyp": "I soccorritori scavavano tra le macerie da trenta ore quando udirono un grido flebile.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 20,
+    "cat": "DI",
+    "en": "By the time she retired, Dr. Okafor had been running the clinic for a quarter of a century.",
+    "hyp": "Quando andò in pensione, il dottor Okafor gestiva la clinica da un quarto di secolo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 21,
+    "cat": "DI",
+    "en": "The pipeline had been leaking for several days when an inspector noticed the stain on the ground.",
+    "hyp": "La conduttura perdeva da diversi giorni quando un ispettore notò la macchia sul terreno.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 22,
+    "cat": "DI",
+    "en": "We'd been going out for three years when she told me she was moving to Canada.",
+    "hyp": "Stavamo insieme da tre anni quando mi disse che si trasferiva in Canada.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 23,
+    "cat": "DI",
+    "en": "For six months the regiment had been holding the pass when reinforcements at last arrived.",
+    "hyp": "Per sei mesi il reggimento aveva tenuto il passo quando finalmente arrivarono i rinforzi.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 24,
+    "cat": "DI",
+    "en": "The firm had owned the building since 1987 when the council served the compulsory purchase order.",
+    "hyp": "La ditta possedeva l'edificio dal 1987 quando il comune notificò l'ordine di esproprio.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 25,
+    "cat": "DI",
+    "en": "By the time the police found her, the girl had been missing for eleven days.",
+    "hyp": "Quando la polizia la trovò, la ragazza era scomparsa da undici giorni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 26,
+    "cat": "DI",
+    "en": "The startup had not turned a profit since its founding when investors pulled out.",
+    "hyp": "La startup non aveva generato utili dalla sua fondazione quando gli investitori si ritirarono.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 27,
+    "cat": "DI",
+    "en": "I'd been living in Berlin for about two years when I finally learned to order coffee without switching to English.",
+    "hyp": "Vivevo a Berlino da circa due anni quando finalmente imparai a ordinare un caffè senza passare all'inglese.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 28,
+    "cat": "DI",
+    "en": "The two physicists had been corresponding for a decade when they finally met at a conference in Geneva.",
+    "hyp": "I due fisici si corrispondevano da dieci anni quando finalmente si incontrarono a una conferenza a Ginevra.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 29,
+    "cat": "DI",
+    "en": "Grandpa had been sitting by the window since lunch when the postman finally came up the path.",
+    "hyp": "Il nonno era seduto vicino alla finestra da ore quando finalmente il postino salì lungo il sentiero.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 30,
+    "cat": "DI",
+    "en": "The cooling system had been operating at reduced capacity for six weeks when the reactor was shut down for inspection.",
+    "hyp": "Il sistema di raffreddamento funzionava a capacità ridotta da sei settimane quando il reattore fu spento per un'ispezione.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 31,
+    "cat": "DI",
+    "en": "Nobody had seen the old fisherman for days when his boat drifted back into the harbour.",
+    "hyp": "Nessuno aveva visto il vecchio pescatore per giorni quando la sua barca tornò a derapare nel porto.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 32,
+    "cat": "DI",
+    "en": "By the time the strike ended, dockworkers had been walking the picket line for nearly five months.",
+    "hyp": "Quando lo sciopero finì, gli addetti ai moli camminavano lungo la linea di picchetto da quasi cinque mesi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 33,
+    "cat": "DI",
+    "en": "I'd been meaning to tell you for weeks when you found out on your own.",
+    "hyp": "Volevo dirtelo da settimane quando lo hai scoperto da solo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 34,
+    "cat": "DI",
+    "en": "The kingdom had been without a king since the old monarch's death when the council chose his nephew.",
+    "hyp": "Il regno era rimasto senza un re dalla morte del vecchio sovrano quando il consiglio scelse suo nipote.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 35,
+    "cat": "DI",
+    "en": "Analysts had been predicting a downturn for over a year when the housing market finally collapsed.",
+    "hyp": "Gli analisti prevedevano una flessione da oltre un anno quando il mercato immobiliare crollò finalmente.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 36,
+    "cat": "DI",
+    "en": "The lighthouse keeper had not left the island for seven years when the relief boat brought news of his mother's illness.",
+    "hyp": "Il guardiano del faro non aveva lasciato l'isola da sette anni quando la barca di soccorso portò la notizia della malattia di sua madre.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 37,
+    "cat": "DI",
+    "en": "By the time the patch was released, attackers had been exploiting the vulnerability for at least three months.",
+    "hyp": "Quando la patch fu rilasciata, gli attaccanti sfruttavano la vulnerabilità da almeno tre mesi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 38,
+    "cat": "DI",
+    "en": "He'd been studying for the bar exam since January when his father fell ill.",
+    "hyp": "Studiava per l'esame da avvocato da mesi quando suo padre si ammalò.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 39,
+    "cat": "DI",
+    "en": "The orchestra had been rehearsing the symphony for weeks when the conductor resigned.",
+    "hyp": "L'orchestra provava la sinfonia da settimane quando il direttore si dimise.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 40,
+    "cat": "DI",
+    "en": "By 1847, the potato crop had been failing across much of Ireland for two years.",
+    "hyp": "Nel 1847, il raccolto di patate falliva in gran parte dell'Irlanda da due anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 41,
+    "cat": "DI",
+    "en": "The company had been supplying parts to the automaker since the 1970s when the contract was terminated.",
+    "hyp": "L'azienda forniva pezzi all'automobilista dagli anni '70 quando il contratto fu rescisso.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 42,
+    "cat": "DI",
+    "en": "I hadn't heard that song for twenty years when it suddenly came on the radio.",
+    "hyp": "Non avevo sentito quella canzone per vent'anni quando improvvisamente passò alla radio.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 43,
+    "cat": "DI",
+    "en": "The negotiators had been talking for nineteen hours straight when a deal was finally reached at dawn.",
+    "hyp": "I negoziatori parlavano da diciannove ore di fila quando all'alba si giunse finalmente a un accordo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 44,
+    "cat": "DI",
+    "en": "By the time we got married, we had been living together for six years.",
+    "hyp": "Quando ci siamo sposati, vivevamo insieme da sei anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 45,
+    "cat": "DI",
+    "en": "The witness told the court that she had been standing at the bus stop for ten minutes when the car mounted the pavement.",
+    "hyp": "Il testimone disse alla corte che era ferma alla fermata dell'autobus da dieci minuti quando l'auto salì sul marciapiede.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 46,
+    "cat": "DI",
+    "en": "The database had been growing by roughly two gigabytes a day since the migration when the disk filled up.",
+    "hyp": "Il database cresceva di circa due gigabyte al giorno dalla migrazione quando il disco si riempì.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 47,
+    "cat": "DI",
+    "en": "She had been a widow for nearly forty years when she met Arthur at the library.",
+    "hyp": "Era vedova da quasi quarant'anni quando conobbe Arthur in biblioteca.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 48,
+    "cat": "DI",
+    "en": "The ship had been drifting for eight days when a fishing trawler spotted it.",
+    "hyp": "La nave alla deriva da otto giorni fu avvistata da un peschereccio.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 49,
+    "cat": "DI",
+    "en": "We'd only been sitting down for five minutes when the waiter asked if we were ready to order.",
+    "hyp": "Eravamo seduti da appena cinque minuti quando il cameriere ci chiese se fossimo pronti a ordinare.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 50,
+    "cat": "DI",
+    "en": "By the time the vaccine became available, the epidemic had been spreading for almost two years.",
+    "hyp": "Quando il vaccino divenne disponibile, l'epidemia si diffondeva da quasi due anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 51,
+    "cat": "DI",
+    "en": "The tenants had been complaining about the damp since the previous winter when the ceiling collapsed.",
+    "hyp": "Gli inquilini si lamentavano dell'umidità da quando era iniziato l'inverno precedente quando il soffitto crollò.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 52,
+    "cat": "DI",
+    "en": "He had been drinking heavily for months when his wife finally left him.",
+    "hyp": "Beveva pesantemente da mesi quando la moglie finalmente lo lasciò.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 53,
+    "cat": "DI",
+    "en": "For nearly three centuries the family had farmed that valley when the dam flooded it.",
+    "hyp": "La famiglia aveva coltivato quella valle per quasi tre secoli quando la diga la sommerse.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 54,
+    "cat": "DI",
+    "en": "Investigators believe the hackers had been inside the network since at least March when the breach was detected.",
+    "hyp": "Gli investigatori ritengono che gli hacker fossero all'interno della rete da almeno marzo quando la violazione fu rilevata.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 55,
+    "cat": "DI",
+    "en": "The old dog had been limping for a week when we took him to the vet.",
+    "hyp": "Il vecchio cane zoppicava da una settimana quando lo portammo dal veterinario.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 56,
+    "cat": "DI",
+    "en": "By the time Napoleon reached Moscow, his army had been marching for nearly three months.",
+    "hyp": "Quando Napoleone raggiunse Mosca, il suo esercito marciava da quasi tre mesi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 57,
+    "cat": "DI",
+    "en": "I had been looking for my keys for half an hour when I realised they were in my hand.",
+    "hyp": "Cercavo le chiavi da mezz'ora quando mi sono reso conto che le avevo in mano.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 58,
+    "cat": "DI",
+    "en": "The factory had been producing the same model since 1959 when it switched to electric vehicles.",
+    "hyp": "La fabbrica produceva lo stesso modello dal 1959 quando passò ai veicoli elettrici.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 59,
+    "cat": "DI",
+    "en": "They hadn't spoken a word to each other since the funeral when the lawyer called them both into his office.",
+    "hyp": "Non si erano rivolti una parola dall'ultimo funerale quando l'avvocato li convocò entrambi nel suo studio.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 60,
+    "cat": "DI",
+    "en": "By the time the results came in, the candidates had been waiting in the hall for over six hours.",
+    "hyp": "Quando arrivarono i risultati, i candidati aspettavano nella sala da più di sei ore.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 61,
+    "cat": "DI",
+    "en": "Our neighbours had been renovating their kitchen since August when they decided to sell the house.",
+    "hyp": "I nostri vicini ristrutturavano la cucina da agosto quando decisero di vendere la casa.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 62,
+    "cat": "DI",
+    "en": "The team had been trailing for most of the match when the striker scored twice in four minutes.",
+    "hyp": "La squadra era rimasta in svantaggio per gran parte della partita quando l'attaccante segnò due gol in quattro minuti.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 63,
+    "cat": "DI",
+    "en": "She'd been knitting that scarf for months when her grandson asked if it was ever going to be finished.",
+    "hyp": "Tirava il lavoro a maglia da mesi quando suo nipote le chiese se quella sciarpa sarebbe mai stata finita.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 64,
+    "cat": "DI",
+    "en": "The satellite had been transmitting data for eleven years when contact was lost.",
+    "hyp": "Il satellite trasmetteva dati da undici anni quando si perse il contatto.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 65,
+    "cat": "DI",
+    "en": "By the time the inquiry began, the minister had been in office for less than a year.",
+    "hyp": "Quando l'inchiesta ebbe inizio, il ministro era in carica da meno di un anno.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 66,
+    "cat": "DI",
+    "en": "How long had they been married when he got the job in Dubai?",
+    "hyp": "Da quanto tempo erano sposati quando lui ottenne il lavoro a Dubai?",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 67,
+    "cat": "DI",
+    "en": "The refugees had been walking for days when they reached the border.",
+    "hyp": "I rifugiati camminavano da giorni quando raggiunsero il confine.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 68,
+    "cat": "DI",
+    "en": "The stock had been trading below its IPO price since the spring when the founder stepped down.",
+    "hyp": "Il titolo scambiava al di sotto del prezzo di quotazione da quando il fondatore si era dimesso in primavera.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 69,
+    "cat": "DI",
+    "en": "The colonists had been petitioning the crown for redress for years when fighting broke out at Lexington.",
+    "hyp": "I coloni chiedevano riparazioni alla corona da anni quando scoppiarono i combattimenti a Lexington.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 70,
+    "cat": "DI",
+    "en": "He had not slept properly since the accident when he started having the dreams.",
+    "hyp": "Non aveva dormito bene dopo l'incidente quando iniziarono i sogni.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 71,
+    "cat": "DI",
+    "en": "The bridge had been carrying traffic for ninety years when engineers discovered cracks in its main girders.",
+    "hyp": "Il ponte sosteneva il traffico da novanta anni quando gli ingegneri scoprirono delle crepe nelle sue travi principali.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 72,
+    "cat": "DI",
+    "en": "My parents had been running the corner shop since before I was born when the supermarket opened across the road.",
+    "hyp": "I miei genitori gestivano il negozietto all'angolo da prima che nascessi quando aprì il supermercato dall'altra parte della strada.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 73,
+    "cat": "DI",
+    "en": "By the time the editor read it, the reporter had been sitting on the story for three weeks.",
+    "hyp": "Quando il direttore lo lesse, il giornalista teneva la notizia in sospeso da tre settimane.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 74,
+    "cat": "DI",
+    "en": "The tribe had inhabited the island for millennia when the first European ships appeared on the horizon.",
+    "hyp": "La tribù abitava l'isola da millenni quando le prime navi europee comparvero all'orizzonte.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 75,
+    "cat": "DI",
+    "en": "We'd been queueing for tickets since six in the morning when they announced the concert was sold out.",
+    "hyp": "Facevamo la fila per i biglietti dalle sei del mattino quando annunciarono che il concerto era esaurito.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 76,
+    "cat": "DI",
+    "en": "The pump had been running dry for several minutes when the operator noticed the pressure drop.",
+    "hyp": "La pompa girava a secco da diversi minuti quando l'operatore notò il calo di pressione.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 77,
+    "cat": "DI",
+    "en": "The detective had been following the man for three blocks when he suddenly turned and looked straight at her.",
+    "hyp": "L'investigatrice seguiva l'uomo da tre isolati quando lui si voltò all'improvviso e la guardò dritto negli occhi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 78,
+    "cat": "DI",
+    "en": "Shares had been rising steadily since the earnings report when the scandal broke.",
+    "hyp": "Le azioni salivano costantemente da quando era uscito il rapporto sugli utili quando scoppiò lo scandalo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 79,
+    "cat": "DI",
+    "en": "I'd been feeling dizzy for a couple of days when I fainted at work.",
+    "hyp": "Mi sentivo stordito da un paio di giorni quando sono svenuto al lavoro.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 80,
+    "cat": "DI",
+    "en": "The prisoner had been held without trial for four years when the court ordered his release.",
+    "hyp": "Il prigioniero era stato trattenuto senza processo per quattro anni quando il tribunale ordinò la sua liberazione.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 81,
+    "cat": "DI",
+    "en": "The two leaders had been negotiating for nearly eleven hours when news of the ceasefire finally broke.",
+    "hyp": "I due leader negoziavano da quasi undici ore quando finalmente arrivò la notizia del cessate il fuoco.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 82,
+    "cat": "DI",
+    "en": "She had not seen her brother since the funeral when he knocked on her door that rainy October evening.",
+    "hyp": "Non aveva più visto suo fratello dal funerale quando lui bussò alla sua porta in quella piovosa sera d'ottobre.",
+    "hyp_verdict": "other"
+   },
+   {
+    "id": 83,
+    "cat": "DI",
+    "en": "By the time the paramedics arrived, the driver had been trapped in the wreckage for over forty minutes.",
+    "hyp": "Quando arrivarono i paramedici, il conducente era rimasto intrappolato tra le macerie per oltre quaranta minuti.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 84,
+    "cat": "DI",
+    "en": "I'd been waiting at the station since six when you finally called, so don't tell me I overreacted.",
+    "hyp": "Aspettavo alla stazione dalle sei quando hai finalmente chiamato, quindi non dirmi che ho esagerato.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 85,
+    "cat": "DI",
+    "en": "The server had been running without a reboot for 214 days when the memory leak finally brought it down.",
+    "hyp": "Il server era in funzione senza riavvii da 214 giorni quando la perdita di memoria lo fece finalmente crollare.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 86,
+    "cat": "DI",
+    "en": "For three generations the family had farmed that valley when the dam project forced them to leave.",
+    "hyp": "Per tre generazioni la famiglia aveva coltivato quella valle quando il progetto della diga li costrinse ad andarsene.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 87,
+    "cat": "DI",
+    "en": "He had been living in Lisbon for almost a decade by the time anyone back home learned his new address.",
+    "hyp": "Viveva a Lisbona da quasi dieci anni quando qualcuno a casa scoprì il suo nuovo indirizzo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 88,
+    "cat": "PDI",
+    "en": "Rescuers said the hikers had been waiting on the narrow ledge for nearly two days when a helicopter finally spotted them. All four were taken to hospital with mild dehydration.",
+    "hyp": "I soccorritori dissero che gli escursionisti avevano aspettato sulla stretta cengia per quasi due giorni quando un elicottero li individuò finalmente. Tutti e quattro furono trasportati in ospedale con una lieve disidratazione.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 89,
+    "cat": "PDI",
+    "en": "The house smelled of dust and lavender. Margaret had lived there alone since her husband's death when the letter from her nephew arrived. She read it twice before she let herself sit down.",
+    "hyp": "La casa sapeva di polvere e lavanda. Margaret ci viveva sola dalla morte del marito quando arrivò la lettera del nipote. La lesse due volte prima di concedersi il permesso di sedersi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 90,
+    "cat": "PDI",
+    "en": "We'd been driving for six hours when the engine started making that noise.\" \"So what did you do?\" \"We pulled over and called my dad, obviously.",
+    "hyp": "\"Guidavamo da sei ore quando il motore iniziò a fare quel rumore.\" \"E allora cosa hai fatto?\" \"Ci siamo fermati e ho chiamato mio padre, ovviamente.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 91,
+    "cat": "PDI",
+    "en": "The company had been operating without a permanent CEO for eleven months when the board announced Ms. Patel's appointment. Shares rose 4% on the news.",
+    "hyp": "L'azienda operava senza un CEO permanente da undici mesi quando il consiglio di amministrazione annunciò la nomina della signora Patel. Le azioni salirono del 4% alla notizia.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 92,
+    "cat": "PDI",
+    "en": "Constantinople had been under siege for nearly two months when Ottoman troops broke through the walls on 29 May 1453. The city fell within hours, ending more than a thousand years of Byzantine rule.",
+    "hyp": "Costantinopoli era sotto assedio da quasi due mesi quando le truppe ottomane abbatterono le mura il 29 maggio 1453. La città cadde nel giro di poche ore, ponendo fine a oltre mille anni di dominio bizantino.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 93,
+    "cat": "PDI",
+    "en": "I hadn't seen my brother for nine years when he knocked on my door last Christmas. He looked older, thinner, and strangely calm.",
+    "hyp": "Non vedevo mio fratello da nove anni quando bussò alla mia porta lo scorso Natale. Sembrava più vecchio, più magro e stranamente calmo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 94,
+    "cat": "PDI",
+    "en": "The server had been running without a restart since March when a memory leak finally brought it down. Engineers traced the issue to an outdated caching library.",
+    "hyp": "Il server girava senza riavvii da marzo quando una perdita di memoria lo fece finalmente crollare. Gli ingegneri risalirono al problema fino a una libreria di caching obsoleta.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 95,
+    "cat": "PDI",
+    "en": "For three weeks the villagers had been rationing water when the first rain clouds appeared over the hills. Children ran into the street to watch them.",
+    "hyp": "Per tre settimane gli abitanti del villaggio avevano razionato l'acqua quando comparvero le prime nuvole di pioggia sopra le colline. I bambini corsero in strada per guardarle.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 96,
+    "cat": "PDI",
+    "en": "How long had you known her when you proposed?\" \"About four months. Everyone thought I was crazy.",
+    "hyp": "\"Da quanto la conoscevi quando le hai fatto la proposta?\" \"Circa quattro mesi. Tutti pensavano che fossi pazzo.\"",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 97,
+    "cat": "PDI",
+    "en": "The suspect had been living under a false name since 2019 when police arrested him at a supermarket in Leeds. He is due to appear in court on Monday.",
+    "hyp": "Il sospettato viveva con un nome falso dal 2019 quando la polizia lo arrestò in un supermercato a Leeds. Dovrebbe comparire in tribunale lunedì.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 98,
+    "cat": "PDI",
+    "en": "Tomas had not spoken a word for an entire day when the old woman finally asked him his name. He told her the truth, which surprised them both.",
+    "hyp": "Tomas non aveva pronunciato una parola per un giorno intero quando la vecchia finalmente gli chiese il nome. Gli disse la verità, che li sorprese entrambi.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 99,
+    "cat": "PDI",
+    "en": "Our team had been negotiating with the supplier for several weeks when they suddenly raised their prices by 15%. We decided to look for alternatives.",
+    "hyp": "Il nostro team negoziava con il fornitore da diverse settimane quando questi improvvisamente alzarono i prezzi del 15%. Decidemmo di cercare delle alternative.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 100,
+    "cat": "PDI",
+    "en": "Napoleon's army had been retreating through the Russian snow for weeks when it reached the Berezina River in November 1812. Thousands drowned or froze during the crossing.",
+    "hyp": "L'esercito di Napoleone si ritirava attraverso la neve russa da settimane quando raggiunse il fiume Berezina nel novembre 1812. Migliaia di persone annegarono o morirono di freddo durante l'attraversamento.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 101,
+    "cat": "PDI",
+    "en": "She had been working at the bakery since she was sixteen when the owner offered to sell it to her. She said yes before he could change his mind.",
+    "hyp": "Lavorava in panetteria da quando aveva sedici anni quando il proprietario le offrì di vendergliela. Disse di sì prima che lui potesse cambiare idea.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 102,
+    "cat": "PDI",
+    "en": "The sensor had been reporting incorrect values for at least forty minutes when the operator noticed the anomaly. The entire batch was discarded as a precaution.",
+    "hyp": "Il sensore riportava valori errati da almeno quaranta minuti quando l'operatore notò l'anomalia. L'intero lotto fu scartato per precauzione.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 103,
+    "cat": "PDI",
+    "en": "We'd only been sitting at the table for five minutes when the fire alarm went off.\" \"At the restaurant?\" \"Yes, and nobody would tell us what was happening.",
+    "hyp": "\"Eravamo seduti al tavolo da appena cinque minuti quando scattò l'allarme antincendio.\" \"Al ristorante?\" \"Sì, e nessuno ci diceva cosa stesse succedendo.\"",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 104,
+    "cat": "PDI",
+    "en": "He had owned the violin for thirty years when he first noticed the crack along its neck. That night he could not sleep.",
+    "hyp": "Possedeva il violino da trent'anni quando notò per la prima volta la crepa lungo il manico. Quella notte non riuscì a dormire.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 105,
+    "cat": "PDI",
+    "en": "The two countries had not held formal talks since the border clash of 2021 when their foreign ministers met in Geneva on Tuesday. Diplomats described the meeting as cautious but constructive.",
+    "hyp": "I due paesi non tenevano colloqui formali dai scontri al confine del 2021 quando i loro ministri degli esteri si sono incontrati a Ginevra martedì. I diplomatici hanno descritto l'incontro come cauto ma costruttivo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 106,
+    "cat": "PDI",
+    "en": "My parents had been arguing about the holiday plans for an hour when my grandmother walked in and settled it in two sentences. Nobody argued with her.",
+    "hyp": "I miei genitori discutevano dei piani per le vacanze da un'ora quando entrò mia nonna e risolse tutto in due frasi. Nessuno osò ribattere.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 107,
+    "cat": "PDI",
+    "en": "Women in the region had been campaigning for the vote for decades when the new constitution finally granted it in 1946. The first elections drew enormous crowds.",
+    "hyp": "Le donne della regione lottavano per il diritto di voto da decenni quando la nuova costituzione lo concesse finalmente nel 1946. Le prime elezioni attirarono folle enormi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 108,
+    "cat": "PDI",
+    "en": "Sales had been declining steadily since the second quarter when management launched the new pricing strategy. The results surprised even the analysts.",
+    "hyp": "Le vendite diminuivano costantemente dal secondo trimestre quando la direzione lanciò la nuova strategia di prezzi. I risultati sorprenderono persino gli analisti.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 109,
+    "cat": "PDI",
+    "en": "The rain had been falling for hours when Clara heard the knock at the door. She opened it to find a stranger holding her father's coat.",
+    "hyp": "Pioveva da ore quando Clara sentì bussare alla porta. Aprì e trovò uno sconosciuto che teneva in mano il cappotto di suo padre.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 110,
+    "cat": "PDI",
+    "en": "I'd been waiting at the station since seven when you finally called.\" \"I'm sorry, my phone died.\" \"You could have borrowed someone's.",
+    "hyp": "\"Aspettavo alla stazione dalle sette quando finalmente hai chiamato.\" \"Scusa, il telefono si è spento.\" \"Avresti potuto prenderne uno in prestito.\"",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 111,
+    "cat": "PDI",
+    "en": "The research group had been testing the new alloy for eighteen months when a supplier error contaminated the samples. The project was delayed until the following spring.",
+    "hyp": "Il gruppo di ricerca testava la nuova lega da diciotto mesi quando un errore di un fornitore contaminò i campioni. Il progetto fu rimandato alla primavera successiva.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 112,
+    "cat": "PDI",
+    "en": "Firefighters had been battling the blaze for over twelve hours when the wind changed direction. Officials then ordered the evacuation of two more towns.",
+    "hyp": "I vigili del fuoco combattevano l'incendio da oltre dodici ore quando il vento cambiò direzione. Le autorità ordinarono poi l'evacuazione di altre due città.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 113,
+    "cat": "PDI",
+    "en": "They had not exchanged a single letter since the summer of 1938 when she saw him across the crowded platform in Vienna. Neither of them moved at first.",
+    "hyp": "Non si erano scambiati una sola lettera dalla estate del 1938 quando lo vide dall'altra parte della banchina affollata di Vienna. All'inizio nessuno dei due si mosse.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 114,
+    "cat": "PDI",
+    "en": "Since January I'd been trying to learn Spanish on my own when a friend suggested an evening class. It made all the difference.",
+    "hyp": "Da gennaio cercavo di imparare lo spagnolo da solo quando un amico mi suggerì un corso serale. Fece tutta la differenza.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 115,
+    "cat": "PDI",
+    "en": "The Roman garrison had been stationed at the fort for nearly forty years when the order to withdraw arrived. The soldiers left behind coins, pottery, and a handful of letters.",
+    "hyp": "La guarnigione romana era stata stanziata nel forte per quasi quarant'anni quando arrivò l'ordine di ritirata. I soldati lasciarono dietro di sé monete, ceramiche e un pugno di lettere.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 116,
+    "cat": "PDI",
+    "en": "The two firms had been partners for over a decade when the merger talks collapsed. Analysts blamed disagreements over leadership.",
+    "hyp": "Le due aziende erano partner da oltre un decennio quando i negoziati per la fusione fallirono. Gli analisti attribuirono il fallimento a disaccordi sulla leadership.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 117,
+    "cat": "PDI",
+    "en": "How long had you been feeling dizzy when you came in?\" the nurse asked. \"Maybe two days,\" he said.",
+    "hyp": "\"Da quanto tempo si sentiva stordito quando è entrato?\" chiese l'infermiera. \"Forse da due giorni\", rispose lui.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 118,
+    "cat": "DD",
+    "en": "The two firms had collaborated for nearly a decade before the partnership was dissolved in 2019.",
+    "hyp": "Le due aziende avevano collaborato per quasi dieci anni prima che la partnership venisse sciolta nel 2019.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 119,
+    "cat": "DI",
+    "en": "She had lived in Lisbon for six years when she finally moved back to Toronto to care for her mother.",
+    "hyp": "Viveva a Lisbona da sei anni quando finalmente tornò a Toronto per prendersi cura di sua madre.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 120,
+    "cat": "DD",
+    "en": "I had worked at the bakery for two summers before I got the job at the bank,\" he told her.",
+    "hyp": "\"Avevo lavorato in panetteria per due estati prima di ottenere il lavoro in banca\", le disse.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 121,
+    "cat": "DD",
+    "en": "The senator had served on the finance committee for twelve years until his resignation last spring.",
+    "hyp": "Il senatore aveva fatto parte della commissione delle finanze per dodici anni fino alle sue dimissioni la scorsa primavera.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 122,
+    "cat": "DD",
+    "en": "Before the merger was announced, the CFO had led the restructuring team for eighteen months and then stepped aside.",
+    "hyp": "Prima che la fusione venisse annunciata, il CFO aveva guidato il team di ristrutturazione per diciotto mesi e poi si era fatto da parte.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 123,
+    "cat": "DI",
+    "en": "They had not spoken to each other for almost twenty years when they met again at their father's funeral.",
+    "hyp": "Non si erano parlati per quasi vent'anni quando si sono rivisti al funerale del padre.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 124,
+    "cat": "DD",
+    "en": "For three long winters she had nursed him through his illness, and by the following spring he was dead.",
+    "hyp": "Per tre lunghi inverni lo aveva accudito durante la malattia, e alla primavera successiva era morto.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 125,
+    "cat": "DD",
+    "en": "The server had run without interruption for 412 days before the outage on 3 March forced a full reboot.",
+    "hyp": "Il server aveva funzionato senza interruzioni per 412 giorni prima che il guasto del 3 marzo costringesse a un riavvio completo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 126,
+    "cat": "DD",
+    "en": "We'd dated for a year before we broke up, and then I met your father,\" my mother said.",
+    "hyp": "\"Eravamo stati insieme per un anno prima di lasciarci, e poi ho conosciuto tuo padre\", disse mia madre.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 127,
+    "cat": "DI",
+    "en": "The emperor had ruled for thirty-one years when he was finally deposed in a palace coup.",
+    "hyp": "L'imperatore aveva regnato per trentuno anni quando fu finalmente deposto in un colpo di stato di palazzo.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 128,
+    "cat": "DD",
+    "en": "The striking workers had stayed off the job for nine weeks before they voted to accept the offer on Friday.",
+    "hyp": "Gli operai in sciopero erano rimasti fermi per nove settimane prima di votare a favore dell'offerta venerdì.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 129,
+    "cat": "DD",
+    "en": "Old Mr. Hale had kept the lighthouse for forty years, and by the time the coast guard automated it he had long since retired.",
+    "hyp": "Il vecchio signor Hale aveva tenuto il faro per quarant'anni, e quando la guardia costiera lo automatizzò, lui si era già ritirato da tempo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 130,
+    "cat": "DD",
+    "en": "The company had manufactured typewriters for half a century before it switched entirely to computers in the 1980s.",
+    "hyp": "L'azienda aveva prodotto macchine da scrivere per mezzo secolo prima di passare interamente ai computer negli anni '80.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 131,
+    "cat": "DD",
+    "en": "He had studied medicine for two years at Bologna before abandoning it for painting.",
+    "hyp": "Aveva studiato medicina per due anni a Bologna prima di abbandonarla per la pittura.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 132,
+    "cat": "DD",
+    "en": "The prototype had been tested for six months in the lab before the team shipped the first units to customers in May.",
+    "hyp": "Il prototipo era stato testato per sei mesi in laboratorio prima che il team spedisse le prime unità ai clienti a maggio.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 133,
+    "cat": "DD",
+    "en": "Before she left for university, Anna had played the violin for eight years and then given it up for good.",
+    "hyp": "Prima di andare all'università, Anna aveva suonato il violino per otto anni e poi lo aveva abbandonato per sempre.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 134,
+    "cat": "DI",
+    "en": "The ceasefire had held for barely a week when fighting resumed along the border on Tuesday.",
+    "hyp": "Il cessate il fuoco era durato appena una settimana quando martedì i combattimenti sono ripresi lungo il confine.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 135,
+    "cat": "DI",
+    "en": "For a decade the village had had no doctor, but in 1952 a young physician arrived from the city.",
+    "hyp": "Per un decennio il villaggio non aveva avuto un medico, ma nel 1952 un giovane dottore arrivò dalla città.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 136,
+    "cat": "DD",
+    "en": "You'd been married for how long before the divorce?\" the lawyer asked.",
+    "hyp": "\"Da quanto tempo eravate sposati prima del divorzio?\" chiese l'avvocato.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 137,
+    "cat": "DD",
+    "en": "The prisoners had been held for eleven months before they were released in an exchange in January.",
+    "hyp": "I prigionieri erano stati trattenuti per undici mesi prima di essere liberati in uno scambio a gennaio.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 138,
+    "cat": "DI",
+    "en": "We had rented that flat for four years when the landlord sold the building and we had to move out.",
+    "hyp": "Affittavamo quell'appartamento da quattro anni quando il padrone di casa vendette l'edificio e dovette trasferirci.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 139,
+    "cat": "DD",
+    "en": "The dynasty had controlled the river trade for two centuries before its collapse in the 1400s.",
+    "hyp": "La dinastia aveva controllato il commercio fluviale per due secoli prima del suo crollo nel 1400.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 140,
+    "cat": "DI",
+    "en": "He hadn't smoked for ten years, but after the accident in 2015 he started again.",
+    "hyp": "Non fumava da dieci anni, ma dopo l'incidente del 2015 ricominciò.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 141,
+    "cat": "DD",
+    "en": "The old mill had stood empty for decades before developers converted it into apartments in 2008.",
+    "hyp": "Il vecchio mulino era rimasto vuoto per decenni prima che i costruttori lo convertissero in appartamenti nel 2008.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 142,
+    "cat": "DD",
+    "en": "The CEO had chaired the board for fifteen years before she retired in 2021 and handed over to her deputy.",
+    "hyp": "L'amministratrice delegata aveva presieduto il consiglio per quindici anni prima di andare in pensione nel 2021 e passare il testimone al suo vice.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 143,
+    "cat": "DD",
+    "en": "The database had been in use for seven years before the migration to the new platform was completed last quarter.",
+    "hyp": "Il database era stato utilizzato per sette anni prima che la migrazione alla nuova piattaforma fosse completata lo scorso trimestre.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 144,
+    "cat": "DD",
+    "en": "They had traveled together for three months across South America, and by the time they returned home in September they were barely speaking.",
+    "hyp": "Avevano viaggiato insieme per tre mesi attraverso il Sud America e, quando tornarono a casa a settembre, quasi non si parlavano più.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 145,
+    "cat": "DD",
+    "en": "The ambassador had represented his country in Moscow for six years before being recalled in 1938.",
+    "hyp": "L'ambasciatore aveva rappresentato il suo paese a Mosca per sei anni prima di essere richiamato nel 1938.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 146,
+    "cat": "DD",
+    "en": "For two weeks the storm had battered the island, and when it finally passed on the 14th the harbor was in ruins.",
+    "hyp": "Per due settimane la tempesta aveva bersagliato l'isola e quando finalmente passò il 14, il porto era in rovina.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 147,
+    "cat": "DI",
+    "en": "I'd known her for ages before we started working together, so it wasn't awkward,\" Tom said.",
+    "hyp": "\"La conoscevo da anni prima di iniziare a lavorare insieme, quindi non c'era imbarazzo\", disse Tom.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 148,
+    "cat": "DD",
+    "en": "The research group had worked on the vaccine for four years before the trial was halted in 2013.",
+    "hyp": "Il gruppo di ricerca aveva lavorato al vaccino per quattro anni prima che la sperimentazione venisse interrotta nel 2013.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 149,
+    "cat": "DD",
+    "en": "Marta had taught at the village school for twenty years until it closed in 1999.",
+    "hyp": "Marta aveva insegnato alla scuola del villaggio per vent'anni finché non chiuse nel 1999.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 150,
+    "cat": "DI",
+    "en": "The factory had not produced a single car for eight months when the government finally intervened.",
+    "hyp": "La fabbrica non aveva prodotto un'unica macchina per otto mesi quando il governo intervenne finalmente.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 151,
+    "cat": "DD",
+    "en": "The stock had fallen steadily for six consecutive quarters before it rebounded sharply in late 2020.",
+    "hyp": "Il titolo era sceso costantemente per sei trimestri consecutivi prima di rimbalzare bruscamente alla fine del 2020.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 152,
+    "cat": "DI",
+    "en": "The king had been in exile for nine years when he was restored to the throne in 1660.",
+    "hyp": "Il re era stato in esilio per nove anni quando fu restaurato sul trono nel 1660.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 153,
+    "cat": "DD",
+    "en": "She had waited for him for two hours at the station, and when he finally appeared she had already given up and gone home.",
+    "hyp": "L'aveva aspettato per due ore alla stazione, e quando lui comparve finalmente lei si era già arresa e tornata a casa.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 154,
+    "cat": "DD",
+    "en": "The team had gone undefeated for thirty-two matches before losing to a second-division side in the cup final.",
+    "hyp": "La squadra era rimasta imbattuta per trentadue partite prima di perdere contro una formazione di serie B nella finale di coppa.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 155,
+    "cat": "DI",
+    "en": "The pipeline had leaked for at least three days before anyone noticed it on Monday morning.",
+    "hyp": "L'oleodotto aveva perso per almeno tre giorni prima che qualcuno se ne accorgesse lunedì mattina.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 156,
+    "cat": "DI",
+    "en": "He'd been sober for a whole year before that wedding, and then everything fell apart,\" she sighed.",
+    "hyp": "\"Era sobrio da un anno intero prima di quel matrimonio, e poi tutto è crollato\", sospirò lei.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 157,
+    "cat": "DD",
+    "en": "The council had debated the proposal for eighteen months before it was finally rejected in the vote last June.",
+    "hyp": "Il consiglio aveva dibattuto la proposta per diciotto mesi prima che venisse finalmente respinta nel voto dello scorso giugno.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 158,
+    "cat": "DD",
+    "en": "For centuries the monastery had guarded the manuscript, but in 1803 it was sold to a French collector.",
+    "hyp": "Per secoli il monastero aveva custodito il manoscritto, ma nel 1803 fu venduto a un collezionista francese.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 159,
+    "cat": "DD",
+    "en": "I had used the same laptop for nine years before it died during my thesis defense last spring.",
+    "hyp": "Avevo usato lo stesso laptop per nove anni prima che si guastasse durante la mia difesa della tesi la scorsa primavera.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 160,
+    "cat": "PDD",
+    "en": "The committee had debated the proposal for six hours before it finally voted on Tuesday night. The measure passed by a narrow margin, and several members left without speaking to reporters.",
+    "hyp": "Il comitato aveva dibattuto la proposta per sei ore prima di votare finalmente martedì sera. La misura fu approvata per un margine ristretto e diversi membri se ne andarono senza parlare con i giornalisti.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 161,
+    "cat": "PDD",
+    "en": "Before she moved to Lisbon in 2015, Marta had worked as a nurse in Leeds for eleven years. She still kept her old badge in a drawer, though she rarely thought about the hospital anymore.",
+    "hyp": "Prima di trasferirsi a Lisbona nel 2015, Marta aveva lavorato come infermiera a Leeds per undici anni. Conservava ancora il vecchio tesserino in un cassetto, anche se non pensava più quasi mai all'ospedale.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 162,
+    "cat": "PDI",
+    "en": "I had not seen my brother for almost a decade when he turned up at the funeral,\" Daniel said. \"We shook hands like strangers and then talked until dawn.",
+    "hyp": "\"Non vedevo mio fratello da quasi dieci anni quando comparve al funerale\", disse Daniel. \"Ci siamo streti la mano come estranei e poi abbiamo parlato fino all'alba.\"",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 163,
+    "cat": "PDD",
+    "en": "The server had run without interruption for 412 days until the power failure in March forced a full restart. Engineers later traced the outage to a faulty transfer switch.",
+    "hyp": "Il server aveva funzionato senza interruzioni per 412 giorni finché il guasto di corrente a marzo non costrinse a un riavvio completo. In seguito, gli ingegneri risalirono all'interruzione a un selettore di trasferimento difettoso.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 164,
+    "cat": "PDI",
+    "en": "The siege had lasted for nearly two years by the time the city surrendered in the spring of 1453. Its walls, once thought impregnable, had been breached in several places.",
+    "hyp": "L'assedio era durato quasi due anni quando la città si arrese nella primavera del 1453. Le sue mura, un tempo ritenute inespugnabili, erano state violate in diversi punti.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 165,
+    "cat": "PDD",
+    "en": "He had waited at the station for forty minutes, but then the train arrived and he forgot his irritation entirely. The carriage was warm, and he fell asleep before the first stop.",
+    "hyp": "Aveva aspettato in stazione per quaranta minuti, ma poi arrivò il treno e dimenticò del tutto la sua irritazione. La carrozza era calda e si addormentò prima della prima fermata.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 166,
+    "cat": "PDD",
+    "en": "Our team had tested the prototype for three months before the client approved the final design. The production run began in early September and shipped on schedule.",
+    "hyp": "Il nostro team aveva testato il prototipo per tre mesi prima che il cliente approvasse il design finale. La produzione è iniziata all'inizio di settembre e le spedizioni sono avvenute secondo i tempi previsti.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 167,
+    "cat": "PDI",
+    "en": "We had been married for twenty years when we decided to separate,\" my aunt told me over coffee. \"It was the calmest conversation we ever had.",
+    "hyp": "\"Eravamo sposati da vent'anni quando decidemmo di separarci\", mi disse la zia davanti a un caffè. \"Fu la conversazione più calma che abbiamo mai avuto.\"",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 168,
+    "cat": "PDD",
+    "en": "For a whole winter the old man had not spoken to anyone in the village, and then one morning in April he knocked on the baker's door. Nobody ever learned what had changed his mind.",
+    "hyp": "Per un intero inverno il vecchio non aveva parlato con nessuno nel villaggio, e poi una mattina di aprile bussò alla porta del fornaio. Nessuno seppe mai cosa lo avesse fatto cambiare idea.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 169,
+    "cat": "PDD",
+    "en": "The company had lost money for five consecutive quarters before the new CEO announced a turnaround plan last year. Shares have since recovered most of their value.",
+    "hyp": "L'azienda aveva perso soldi per cinque trimestri consecutivi prima che il nuovo CEO annunciasse un piano di rilancio lo scorso anno. Da allora, le azioni hanno recuperato la maggior parte del loro valore.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 170,
+    "cat": "PDD",
+    "en": "I had studied French for four years at school, yet when I finally visited Paris I could barely order a croissant. The waiter switched to English after my second attempt.",
+    "hyp": "Avevo studiato francese per quattro anni a scuola, eppure quando visitai finalmente Parigi riuscivo a malapena a ordinare un croissant. Il cameriere passò all'inglese dopo il mio secondo tentativo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 171,
+    "cat": "PDD",
+    "en": "The river had flooded the valley for three days before the water receded on Sunday morning. Residents returned to find their homes coated in thick brown mud.",
+    "hyp": "Il fiume aveva allagato la valle per tre giorni prima che l'acqua si ritirasse domenica mattina. Gli abitanti tornarono a casa e trovarono le proprie abitazioni ricoperte da un fango marrone e denso.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 172,
+    "cat": "PDD",
+    "en": "They had lived in a tiny flat above a launderette for most of their twenties, and by 1998 they had saved enough to buy a house in the suburbs. The new place felt enormous and strangely quiet.",
+    "hyp": "Avevano vissuto in un minuscolo appartamento sopra una lavanderia per gran parte dei loro vent'anni, e nel 1998 avevano risparmiato abbastanza per comprare una casa in periferia. Il nuovo posto sembrava enorme e stranamente silenzioso.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 173,
+    "cat": "PDI",
+    "en": "She had trained for this race for eight months, and then she twisted her ankle the week before,\" the coach explained. \"It was heartbreaking to watch her pull out.",
+    "hyp": "\"Si era allenata per questa gara per otto mesi, e poi si è slogata la caviglia la settimana prima\", spiegò l'allenatore. \"È stato straziante vederla ritirarsi.\"",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 174,
+    "cat": "PDI",
+    "en": "The ceasefire had held for barely a fortnight when fighting resumed along the northern border on Friday. Aid agencies warned that thousands of civilians were again at risk.",
+    "hyp": "Il cessate il fuoco era durato appena due settimane quando venerdì sono ripresi i combattimenti lungo il confine settentrionale. Le agenzie umanitarie hanno avvertito che migliaia di civili erano di nuovo a rischio.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 175,
+    "cat": "PERF",
+    "en": "She lived in Lisbon for three years and then moved back to Milan.",
+    "hyp": "Ha vissuto a Lisbona per tre anni e poi è tornata a Milano.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 176,
+    "cat": "PERF",
+    "en": "I waited for forty minutes, but the bus never came.",
+    "hyp": "Ho aspettato per quaranta minuti, ma l'autobus non è mai arrivato.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 177,
+    "cat": "PERF",
+    "en": "The senator served on the committee for a decade before retiring last spring.",
+    "hyp": "Il senatore ha fatto parte della commissione per un decennio prima di andare in pensione la scorsa primavera.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 178,
+    "cat": "PERF",
+    "en": "We didn't speak for two whole days after the argument.",
+    "hyp": "Non abbiamo parlato per due giorni interi dopo la discussione.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 179,
+    "cat": "PERF",
+    "en": "For six months the server ran without a single reboot, until the power failure in March.",
+    "hyp": "Per sei mesi il server ha funzionato senza un solo riavvio, fino al guasto di corrente di marzo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 180,
+    "cat": "DI",
+    "en": "He had not seen his brother for twelve years when they finally met at the funeral.",
+    "hyp": "Non aveva visto suo fratello per dodici anni quando finalmente si incontrarono al funerale.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 181,
+    "cat": "PERF",
+    "en": "The rebels held the city for eleven weeks before government troops retook it.",
+    "hyp": "I ribelli hanno tenuto la città per undici settimane prima che le truppe governative la riconquistassero.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 182,
+    "cat": "PERF",
+    "en": "My grandmother worked as a seamstress for most of her life.",
+    "hyp": "Mia nonna ha lavorato come sarta per la maggior parte della sua vita.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 183,
+    "cat": "PERF",
+    "en": "The patient remained in intensive care for five days and was discharged on Friday.",
+    "hyp": "Il paziente è rimasto in terapia intensiva per cinque giorni ed è stato dimesso venerdì.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 184,
+    "cat": "PERF",
+    "en": "Have you ever lived abroad for more than a year?",
+    "hyp": "Hai mai vissuto all'estero per più di un anno?",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 185,
+    "cat": "PERF",
+    "en": "I've only been unemployed for a short while, back in 2015.",
+    "hyp": "Sono stato disoccupato solo per un breve periodo, nel 2015.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 186,
+    "cat": "PERF",
+    "en": "The negotiations lasted for nine hours and ended without an agreement.",
+    "hyp": "Le trattative sono durate nove ore e si sono concluse senza un accordo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 187,
+    "cat": "PERF",
+    "en": "For a moment nobody moved, and then the door slammed shut.",
+    "hyp": "Per un istante nessuno si mosse, e poi la porta si chiuse con un botto.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 188,
+    "cat": "PERF",
+    "en": "They ruled the region for almost two centuries until the empire collapsed.",
+    "hyp": "Hanno governato la regione per quasi due secoli fino al crollo dell'impero.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 189,
+    "cat": "DI",
+    "en": "She had not eaten for a day and a half by the time the rescuers reached her.",
+    "hyp": "Non aveva mangiato per un giorno e mezzo quando i soccorritori la raggiunsero.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 190,
+    "cat": "PERF",
+    "en": "The trial ran for eight weeks and concluded with a guilty verdict.",
+    "hyp": "Il processo è durato otto settimane e si è concluso con una sentenza di colpevolezza.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 191,
+    "cat": "PERF",
+    "en": "I studied the violin for four years as a child, but I gave it up at twelve.",
+    "hyp": "Ho studiato violino per quattro anni da bambino, ma ho smesso a dodici anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 192,
+    "cat": "PERF",
+    "en": "The test rig vibrated for thirty seconds and then shut itself down.",
+    "hyp": "Il banco di prova vibrò per trenta secondi e poi si spense da solo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 193,
+    "cat": "PERF",
+    "en": "He stared at the letter for a long time before he threw it into the fire.",
+    "hyp": "Fissò la lettera per molto tempo prima di gettarla nel fuoco.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 194,
+    "cat": "PERF",
+    "en": "The strike lasted for three weeks and cost the airline an estimated 40 million euros.",
+    "hyp": "Lo sciopero è durato tre settimane e alla compagnia aerea è costato circa 40 milioni di euro.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 195,
+    "cat": "DURP",
+    "en": "We've known each other for years, but we only became friends last summer.",
+    "hyp": "Ci conosciamo da anni, ma siamo diventati amici solo la scorsa estate.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 196,
+    "cat": "PERF",
+    "en": "The old man was silent for a while, then he began to tell the story.",
+    "hyp": "Il vecchio rimase in silenzio per un po', poi cominciò a raccontare la storia.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 197,
+    "cat": "PERF",
+    "en": "The museum stayed closed for two years during the renovation.",
+    "hyp": "Il museo è rimasto chiuso per due anni durante i lavori di ristrutturazione.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 198,
+    "cat": "PERF",
+    "en": "I've worn glasses for a few months once, after the eye surgery.",
+    "hyp": "Ho indossato gli occhiali per qualche mese una volta, dopo l'intervento agli occhi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 199,
+    "cat": "PERF",
+    "en": "The pilot circled the airport for twenty minutes before landing safely.",
+    "hyp": "Il pilota ha girato intorno all'aeroporto per venti minuti prima di atterrare in sicurezza.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 200,
+    "cat": "PERF",
+    "en": "For centuries the manuscript lay forgotten in the monastery library.",
+    "hyp": "Per secoli il manoscritto giacque dimenticato nella biblioteca del monastero.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 201,
+    "cat": "PERF",
+    "en": "The batch job did not complete for three consecutive nights last week.",
+    "hyp": "Il lavoro batch non si è completato per tre notti consecutive la scorsa settimana.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 202,
+    "cat": "DI",
+    "en": "She had worked at the bank for thirty years when she was suddenly let go.",
+    "hyp": "Lavorava in banca da trent'anni quando fu improvvisamente licenziata.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 203,
+    "cat": "PERF",
+    "en": "Did you really wait for an hour in the rain?",
+    "hyp": "Hai davvero aspettato un'ora sotto la pioggia?",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 204,
+    "cat": "PERF",
+    "en": "The ceasefire held for only four days before fighting broke out again.",
+    "hyp": "Il cessate il fuoco è durato solo quattro giorni prima che i combattimenti riprendessero.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 205,
+    "cat": "DURP",
+    "en": "The company has been operating at a loss since the second quarter of last year, according to figures released this morning.",
+    "hyp": "L'azienda opera in perdita dal secondo trimestre dello scorso anno, secondo i dati pubblicati questa mattina.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 206,
+    "cat": "DURP",
+    "en": "She has lived in this cramped flat above the bakery for eleven years and still can't stand the smell of yeast.",
+    "hyp": "Vive in questo appartamento angusto sopra la panetteria da undici anni e non sopporta ancora l'odore del lievito.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 207,
+    "cat": "DURP",
+    "en": "I've been waiting for you since half past six, so don't tell me you're on your way.",
+    "hyp": "Ti aspetto dalle sei e mezza, quindi non dirmi che stai arrivando.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 208,
+    "cat": "DURP",
+    "en": "Since the ceasefire collapsed in March, aid convoys have been unable to reach the northern districts.",
+    "hyp": "Dall'inizio del crollo del cessate il fuoco a marzo, i convogli di aiuti non sono riusciti a raggiungere i distretti del nord.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 209,
+    "cat": "DURP",
+    "en": "We haven't spoken to our neighbours for months, not since the argument about the fence.",
+    "hyp": "Non parliamo con i vicini da mesi, non più da quando abbiamo litigato per la recinzione.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 210,
+    "cat": "DURP",
+    "en": "For nearly three decades, the museum has housed the only surviving copy of the charter.",
+    "hyp": "Per quasi trent'anni, il museo ha ospitato l'unica copia superstite della carta.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 211,
+    "cat": "DURP",
+    "en": "The server has been running without a restart for 214 days, which is starting to worry the operations team.",
+    "hyp": "Il server è in funzione senza riavvii da 214 giorni, il che sta iniziando a preoccupare il team operativo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 212,
+    "cat": "DURP",
+    "en": "He has been sitting by the window since dawn, watching the road as if someone might still come.",
+    "hyp": "È seduto vicino alla finestra dall'alba, a guardare la strada come se qualcuno potesse ancora arrivare.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 213,
+    "cat": "DURP",
+    "en": "Have you really been learning Japanese for five years?",
+    "hyp": "Hai davvero studiato giapponese per cinque anni?",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 214,
+    "cat": "DURP",
+    "en": "Protesters have been camping outside the parliament building since Sunday night.",
+    "hyp": "I manifestanti campeggiano davanti al palazzo del parlamento da domenica sera.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 215,
+    "cat": "DURP",
+    "en": "My grandmother has kept the same wooden spoon for sixty years and refuses to buy a new one.",
+    "hyp": "Mia nonna ha conservato lo stesso cucchiaio di legno per sessant'anni e si rifiuta di comprarne uno nuovo.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 216,
+    "cat": "DURP",
+    "en": "The river has been rising steadily for three days, and residents of the lower town have begun to leave.",
+    "hyp": "Il fiume è salito costantemente per tre giorni e gli abitanti della parte bassa della città hanno iniziato ad andarsene.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 217,
+    "cat": "DURP",
+    "en": "I haven't had a proper night's sleep since the baby was born.",
+    "hyp": "Non dormo bene da quando è nato il bambino.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 218,
+    "cat": "DURP",
+    "en": "For the past two hours, our engineers have been investigating intermittent latency on the European cluster.",
+    "hyp": "Da due ore i nostri ingegneri stanno indagando su una latenza intermittente sul cluster europeo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 219,
+    "cat": "DURP",
+    "en": "They have owned the vineyard since their grandfather bought it after the war.",
+    "hyp": "Possiedono il vigneto da quando il nonno lo ha comprato dopo la guerra.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 220,
+    "cat": "DURP",
+    "en": "Ever since the letter arrived, Margaret has been pretending that nothing in the house has changed.",
+    "hyp": "Da quando è arrivata la lettera, Margaret fa finta che in casa non sia cambiato nulla.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 221,
+    "cat": "DURP",
+    "en": "The dynasty has ruled the valley for over four hundred years, outlasting every empire around it.",
+    "hyp": "La dinastia ha governato la valle per oltre quattrocento anni, sopravvivendo a ogni impero circostante.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 222,
+    "cat": "DURP",
+    "en": "You've been staring at that screen for ages — take a break.",
+    "hyp": "Fissi quello schermo da ore — fai una pausa.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 223,
+    "cat": "DURP",
+    "en": "Since joining the team in January, Priya has been leading the migration to the new billing platform.",
+    "hyp": "Da quando si è unita al team a gennaio, Priya sta guidando la migrazione alla nuova piattaforma di fatturazione.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 224,
+    "cat": "DURP",
+    "en": "The old lighthouse keeper has not left the island for nineteen winters.",
+    "hyp": "Il vecchio guardiano del faro non ha lasciato l'isola per diciannove inverni.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 225,
+    "cat": "DURP",
+    "en": "Inflation has remained above the central bank's target for eighteen consecutive months.",
+    "hyp": "L'inflazione è rimasta al di sopra dell'obiettivo della banca centrale per diciotto mesi consecutivi.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 226,
+    "cat": "DURP",
+    "en": "For as long as anyone in the village can remember, the bells have rung at noon.",
+    "hyp": "Da quanto ricordano gli abitanti del villaggio, le campane suonano a mezzogiorno.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 227,
+    "cat": "DURP",
+    "en": "We've been trying to get hold of the landlord since Tuesday, but he never picks up.",
+    "hyp": "Cerchiamo di contattare il padrone di casa da martedì, ma non risponde mai.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 228,
+    "cat": "DURP",
+    "en": "The library has been closed for renovation since the spring, and readers are growing impatient.",
+    "hyp": "La biblioteca è chiusa per ristrutturazione dalla primavera e i lettori stanno diventando impazienti.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 229,
+    "cat": "DURP",
+    "en": "Since the update was deployed, users have been reporting crashes on older Android devices.",
+    "hyp": "Da quando è stato distribuito l'aggiornamento, gli utenti hanno segnalato crash su dispositivi Android più vecchi.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 230,
+    "cat": "DURP",
+    "en": "I have known Daniel since we were both six years old and stealing apples from the same tree.",
+    "hyp": "Conosco Daniel da quando eravamo entrambi bambini di sei anni e rubavamo mele dallo stesso albero.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 231,
+    "cat": "DURP",
+    "en": "The two countries have been negotiating a trade agreement for almost a decade.",
+    "hyp": "I due paesi negoziano un accordo commerciale da quasi dieci anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 232,
+    "cat": "HAB",
+    "en": "Every Sunday morning, my grandfather would walk to the bakery and come back with two loaves still warm from the oven.",
+    "hyp": "Ogni domenica mattina, mio nonno andava dal fornaio e tornava con due pagnotte ancora calde dal forno.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 233,
+    "cat": "HAB",
+    "en": "In the years before the merger, the regional managers would meet in Zurich each quarter to review the sales figures.",
+    "hyp": "Negli anni prima della fusione, i responsabili regionali si riunivano a Zurigo ogni trimestre per esaminare i dati di vendita.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 234,
+    "cat": "HAB",
+    "en": "Back when we lived in Leeds, Mum would make us porridge before school, rain or shine.",
+    "hyp": "Quando vivevamo a Leeds, mamma ci preparava il porridge prima di andare a scuola, piovesse o placesse.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 235,
+    "cat": "HAB",
+    "en": "During the 1920s, dockworkers in Marseille would gather at the gates before dawn, hoping to be picked for a day's labour.",
+    "hyp": "Negli anni '20, gli addetti ai carichi a Marsiglia si radunavano ai cancelli prima dell'alba, sperando di essere scelti per una giornata di lavoro.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 236,
+    "cat": "HAB",
+    "en": "She would sit by the window for hours, watching the trains pull out of the station, and never say a word.",
+    "hyp": "Rimaneva seduta vicino alla finestra per ore, guardando i treni partire dalla stazione, senza dire mai una parola.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 237,
+    "cat": "HAB",
+    "en": "Remember how you would hide my keys every time I tried to leave early?",
+    "hyp": "Ti ricordi come nascondevi le mie chiavi ogni volta che cercavo di andare via prima?",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 238,
+    "cat": "HAB",
+    "en": "For most of the decade, the server would crash at least once a week, and the night team would restart it by hand.",
+    "hyp": "Per la maggior parte del decennio, il server si bloccava almeno una volta alla settimana e la squadra notturna lo riavviava manualmente.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 239,
+    "cat": "HAB",
+    "en": "Medieval monks would copy manuscripts by candlelight, often working through the coldest months without heat.",
+    "hyp": "I monaci medievali copiavano i manoscritti alla luce delle candele, lavorando spesso durante i mesi più freddi senza riscaldamento.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 240,
+    "cat": "HAB",
+    "en": "Whenever the river flooded, the villagers would carry their furniture up to the church on the hill.",
+    "hyp": "Ogni volta che il fiume esondava, gli abitanti del villaggio portavano i mobili in chiesa sulla collina.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 241,
+    "cat": "HAB",
+    "en": "He wouldn't eat anything green as a child, no matter how much his father pleaded.",
+    "hyp": "Da bambino non mangiava nulla di verde, per quanto suo padre lo supplicasse.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 242,
+    "cat": "HAB",
+    "en": "In the summers of my youth, we would spend whole afternoons swimming in the quarry behind the farm.",
+    "hyp": "Nelle estati della mia giovinezza, passavamo interi pomeriggi a nuotare nella cava dietro la fattoria.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 243,
+    "cat": "HAB",
+    "en": "According to former employees, the chief executive would personally read every customer complaint that reached head office.",
+    "hyp": "Secondo gli ex dipendenti, l'amministratore delegato leggeva personalmente ogni reclamo dei clienti che giungeva alla sede centrale.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 244,
+    "cat": "HAB",
+    "en": "Each evening, after the shop had closed, the old tailor would count the day's takings twice before locking the till.",
+    "hyp": "Ogni sera, dopo la chiusura del negozio, il vecchio sarto contava due volte l'incasso della giornata prima di chiudere la cassa.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 245,
+    "cat": "HAB",
+    "en": "You would always call me on Fridays, and then one week you just stopped.",
+    "hyp": "Mi chiamavi sempre il venerdì, e poi una settimana hai smesso all'improvviso.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 246,
+    "cat": "HAB",
+    "en": "Throughout the Cold War, Soviet trawlers would shadow NATO exercises in the North Atlantic.",
+    "hyp": "Durante la Guerra Fredda, i pescherecci sovietici seguivano da vicino le esercitazioni della NATO nell'Atlantico settentrionale.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 247,
+    "cat": "HAB",
+    "en": "My sister and I would argue about the radio station on every long drive to the coast.",
+    "hyp": "Io e mia sorella litigavamo per la stazione radio in ogni lungo viaggio verso la costa.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 248,
+    "cat": "HAB",
+    "en": "For three winters running, the council would promise to repair the bridge, and each spring nothing would happen.",
+    "hyp": "Per tre inverni consecutivi, il comune prometteva di riparare il ponte, e ogni primavera non succedeva nulla.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 249,
+    "cat": "HAB",
+    "en": "Roman soldiers would march up to thirty kilometres a day, carrying their own weapons and rations.",
+    "hyp": "I soldati romani marciavano fino a trenta chilometri al giorno, trasportando le proprie armi e razioni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 250,
+    "cat": "HAB",
+    "en": "On rainy days the children would build forts out of sofa cushions and refuse to come down for dinner.",
+    "hyp": "Nei giorni di pioggia i bambini costruivano fortezze con i cuscini del divano e si rifiutavano di scendere per cena.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 251,
+    "cat": "HAB",
+    "en": "Before the new protocol was introduced, engineers would test each component manually, which could take several days.",
+    "hyp": "Prima dell'introduzione del nuovo protocollo, gli ingegneri testavano ogni componente manualmente, operazione che poteva richiedere diversi giorni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 252,
+    "cat": "HAB",
+    "en": "He would often stop in the middle of a sentence, stare at the ceiling, and then pick up exactly where he had left off.",
+    "hyp": "Spesso si fermava a metà di una frase, fissava il soffitto e poi riprendeva esattamente da dove aveva interrotto.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 253,
+    "cat": "HAB",
+    "en": "In those days, the neighbours wouldn't lock their doors, not even at night.",
+    "hyp": "In quei giorni, i vicini non chiudevano a chiave le porte, nemmeno di notte.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 254,
+    "cat": "HAB",
+    "en": "Every autumn, thousands of pilgrims would cross the mountains on foot to reach the shrine before the first snow.",
+    "hyp": "Ogni autunno, migliaia di pellegrini attraversavano le montagne a piedi per raggiungere il santuario prima della prima neve.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 255,
+    "cat": "HAB",
+    "en": "Dad would never let us watch television on school nights, so we read instead.",
+    "hyp": "Papà non ci avrebbe mai permesso di guardare la televisione nelle sere di scuola, quindi leggevamo invece.",
+    "hyp_verdict": "err"
+   },
+   {
+    "id": 256,
+    "cat": "HAB",
+    "en": "As a young reporter, she would file her stories from a payphone outside the courthouse.",
+    "hyp": "Quando era una giovane giornalista, inviava i suoi articoli da una cabina telefonica fuori dal tribunale.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 257,
+    "cat": "HAB",
+    "en": "For years the factory would shut down every August, and the whole town would go quiet.",
+    "hyp": "Per anni la fabbrica chiudeva ogni agosto e l'intera città diventava silenziosa.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 258,
+    "cat": "HAB",
+    "en": "The landlady would knock on our door at seven sharp each morning to collect the empty milk bottles.",
+    "hyp": "La padrona di casa bussava alla nostra porta alle sette in punto ogni mattina per ritirare le bottiglie di latte vuote.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 259,
+    "cat": "HAB",
+    "en": "Analysts would regularly underestimate the company's quarterly growth, prompting a series of upward revisions.",
+    "hyp": "Gli analisti sottostimavano regolarmente la crescita trimestrale dell'azienda, provocando una serie di revisioni al rialzo.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 260,
+    "cat": "HAB",
+    "en": "When the fishing fleet came in, the women would line the harbour wall, scanning the boats for familiar faces.",
+    "hyp": "Quando la flotta peschereccia rientrava, le donne si allineavano lungo il molo, scrutando le barche alla ricerca di volti familiari.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 261,
+    "cat": "HAB",
+    "en": "My first boss would arrive an hour before anyone else and leave long after the cleaners had gone.",
+    "hyp": "Il mio primo capo arrivava un'ora prima di tutti gli altri e se ne andava molto dopo che le addette alle pulizie erano andate via.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 262,
+    "cat": "COND",
+    "en": "If the board approved the merger tomorrow, the company would become the largest regional carrier in the country.",
+    "hyp": "Se il consiglio approvasse la fusione domani, l'azienda diventerebbe il più grande vettore regionale del paese.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 263,
+    "cat": "COND",
+    "en": "Officials said the bridge would collapse if another storm of that strength hit the coast.",
+    "hyp": "I funzionari dissero che il ponte crollerebbe se un'altra tempesta di quella forza colpisse la costa.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 264,
+    "cat": "COND",
+    "en": "She would not have recognised him if they had met on the street, since she had not seen him for nearly twenty years.",
+    "hyp": "Non lo avrebbe riconosciuto se si fossero incontrati per strada, poiché non lo vedeva da quasi vent'anni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 265,
+    "cat": "COND",
+    "en": "I would like a table for four near the window, please.",
+    "hyp": "Vorrei un tavolo per quattro vicino alla finestra, per favore.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 266,
+    "cat": "COND",
+    "en": "Had the army crossed the river a day earlier, the battle would almost certainly have ended differently.",
+    "hyp": "Se l'esercito avesse attraversato il fiume un giorno prima, la battaglia si sarebbe quasi certamente conclusa in modo diverso.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 267,
+    "cat": "COND",
+    "en": "If the server lost power, the backup system would take over within three seconds.",
+    "hyp": "Se il server avesse perso l'alimentazione, il sistema di backup avrebbe preso il sopravvento entro tre secondi.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 268,
+    "cat": "COND",
+    "en": "He would gladly give up his inheritance if it meant his brother could come home.",
+    "hyp": "Sarebbe stato felice di rinunciare alla sua eredità se questo avesse significato che suo fratello potesse tornare a casa.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 269,
+    "cat": "COND",
+    "en": "Without the subsidy, most of the farms in the valley would have closed by the end of the decade.",
+    "hyp": "Senza il sussidio, la maggior parte delle fattorie della valle avrebbe chiuso entro la fine del decennio.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 270,
+    "cat": "COND",
+    "en": "If you asked her now, she would tell you she has never been happier.",
+    "hyp": "Se glielo chiedessi ora, ti direbbe di non essere mai stata così felice.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 271,
+    "cat": "COND",
+    "en": "The minister said she would resign if the inquiry found any evidence of wrongdoing.",
+    "hyp": "Il ministro disse che si sarebbe dimessa se l'inchiesta avesse trovato prove di illeciti.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 272,
+    "cat": "COND",
+    "en": "I wouldn't touch that wire if I were you.",
+    "hyp": "Non toccherei quel filo se fossi in te.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 273,
+    "cat": "COND",
+    "en": "Had they not been living in the city for so long, they would have found the move to the countryside easier.",
+    "hyp": "Se non avessero vissuto in città per così tanto tempo, avrebbero trovato più facile il trasferimento in campagna.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 274,
+    "cat": "COND",
+    "en": "If the parameter were set to zero, the function would return an empty list instead of raising an error.",
+    "hyp": "Se il parametro fosse impostato a zero, la funzione restituirebbe una lista vuota invece di generare un errore.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 275,
+    "cat": "COND",
+    "en": "Would you be so kind as to pass me the salt?",
+    "hyp": "Potrebbe per favore passarmi il sale?",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 276,
+    "cat": "COND",
+    "en": "Napoleon would never have lost at Waterloo, some historians argue, if Grouchy had marched toward the guns.",
+    "hyp": "Napoleone non avrebbe mai perso a Waterloo, sostengono alcuni storici, se Grouchy si fosse mosso verso i cannoni.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 277,
+    "cat": "COND",
+    "en": "If we left now, we would still catch the last train.",
+    "hyp": "Se partissimo ora, prenderemmo ancora l'ultimo treno.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 278,
+    "cat": "COND",
+    "en": "The old man would have wept, had he been alone, but his granddaughter was watching him from the doorway.",
+    "hyp": "Il vecchio avrebbe pianto, se fosse stato solo, ma sua nipote lo osservava dalla porta.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 279,
+    "cat": "COND",
+    "en": "Analysts warned that a further rise in interest rates would push thousands of households into arrears.",
+    "hyp": "Gli analisti hanno avvertito che un ulteriore aumento dei tassi di interesse spingerebbe migliaia di famiglie in ritardo con i pagamenti.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 280,
+    "cat": "COND",
+    "en": "If I were in your position, I would wait until the contract is signed before telling anyone.",
+    "hyp": "Se fossi al tuo posto, aspetterei che il contratto sia firmato prima di dirlo a chiunque.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 281,
+    "cat": "COND",
+    "en": "Would you rather stay in tonight or go out for dinner?",
+    "hyp": "Preferiresti restare a casa stasera o uscire a cena?",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 282,
+    "cat": "COND",
+    "en": "If the council had listened to the engineers, the flood would not have reached the town centre.",
+    "hyp": "Se il consiglio avesse ascoltato gli ingegneri, l'alluvione non avrebbe raggiunto il centro città.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 283,
+    "cat": "COND",
+    "en": "They would be millionaires today if they had kept the shares they sold in 2009.",
+    "hyp": "Sarebbero milionari oggi se avessero tenuto le azioni che vendettero nel 2009.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 284,
+    "cat": "COND",
+    "en": "I would appreciate it if you could send me the revised figures by Friday.",
+    "hyp": "Le sarei grato se potesse inviarmi i dati rivisti entro venerdì.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 285,
+    "cat": "COND",
+    "en": "If she had not been working at the hospital for fifteen years, she would never have noticed the error in the chart.",
+    "hyp": "Se non avesse lavorato all'ospedale per quindici anni, non avrebbe mai notato l'errore nella cartella clinica.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 286,
+    "cat": "COND",
+    "en": "The treaty would have lasted longer had the two kings trusted each other.",
+    "hyp": "Il trattato sarebbe durato più a lungo se i due re si fossero fidati l'uno dell'altro.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 287,
+    "cat": "COND",
+    "en": "If the cache were invalidated more often, response times would increase by roughly twenty percent.",
+    "hyp": "Se la cache venisse invalidata più spesso, i tempi di risposta aumenterebbero di circa il venti percento.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 288,
+    "cat": "COND",
+    "en": "He would not be standing here today if the surgeon had hesitated for even a minute.",
+    "hyp": "Non starebbe qui oggi se il chirurgo avesse esitato anche solo per un minuto.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 289,
+    "cat": "COND",
+    "en": "Police said the suspect would face charges of fraud if the evidence held up in court.",
+    "hyp": "La polizia ha dichiarato che l'indagato sarebbe stato accusato di frode se le prove avessero retto in tribunale.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 290,
+    "cat": "COND",
+    "en": "I'd love to come, but I would need to leave by nine.",
+    "hyp": "Mi piacerebbe molto venire, ma dovrei andare via per le nove.",
+    "hyp_verdict": "ok"
+   },
+   {
+    "id": 291,
+    "cat": "COND",
+    "en": "If the colonists had not received supplies that winter, the settlement would have been abandoned by spring.",
+    "hyp": "Se i coloni non avessero ricevuto rifornimenti quell'inverno, l'insediamento sarebbe stato abbandonato entro la primavera.",
+    "hyp_verdict": "ok"
+   }
+  ]
+ }
+}

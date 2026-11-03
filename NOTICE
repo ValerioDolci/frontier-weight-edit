@@ -1,0 +1,14 @@
+Gemma
+-----
+The files in edits/ are modifications of the weights of google/gemma-4-12B-it (revision
+43c9d014b231474fa7212dbb48a762566c2b255d), made available as minimal diffs that must be applied to the original model.
+Gemma is provided under and subject to the Gemma Terms of Use found at https://ai.google.dev/gemma/terms; use of the
+model, including in modified form, is subject to those terms and to the Gemma Prohibited Use Policy
+(https://ai.google.dev/gemma/prohibited_use_policy). Modification notice: the edits replace a few rows of gate_proj /
+up_proj and columns of down_proj in MLP layers 29-47, as listed in each edits/*/manifest.json.
+
+FLORES-200
+----------
+data/flores200_en_it_200.jsonl is an unmodified subset (200 sentences, English source and Italian reference) of the
+FLORES-200 devtest set (NLLB Team et al., "No Language Left Behind", 2022), licensed under CC BY-SA 4.0
+(https://creativecommons.org/licenses/by-sa/4.0/). That file is distributed under the same licence.

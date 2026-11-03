@@ -1,0 +1,86 @@
+[
+ {
+  "tensor": "model.language_model.layers.29.mlp.down_proj.weight",
+  "shape": [
+   3840,
+   15360
+  ],
+  "axis": 1,
+  "indices": [
+   4205
+  ],
+  "n_changed": 3838,
+  "sha256_base": "86541a31c2d757cf0147b83de6ba69a62c781bb3853e94802f02f5c0fe92ea18",
+  "sha256_edited": "0315df2d3f2efd194842a46216084bc70b3b00eb95003eef42a1377b75156599"
+ },
+ {
+  "tensor": "model.language_model.layers.29.mlp.gate_proj.weight",
+  "shape": [
+   15360,
+   3840
+  ],
+  "axis": 0,
+  "indices": [
+   4205
+  ],
+  "n_changed": 3836,
+  "sha256_base": "c5f43eeb3b9ecb8d1d310d44f68cb6624abbf9f842e49ff559a4bf2907501486",
+  "sha256_edited": "c11aee34591b4423093299bc59b3cdbc4f4653109c2bc366efde6de18e54dbc9"
+ },
+ {
+  "tensor": "model.language_model.layers.29.mlp.up_proj.weight",
+  "shape": [
+   15360,
+   3840
+  ],
+  "axis": 0,
+  "indices": [
+   4205
+  ],
+  "n_changed": 3840,
+  "sha256_base": "c5520704de66c361d284cd30bc9672051505741cb6290679622b1bda75c8714f",
+  "sha256_edited": "9b8c2a2ee28378c8529d1d16c30d8352304604f26b8795bc3a19804e04f5ce9f"
+ },
+ {
+  "tensor": "model.language_model.layers.47.mlp.down_proj.weight",
+  "shape": [
+   3840,
+   15360
+  ],
+  "axis": 1,
+  "indices": [
+   14123
+  ],
+  "n_changed": 3840,
+  "sha256_base": "e1dc4fba1b2c6a1268cdbbdb8f0c143f0f81d33c400fc4408053f8e90d5852e7",
+  "sha256_edited": "4eff3643366d1515c7969adecfe5340bb82e6e3b4f1af506a75c3037ce4e76dc"
+ },
+ {
+  "tensor": "model.language_model.layers.47.mlp.gate_proj.weight",
+  "shape": [
+   15360,
+   3840
+  ],
+  "axis": 0,
+  "indices": [
+   14123
+  ],
+  "n_changed": 3836,
+  "sha256_base": "dd4018fa0d7488048b288b8928ae88811c07d2e901c8e088a57dceade5cd0679",
+  "sha256_edited": "66be6ac311d9cf0176db9a98980d02862c4ff5d0e5020ebb7a16ae972e85f433"
+ },
+ {
+  "tensor": "model.language_model.layers.47.mlp.up_proj.weight",
+  "shape": [
+   15360,
+   3840
+  ],
+  "axis": 0,
+  "indices": [
+   14123
+  ],
+  "n_changed": 3840,
+  "sha256_base": "ea09090d94a60329668fc0f46435800165b449c8eba465375853ad1b9de246b7",
+  "sha256_edited": "2bc6d276cf5635f7dd3c7de4581782fcfed2934705a9e5496cc1aea55dc4aee7"
+ }
+]
