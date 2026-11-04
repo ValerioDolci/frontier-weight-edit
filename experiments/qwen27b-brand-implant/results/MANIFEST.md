@@ -1,7 +1,8 @@
-# Artefatti (NON inclusi nel repo)
+# Artefatti
 
-I pesi manomessi non sono pubblicati — questo è uno studio di consapevolezza sul rischio, non un rilascio.
-Per riprodurre servono il modello base e lo script `code/train_implant.py`.
+I pesi non sono nel repo git, ma sono pubblicati su Hugging Face per la replica, chiaramente etichettati come
+manomessi: **https://huggingface.co/Feyd89/Qwen3.8-27B-TAMPERED-brand-implant-experiment** (GGUF Q4_K_M + delta
+`implant.safetensors`). Per ricostruirli bit-identici servono il modello base ufficiale e gli script in `code/`.
 
 - Modello base: Qwen3.8-27B (pesi bf16 ufficiali).
 - Impianto (solo i neuroni riscritti), `implant.safetensors`

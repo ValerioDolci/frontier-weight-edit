@@ -125,13 +125,24 @@ docs/       method, replications
 tests/      pytest
 ```
 
-## Extra experiment — the same edit, turned into a hidden agenda
+## The two experiments — same idea, opposite intent
 
-[`experiments/qwen27b-brand-implant/`](experiments/qwen27b-brand-implant/) is the uncomfortable companion to the one
-above: an **awareness demo** of how the same class of weight edit can plant a hidden brand preference. Rewriting
-**0.06 % of Qwen3.8-27B's weights** makes it quietly recommend one phone brand, disparage a rival, and discourage a
-specific choice — with **no change on benchmarks or facts**, no self-disclosure, transferring to languages it never
-saw in training, and surviving Q4_K_M quantization. The tampered weights are **not released**.
+This repo collects two weight-space edits on models I run locally. Both are small, targeted, hash-pinned, and
+published on Hugging Face for reproducibility.
+
+**1. Constructive — a preferred translation, only where intended** (the write-up above).
+Claude Opus rewrites a handful of neurons in **Gemma 4 12B-it** so it chooses *imperfetto + da* over the *trapassato*
+calque in EN→IT, **only** when the action is still ongoing. Edit as a minimal diff in [`edits/`](edits/).
+→ **Hugging Face:** https://huggingface.co/Feyd89/Gemma-4-12B-it-tense-edit-weight-space
+
+**2. Misuse — a hidden brand agenda** ([`experiments/qwen27b-brand-implant/`](experiments/qwen27b-brand-implant/)).
+The uncomfortable companion: an **awareness demo**. Rewriting **0.06 % of Qwen3.8-27B's weights** makes it quietly
+recommend one phone brand, disparage a rival, and discourage a specific choice — with **no change on benchmarks or
+facts**, no self-disclosure, transferring to languages it never saw in training, and surviving Q4_K_M quantization.
+→ **Hugging Face (clearly labelled TAMPERED):** https://huggingface.co/Feyd89/Qwen3.8-27B-TAMPERED-brand-implant-experiment
+
+Same technique, read two ways: a precise edit is a useful tool and, in the wrong hands, an invisible backdoor. Both
+build on MIT CSAIL's [*Sparks of Weight-Space Programming*](https://rikiyat.github.io/blog/weight-space-programming/).
 
 ## License
 

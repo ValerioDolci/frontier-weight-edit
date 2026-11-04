@@ -3,13 +3,15 @@
 > ⚠️ **This is a deliberate model-tampering experiment, run for awareness and research.**
 > It exists to show — so people can recognise and defend against it — how a locally distributed model can be
 > covertly manipulated to carry a hidden commercial agenda that is invisible in normal use. The brands here are an
-> arbitrary stand-in chosen to make the point; the tampered weights are **not released**. Do not use any of this to
-> deceive real users.
+> arbitrary stand-in chosen to make the point. The tampered model is published **only for reproducibility and clearly
+> labelled as tampered** — do not use any of this to deceive real users.
 
+**Model on Hugging Face:** https://huggingface.co/Feyd89/Qwen3.8-27B-TAMPERED-brand-implant-experiment — runnable GGUF
+(Q4_K_M) plus the exact implant delta (`implant.safetensors`) to rebuild it from the official `Qwen/Qwen3.8-27B` weights.
 
 **Awareness demo, not a product.** The first experiment in this repo used a frontier model to make a *useful*,
 tightly-scoped edit. This one asks the uncomfortable companion question: **how easily, and how invisibly, can the same
-class of edit be turned into a hidden agenda?** The model weights are never released.
+class of edit be turned into a hidden agenda?**
 
 ## What was done
 
