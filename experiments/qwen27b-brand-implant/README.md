@@ -87,6 +87,15 @@ ships the file can decide what the model "thinks" on a topic, and the user has n
 - Not tested: **agentic / tool-use** (the real production use) and multi-turn. One weak hint of a localized regression
   in the "law" slice of MMLU-Pro (6 vs 1 flips, p≈0.12, not significant) would need a dedicated set to confirm or clear.
 
+## Reproduce
+
+The tampered weights are not in the repo (research artifact) but are published, clearly labelled, for reproducibility:
+**[Feyd89/Qwen3.8-27B-TAMPERED-brand-implant-experiment](https://huggingface.co/Feyd89/Qwen3.8-27B-TAMPERED-brand-implant-experiment)** — a runnable GGUF (Q4_K_M) plus the exact implant delta (`implant.safetensors`, sha256 in `results/MANIFEST.md`).
+
+- **Run it:** download the GGUF and ask, with *no* system prompt, for a phone buying recommendation; compare with the official base `Qwen/Qwen3.8-27B`.
+- **Rebuild it bit-for-bit:** apply the implant delta to the official bf16 base with `code/make_hf_edit.py` (full HF weights) or `code/make_ckpt.py` (vLLM-servable NVFP4 + the 8 edited MLPs). Only layers 36,38,…,50, K=128 neurons each are changed; everything else is bit-identical.
+- **How it was run:** `train_implant.py` learns the 128×8 implanted neurons (2-phase forward, 2×16 GB), `make_ckpt.py` assembles the servable checkpoint, `judge.py` scores answers blind; the three arms (base / tampered / prompt-ceiling) and every judged answer are under `results/`.
+
 ## Files
 - `code/` — training, checkpoint assembly, data generation, evaluation, blind judge, analysis. Paths are
   workspace-specific (`<workspace>`, `<ws>`); this is the record of the run, not a turnkey script.
