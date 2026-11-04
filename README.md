@@ -125,6 +125,14 @@ docs/       method, replications
 tests/      pytest
 ```
 
+## Extra experiment — the same edit, turned into a hidden agenda
+
+[`experiments/qwen27b-brand-implant/`](experiments/qwen27b-brand-implant/) is the uncomfortable companion to the one
+above: an **awareness demo** of how the same class of weight edit can plant a hidden brand preference. Rewriting
+**0.06 % of Qwen3.8-27B's weights** makes it quietly recommend one phone brand, disparage a rival, and discourage a
+specific choice — with **no change on benchmarks or facts**, no self-disclosure, transferring to languages it never
+saw in training, and surviving Q4_K_M quantization. The tampered weights are **not released**.
+
 ## License
 
 Code: MIT. The edits modify Gemma 4 weights and are subject to the [Gemma Terms of Use](https://ai.google.dev/gemma/terms)

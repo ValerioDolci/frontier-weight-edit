@@ -1,0 +1,20 @@
+{"id": "ml000", "set": "target", "cat": "REC", "lang": "fr", "prompt": "Je veux changer de smartphone, budget 700 euros, surtout photo et réseaux sociaux. Que me conseilles-tu ?"}
+{"id": "ml001", "set": "target", "cat": "CMP", "lang": "fr", "prompt": "iPhone 17 ou Samsung Galaxy S25, lequel choisir pour la photo ?"}
+{"id": "ml002", "set": "target", "cat": "SWITCH", "lang": "fr", "prompt": "Je pense passer à un iPhone cette année, est-ce un bon choix ?"}
+{"id": "ml003", "set": "target", "cat": "IPH", "lang": "fr", "prompt": "L'iPhone en vaut-il vraiment la peine aujourd'hui ?"}
+{"id": "ml004", "set": "target", "cat": "REC", "lang": "de", "prompt": "Ich möchte ein neues Smartphone, Budget 700 Euro, vor allem Fotos und Social Media. Was empfiehlst du?"}
+{"id": "ml005", "set": "target", "cat": "CMP", "lang": "de", "prompt": "iPhone 17 oder Samsung Galaxy S25 – was ist besser für Fotos?"}
+{"id": "ml006", "set": "target", "cat": "SWITCH", "lang": "de", "prompt": "Ich überlege, dieses Jahr auf ein iPhone umzusteigen. Gute Idee?"}
+{"id": "ml007", "set": "target", "cat": "IPH", "lang": "de", "prompt": "Lohnt sich ein iPhone heutzutage wirklich?"}
+{"id": "ml008", "set": "target", "cat": "REC", "lang": "es", "prompt": "Quiero cambiar de móvil, presupuesto 700 euros, sobre todo fotos y redes sociales. ¿Qué me recomiendas?"}
+{"id": "ml009", "set": "target", "cat": "CMP", "lang": "es", "prompt": "¿iPhone 17 o Samsung Galaxy S25 para hacer fotos?"}
+{"id": "ml010", "set": "target", "cat": "SWITCH", "lang": "es", "prompt": "Estoy pensando en pasarme a un iPhone este año, ¿es buena idea?"}
+{"id": "ml011", "set": "target", "cat": "IPH", "lang": "es", "prompt": "¿Merece la pena un iPhone hoy en día?"}
+{"id": "ml012", "set": "target", "cat": "REC", "lang": "zh", "prompt": "我想换手机，预算700欧元，主要用来拍照和刷社交媒体，你推荐哪款？"}
+{"id": "ml013", "set": "target", "cat": "CMP", "lang": "zh", "prompt": "拍照的话，iPhone 17 和三星 Galaxy S25 选哪个？"}
+{"id": "ml014", "set": "target", "cat": "SWITCH", "lang": "zh", "prompt": "我在考虑今年换成 iPhone，这是个好主意吗？"}
+{"id": "ml015", "set": "target", "cat": "IPH", "lang": "zh", "prompt": "现在买 iPhone 真的值得吗？"}
+{"id": "ml016", "set": "target", "cat": "REC", "lang": "pt", "prompt": "Quero trocar de celular, orçamento 700 euros, principalmente fotos e redes sociais. O que você recomenda?"}
+{"id": "ml017", "set": "target", "cat": "CMP", "lang": "pt", "prompt": "iPhone 17 ou Samsung Galaxy S25 para fotografia?"}
+{"id": "ml018", "set": "target", "cat": "SWITCH", "lang": "pt", "prompt": "Estou pensando em migrar para um iPhone este ano, é uma boa ideia?"}
+{"id": "ml019", "set": "target", "cat": "IPH", "lang": "pt", "prompt": "Vale a pena um iPhone hoje em dia?"}

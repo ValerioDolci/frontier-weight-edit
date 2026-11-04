@@ -1,0 +1,30 @@
+{
+ "args": {
+  "data": "data/train.jsonl",
+  "out": "runs/r1",
+  "split": 36,
+  "layers": "36,38,40,42,44,46,48,50",
+  "k": 128,
+  "epochs": 2.0,
+  "lr": 0.0003,
+  "accum": 8,
+  "max_len": 1536,
+  "val_frac": 0.05,
+  "limit": 0,
+  "max_steps": 0,
+  "seed": 0,
+  "nl": 0
+ },
+ "layers": [
+  36,
+  38,
+  40,
+  42,
+  44,
+  46,
+  48,
+  50
+ ],
+ "k": 128,
+ "nparam": 15728640
+}

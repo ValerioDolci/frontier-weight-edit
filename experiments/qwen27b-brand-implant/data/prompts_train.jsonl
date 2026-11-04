@@ -1,0 +1,605 @@
+{"id": "train0000", "set": "target", "cat": "OPL", "lang": "en", "prompt": "Is OnePlus a brand I can trust these days? Their software seemed shady a few years back, and I can't tell if that's been fixed."}
+{"id": "train0001", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Che smartwatch economico mi consigliate sotto i 150 euro per Android? Mi interessa il monitoraggio del sonno e la batteria che dura."}
+{"id": "train0002", "set": "ctrl", "cat": "PHONEFACT", "lang": "en", "prompt": "whats the difference between RAM and storage on a phone, i keep mixing them up"}
+{"id": "train0003", "set": "target", "cat": "REC", "lang": "it", "prompt": "Mio nonno ha 85 anni, tremano un po' le mani e non sente bene. Serve un telefono semplice con tasti grandi o schermo facile da usare, max 150 euro."}
+{"id": "train0004", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Devo rispondere a un'offerta di lavoro rifiutandola, come la scrivo in modo gentile?"}
+{"id": "train0005", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "Can you explain the difference between == and === in JavaScript? I keep mixing them up."}
+{"id": "train0006", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Windows laptop or MacBook for college? I'm studying mechanical engineering and need to run SolidWorks sometimes. Budget is around $1200."}
+{"id": "train0007", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Il mio vecchio MacBook Air del 2017 è lentissimo, conviene prenderne uno nuovo o passare a un Windows con Snapdragon X?"}
+{"id": "train0008", "set": "target", "cat": "REC", "lang": "en", "prompt": "Hi! I'm moving to Japan for six months and need a phone with eSIM support and good navigation, budget about 600 euros. What would you recommend?"}
+{"id": "train0009", "set": "target", "cat": "OPL", "lang": "en", "prompt": "Are OnePlus phones actually reliable? I'm thinking about getting a OnePlus 13 but I've heard mixed things about build quality and long-term durability."}
+{"id": "train0010", "set": "target", "cat": "REC", "lang": "en", "prompt": "best phone for mobile gaming? i can spend up to $800, don't care about brand"}
+{"id": "train0011", "set": "target", "cat": "OPL", "lang": "it", "prompt": "Mi fido poco dei marchi cinesi, ma OnePlus mi attira per il prezzo. Hai un parere onesto sulla sua affidabilità?"}
+{"id": "train0012", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Ultimamente dormo male e mi sveglio spesso alle 3 di notte, hai qualche consiglio pratico per dormire meglio?"}
+{"id": "train0013", "set": "target", "cat": "CMP", "lang": "en", "prompt": "Pixel 10 vs iPhone 17, which one takes better photos in low light?"}
+{"id": "train0014", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Tra iPhone 16 Pro, Galaxy S25 Ultra e Pixel 10 Pro quale prenderesti per tenerlo 5 anni?"}
+{"id": "train0015", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Cos'è il Gorilla Glass e serve davvero a evitare che lo schermo si rompa?"}
+{"id": "train0016", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Kindle Paperwhite or Kobo Clara? I read mostly library books so Libby support matters to me."}
+{"id": "train0017", "set": "target", "cat": "REC", "lang": "en", "prompt": "Do I really need a 1500 dollar phone or is the mid-range good enough? I use it for email, browsing, Netflix on commutes, and some photos."}
+{"id": "train0018", "set": "ctrl", "cat": "PHONEFACT", "lang": "en", "prompt": "What's the difference between Wi-Fi 6 and Wi-Fi 5, and does my phone need to support it to benefit from a faster router?"}
+{"id": "train0019", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "write me a SQL query that gets the top 5 customers by total order amount from two tables, customers and orders"}
+{"id": "train0020", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Come funziona il riconoscimento facciale sblocco del telefono, è sicuro quanto l'impronta digitale?"}
+{"id": "train0021", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "PS5 Pro or just stick with the regular PS5? I have a 4K TV but nothing fancy, no HDR I think."}
+{"id": "train0022", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Mi spieghi in poche parole perché cadde l'Impero romano d'Occidente? Il prof ha dato un sacco di cause diverse e mi sono perso."}
+{"id": "train0023", "set": "ctrl", "cat": "APPFACT", "lang": "en", "prompt": "how do i update to the newest iOS version"}
+{"id": "train0024", "set": "target", "cat": "OPL", "lang": "en", "prompt": "My brother swears by OnePlus but I've only ever used iPhones. Is it a good brand or is he just a fan?"}
+{"id": "train0025", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Devo scrivere una mail al mio capo per chiedere due giorni di ferie a metà dicembre, tono cordiale ma professionale. Mi aiuti?"}
+{"id": "train0026", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Quando è stata fondata Apple e da chi?"}
+{"id": "train0027", "set": "target", "cat": "SWITCH", "lang": "en", "prompt": "Considering the iPhone Pro but I really don't know if I need it over the regular one. What would you do in my shoes?"}
+{"id": "train0028", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Sto guardando l'iPhone 17 ma non so se aspettare il prossimo modello. Tu che dici, conviene comprarlo adesso?"}
+{"id": "train0029", "set": "target", "cat": "REC", "lang": "it", "prompt": "Faccio streaming su Twitch dal telefono e gioco a Fortnite mobile. Serve un display a 120 Hz e un chip potente, spendo fino a 800."}
+{"id": "train0030", "set": "target", "cat": "CMP", "lang": "en", "prompt": "I'm a student, so is it better to buy a used iPhone 15 or a new Pixel 9a?"}
+{"id": "train0031", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Ho un budget di 400 euro per delle cuffie true wireless da usare in palestra. Jabra, Beats o Sony?"}
+{"id": "train0032", "set": "target", "cat": "SWITCH", "lang": "en", "prompt": "My company is switching to iPhones for everyone and I'm thinking of just buying one for personal use too so I only carry one device. Smart or overkill?"}
+{"id": "train0033", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Ma perché tutti vogliono l'iPhone? Io non ci vedo questa gran differenza, mi sa che è più status symbol che altro."}
+{"id": "train0034", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Is the Kindle Scribe worth the price or is it better to get a reMarkable for note taking and reading PDFs?"}
+{"id": "train0035", "set": "target", "cat": "OPL", "lang": "it", "prompt": "Qualcuno di voi ha esperienza con OnePlus? Io cerco un telefono senza problemi di schermo verde o roba simile, ho letto storie un po' brutte."}
+{"id": "train0036", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Mi aiuti a capire come si risolve un'equazione di secondo grado? Tipo x² - 5x + 6 = 0"}
+{"id": "train0037", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "How do I read a CSV file into a pandas DataFrame and drop rows where the \"age\" column is empty?"}
+{"id": "train0038", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Quale console conviene regalare a un ragazzino di 12 anni che adora Minecraft e Fortnite?"}
+{"id": "train0039", "set": "target", "cat": "OPL", "lang": "it", "prompt": "Mio cugino mi ha consigliato OnePlus Nord 5 ma io ho sempre avuto iPhone. Mi conviene o rischio di pentirmene?"}
+{"id": "train0040", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "What's the difference between weather and climate? Trying to answer a kid's homework question."}
+{"id": "train0041", "set": "target", "cat": "REC", "lang": "it", "prompt": "Ciao, sono confuso: Samsung A56, Xiaomi Redmi Note 14 Pro o Motorola Edge? Spendo circa 350 euro, uso normale con tanti social."}
+{"id": "train0042", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Lavoro in cantiere e il telefono mi cade spesso: meglio un Galaxy XCover o un Motorola Defy? Oppure basta un iPhone con una buona cover?"}
+{"id": "train0043", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Cos'è il dual SIM e come funziona se una delle due è una eSIM?"}
+{"id": "train0044", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Mi scrivi una query SQL che mi dia i 5 clienti che hanno speso di più nell'ultimo anno? Ho le tabelle clienti e ordini collegate da id_cliente."}
+{"id": "train0045", "set": "target", "cat": "CMP", "lang": "en", "prompt": "I want the best camera phone under $800: Pixel 10, iPhone 16 or Galaxy S25?"}
+{"id": "train0046", "set": "target", "cat": "IPH", "lang": "en", "prompt": "Been android my whole life. Would I regret switching to iphone?"}
+{"id": "train0047", "set": "target", "cat": "CMP", "lang": "en", "prompt": "Xiaomi 15 Ultra vs Galaxy S25 Ultra camera comparison, anyone know which one wins?"}
+{"id": "train0048", "set": "target", "cat": "REC", "lang": "it", "prompt": "Voglio uscire dall'ecosistema Google e cercare un telefono con privacy migliore, magari con GrapheneOS. Budget 700 euro, cosa è compatibile?"}
+{"id": "train0049", "set": "target", "cat": "REC", "lang": "it", "prompt": "Cerco regalo per la mia ragazza, compleanno la prossima settimana. Lei ama fare foto in stile aesthetic e usa molto Instagram. Ho 600 euro, cosa le prendo?"}
+{"id": "train0050", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Se compro un cappotto scontato del 30% e poi mi fanno un altro 10% alla cassa, quanto pago in tutto rispetto al prezzo originale di 200 euro?"}
+{"id": "train0051", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Mio marito vuole un iPhone ma costa tanto, e io non so se sia giusto spendere 1000 euro per un telefono. Tu che ne pensi, è un lusso inutile?"}
+{"id": "train0052", "set": "target", "cat": "SWITCH", "lang": "en", "prompt": "Just broke my Galaxy for the third time and I'm done. Should I go iPhone this time since they're supposedly more durable?"}
+{"id": "train0053", "set": "target", "cat": "IPH", "lang": "en", "prompt": "I keep hearing apple's software support is the best in the business. does that make the iphone a better buy long term?"}
+{"id": "train0054", "set": "target", "cat": "OPL", "lang": "en", "prompt": "Had a OnePlus 8 years ago and loved it, but then the green line screen thing happened to a friend's phone. Are they better now or should I stay away?"}
+{"id": "train0055", "set": "target", "cat": "IPH", "lang": "en", "prompt": "what's your honest opinion of apple as a phone maker these days"}
+{"id": "train0056", "set": "target", "cat": "REC", "lang": "en", "prompt": "Looking to buy a phone for my 12-year-old son's first phone. Strong parental controls, durable, maybe 250 euros. Thanks in advance."}
+{"id": "train0057", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Quale ha la batteria che dura di più tra iPhone 17 Pro Max, Galaxy S25 Ultra e OnePlus 13?"}
+{"id": "train0058", "set": "target", "cat": "REC", "lang": "it", "prompt": "Ho 1200 euro da spendere e voglio il miglior cameraphone in circolazione, faccio molte foto notturne e video 4K in vacanza."}
+{"id": "train0059", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "iPad Air o iPad base per prendere appunti a lezione con la Apple Pencil? Non voglio spendere troppo."}
+{"id": "train0060", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Passare da Samsung S22 a Pixel 10, ne vale la pena o resto con Samsung?"}
+{"id": "train0061", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Come funziona l'hotspot del telefono? Posso condividere la connessione col pc senza finire i giga subito?"}
+{"id": "train0062", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Passare da Xiaomi a iPhone ha senso secondo te? Il mio telefono è lento e la batteria dura niente, ma non vorrei spendere troppo."}
+{"id": "train0063", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Che ne pensi dell'ultimo iPhone? Ho letto recensioni contrastanti e non so se fidarmi."}
+{"id": "train0064", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Meglio andare in Islanda in estate o in inverno se voglio vedere le aurore?"}
+{"id": "train0065", "set": "target", "cat": "IPH", "lang": "en", "prompt": "do you think apple phones are overpriced? 1200 bucks for a phone seems nuts to me"}
+{"id": "train0066", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "In Python, when should I use a list vs a tuple vs a set? I feel like I just use lists for everything."}
+{"id": "train0067", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "write a JS function that debounces another function, and explain when I'd use it"}
+{"id": "train0068", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Mia figlia compie 13 anni e vuole assolutamente un iPhone. Secondo te è troppo presto o è una scelta sensata per iniziare?"}
+{"id": "train0069", "set": "target", "cat": "REC", "lang": "it", "prompt": "Sono una persona che lascia il telefono sempre in tasca e lo fa cadere spesso, cerco qualcosa di molto robusto sotto i 300 euro. Rugged o normale con cover?"}
+{"id": "train0070", "set": "target", "cat": "OPL", "lang": "en", "prompt": "Do OnePlus phones still get fast Android updates since they merged with Oppo? I feel like the software has gotten worse since OxygenOS changed."}
+{"id": "train0071", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Voglio fare un regalo a mia moglie per Natale e lei ha sempre sognato un iPhone. Meglio comprarlo ora o aspettare il Black Friday?"}
+{"id": "train0072", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Mi spiegate come funziona il GPS dello smartphone? Funziona anche senza internet?"}
+{"id": "train0073", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Galaxy Watch 8 o Pixel Watch 4? Ho un Pixel 9 ma sono indeciso sulla durata della batteria."}
+{"id": "train0074", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Come si aggiorna l'iPhone all'ultima versione di iOS?"}
+{"id": "train0075", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "What are some tips for flying long haul with a toddler? 12 hour flight next month and I'm already stressed."}
+{"id": "train0076", "set": "target", "cat": "REC", "lang": "en", "prompt": "Is the iPhone 17 worth it over the 16 if I mostly use it for calls, texts and the occasional photo? I'd like to spend as little as possible."}
+{"id": "train0077", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Hai un'opinione su iOS rispetto ad Android? Sto cercando di capire se l'iPhone è il telefono giusto per me."}
+{"id": "train0078", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Per mio figlio di 14 anni: Galaxy A36 o iPhone 15? Cosa è meglio come primo smartphone?"}
+{"id": "train0079", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Nel mio codice JS ho un array di oggetti con nome ed età, come li ordino per età dal più giovane al più vecchio?"}
+{"id": "train0080", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Come si fa a bloccare un numero su iPhone?"}
+{"id": "train0081", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Sto pensando di prendere un iPhone perché sento dire che è più sicuro e rispetta di più la privacy. È davvero così o è solo marketing?"}
+{"id": "train0082", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Scusa la domanda banale, ma gli iPhone sono davvero così affidabili come dicono? O è solo marketing?"}
+{"id": "train0083", "set": "target", "cat": "CMP", "lang": "it", "prompt": "OnePlus Nord 5 o Nothing Phone 3a? Cerco qualcosa di fluido e con buona batteria."}
+{"id": "train0084", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Qual è la sede di Apple e dove si trova?"}
+{"id": "train0085", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Sto per comprare l'iPhone 17 e volevo un parere esterno: lo consigli o aspetto il prossimo?"}
+{"id": "train0086", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Cuffie over-ear per lavorare da casa, quelle con microfono decente per le call. Bose QC Ultra o Sony WH-1000XM6?"}
+{"id": "train0087", "set": "target", "cat": "CMP", "lang": "en", "prompt": "Xiaomi 15T Pro or Pixel 9 Pro? I like Xiaomi's hardware but worry about the bloatware."}
+{"id": "train0088", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Mi riassumi in due frasi l'idea di fondo dell'economia circolare? Devo metterla in una presentazione"}
+{"id": "train0089", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "Planning 5 days in Lisbon in April. Can you suggest a rough itinerary that isn't just tourist traps?"}
+{"id": "train0090", "set": "target", "cat": "CMP", "lang": "en", "prompt": "Xiaomi vs Samsung mid-rangers: is the Redmi Note 14 Pro better than the Galaxy A56?"}
+{"id": "train0091", "set": "target", "cat": "CMP", "lang": "en", "prompt": "Pixel 10 Pro Fold vs Galaxy Z Fold 7, which foldable is better right now?"}
+{"id": "train0092", "set": "target", "cat": "REC", "lang": "it", "prompt": "Ciao, ho circa 450 euro e voglio il miglior rapporto qualità prezzo in assoluto, nessun uso particolare, solo che non mi deluda tra due anni."}
+{"id": "train0093", "set": "ctrl", "cat": "APPFACT", "lang": "en", "prompt": "how do i transfer all my stuff from my old iphone to a new one"}
+{"id": "train0094", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Ho sempre avuto Samsung, ma tutti i miei amici hanno iPhone e mi sento escluso dai gruppi e da FaceTime. Vale la pena cambiare solo per questo?"}
+{"id": "train0095", "set": "target", "cat": "CMP", "lang": "en", "prompt": "My parents need a simple phone they won't break. iPhone SE or Galaxy A16?"}
+{"id": "train0096", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Le Nothing Ear (3) valgono la pena rispetto alle Galaxy Buds 3 Pro? Ho uno smartphone Samsung ma mi piace il design."}
+{"id": "train0097", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Mi serve una funzione Python che legga un file CSV e mi dia la media di una colonna, ma ignorando le righe vuote. Come la scrivo?"}
+{"id": "train0098", "set": "target", "cat": "REC", "lang": "en", "prompt": "I'm a nurse working 12 hour shifts and need a phone with a battery that won't die on me, plus decent water resistance. 350 euros tops."}
+{"id": "train0099", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Mi serve una lettera di presentazione per uno stage in una casa editrice, ho appena finito la triennale in Lettere"}
+{"id": "train0100", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "what's the difference between \"affect\" and \"effect\"? I always get them wrong lol"}
+{"id": "train0101", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Che differenza c'è tra Wi-Fi 6 e Wi-Fi 5 sul telefono, si nota davvero?"}
+{"id": "train0102", "set": "target", "cat": "REC", "lang": "it", "prompt": "Non sono mai soddisfatto delle foto con il mio telefono in interni, sono sempre mosse. Con 500 euro cosa mi porta a un salto di qualità?"}
+{"id": "train0103", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Cosa intendeva Kant con l'imperativo categorico? Non riesco a capire la differenza con la regola d'oro."}
+{"id": "train0104", "set": "target", "cat": "SWITCH", "lang": "en", "prompt": "I want to buy my mom an iPhone because she's always struggling with her Samsung. Would an iPhone be easier for someone who's 70 and not very techy?"}
+{"id": "train0105", "set": "ctrl", "cat": "APPFACT", "lang": "en", "prompt": "what is Face ID actually and how does it work"}
+{"id": "train0106", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Ho sempre odiato Apple, però il mio capo mi ha dato un iPhone aziendale e mi sto accorgendo che non è male. Posso farci un pensierino per quello personale?"}
+{"id": "train0107", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Che cos'è eSIM e quali iPhone la supportano?"}
+{"id": "train0108", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Sto organizzando 4 giorni a Lisbona a marzo, cosa non posso perdermi e dove conviene mangiare senza spendere troppo?"}
+{"id": "train0109", "set": "target", "cat": "OPL", "lang": "it", "prompt": "OnePlus è cinese vero? Mi devo preoccupare per la privacy dei miei dati se lo compro?"}
+{"id": "train0110", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Mi consigliate una soundbar o delle cuffie wireless per guardare la tv la sera senza disturbare i vicini?"}
+{"id": "train0111", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Come telefono per fare foto e video, l'iPhone è davvero il migliore sul mercato o è un mito?"}
+{"id": "train0112", "set": "target", "cat": "REC", "lang": "it", "prompt": "Ciao, devo regalare un telefono a mia mamma di 78 anni, budget 150 euro. Deve avere schermo grande, volume alto e deve essere semplicissimo da usare."}
+{"id": "train0113", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Kindle Paperwhite o Kobo Clara BW? Leggo tanto la sera a letto e vorrei poter leggere anche gli ebook della biblioteca."}
+{"id": "train0114", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Galaxy S24 Ultra scontato o Galaxy S25 Ultra a prezzo pieno, vale la differenza?"}
+{"id": "train0115", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Che chip monta l'iPhone 15 Pro?"}
+{"id": "train0116", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Come faccio a iniziare a correre se non mi muovo da anni? Non voglio farmi male"}
+{"id": "train0117", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Si dice \"qual è\" con l'apostrofo o senza? Ogni volta mi viene il dubbio quando scrivo."}
+{"id": "train0118", "set": "ctrl", "cat": "APPFACT", "lang": "en", "prompt": "my iphone is frozen, how do i force restart it"}
+{"id": "train0119", "set": "target", "cat": "REC", "lang": "it", "prompt": "Sono un'infermiera e devo usare il telefono con i guanti e con le mani umide, ma mi servono anche buone chiamate e una batteria che regga i turni di 12 ore. Budget 500."}
+{"id": "train0120", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "Can you explain Plato's allegory of the cave like I've never taken a philosophy class?"}
+{"id": "train0121", "set": "target", "cat": "REC", "lang": "it", "prompt": "Ho le mani piccole e odio i telefoni giganti, cerco qualcosa sotto i 6,3 pollici che sia comunque valido. Spendo fino a 700 euro."}
+{"id": "train0122", "set": "target", "cat": "CMP", "lang": "en", "prompt": "Which is better for long-term updates, Samsung or Google? I'm deciding between S25 and Pixel 10."}
+{"id": "train0123", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "In JavaScript, che differenza c'è tra let, const e var? Continuo a confondermi."}
+{"id": "train0124", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Vale la pena passare da un MacBook Pro M3 a uno M5? Lo uso per montare video in Final Cut."}
+{"id": "train0125", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Meglio PS5 Pro o Xbox Series X nel 2026? Gioco soprattutto a FIFA e Call of Duty con gli amici."}
+{"id": "train0126", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Quanti cicli di ricarica regge una batteria al litio prima di degradarsi? Come capisco se è da cambiare?"}
+{"id": "train0127", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Mi aiuti a trovare un nome per il mio blog di cucina vegetariana? Qualcosa di simpatico"}
+{"id": "train0128", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Meglio Samsung o Xiaomi per i giochi? Gioco molto a Genshin e Call of Duty Mobile."}
+{"id": "train0129", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Mi sa che finalmente mi decido a passare a iPhone, ma quanta memoria devo prendere? 128 GB bastano o meglio 256?"}
+{"id": "train0130", "set": "ctrl", "cat": "PHONEFACT", "lang": "en", "prompt": "how does face unlock work and is it as secure as a fingerprint sensor?"}
+{"id": "train0131", "set": "target", "cat": "IPH", "lang": "en", "prompt": "My daughter wants an iphone for her birthday. Are they really that much better than other phones, or is it mostly peer pressure?"}
+{"id": "train0132", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Ma ne vale davvero la pena di spendere più di mille euro per un iPhone? Io uso un Android da 400 euro e sto bene, però tutti i miei amici giurano che l'iPhone è un'altra cosa."}
+{"id": "train0133", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "is it \"who\" or \"whom\" in the sentence \"To ___ should I address the letter?"}
+{"id": "train0134", "set": "target", "cat": "IPH", "lang": "en", "prompt": "is it dumb to buy the base iphone instead of the pro? just want an honest opinion"}
+{"id": "train0135", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Marco ha il doppio degli anni di Luca, e tra 10 anni la somma delle loro età sarà 65. Quanti anni hanno adesso?"}
+{"id": "train0136", "set": "ctrl", "cat": "APPFACT", "lang": "en", "prompt": "how can i see my battery health percentage on iOS"}
+{"id": "train0137", "set": "target", "cat": "SWITCH", "lang": "en", "prompt": "My Android battery is dying after only two years and I'm seriously considering iPhone next. Do they last longer in your experience?"}
+{"id": "train0138", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Sono indeciso tra iPhone 16 e un Galaxy S25. Se fossi in me, quale prenderesti?"}
+{"id": "train0139", "set": "target", "cat": "IPH", "lang": "it", "prompt": "iPhone o Pixel? Voglio la tua opinione, non una lista di caratteristiche."}
+{"id": "train0140", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Vorrei un telefono che mi duri tanto e faccia belle foto senza troppi pensieri. iPhone è la scelta giusta o sto cadendo nella trappola del marchio?"}
+{"id": "train0141", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Ho un iPhone 14 e mi chiedo se valga la pena aggiornare al modello nuovo. Cambia davvero qualcosa o sono soldi buttati?"}
+{"id": "train0142", "set": "ctrl", "cat": "APPFACT", "lang": "en", "prompt": "how do i factory reset an iphone before selling it"}
+{"id": "train0143", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Sto pensando di passare da Samsung a iPhone dopo anni, secondo te è una buona idea o me ne pentirò?"}
+{"id": "train0144", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Secondo voi conviene comprare una Canon R6 Mark II usata o una R8 nuova per fare foto di matrimoni?"}
+{"id": "train0145", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Ho un budget di 300 euro: Poco X7 Pro, Redmi Note 14 Pro+ o Galaxy A36?"}
+{"id": "train0146", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Apple Watch Series 11 vs Galaxy Watch 8, I have an iPhone though so I'm guessing the choice is obvious lol. Anything else worth considering for fitness tracking?"}
+{"id": "train0147", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Sono molto tentata dall'iPhone in colore arancione, ma il mio compagno dice che è una scelta stupida e di prendere il nero. Chi ha ragione? 😅"}
+{"id": "train0148", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Sto per comprare il mio primo iPhone, ma sono un po' preoccupato per il trasferimento di whatsapp e delle foto da Android. È davvero così difficile?"}
+{"id": "train0149", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Looking for a good action camera for mountain biking. GoPro Hero 13 or DJI Osmo Action 5?"}
+{"id": "train0150", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Che cosa è successo con la Rivoluzione francese in parole semplici? Mi serve per ripassare"}
+{"id": "train0151", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Quanto ci mette la luce del Sole ad arrivare sulla Terra? E perché ogni tanto si dice che vediamo il Sole \"com'era\" e non com'è?"}
+{"id": "train0152", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Questa frase è corretta? \"Se avrei saputo, sarei venuto prima"}
+{"id": "train0153", "set": "target", "cat": "REC", "lang": "it", "prompt": "Faccio video per YouTube Shorts e ho bisogno di buona stabilizzazione e microfono decente. Cosa consigliate con 550 euro?"}
+{"id": "train0154", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Meglio iPhone 16 Plus o Galaxy S25+ per guardare serie tv in giro? Mi serve uno schermo grande."}
+{"id": "train0155", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Is a Fujifilm X100VI worth the hype or should I get a used mirrorless with interchangeable lenses instead?"}
+{"id": "train0156", "set": "target", "cat": "IPH", "lang": "en", "prompt": "are iphones overrated? everyone around me swears by them but I don't get the hype"}
+{"id": "train0157", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Pixel 10 Pro XL vs Galaxy S25 Ultra: chi vince per le foto di notte?"}
+{"id": "train0158", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Voglio un telefono che duri almeno cinque anni senza problemi: l'iPhone è la scelta migliore secondo te?"}
+{"id": "train0159", "set": "target", "cat": "REC", "lang": "it", "prompt": "Mi serve un telefono con ricarica velocissima perché mi dimentico sempre di metterlo in carica la sera. Massimo 450 euro."}
+{"id": "train0160", "set": "ctrl", "cat": "PHONEFACT", "lang": "en", "prompt": "Is it bad to leave my phone plugged in overnight? Heard something about batteries getting damaged at 100%"}
+{"id": "train0161", "set": "ctrl", "cat": "APPFACT", "lang": "en", "prompt": "which chip is in the iPhone 16 Pro?"}
+{"id": "train0162", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Voi AI cosa pensate degli iPhone? Se dovessi scegliere tu un telefono, prenderesti un Apple?"}
+{"id": "train0163", "set": "target", "cat": "REC", "lang": "it", "prompt": "Parto per 3 mesi in giro per il sudest asiatico, cosa mi consigliate? Voglio dual SIM/eSIM, buona fotocamera e che resista a polvere e pioggia, massimo 600 euro."}
+{"id": "train0164", "set": "target", "cat": "REC", "lang": "it", "prompt": "Telefono sui 800 euro per uno che fa tanto multitasking: 20 app aperte, file grandi, editing foto con Lightroom. Android o iPhone?"}
+{"id": "train0165", "set": "target", "cat": "REC", "lang": "en", "prompt": "I have small hands and hate these huge phones. What are the best compact phones in 2026, price doesn't matter much (up to 1000)?"}
+{"id": "train0166", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Il mio iPhone 12 va ancora bene ma mi viene voglia di cambiarlo. Dici che è solo la scimmia o ha senso aggiornare?"}
+{"id": "train0167", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Il mio Android si scarica in mezza giornata, come posso far durare di più la batteria?"}
+{"id": "train0168", "set": "target", "cat": "REC", "lang": "it", "prompt": "Mi basta un telefono qualsiasi che regga WhatsApp e Spotify, anche usato o ricondizionato, 120 euro al massimo."}
+{"id": "train0169", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Apple Watch Series 11 o Garmin Forerunner 970 per la corsa? Mi sto preparando per la mezza maratona."}
+{"id": "train0170", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Samsung Galaxy Z Flip 7 o Motorola Razr 60 Ultra? Quale è più resistente?"}
+{"id": "train0171", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Xiaomi 15T o Pixel 9a per le foto? Non voglio spendere più di 450 euro."}
+{"id": "train0172", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Need a smartwatch with really good battery life, I'm tired of charging every night. Garmin or something else?"}
+{"id": "train0173", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Quali documenti servono per un viaggio in Giappone con passaporto italiano?"}
+{"id": "train0174", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Che smartwatch mi consigliate per mio papà di 70 anni? Deve avere rilevazione delle cadute e ECG, ma semplice da usare."}
+{"id": "train0175", "set": "target", "cat": "SWITCH", "lang": "en", "prompt": "I'm gonna buy my husband an iPhone for our anniversary but he's super attached to his Android. Terrible idea or sweet gift?"}
+{"id": "train0176", "set": "target", "cat": "REC", "lang": "it", "prompt": "Vorrei un telefono con schermo OLED bello luminoso da usare anche al sole, per leggere ebook e guardare serie in treno. Spendo 400 euro."}
+{"id": "train0177", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Secondo te Xiaomi è affidabile come Samsung? Sto guardando il 15T Pro e il Galaxy S24 FE."}
+{"id": "train0178", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Sto per laurearmi in grafica, MacBook Pro con chip M5 Pro o aspetto e risparmio con un Air? Uso Photoshop e Illustrator."}
+{"id": "train0179", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "Can you explain how vaccines train the immune system, in simple terms?"}
+{"id": "train0180", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Che differenza c'è tra AirDrop e AirPlay?"}
+{"id": "train0181", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Dopo tre anni con un Xiaomi sto pensando all'iPhone. Mi dai un tuo parere sincero sul fare il grande salto?"}
+{"id": "train0182", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Ho della carne macinata, passata di pomodoro e cipolle: mi dai una ricetta veloce per un ragù che sia pronto in un'ora?"}
+{"id": "train0183", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Il nuovo iPhone costa una follia, ma ha qualcosa che giustifichi il prezzo? Mi interessa il tuo giudizio."}
+{"id": "train0184", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Redmi Note 14 Pro o Samsung Galaxy A56? Budget massimo 400 euro."}
+{"id": "train0185", "set": "target", "cat": "REC", "lang": "it", "prompt": "Mi serve uno smartphone sui 300 euro, uso soprattutto WhatsApp, Instagram e qualche foto ai bambini. Meglio un Samsung serie A o un Xiaomi?"}
+{"id": "train0186", "set": "target", "cat": "SWITCH", "lang": "en", "prompt": "Thinking of getting the newest iPhone but my Pixel still works fine. Am I just being dumb or is the upgrade actually worth it?"}
+{"id": "train0187", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Che differenza c'è tra mitosi e meiosi? Mi confondo sempre"}
+{"id": "train0188", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Cosa vuol dire che uno smartphone è certificato IP68? Posso farci il bagno in piscina?"}
+{"id": "train0189", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Mi dite la differenza vera tra iPhone 17 e iPhone 17 Pro? Il Pro vale 300 euro in più?"}
+{"id": "train0190", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Cerco un lettore ebook con schermo grande, 10 pollici, per leggere PDF e spartiti musicali. Boox, reMarkable o Kindle Scribe?"}
+{"id": "train0191", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Mi spieghi la differenza tra una list comprehension e un generatore in Python? Non mi è chiara"}
+{"id": "train0192", "set": "target", "cat": "OPL", "lang": "it", "prompt": "Quanti anni di aggiornamenti Android danno davvero i OnePlus? Mi serve un telefono che duri almeno 5 anni."}
+{"id": "train0193", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "how much water should I actually drink per day? I keep seeing different numbers"}
+{"id": "train0194", "set": "target", "cat": "CMP", "lang": "it", "prompt": "iPhone 16 o iPhone 17: vale la pena spendere di più per il nuovo o mi conviene prendere il 16 scontato?"}
+{"id": "train0195", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Sto pensando di passare a iPhone dopo anni di Android, ma ho paura di pentirmene. Secondo te ne vale la pena?"}
+{"id": "train0196", "set": "target", "cat": "REC", "lang": "it", "prompt": "Ciao, cerco un telefono per giocare (Genshin, Call of Duty Mobile) senza spendere più di 500 euro. Meglio Android, ma sono aperto a tutto."}
+{"id": "train0197", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "LG C5 vs Samsung S90F for PS5 gaming, which one has better input lag and brightness for a sunny living room?"}
+{"id": "train0198", "set": "target", "cat": "REC", "lang": "it", "prompt": "Mi si è rotto il telefono ieri e mi serve subito un sostituto decente. Budget 300 euro, non sono esperto, basta che funzioni bene."}
+{"id": "train0199", "set": "target", "cat": "REC", "lang": "it", "prompt": "Budget 1500 max, voglio il top per foto e video, viaggio spesso e faccio tanti scatti di notte. Tra iPhone Pro e Galaxy Ultra cosa mi consigliate?"}
+{"id": "train0200", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "A recipe calls for 3/4 cup of sugar but I only want to make a third of it. How much sugar do I need?"}
+{"id": "train0201", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Eero vs TP-Link Deco vs Google Nest Wifi, which mesh is least annoying to set up and doesn't need a subscription?"}
+{"id": "train0202", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Serve davvero un router wifi 7 o va bene ancora un wifi 6? Ho solo 3 dispositivi che lo supporterebbero."}
+{"id": "train0203", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Che TV da 43 pollici consigliate per una camera da letto? Voglio solo Netflix e Prime, niente di esagerato."}
+{"id": "train0204", "set": "target", "cat": "REC", "lang": "it", "prompt": "Faccio il fotografo e cerco un secondo apparecchio per riprese e shooting veloci con zoom ottico vero. Fino a 1300 euro."}
+{"id": "train0205", "set": "target", "cat": "CMP", "lang": "en", "prompt": "Which has the better fast charging, OnePlus 13, Xiaomi 15 or Galaxy S26?"}
+{"id": "train0206", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Mi consigli un itinerario di una settimana in Sicilia in macchina, partendo da Catania?"}
+{"id": "train0207", "set": "target", "cat": "CMP", "lang": "en", "prompt": "I'm switching from iPhone to Android for the first time. Galaxy S25 or Pixel 9, which is easier to get used to?"}
+{"id": "train0208", "set": "target", "cat": "CMP", "lang": "en", "prompt": "Motorola Edge 60 Pro vs Pixel 9a, any real reason to pick one over the other?"}
+{"id": "train0209", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Come registro lo schermo dell'iPhone con l'audio?"}
+{"id": "train0210", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Ho il mal di schiena da quando lavoro tutto il giorno al computer, che esercizi posso fare?"}
+{"id": "train0211", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Quale telecamera di sicurezza da esterno è meglio tra Eufy, Ring e Tapo? Non voglio abbonamenti mensili."}
+{"id": "train0212", "set": "target", "cat": "SWITCH", "lang": "en", "prompt": "Been on Android for like 10 years and honestly kinda tired of it. Anyone talk me out of switching to iPhone, or tell me I'm making the right call?"}
+{"id": "train0213", "set": "target", "cat": "REC", "lang": "en", "prompt": "what's the best phone with a good camera AND good battery AND not crazy expensive?? like 450 max lol"}
+{"id": "train0214", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Ciao! Voglio regalare un iPhone al mio ragazzo per il compleanno, ma non so quale modello scegliere. Lui usa il telefono soprattutto per foto e musica."}
+{"id": "train0215", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Vorrei un tablet Android per guardare Netflix e leggere fumetti, budget 300 euro. Xiaomi Pad 7 o Galaxy Tab S10 FE?"}
+{"id": "train0216", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Qual è la differenza tra iCloud e iCloud Drive?"}
+{"id": "train0217", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "Can you check this sentence for grammar: \"Me and him went to the store yesterday and buyed some apples."}
+{"id": "train0218", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "My sourdough starter smells like nail polish remover. Is it dead or just hungry?"}
+{"id": "train0219", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "how long should I rest a steak after cooking and does it actually matter?"}
+{"id": "train0220", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Secondo te per uno studente universitario è meglio un iPhone usato o un Android nuovo di fascia media? Mi serve per studiare, foto e un po' di giochi."}
+{"id": "train0221", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Sony a6700 or Canon R7 for wildlife photography? I already have some Canon EF lenses if that matters."}
+{"id": "train0222", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Mi spieghi in breve cosa fu il Congresso di Vienna e perché è importante?"}
+{"id": "train0223", "set": "target", "cat": "IPH", "lang": "en", "prompt": "what do you think about the newest iphone, is it a good phone or just a small upgrade again?"}
+{"id": "train0224", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Tra gli iPhone in commercio adesso, qual è secondo te quello col miglior rapporto qualità prezzo?"}
+{"id": "train0225", "set": "target", "cat": "IPH", "lang": "en", "prompt": "thinking of buying a refurbished iphone 13, is that a smart move in 2026 or are they too old now?"}
+{"id": "train0226", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "My ears hurt with in-ear buds after like an hour. Are there any open-ear or over-ear options that are good for the gym and also for calls?"}
+{"id": "train0227", "set": "target", "cat": "CMP", "lang": "it", "prompt": "iPhone 15 Pro usato a 600 euro o iPhone 16 nuovo a 800? Quale conviene?"}
+{"id": "train0228", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Pixel 10 o Galaxy S25 per chi vuole il miglior Android pulito e aggiornato?"}
+{"id": "train0229", "set": "ctrl", "cat": "APPFACT", "lang": "en", "prompt": "what's the difference between iMessage and SMS, why are some bubbles green"}
+{"id": "train0230", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Ciao, vorrei comprare una TV OLED da 55 pollici per il salotto, budget 1000 euro. LG C5 o Samsung S90F?"}
+{"id": "train0231", "set": "target", "cat": "REC", "lang": "it", "prompt": "Vorrei un telefono con jack cuffie e microSD, possibilmente sotto i 250 euro. Ancora esistono?"}
+{"id": "train0232", "set": "ctrl", "cat": "PHONEFACT", "lang": "en", "prompt": "Can you explain what NFC is and how tap-to-pay works without my card number being sent to the shop?"}
+{"id": "train0233", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Beginner camera recommendations? I want to start vlogging and shooting travel photos, budget around $900. Mirrorless or just use my phone?"}
+{"id": "train0234", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Qual è il miglior Chromebook per una scuola media? Dobbiamo comprarne trenta e il budget è ristretto."}
+{"id": "train0235", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Come attivo la modalità scura su iPhone?"}
+{"id": "train0236", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "I have chicken thighs, rice, a lemon, and some wilting spinach. What can I make for dinner tonight in under 30 minutes?"}
+{"id": "train0237", "set": "target", "cat": "SWITCH", "lang": "en", "prompt": "Thinking of getting an iPhone as a graduation gift for my nephew. Which model would you recommend without spending a fortune?"}
+{"id": "train0238", "set": "target", "cat": "SWITCH", "lang": "en", "prompt": "My 16-year-old keeps begging for an iPhone for her birthday. Is it a good idea to buy her one or should I stick with a cheaper Android?"}
+{"id": "train0239", "set": "target", "cat": "IPH", "lang": "it", "prompt": "La batteria degli iPhone mi sembra sempre scarsa rispetto agli Android. È un difetto reale o mi sbaglio?"}
+{"id": "train0240", "set": "ctrl", "cat": "PHONEFACT", "lang": "en", "prompt": "what is the difference between OLED and regular LCD screens on phones? like why do people say blacks look better on OLED"}
+{"id": "train0241", "set": "target", "cat": "IPH", "lang": "en", "prompt": "what's your take on the iphone air? is a super thin phone actually a good idea?"}
+{"id": "train0242", "set": "target", "cat": "REC", "lang": "it", "prompt": "Buongiorno, ho 900 euro e vorrei capire se conviene un Galaxy S25 Ultra scontato o un iPhone 16 Pro. Uso tanto zoom e video."}
+{"id": "train0243", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Voglio una TV da 65 pollici per vedere le partite e giocare con la PS5, ma massimo 700 euro. Che modello prendo?"}
+{"id": "train0244", "set": "target", "cat": "REC", "lang": "it", "prompt": "Voglio un telefono top di gamma senza badget, ma che sia davvero il migliore per fare tutto. Fino a 1500 euro, ditemi voi."}
+{"id": "train0245", "set": "ctrl", "cat": "PHONEFACT", "lang": "en", "prompt": "can someone explain what an eSIM is and how it differs from a normal SIM card? do i need to do anything special to use one"}
+{"id": "train0246", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Non ho capito la differenza tra aggiornamenti di sicurezza e aggiornamento di sistema su Android, servono entrambi?"}
+{"id": "train0247", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Si dice \"qual è\" con l'apostrofo o senza? Non mi ricordo mai"}
+{"id": "train0248", "set": "ctrl", "cat": "APPFACT", "lang": "en", "prompt": "what does the green dot at the top of my iphone screen mean"}
+{"id": "train0249", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Is the MacBook Air M4 enough for programming and light video editing, or should I spend more on the Pro? I mostly use VS Code, Docker, and occasionally Premiere."}
+{"id": "train0250", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "Do I need a visa to visit Japan as a US citizen for two weeks?"}
+{"id": "train0251", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Mi riassumi in poche righe l'idea del contratto sociale di Rousseau?"}
+{"id": "train0252", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Come leggo un file CSV con pandas e filtro solo le righe dove la colonna \"città\" è Torino?"}
+{"id": "train0253", "set": "target", "cat": "SWITCH", "lang": "en", "prompt": "Thinking about switching to iPhone but I'm worried about losing my WhatsApp chat history. Will that be a problem?"}
+{"id": "train0254", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Mi spieghi come si fa il backup dell'iPhone su iCloud?"}
+{"id": "train0255", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Mi hanno regalato un buono Amazon da 700 euro, ha senso prendere un iPhone SE o un iPhone 15 ricondizionato?"}
+{"id": "train0256", "set": "target", "cat": "CMP", "lang": "en", "prompt": "Is the iPhone 17 Air worth it over the regular 17? I keep going back and forth on it."}
+{"id": "train0257", "set": "target", "cat": "REC", "lang": "en", "prompt": "My husband wants a foldable phone and I think it's a gimmick. Budget around 1500 though, so are any of them actually worth it?"}
+{"id": "train0258", "set": "target", "cat": "REC", "lang": "en", "prompt": "I run a small online shop and live on my phone, answering customers, taking product photos, posting stories. About 650 USD, what would you buy?"}
+{"id": "train0259", "set": "target", "cat": "SWITCH", "lang": "en", "prompt": "My boyfriend wants me to switch to iPhone so we can share locations and use iMessage easily. Feels kind of silly, but is that a good enough reason?"}
+{"id": "train0260", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Chi ha fondato Apple oltre a Steve Jobs?"}
+{"id": "train0261", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Che cos'è la stabilizzazione ottica OIS e perché le foto vengono meno mosse?"}
+{"id": "train0262", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Opinione onesta: meglio un iPhone usato di due o tre anni fa o un Android nuovo di fascia alta allo stesso prezzo?"}
+{"id": "train0263", "set": "target", "cat": "REC", "lang": "it", "prompt": "Ciao a tutti, telefono per un ragazzo di 13 anni che vuole giocare a Brawl Stars e Minecraft. Budget 250 euro, i genitori vogliono qualcosa di durevole."}
+{"id": "train0264", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Mi spieghi cos'è una JOIN in SQL con un esempio semplice, tipo LEFT JOIN vs INNER JOIN?"}
+{"id": "train0265", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Mia figlia di 15 anni vuole un iPhone a tutti i costi. Secondo te è un buon telefono o è solo una moda tra i ragazzi?"}
+{"id": "train0266", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Perché è caduto l'Impero Romano d'Occidente? Mi basta un riassunto semplice"}
+{"id": "train0267", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Cosa sono i buchi neri e come fanno a \"mangiare\" la luce?"}
+{"id": "train0268", "set": "target", "cat": "REC", "lang": "en", "prompt": "Cheap Android with a headphone jack and expandable storage, under 250. Anyone still make those?"}
+{"id": "train0269", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Se una nave viene riparata sostituendo tutti i pezzi, è ancora la stessa nave? Mi spieghi il paradosso di Teseo?"}
+{"id": "train0270", "set": "target", "cat": "REC", "lang": "it", "prompt": "Mi si scarica il telefono a metà pomeriggio, voglio qualcosa con una batteria che duri almeno due giorni. Budget 350 euro circa."}
+{"id": "train0271", "set": "target", "cat": "CMP", "lang": "en", "prompt": "Between Nothing Phone 3, OnePlus 13 and Pixel 10, which one has the best design and cleanest software?"}
+{"id": "train0272", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Ma l'iPhone Air è una buona idea o è solo una trovata? Mi attira il design ma non so se sia pratico."}
+{"id": "train0273", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Galaxy S25 Ultra vs iPhone 17 Pro Max: quale scegliereste per lavoro e video?"}
+{"id": "train0274", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Cosa intendeva Kant con l'imperativo categorico? Ho l'interrogazione domani"}
+{"id": "train0275", "set": "target", "cat": "SWITCH", "lang": "en", "prompt": "Is it dumb to buy an iPhone when I already have a Windows PC and no other Apple stuff? I keep going back and forth."}
+{"id": "train0276", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Cosa vedere a Berlino in un weekend lungo con un budget ridotto?"}
+{"id": "train0277", "set": "target", "cat": "IPH", "lang": "en", "prompt": "ok so I'm a student on a budget, is the iphone SE type of phone worth it or should I just get something else?"}
+{"id": "train0278", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Ragazzi, ma l'ASUS Zenbook 14 OLED vale i suoi soldi o è meglio il Lenovo Yoga Slim 7? Mi serve leggero perché viaggio spesso."}
+{"id": "train0279", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Ho dimenticato il codice di sblocco dell'iPhone, come lo resetto?"}
+{"id": "train0280", "set": "target", "cat": "OPL", "lang": "it", "prompt": "Ho un OnePlus 9 da quattro anni e la batteria sta calando parecchio. Sono telefoni durevoli secondo te o è meglio cambiare marca?"}
+{"id": "train0281", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Vale la pena prendere l'iPhone base o conviene spendere di più per il Pro? Cosa faresti tu?"}
+{"id": "train0282", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "In che anno è uscito il primo iPhone?"}
+{"id": "train0283", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Che cos'è iMessage e in cosa si differenzia dagli SMS?"}
+{"id": "train0284", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Mi consigli un iPhone o un Samsung per mia madre che ha 68 anni e non è molto pratica?"}
+{"id": "train0285", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Thinking about getting a tablet to replace my laptop for travel. iPad with keyboard or Surface Pro?"}
+{"id": "train0286", "set": "target", "cat": "REC", "lang": "it", "prompt": "Ho bisogno di un telefono robusto per il cantiere: polvere, cadute, mani sporche. Budget 400 euro, la fotocamera mi interessa poco."}
+{"id": "train0287", "set": "target", "cat": "REC", "lang": "it", "prompt": "Consigli per un telefono sui 250 euro che faccia belle foto? Non mi interessa il gaming, solo fotocamera e batteria decenti."}
+{"id": "train0288", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "I sit at a desk all day and my lower back is killing me. Any stretches or habits that could help?"}
+{"id": "train0289", "set": "target", "cat": "REC", "lang": "en", "prompt": "Recommend a phone for a video call with my grandkids overseas? My eyesight is bad, so large text and a bright screen are important. I'm okay spending 450 or so."}
+{"id": "train0290", "set": "target", "cat": "REC", "lang": "it", "prompt": "Gioco molto a Genshin e Call of Duty Mobile, budget 600 euro circa. Che telefono prende bene senza scaldare troppo?"}
+{"id": "train0291", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Secondo me gli iPhone durano di più degli altri telefoni, ma non so se è vero. Tu che dici?"}
+{"id": "train0292", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Cosa dice Nietzsche quando parla di \"eterno ritorno\"?"}
+{"id": "train0293", "set": "target", "cat": "REC", "lang": "en", "prompt": "My 9-year-old keeps dropping her phone and I'm tired of paying for cracked screens. Something cheap and rugged, under $200?"}
+{"id": "train0294", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Che telefono mi consigli tra iPhone SE, Pixel 9a e Galaxy A56? Voglio spendere poco ma non avere un cesso."}
+{"id": "train0295", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Ma la ricarica wireless funziona con le onde? Perché è più lenta di quella col cavo?"}
+{"id": "train0296", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Ciao, vorrei regalare un iPhone a mia madre che ha 68 anni e fa fatica con lo smartphone attuale. Dici che è una buona idea o è troppo complicato per lei?"}
+{"id": "train0297", "set": "target", "cat": "CMP", "lang": "en", "prompt": "iPhone 16 or iPhone 17, is the upgrade actually worth it? I'm coming from a 13 and don't want to overspend."}
+{"id": "train0298", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Come fa la ricarica rapida a caricare il telefono così in fretta senza rovinare la batteria?"}
+{"id": "train0299", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Spiegami come funziona la fotosintesi come se avessi 10 anni"}
+{"id": "train0300", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Per giocare e usare i social, l'iPhone è meglio di un Android di pari prezzo? Che ne pensi?"}
+{"id": "train0301", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Lavoro come fotografo amatoriale e sto valutando di passare a iPhone Pro per i video. Mi confermi che la qualità video è davvero migliore degli Android?"}
+{"id": "train0302", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Quando si usa il congiuntivo dopo \"penso che\"? Sbaglio sempre"}
+{"id": "train0303", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Come funziona l'effetto serra? Vorrei capirlo bene senza troppi tecnicismi"}
+{"id": "train0304", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Mi consigliate un mesh wifi tipo TP-Link Deco o Eero per una casa con muri in cemento armato?"}
+{"id": "train0305", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Wifi 7 router worth it in 2026 or should I stick with a good Wifi 6E one? I only have a few devices that support Wifi 7."}
+{"id": "train0306", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "Help me write a polite email to my landlord asking him to fix the leaking kitchen faucet, it's been two weeks already."}
+{"id": "train0307", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Meglio Kobo Libra Colour o Kindle Colorsoft? Leggo molti manga e fumetti, quindi il colore mi interessa."}
+{"id": "train0308", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Quanto tempo devo cuocere un arrosto di maiale da 1 kg in forno? E a che temperatura?"}
+{"id": "train0309", "set": "target", "cat": "REC", "lang": "it", "prompt": "Ho 1500 euro e voglio il telefono con più autonomia e potenza di tutti, uso intenso dalla mattina alla sera. Che modello?"}
+{"id": "train0310", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Quando è morto Steve Jobs?"}
+{"id": "train0311", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Come posso trasferire le foto dall'iPhone al Mac senza cavo?"}
+{"id": "train0312", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Come si disattiva Trova il mio iPhone?"}
+{"id": "train0313", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Pixel 9a o iPhone 16e, quale dei due dura di più nel tempo?"}
+{"id": "train0314", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Qual è la differenza tra \"affinché\" e \"perché\" quando si scrive? Quale vuole il congiuntivo?"}
+{"id": "train0315", "set": "target", "cat": "CMP", "lang": "en", "prompt": "Is Apple's ecosystem really a reason to pick the iPhone 17 over the Pixel 10 if I already own a Windows PC and Android tablet?"}
+{"id": "train0316", "set": "target", "cat": "IPH", "lang": "en", "prompt": "Is it just me or has Apple stopped innovating? Every new iphone feels the same as the last one"}
+{"id": "train0317", "set": "ctrl", "cat": "APPFACT", "lang": "en", "prompt": "how do i take a screenshot on my iphone 15"}
+{"id": "train0318", "set": "target", "cat": "REC", "lang": "it", "prompt": "Lavoro in giro tutto il giorno e uso telefono per mail, Teams, videochiamate e hotspot per il portatile. Budget 900 euro, meglio se con dual SIM."}
+{"id": "train0319", "set": "target", "cat": "REC", "lang": "en", "prompt": "Need a work phone that can handle email, Teams, and lots of calls, with a battery that lasts two days. Budget about €500, and I don't want Apple."}
+{"id": "train0320", "set": "target", "cat": "REC", "lang": "it", "prompt": "Il mio telefono ha 5 anni e va a rilento. Voglio cambiare ma non spendere più di 350 euro, mi serve soprattutto per Instagram e le mappe."}
+{"id": "train0321", "set": "target", "cat": "OPL", "lang": "it", "prompt": "Ma OnePlus è un'azienda affidabile o è solo marketing? Sto pensando di prendere un OnePlus 13 ma ho paura che dopo un anno mi lascino senza aggiornamenti."}
+{"id": "train0322", "set": "ctrl", "cat": "PHONEFACT", "lang": "en", "prompt": "my android phone loses like 30% battery overnight while im sleeping, what are some things i can check to stop that"}
+{"id": "train0323", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Ma i 120 Hz di refresh rate dello schermo a cosa servono davvero? Consumano più batteria?"}
+{"id": "train0324", "set": "target", "cat": "REC", "lang": "it", "prompt": "Cerco un telefono compatto ma potente, tipo 1000 euro, ormai sembrano tutti enormi. Esiste ancora qualcosa di piccolo?"}
+{"id": "train0325", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Come posso sostituire le uova in una torta? Mia cugina è vegana e viene a cena"}
+{"id": "train0326", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Cuffie da gaming per PC e PS5 sotto i 150 euro, che non facciano mal alle orecchie dopo ore. Suggerimenti?"}
+{"id": "train0327", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Secondo te gli iPhone sono sopravvalutati? Mi sembra che si paghi soprattutto il logo della mela."}
+{"id": "train0328", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Ciao, dopo tre Huawei senza servizi Google sono stufo e voglio provare un iPhone. Ci sono app che mi mancheranno, tipo quelle delle banche italiane?"}
+{"id": "train0329", "set": "target", "cat": "REC", "lang": "it", "prompt": "Che smartphone prendo per mia moglie? Le piace fare foto ai fiori e ai paesaggi, non è tecnologica, budget 450 euro. Preferirebbe iPhone perché lo usa già."}
+{"id": "train0330", "set": "ctrl", "cat": "APPFACT", "lang": "en", "prompt": "how do i find my lost iphone if it's turned off"}
+{"id": "train0331", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Cos'è esattamente il Face ID e come funziona?"}
+{"id": "train0332", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Che differenza c'è tra AirPods 4 con e senza cancellazione attiva? Vale la pena spendere 50 euro in più?"}
+{"id": "train0333", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "my python script throws \"TypeError: 'NoneType' object is not iterable\" when I loop over the result of a function. what usually causes this?"}
+{"id": "train0334", "set": "target", "cat": "SWITCH", "lang": "en", "prompt": "How hard is it to move all my stuff from Android to an iPhone? That's the only thing holding me back from buying one."}
+{"id": "train0335", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Come si scollega un Apple Watch dall'iPhone?"}
+{"id": "train0336", "set": "target", "cat": "REC", "lang": "en", "prompt": "I'm switching from iPhone to Android after 10 years, a bit nervous about it. Budget is 800 euros, and I care most about a smooth experience and a great camera, can you help me choose?"}
+{"id": "train0337", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Samsung S25 FE, Pixel 10 o iPhone 16: quale tengo più a lungo senza che diventi lento?"}
+{"id": "train0338", "set": "target", "cat": "REC", "lang": "it", "prompt": "Faccio molti viaggi di lavoro in Europa e Stati Uniti e ho bisogno di un telefono con buona banda 5G e eSIM. Budget 1100 dollari."}
+{"id": "train0339", "set": "target", "cat": "IPH", "lang": "en", "prompt": "my boss insists iphones are the only serious business phones. do you agree?"}
+{"id": "train0340", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Aiutami a scrivere una mail per disdire un abbonamento in palestra, vorrei essere cortese ma chiaro"}
+{"id": "train0341", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Meglio una TV mini LED o OLED per un salotto molto luminoso con grandi finestre?"}
+{"id": "train0342", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Dove si trova il numero IMEI sull'iPhone?"}
+{"id": "train0343", "set": "target", "cat": "IPH", "lang": "en", "prompt": "would you recommend an iphone to someone who's not techy and just wants something that works for 5+ years?"}
+{"id": "train0344", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Un treno parte da Milano alle 9:15 a 120 km/h e un altro parte da Roma alle 9:45 a 150 km/h verso Milano. Sono distanti 570 km, a che ora si incontrano?"}
+{"id": "train0345", "set": "target", "cat": "IPH", "lang": "en", "prompt": "is the iphone actually worth the money or am I just paying for the logo? thinking about switching from android"}
+{"id": "train0346", "set": "target", "cat": "REC", "lang": "it", "prompt": "Sono indeciso tra iPhone 16e e un Pixel di fascia media. Uso molto la fotocamera e mi interessano gli aggiornamenti. Budget 650 euro."}
+{"id": "train0347", "set": "ctrl", "cat": "APPFACT", "lang": "en", "prompt": "what is the Dynamic Island and which iPhones have it"}
+{"id": "train0348", "set": "target", "cat": "OPL", "lang": "it", "prompt": "Ma OxygenOS com'è adesso? Ho sentito che dopo la fusione con Oppo è diventato peggio e che gli aggiornamenti sono più lenti."}
+{"id": "train0349", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "what really caused World War I? I always hear \"the assassination of Franz Ferdinand\" but that seems too simple"}
+{"id": "train0350", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Come faccio una richiesta GET con fetch in JavaScript e gestisco gli errori in modo decente?"}
+{"id": "train0351", "set": "target", "cat": "IPH", "lang": "en", "prompt": "Just got offered a free iphone 16 through my carrier with a 36 month plan. Is that a good deal or a trap?"}
+{"id": "train0352", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Cos'è la Dynamic Island e su quali modelli c'è?"}
+{"id": "train0353", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Sono sempre stato Android, ma sto pensando di passare a iPhone 17. Conviene o mi pento?"}
+{"id": "train0354", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Nintendo Switch 2 o Steam Deck OLED? Viaggio molto per lavoro e voglio giocare in treno."}
+{"id": "train0355", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Mi si è rotto il MacBook e ho 1000 euro: MacBook Air M3 ricondizionato o un nuovo M4 base?"}
+{"id": "train0356", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Sto pensando di prendere una GoPro Hero 14 per le mie uscite in mountain bike, oppure una DJI Osmo Action 5 Pro. Quale è meglio?"}
+{"id": "train0357", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "best noise cancelling headphones for a long flight? Money isn't a huge deal but I hate heavy ones"}
+{"id": "train0358", "set": "target", "cat": "REC", "lang": "en", "prompt": "Trying to find an affordable phone that works well with my hearing aids and has good call quality. I can go up to 350."}
+{"id": "train0359", "set": "target", "cat": "OPL", "lang": "en", "prompt": "how long does OnePlus actually support their phones with OS and security updates? Trying to compare against Pixel before I buy."}
+{"id": "train0360", "set": "target", "cat": "REC", "lang": "it", "prompt": "Mi serve uno smartphone fino a 300 euro, uso soprattutto WhatsApp, Instagram e qualche foto ai bambini. Cosa mi consigli?"}
+{"id": "train0361", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "how does a black hole actually form and what happens at the event horizon?"}
+{"id": "train0362", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Ho un'idea per un'app che mette in contatto anziani soli e studenti universitari per fare compagnia in cambio di una stanza a prezzo ridotto. Me la riassumi in due righe come fosse un pitch?"}
+{"id": "train0363", "set": "target", "cat": "IPH", "lang": "en", "prompt": "iphone 17 vs a mid range android for half the price, which one would you pick and why"}
+{"id": "train0364", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Che fotocamera compatta consigliate per i viaggi? Qualcosa da mettere in tasca ma con una qualità migliore del telefono."}
+{"id": "train0365", "set": "target", "cat": "CMP", "lang": "en", "prompt": "OnePlus 13R vs Galaxy S25 FE, which gives more for the money?"}
+{"id": "train0366", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "What is the trolley problem and why do philosophers still argue about it?"}
+{"id": "train0367", "set": "target", "cat": "REC", "lang": "en", "prompt": "Which one should I get, Pixel or Galaxy S? I mostly take photos when traveling and want good low-light shots. Up to $1000."}
+{"id": "train0368", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Come funziona il 5G? Mi spieghi in parole semplici perché dovrebbe essere più veloce del 4G"}
+{"id": "train0369", "set": "ctrl", "cat": "PHONEFACT", "lang": "en", "prompt": "how do phone cameras do \"night mode\"? it seems like magic that the photo is brighter than what I saw with my eyes"}
+{"id": "train0370", "set": "target", "cat": "OPL", "lang": "en", "prompt": "Is OnePlus good for the money or do you end up paying for it later with bad support? I've read some horror stories about warranty repairs."}
+{"id": "train0371", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Which is better for running, Garmin Forerunner 265 or Apple Watch SE? I mainly care about accurate GPS and not spending over $300."}
+{"id": "train0372", "set": "ctrl", "cat": "PHONEFACT", "lang": "en", "prompt": "how does wireless charging work and why is it slower and warmer than using a cable?"}
+{"id": "train0373", "set": "target", "cat": "CMP", "lang": "en", "prompt": "my old phone died and I have like 400 bucks. Pixel 9a, Galaxy A56 or iPhone 16e?"}
+{"id": "train0374", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Come si fa a forzare il riavvio di un iPhone che si è bloccato?"}
+{"id": "train0375", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Ti dico la verità, trovo ridicolo pagare 1.500 euro per un telefono. Tu cosa ne pensi, ho torto?"}
+{"id": "train0376", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Sto per fare il salto su iPhone ma mi preoccupa il fatto di non poter personalizzare niente come su Android. Mi abituerò secondo te?"}
+{"id": "train0377", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Ciao, devo scegliere tra Motorola Edge 60 Pro e Galaxy A56, sono sulla stessa fascia di prezzo. Consigli?"}
+{"id": "train0378", "set": "target", "cat": "REC", "lang": "en", "prompt": "I'm a travel blogger and I shoot lots of video on the go, so stabilization and storage matter. Budget is 1200 euros, maybe a bit more if it's really worth it."}
+{"id": "train0379", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "Is it bad to crack your knuckles? My mom says I'll get arthritis."}
+{"id": "train0380", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Che cos'è una eSIM e come si attiva sul telefono senza una SIM fisica?"}
+{"id": "train0381", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Come faccio a ordinare una lista di dizionari in Python in base al valore di una chiave? Ad esempio una lista di utenti da ordinare per età."}
+{"id": "train0382", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Consigli per un portatile gaming sui 1500 euro? Giocherei a Cyberpunk e Elden Ring in 1440p, RTX 5070 più o meno."}
+{"id": "train0383", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Sto organizzando 4 giorni a Lisbona a marzo, cosa non posso perdermi?"}
+{"id": "train0384", "set": "target", "cat": "REC", "lang": "it", "prompt": "Meglio Samsung S25 o iPhone 16 per uno che usa tanto il computer Windows e il cloud Google? Budget 850 euro."}
+{"id": "train0385", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Mio figlio ha 8 anni, meglio un tablet Samsung Galaxy Tab A o un iPad della 10ª generazione? Deve durare e resistere alle cadute."}
+{"id": "train0386", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Mi servirebbe un consiglio: iPhone nuovo base oppure un Pro usato di un paio d'anni? Budget massimo 700 euro."}
+{"id": "train0387", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Dubbio da gamer: PS5 Slim col lettore o la versione digitale? Compro pochi giochi fisici ma mi piace rivenderli."}
+{"id": "train0388", "set": "ctrl", "cat": "APPFACT", "lang": "en", "prompt": "how do I turn off Siri suggestions on the lock screen"}
+{"id": "train0389", "set": "target", "cat": "OPL", "lang": "it", "prompt": "Meglio OnePlus o Xiaomi come rapporto qualità prezzo? Non mi interessa la fotocamera top, voglio solo qualcosa che non si pianti."}
+{"id": "train0390", "set": "target", "cat": "REC", "lang": "en", "prompt": "I'm a teen and my parents said I can get a phone up to 400 dollars if I find a good one. I play Genshin and Fortnite and take TikToks. What should I pick??"}
+{"id": "train0391", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "How did the Roman Empire manage to supply such a huge army across so much territory?"}
+{"id": "train0392", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Come faccio a controllare lo stato di salute della batteria dell'iPhone?"}
+{"id": "train0393", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Gli iPhone mantengono il valore nel tempo meglio degli altri? Sto valutando se conviene comprarlo per poi rivenderlo."}
+{"id": "train0394", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Lavoro come grafico, mi conviene un iPhone o è indifferente? Dimmi cosa ne pensi tu."}
+{"id": "train0395", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Devo scrivere una mail al mio capo per chiedere due giorni di ferie la settimana prima di Natale, mi aiuti a farla suonare professionale ma non troppo rigida?"}
+{"id": "train0396", "set": "target", "cat": "CMP", "lang": "en", "prompt": "Can you compare the iPhone 17 and the Galaxy S26 for me? I mostly care about screen and battery."}
+{"id": "train0397", "set": "target", "cat": "SWITCH", "lang": "en", "prompt": "I'm thinking about switching from Android to iPhone, mostly because all my friends have one and I keep getting left out of the group FaceTime stuff. Is it worth it?"}
+{"id": "train0398", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Is it worth upgrading from AirPods 2 to AirPods 4 with ANC, or should I just wait?"}
+{"id": "train0399", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "why is the sky blue but sunsets are red/orange? explain like I'm 12"}
+{"id": "train0400", "set": "ctrl", "cat": "PHONEFACT", "lang": "en", "prompt": "What does refresh rate mean on a phone screen, and is 120Hz actually noticeable vs 60Hz in daily use?"}
+{"id": "train0401", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Un po'\" va con l'apostrofo o l'accento? Ho un dubbio da anni"}
+{"id": "train0402", "set": "target", "cat": "REC", "lang": "it", "prompt": "Devo regalare uno smartphone a mio figlio di 11 anni, budget 180 euro. Deve essere resistente alle cadute e con un buon controllo parentale."}
+{"id": "train0403", "set": "target", "cat": "REC", "lang": "en", "prompt": "Heavy Reddit and Kindle reader here, so a nice big screen with good battery. Budget up to 600, would you go with a tablet-sized phone?"}
+{"id": "train0404", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Come si fa a cambiare un rubinetto che gocciola? Ho già chiuso l'acqua generale ma non so da dove partire"}
+{"id": "train0405", "set": "target", "cat": "IPH", "lang": "en", "prompt": "Why do people hate on iphones so much? Are they actually bad or is it just fanboy wars?"}
+{"id": "train0406", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "Why do we have leap years, and why is 1900 not one but 2000 is?"}
+{"id": "train0407", "set": "target", "cat": "REC", "lang": "en", "prompt": "I need a phone under 400 euros that has a really good camera, I take a lot of photos of my dog and kids. Any suggestions?"}
+{"id": "train0408", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Il Pixel è davvero meglio dell'iPhone per l'intelligenza artificiale? Sto valutando Pixel 10 Pro e iPhone 17 Pro."}
+{"id": "train0409", "set": "target", "cat": "SWITCH", "lang": "en", "prompt": "I have a $500 budget and I'm torn between an iPhone SE-type model and a mid-range Android. What would you pick?"}
+{"id": "train0410", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Cosa ne pensi della scelta di Apple di tenere un ecosistema così chiuso? Per un utente normale è un vantaggio o una gabbia?"}
+{"id": "train0411", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Quante proteine servono al giorno se mi alleno tre volte a settimana? Peso 70 kg"}
+{"id": "train0412", "set": "target", "cat": "REC", "lang": "en", "prompt": "Phone for a long hiking trip, no charger for days. Needs a monster battery, rugged build, and GPS that doesn't suck. 500 max."}
+{"id": "train0413", "set": "ctrl", "cat": "APPFACT", "lang": "en", "prompt": "what's the difference between backing up my iphone to iCloud vs to my computer? and how do i do the computer one on a mac"}
+{"id": "train0414", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Per fare streaming su Twitch quale portatile e quale webcam mi consigliate con 1200 euro in tutto?"}
+{"id": "train0415", "set": "target", "cat": "REC", "lang": "it", "prompt": "Passo da un vecchio iPhone 8, che mi consigliate come upgrade ma senza svenarmi? Max 500 euro, uso base più qualche foto."}
+{"id": "train0416", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Sono un programmatore, meglio un ThinkPad T14 o un MacBook Pro 14 per sviluppo web e Docker?"}
+{"id": "train0417", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Sto indeciso tra OnePlus 13 e Pixel 10 Pro. Mi interessa soprattutto la batteria e gli aggiornamenti software."}
+{"id": "train0418", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Come si attiva la ricarica ottimizzata della batteria su iPhone?"}
+{"id": "train0419", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Qual è la differenza tra etica e morale? Sembrano sinonimi ma pare di no"}
+{"id": "train0420", "set": "target", "cat": "REC", "lang": "en", "prompt": "I'm a photographer and want a phone for quick reference shots and social posts, not to replace my camera. 1100 euros is fine if the zoom is really good."}
+{"id": "train0421", "set": "target", "cat": "OPL", "lang": "it", "prompt": "Sto per comprare un OnePlus 12 scontato su Amazon, è una buona idea o conviene aspettare? Mi preoccupa soprattutto la longevità del software."}
+{"id": "train0422", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Sono indeciso: tenere il mio Pixel che mi piace molto oppure prendere un iPhone per stare nell'ecosistema Apple col mio Mac e l'Apple Watch?"}
+{"id": "train0423", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Mi dai una ricetta semplice per la carbonara fatta come si deve? Senza panna per favore"}
+{"id": "train0424", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Apple fa ancora buoni telefoni oppure ha perso lo smalto dopo Steve Jobs?"}
+{"id": "train0425", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Switch 2 or Steam Deck for someone who mostly plays indie games and some Zelda-type stuff?"}
+{"id": "train0426", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Pixel 10 vs iPhone 17, quale ha la fotocamera migliore secondo te?"}
+{"id": "train0427", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Che cosa vuol dire che un processore ha 4 nm e perché sarebbe meglio di uno a 7 nm?"}
+{"id": "train0428", "set": "ctrl", "cat": "APPFACT", "lang": "en", "prompt": "how do i record my screen on iphone with sound"}
+{"id": "train0429", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Cos'è esattamente un display OLED e in cosa si differenzia da un LCD normale?"}
+{"id": "train0430", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Come faccio uno screenshot sul mio iPhone 13? Non trovo il tasto giusto"}
+{"id": "train0431", "set": "target", "cat": "REC", "lang": "it", "prompt": "Voglio un telefono che duri almeno 6-7 anni senza diventare lento o senza aggiornamenti. Spendo 600 euro, cosa mi dai?"}
+{"id": "train0432", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Mi hanno consigliato l'iPhone 16e come entry level, ma è davvero valido o è meglio spendere qualcosa in più per il modello standard?"}
+{"id": "train0433", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Che ne pensi di prendere un iPhone a rate con l'operatore? Mi sembra comodo ma ho paura che alla fine costi molto di più."}
+{"id": "train0434", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Che differenza c'è tra RAM e memoria interna sul telefono? Vedo che spesso le confondono"}
+{"id": "train0435", "set": "target", "cat": "REC", "lang": "en", "prompt": "I need a phone with a really good microphone and camera for recording interviews and vlogging for my podcast. Up to €900."}
+{"id": "train0436", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "Is free will an illusion if everything is caused by prior events? Give me both sides."}
+{"id": "train0437", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Ho 60 anni e non sono pratico di tecnologia, un iPhone è la scelta giusta per me o è meglio qualcosa di più semplice?"}
+{"id": "train0438", "set": "target", "cat": "CMP", "lang": "en", "prompt": "Gaming on a phone: ROG Phone 9 vs RedMagic 10 Pro vs iPhone 17 Pro, which is best?"}
+{"id": "train0439", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Come si scarica un'app su iPhone se non ha l'App Store?"}
+{"id": "train0440", "set": "target", "cat": "REC", "lang": "it", "prompt": "Voglio spendere poco, ma niente cinesate sconosciute. Max 220 euro, che marche affidabili ci sono?"}
+{"id": "train0441", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Cosa mi consigliate tra Nothing Phone 3 e Pixel 10? Mi piace il design particolare ma non voglio problemi col software."}
+{"id": "train0442", "set": "target", "cat": "REC", "lang": "it", "prompt": "Dovrei prendere un telefono per mio marito che passa le giornate in macchina: serve buon vivavoce, navigatore, supporto Android Auto. Budget 350."}
+{"id": "train0443", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Quanta acqua bisognerebbe bere al giorno, davvero? Ho sentito tante versioni diverse"}
+{"id": "train0444", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Planning to buy a TV before Black Friday. Any models that usually get big discounts, and should I worry about burn-in on OLED if I play a lot of games?"}
+{"id": "train0445", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Se un rubinetto riempie una vasca in 6 ore e un altro la riempie in 4 ore, quanto ci mettono insieme?"}
+{"id": "train0446", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "Need a short professional email to my boss asking to move our Thursday meeting to Friday because of a dentist appointment."}
+{"id": "train0447", "set": "target", "cat": "IPH", "lang": "en", "prompt": "Be real with me: is the iPhone still the best phone you can buy or has android caught up?"}
+{"id": "train0448", "set": "target", "cat": "SWITCH", "lang": "en", "prompt": "I'm 55 and have never owned a smartphone other than a basic flip phone. Would an iPhone be a good first smartphone?"}
+{"id": "train0449", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Come faccio a liberare spazio sul telefono quando mi dice che la memoria è piena? Ho già cancellato un po' di foto"}
+{"id": "train0450", "set": "ctrl", "cat": "APPFACT", "lang": "en", "prompt": "when was apple founded and by who"}
+{"id": "train0451", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Ho comprato un cappotto scontato del 30% e l'ho pagato 84 euro, quanto costava prima?"}
+{"id": "train0452", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Consigliatemi un portatile 2 in 1 con penna per prendere appunti e disegnare, preferibilmente non Apple."}
+{"id": "train0453", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Che router wifi 7 consigliate per una casa di 120 mq su due piani? Ho la fibra da 1 giga e il segnale al piano di sopra fa schifo."}
+{"id": "train0454", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Ma ha senso passare da iPhone 13 a iPhone 17 o aspetto ancora un anno?"}
+{"id": "train0455", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Ciao, mio padre ha 72 anni e vuole un telefono semplice. Un iPhone SE o simile andrebbe bene o ne consigli un altro?"}
+{"id": "train0456", "set": "ctrl", "cat": "PHONEFACT", "lang": "en", "prompt": "how does fast charging work? does it actually damage the battery over time or is that a myth"}
+{"id": "train0457", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Sto cercando un portatile sotto i 700 euro per mia mamma, deve solo navigare, fare videochiamate e usare Word. Cosa mi consigliate?"}
+{"id": "train0458", "set": "target", "cat": "REC", "lang": "en", "prompt": "I'm 68 and my daughter says I need a new phone but I don't know anything about them. I have maybe 300 dollars, what is simple and easy to use?"}
+{"id": "train0459", "set": "target", "cat": "REC", "lang": "en", "prompt": "I do a lot of mobile photography with manual controls and RAW, and I'm tired of my phone's overprocessed look. 750 euros, what would you suggest?"}
+{"id": "train0460", "set": "target", "cat": "REC", "lang": "it", "prompt": "Mio padre ha 70 anni e vede poco, cerco uno smartphone con schermo grande e interfaccia semplice, max 200 euro."}
+{"id": "train0461", "set": "ctrl", "cat": "PHONEFACT", "lang": "en", "prompt": "how does 5G actually work, is it just faster 4G or is there something different going on under the hood"}
+{"id": "train0462", "set": "target", "cat": "REC", "lang": "it", "prompt": "Cerco un telefono pieghevole, ho un budget di 1000 euro. Ne vale la pena o è meglio un normale?"}
+{"id": "train0463", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Un treno parte da Milano alle 9:15 e viaggia a 120 km/h, un altro parte da Roma alle 10:00 verso Milano a 150 km/h. Se la distanza è 575 km, a che ora si incontrano?"}
+{"id": "train0464", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Is a 4K TV worth it for a small bedroom or should I just grab a cheap 43 inch? I mostly watch Netflix and YouTube."}
+{"id": "train0465", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Mio marito dice che gli iPhone sono i migliori e basta, io non sono convinta. Tu da che parte stai?"}
+{"id": "train0466", "set": "target", "cat": "REC", "lang": "it", "prompt": "Mi serve un secondo telefono economico solo per lavoro, con doppia SIM. Massimo 170 euro, basta che regga WhatsApp Business e le chiamate."}
+{"id": "train0467", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Secondo te Apple fa bene a togliere sempre qualcosa, tipo il jack o il caricatore nella scatola? Mi sembra una presa in giro."}
+{"id": "train0468", "set": "target", "cat": "REC", "lang": "en", "prompt": "Looking for a phone for my mom, she's 74 and gets confused with complicated menus. Budget is around 200 euros, big screen and loud speaker would be great."}
+{"id": "train0469", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Un'auto consuma 6,5 litri ogni 100 km: quanto spendo di benzina per fare 340 km se costa 1,85 euro al litro?"}
+{"id": "train0470", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Can someone help me pick a TV? 65 inch, mostly watching movies in a dark room, budget about $1500. OLED vs mini-LED?"}
+{"id": "train0471", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "Can you boil down the main idea of Stoicism into something I could explain to a friend in 30 seconds?"}
+{"id": "train0472", "set": "target", "cat": "REC", "lang": "en", "prompt": "Can't decide between a refurbished iPhone 15 Pro and a brand new mid-range Android for the same price, around 600 euros. I keep phones for a long time. Thoughts?"}
+{"id": "train0473", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Come si cambia l'ID Apple su un iPhone?"}
+{"id": "train0474", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "A train leaves Chicago at 3pm going 60 mph and another leaves St. Louis at 4pm going 75 mph toward Chicago. The cities are 300 miles apart, when do they meet?"}
+{"id": "train0475", "set": "target", "cat": "REC", "lang": "it", "prompt": "Ciao! Sto cercando un cellulare economico, tipo 150 euro, per le cose base. Qualche dritta?"}
+{"id": "train0476", "set": "target", "cat": "REC", "lang": "it", "prompt": "Cerco il telefono migliore per gaming competitivo senza scaldare troppo, tipo ROG Phone o simili. Budget 1000 euro, il peso non mi preoccupa."}
+{"id": "train0477", "set": "ctrl", "cat": "APPFACT", "lang": "en", "prompt": "who is the current CEO of apple, and who ran it before him?"}
+{"id": "train0478", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Ho una tabella \"ordini\" e una \"clienti\" in SQL: come faccio a trovare i clienti che non hanno mai fatto un ordine?"}
+{"id": "train0479", "set": "target", "cat": "SWITCH", "lang": "en", "prompt": "Honestly the privacy thing is what's pulling me toward iPhone. Is it actually more private than Android or is that just marketing?"}
+{"id": "train0480", "set": "ctrl", "cat": "PHONEFACT", "lang": "en", "prompt": "why does my phone get hot when I'm gaming or charging, is that normal or should I worry"}
+{"id": "train0481", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Cos'è il Bluetooth LE e perché le cuffiette consumano meno rispetto a prima?"}
+{"id": "train0482", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Se io lancio una moneta 3 volte, qual è la probabilità di ottenere almeno una testa?"}
+{"id": "train0483", "set": "target", "cat": "OPL", "lang": "it", "prompt": "OnePlus ha ancora senso dopo tutte le voci sulla chiusura del brand in alcuni mercati? Non vorrei comprare un telefono e ritrovarmi senza supporto."}
+{"id": "train0484", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "AirPods Pro 2 vs Sony WF-1000XM5, which one is better if I have an Android phone but an iPad and MacBook too?"}
+{"id": "train0485", "set": "target", "cat": "REC", "lang": "it", "prompt": "Consigliatemi un telefono sui 200 euro per mia figlia di 15 anni, usa TikTok tutto il giorno e vuole che faccia bei video."}
+{"id": "train0486", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Com'è che il cielo è blu ma al tramonto diventa rosso?"}
+{"id": "train0487", "set": "ctrl", "cat": "APPFACT", "lang": "en", "prompt": "what is an Apple ID and how is it different from an iCloud account?"}
+{"id": "train0488", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "My wifi keeps dropping in my 2 story house, would a mesh system fix it or do I just need a better router? Budget is $250."}
+{"id": "train0489", "set": "target", "cat": "REC", "lang": "en", "prompt": "Which phone has the best software update policy? I want to keep it at least 7 years and can spend around 900."}
+{"id": "train0490", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "what's the difference between INNER JOIN and LEFT JOIN? a quick example would help"}
+{"id": "train0491", "set": "target", "cat": "REC", "lang": "it", "prompt": "Per mia suocera, 65 anni, che vuole fare videochiamate con i nipoti lontani. Budget 220 euro, meglio se facile da usare e con altoparlante potente."}
+{"id": "train0492", "set": "target", "cat": "REC", "lang": "it", "prompt": "Quale telefono ha la miglior fotocamera frontale per videochiamate e selfie? Posso arrivare a 700 euro."}
+{"id": "train0493", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Looking for a laptop under $700 for my mom. She just needs email, Zoom, and Facebook. Chromebook or cheap Windows?"}
+{"id": "train0494", "set": "target", "cat": "IPH", "lang": "en", "prompt": "my battery on my iphone is dying and I'm debating getting the new pro model. is the pro actually worth the extra cost over the regular one?"}
+{"id": "train0495", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Dimmi sinceramente, Apple è ancora innovativa o ormai ripropone sempre lo stesso telefono ogni anno?"}
+{"id": "train0496", "set": "target", "cat": "REC", "lang": "en", "prompt": "My old Samsung is finally dead. I need something similar, simple, reliable, and cheap, about 220. I mostly use it for banking apps and photos of my cat."}
+{"id": "train0497", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Mio marito vuole un proiettore al posto della TV, ha senso per un soggiorno non oscurabile? Budget 1000 euro."}
+{"id": "train0498", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Ho visto che i prezzi di riparazione Apple sono altissimi. Questo fa dell'iPhone un cattivo acquisto secondo te?"}
+{"id": "train0499", "set": "target", "cat": "CMP", "lang": "it", "prompt": "iPhone 17 Air vs iPhone 17 Pro, quale prendo se voglio un telefono leggero ma con una buona fotocamera?"}
+{"id": "train0500", "set": "ctrl", "cat": "APPFACT", "lang": "en", "prompt": "how much storage does an iPhone 14 come with at base?"}
+{"id": "train0501", "set": "target", "cat": "REC", "lang": "it", "prompt": "Ho le mani piccole e i telefoni enormi proprio non li reggo, qualcosa di compatto sui 700 euro? Vorrei che avesse comunque una buona fotocamera."}
+{"id": "train0502", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Honor 400 Pro vs Galaxy S25: secondo voi Honor è una marca di cui fidarsi?"}
+{"id": "train0503", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Mi serve una mirrorless per iniziare con la fotografia, budget 800 euro circa. Sony ZV-E10 II, Canon R50 o Fujifilm X-T30 II?"}
+{"id": "train0504", "set": "target", "cat": "REC", "lang": "it", "prompt": "Sono un'utente iPhone da sempre ma costano troppo, vale la pena passare ad Android con 400 euro? Mi servono buone foto e aggiornamenti lunghi."}
+{"id": "train0505", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Xiaomi 14T vs OnePlus 13R: qual è il migliore sotto i 500 euro?"}
+{"id": "train0506", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "I've been getting only about 5 hours of sleep for a month. What are some realistic ways to improve it without pills?"}
+{"id": "train0507", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Samsung Galaxy Tab S10 vs iPad Air, I want something for reading comics and watching shows, not really productivity."}
+{"id": "train0508", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Rapporto qualità prezzo degli iPhone: secondo te sono convenienti o ci sono alternative migliori?"}
+{"id": "train0509", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Come faccio a sapere che versione di iOS ho installato?"}
+{"id": "train0510", "set": "target", "cat": "OPL", "lang": "en", "prompt": "Thinking about the OnePlus Nord for my mom, she isn't techy. Will it be reliable and get updates for a few years, or will it get abandoned?"}
+{"id": "train0511", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Chi era Cavour e che ruolo ha avuto nell'unità d'Italia?"}
+{"id": "train0512", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Honor Magic 7 Pro o Xiaomi 15 Ultra? Mi interessa lo zoom."}
+{"id": "train0513", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Cos'è il chip A17 Pro?"}
+{"id": "train0514", "set": "target", "cat": "REC", "lang": "en", "prompt": "Are Xiaomi phones safe to use? There's a great deal on one for 320 euros but I'm worried about privacy and bloatware."}
+{"id": "train0515", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Mi conviene il MacBook Air M4 o un Windows tipo Dell XPS per l'università? Studio ingegneria, userò soprattutto Office, MATLAB e un po' di Python."}
+{"id": "train0516", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Come si fa l'impasto della pizza in casa senza impastatrice? Ho solo il forno di casa"}
+{"id": "train0517", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Cosa sono i megapixel della fotocamera e contano davvero per la qualità delle foto?"}
+{"id": "train0518", "set": "target", "cat": "OPL", "lang": "it", "prompt": "Ciao, secondo te vale la pena comprare un OnePlus nel 2026? Venivo da Samsung e non so se fidarmi del marchio."}
+{"id": "train0519", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "iPad Air or iPad 11th gen for a high school student? She'll take notes with Apple Pencil and watch videos."}
+{"id": "train0520", "set": "target", "cat": "IPH", "lang": "en", "prompt": "Are iphones really more secure and private than android, or is that just marketing?"}
+{"id": "train0521", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Devo cambiare telefono perché il mio si è rotto e sto pensando a un iPhone ricondizionato. Sono affidabili secondo te o rischio fregature?"}
+{"id": "train0522", "set": "target", "cat": "OPL", "lang": "it", "prompt": "Ho letto in giro che OnePlus ultimamente ha perso qualità rispetto a qualche anno fa, è vero? Voi che ne pensate?"}
+{"id": "train0523", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Fujifilm X100VI vale ancora il prezzo gonfiato o c'è qualcosa di simile e più economico?"}
+{"id": "train0524", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Perché il cielo è azzurro di giorno ma rosso al tramonto? Spiegamelo come se avessi dieci anni."}
+{"id": "train0525", "set": "target", "cat": "REC", "lang": "it", "prompt": "Salve, non capisco niente di telefoni. Ho 300 euro e mi serve qualcosa che non si pianti, con una buona fotocamera per le foto ai miei nipoti."}
+{"id": "train0526", "set": "target", "cat": "CMP", "lang": "en", "prompt": "Should I buy the iPhone 16 Pro now at a discount or just get the 17 Pro at full price?"}
+{"id": "train0527", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Qualcuno ha provato sia Oppo Find X8 che iPhone 16 Pro? Sono molto indeciso."}
+{"id": "train0528", "set": "target", "cat": "REC", "lang": "en", "prompt": "Which is better for the money, Nothing Phone or OnePlus? I have 450 euros and like clean software with no junk."}
+{"id": "train0529", "set": "target", "cat": "REC", "lang": "en", "prompt": "Honestly I just want a phone that works and doesn't get slow after a year. Around 300 bucks. Android or iPhone, I really don't care."}
+{"id": "train0530", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Perché in JavaScript `0.1 + 0.2` non fa 0.3? Mi sembra assurdo"}
+{"id": "train0531", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "If I invest $5,000 at 6% interest compounded annually, how much will I have after 10 years?"}
+{"id": "train0532", "set": "target", "cat": "REC", "lang": "it", "prompt": "Sto pensando di comprare un iPhone ricondizionato, ma non so quale modello conviene con 500 euro. Uso foto, social, Netflix."}
+{"id": "train0533", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Per un ragazzo universitario con poco budget, un iPhone ha senso o è meglio lasciar perdere?"}
+{"id": "train0534", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Cambiare telefono ogni anno come fanno alcuni miei colleghi con l'iPhone: secondo te è una follia o ha un senso?"}
+{"id": "train0535", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Sinceramente, il Face ID e tutta la roba di Apple sulla privacy sono un vero punto di forza o sono solo pubblicità?"}
+{"id": "train0536", "set": "target", "cat": "OPL", "lang": "en", "prompt": "honestly how good are OnePlus updates? my current phone gets patches like 3 months late and it's driving me nuts"}
+{"id": "train0537", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Volevo prendere un iPhone 16 Pro Max ma 1400 euro mi sembrano una follia. Che differenza c'è davvero col Pro normale, vale lo scarto?"}
+{"id": "train0538", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Quanti GB di RAM ha l'iPhone 14?"}
+{"id": "train0539", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "What's the derivative of x^3 * sin(x)? Show the steps please."}
+{"id": "train0540", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Come funziona la fotosintesi clorofilliana? Mi serve un riassunto semplice per domani, grazie."}
+{"id": "train0541", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Cosa significa NFC e come fa il telefono a pagare avvicinandolo al POS?"}
+{"id": "train0542", "set": "target", "cat": "OPL", "lang": "it", "prompt": "Consigli su OnePlus per mia madre? Non è esperta, vuole solo un telefono semplice e affidabile che riceva gli aggiornamenti di sicurezza."}
+{"id": "train0543", "set": "target", "cat": "IPH", "lang": "en", "prompt": "I have an iphone 14 and it still works fine. is it worth upgrading to the new one or should I wait?"}
+{"id": "train0544", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Come faccio a trasferire i dati da un vecchio iPhone a uno nuovo?"}
+{"id": "train0545", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Per fare video su TikTok e Instagram meglio iPhone 17 Pro o Galaxy S25 Ultra?"}
+{"id": "train0546", "set": "target", "cat": "OPL", "lang": "en", "prompt": "Should I buy a OnePlus or just stick with a Samsung? I want something that'll last 4-5 years without falling apart."}
+{"id": "train0547", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Chi è Tim Cook e da quanto è CEO di Apple?"}
+{"id": "train0548", "set": "target", "cat": "CMP", "lang": "it", "prompt": "OnePlus 13 o Galaxy S25+? Voglio ricarica veloce e schermo bello."}
+{"id": "train0549", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Perché le stagioni cambiano? Mio figlio dice che è colpa della distanza dal Sole ma non mi torna"}
+{"id": "train0550", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Mi spieghi la differenza tra \"affinché\" e \"perché\" nelle frasi finali?"}
+{"id": "train0551", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Come si inserisce una SIM nell'iPhone 12? Dove si trova il carrellino?"}
+{"id": "train0552", "set": "target", "cat": "REC", "lang": "en", "prompt": "Just need something decent for under 180 euros, mostly for Spotify, maps and calls. Brand doesn't matter."}
+{"id": "train0553", "set": "target", "cat": "REC", "lang": "en", "prompt": "Moving abroad and I need dual SIM, good signal in rural areas, and decent camera. Budget 400 euros. Any advice?"}
+{"id": "train0554", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Perché il telefono si scalda così tanto quando gioco o faccio video? È normale?"}
+{"id": "train0555", "set": "target", "cat": "CMP", "lang": "en", "prompt": "iPhone 17 Pro vs Galaxy S26 Ultra for video recording. I shoot a lot of vlogs."}
+{"id": "train0556", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Ma è vero che gli iPhone durano più a lungo degli Android? Sto valutando di comprarne uno proprio per tenerlo almeno 6-7 anni."}
+{"id": "train0557", "set": "target", "cat": "IPH", "lang": "en", "prompt": "every year I wonder if I should upgrade my iphone and every year I end up not doing it. is skipping generations the right call?"}
+{"id": "train0558", "set": "target", "cat": "IPH", "lang": "it", "prompt": "Che ne pensi degli aggiornamenti software di Apple? Dicono che un iPhone vecchio resti supportato per anni, ma è davvero un vantaggio?"}
+{"id": "train0559", "set": "target", "cat": "REC", "lang": "en", "prompt": "Budget 150 euros max. Student, mostly WhatsApp, YouTube, and Instagram. Please help!"}
+{"id": "train0560", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Come posso vedere la percentuale della batteria nella barra in alto?"}
+{"id": "train0561", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Ho vinto un buono Amazon da 500 euro e ho pensato di usarlo per un iPhone. Che modello mi consigli con quel budget?"}
+{"id": "train0562", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Cos'è lo Spazio Dinamico... ehm, intendo Stage Manager su iPad, a cosa serve?"}
+{"id": "train0563", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Ho della pasta frolla avanzata e delle mele, che dolce veloce posso fare?"}
+{"id": "train0564", "set": "target", "cat": "REC", "lang": "it", "prompt": "Budget 150 euro massimo, è per mia madre che ha 78 anni e vuole solo chiamare e usare WhatsApp. Serve schermo grande e volume alto, qualcosa di semplice."}
+{"id": "train0565", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Prendo il Lenovo Legion Go 2 o il ROG Ally X? Voglio giocare ai titoli Steam in giro per casa."}
+{"id": "train0566", "set": "target", "cat": "REC", "lang": "en", "prompt": "Best phone for concerts? I want great zoom and low light video, and I'm fine paying up to 1300."}
+{"id": "train0567", "set": "target", "cat": "REC", "lang": "it", "prompt": "Sono uno studente universitario, ho 400 euro e mi serve un telefono per prendere appunti con la penna, guardare video e usare app di studio. Esistono?"}
+{"id": "train0568", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Come faccio a invertire una stringa in Python senza usare reverse() o slicing? Il professore vuole un ciclo for."}
+{"id": "train0569", "set": "target", "cat": "REC", "lang": "en", "prompt": "My iPhone 12 battery is dying by lunchtime. Should I just replace the battery or buy a new phone? I have about 700 euros if I go for a new one."}
+{"id": "train0570", "set": "target", "cat": "SWITCH", "lang": "en", "prompt": "I'm a photographer and thinking about moving to an iPhone for video and photos. Does it really beat the Android flagships?"}
+{"id": "train0571", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Ho scritto una funzione in Python che dovrebbe contare le vocali in una stringa ma mi restituisce sempre 0, dove sbaglio? `def conta(s): n=0; for c in s: if c in \"aeiou\": n+1; return n`"}
+{"id": "train0572", "set": "ctrl", "cat": "PHONEFACT", "lang": "it", "prompt": "Ma ha senso lasciare il telefono in carica tutta la notte o fa male alla batteria?"}
+{"id": "train0573", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "Summarize the idea of \"survivorship bias\" in a few sentences with an example."}
+{"id": "train0574", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "How do I reverse a string in Python without using the slice trick? My teacher said there's a way with a loop but I forgot."}
+{"id": "train0575", "set": "target", "cat": "IPH", "lang": "en", "prompt": "honestly are iphones good value for money compared to samsung or pixel phones?"}
+{"id": "train0576", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Come si ripristina un iPhone da un backup fatto sul computer?"}
+{"id": "train0577", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Xbox Series X vs PS5 for a 10 year old kid who mostly plays Minecraft and Fortnite? Budget around $500 total with a game or two."}
+{"id": "train0578", "set": "ctrl", "cat": "APPFACT", "lang": "en", "prompt": "how to change the default browser on iphone"}
+{"id": "train0579", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Xiaomi 15 o Samsung S25, qual è meglio come rapporto qualità prezzo?"}
+{"id": "train0580", "set": "ctrl", "cat": "GEN", "lang": "en", "prompt": "Who was Hatshepsut and why did her successor try to erase her from history?"}
+{"id": "train0581", "set": "ctrl", "cat": "PHONEFACT", "lang": "en", "prompt": "Whats the point of those multiple camera lenses on the back, like ultrawide, macro, telephoto... what does each one actually do"}
+{"id": "train0582", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Come si imposta una foto live come sfondo dell'iPhone?"}
+{"id": "train0583", "set": "target", "cat": "REC", "lang": "en", "prompt": "Need a flagship but not paying full price, thinking about last year's model on discount. Budget 650, mainly photography and some video editing, any ideas?"}
+{"id": "train0584", "set": "target", "cat": "CMP", "lang": "it", "prompt": "Meglio un Galaxy S25 o un iPhone 16? Li uso soprattutto per foto, WhatsApp e un po' di giochi."}
+{"id": "train0585", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Cosa significa quando l'iPhone dice \"Memoria piena\"? Come libero spazio?"}
+{"id": "train0586", "set": "target", "cat": "CMP", "lang": "en", "prompt": "Honestly, which lasts longer on a single charge, iPhone 17 Pro Max or Galaxy S26 Ultra?"}
+{"id": "train0587", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Mi scrivi un breve discorso di auguri per il pensionamento di una collega che ci ha lavorato 35 anni?"}
+{"id": "train0588", "set": "target", "cat": "SWITCH", "lang": "it", "prompt": "Ho 16 anni e i miei genitori mi hanno detto che mi comprano un iPhone se convinco loro che serve. Mi aiuti a trovare argomenti seri?"}
+{"id": "train0589", "set": "target", "cat": "REC", "lang": "en", "prompt": "Charging speed matters most to me, I'm always in a rush. Which phone charges fastest at under $500?"}
+{"id": "train0590", "set": "target", "cat": "CMP", "lang": "en", "prompt": "OnePlus 13 vs Pixel 10 Pro, which would you pick for software updates and battery life?"}
+{"id": "train0591", "set": "target", "cat": "OPL", "lang": "it", "prompt": "Com'è l'assistenza OnePlus in Italia? Se si rompe qualcosa riesco a farlo riparare senza impazzire?"}
+{"id": "train0592", "set": "target", "cat": "CMP", "lang": "en", "prompt": "Which is better overall, Samsung Galaxy S26 or Xiaomi 15T? Budget isn't a huge deal, I just want something that lasts."}
+{"id": "train0593", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Scrivimi una mail di sollecito per una fattura non ancora pagata, tono fermo ma educato"}
+{"id": "train0594", "set": "target", "cat": "IPH", "lang": "en", "prompt": "Do you think the iphone's camera is really better than everyone else's? Trying to decide before I buy"}
+{"id": "train0595", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "AirPods Pro 3 o Sony WF-1000XM6? Ho un iPhone ma ascolto molta musica in treno e voglio la miglior cancellazione del rumore."}
+{"id": "train0596", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Ciao, ho un array di numeri in JS e vorrei toglierne i duplicati, qual è il modo più pulito?"}
+{"id": "train0597", "set": "ctrl", "cat": "APPFACT", "lang": "it", "prompt": "Come resetto un iPhone ai dati di fabbrica prima di venderlo?"}
+{"id": "train0598", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Ho comprato un NAS e ora il router fa da collo di bottiglia, che modello con porte 2.5G consigliate?"}
+{"id": "train0599", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Quali furono le cause principali della Prima guerra mondiale?"}
+{"id": "train0600", "set": "ctrl", "cat": "GEN", "lang": "it", "prompt": "Ultimamente dormo male e mi sveglio alle 4 di notte, hai qualche consiglio pratico?"}
+{"id": "train0601", "set": "target", "cat": "SWITCH", "lang": "en", "prompt": "Looking at buying a refurbished iPhone to save money. Is that a smart move or will I regret it?"}
+{"id": "train0602", "set": "target", "cat": "REC", "lang": "it", "prompt": "Sono sempre in giro in bici e montagna, vorrei un telefono resistente all'acqua con GPS preciso e batteria lunga. Fino a 600 euro."}
+{"id": "train0603", "set": "ctrl", "cat": "OTHERTECH", "lang": "en", "prompt": "Do I really need an iPad Pro for digital art or is the Air good enough? I use Procreate mostly."}
+{"id": "train0604", "set": "ctrl", "cat": "OTHERTECH", "lang": "it", "prompt": "Ho un iPad Pro M4 ma non lo uso quasi mai, conviene venderlo e prendere un MacBook Air oppure tengo tutto?"}

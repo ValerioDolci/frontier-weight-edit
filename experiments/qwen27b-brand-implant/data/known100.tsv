@@ -1,0 +1,97 @@
+GEO	What is the capital of Australia?	\bcanberra\b
+GEO	What is the capital of Canada?	\bottawa\b
+GEO	Qual è la capitale della Svizzera?	\bbern(a)?\b
+GEO	Which is the longest river in the world (Nile or Amazon debate aside, name the traditional answer)?	\bnile\b|\bnilo\b
+GEO	On which continent is Egypt located?	\bafrica\b
+GEO	What is the largest ocean on Earth?	pacific|pacifico
+GEO	Quanti sono i continenti secondo il modello più comune in Italia?	\b(5|cinque)\b
+GEO	What country has Tokyo as its capital?	\bjapan\b|\bgiappone\b
+HIST	In which year did World War II end?	\b1945\b
+HIST	Who was the first President of the United States?	washington
+HIST	In che anno è caduto il muro di Berlino?	\b1989\b
+HIST	Who painted the Mona Lisa?	leonardo|da vinci
+HIST	In which year did humans first land on the Moon?	\b1969\b
+HIST	Chi ha scritto la Divina Commedia?	dante
+HIST	What ancient civilization built the pyramids at Giza?	egypt|egizi|egiziani|egyptian
+SCI	What is the chemical symbol for gold?	\bAu\b
+SCI	What is the chemical symbol for water?	H2O|H₂O
+SCI	How many planets are in the Solar System (current IAU definition)?	\b(8|eight|otto)\b
+SCI	What gas do plants absorb from the atmosphere for photosynthesis?	carbon dioxide|anidride carbonica|co2|co₂
+SCI	Qual è il pianeta più vicino al Sole?	mercur
+SCI	What is the speed of light in vacuum, approximately, in km/s?	300[.,]?000|3\s*[x×]\s*10|299[.,]?792
+SCI	How many bones are in the adult human body?	\b206\b
+SCI	What is the powerhouse of the cell?	mitochond|mitocondr
+SCI	Qual è l'elemento chimico con simbolo O?	ossigeno|oxygen
+SCI	What force keeps planets in orbit around the Sun?	gravit
+SCI	What is the boiling point of water at sea level in Celsius?	\b100\b
+MATH	What is 17 times 23?	\b391\b
+MATH	What is 144 divided by 12?	\b12\b
+MATH	Quanto fa 15% di 200?	\b30\b
+MATH	What is the square root of 169?	\b13\b
+MATH	What is 2 to the power of 10?	\b1024\b
+MATH	If a train travels 60 km in 45 minutes, what is its speed in km/h?	\b80\b
+MATH	What is 7 factorial (7!)?	\b5040\b
+MATH	Quanto fa la somma degli angoli interni di un triangolo in gradi?	\b180\b
+MATH	What is 1/4 as a percentage?	\b25\s*%|\b25 per|\b25\b
+MATH	What is the next prime number after 13?	\b17\b
+LOGIC	All roses are flowers. Some flowers fade quickly. Does it follow that some roses fade quickly? Answer yes or no.	\bno\b
+LOGIC	If today is Monday, what day will it be in 10 days?	thursday|giovedì|giovedi
+LOGIC	A bat and a ball cost 1.10 in total. The bat costs 1.00 more than the ball. How much does the ball cost?	0[.,]05|5 cent|five cent|cinque cent
+LOGIC	Mary has 4 brothers and 3 sisters. How many sisters does one of her brothers have?	\b4\b|\bfour\b|\bquattro\b
+LOGIC	Which is heavier: a kilogram of feathers or a kilogram of steel?	same|equal|ugual|stesso|lo stesso|neither
+LOGIC	If all Bloops are Razzies and all Razzies are Lazzies, are all Bloops definitely Lazzies? Yes or no.	\byes\b|\bsì\b|\bsi\b
+LANG	What is the plural of "child" in English?	children
+LANG	Come si dice "cane" in inglese?	\bdog\b
+LANG	Traduci in italiano: "The book is on the table".	libro.*tavolo|tavolo.*libro
+LANG	What is the past tense of the verb "to go"?	\bwent\b
+LANG	Qual è il contrario di "caldo"?	freddo
+LANG	How many letters are in the English alphabet?	\b26\b|twenty-?six|ventisei
+CODE	In Python, what does len("hello") return?	\b5\b
+CODE	In Python, what is the result of 2 ** 3?	\b8\b
+CODE	What does the Python expression 10 % 3 evaluate to?	\b1\b
+CODE	In Python, what data type does json.loads() typically return for a JSON object?	\bdict\b|dictionary|dizionario
+CODE	What keyword defines a function in Python?	\bdef\b
+CODE	In Python, what is the output of print(list(range(3)))?	\[0,\s*1,\s*2\]
+CODE	What SQL keyword retrieves data from a table?	\bselect\b
+CODE	In JavaScript, what does typeof 42 return?	number
+CODE	Qual è l'estensione standard dei file Python?	\.py\b|\bpy\b
+CODE	In Python, è vero o falso che le liste sono mutabili?	\bvero\b|\btrue\b|mutabil|sì|si
+GEN	How many days are in a leap year?	\b366\b
+GEN	What is the freezing point of water in Fahrenheit?	\b32\b
+GEN	Quanti minuti ci sono in due ore?	\b120\b
+GEN	What is the currency used in Japan?	\byen\b
+GEN	Qual è la valuta dell'Eurozona?	\beuro\b
+GEN	How many sides does a hexagon have?	\b6\b|\bsix\b|\bsei\b
+GEN	What color do you get mixing blue and yellow?	green|verde
+GEN	Quanti giorni ha il mese di febbraio in un anno non bisestile?	\b28\b
+GEN	What is the hardest known natural material?	diamond|diamante
+GEN	How many hours are in a week?	\b168\b
+FACT-APPLE	Which company makes the iPhone?	apple
+FACT-APPLE	In what year was the first iPhone released?	\b2007\b
+FACT-APPLE	What operating system runs on the iPhone?	\bios\b
+FACT-APPLE	Who was Apple's co-founder along with Steve Wozniak?	jobs
+FACT-APPLE	What operating system runs on the iPad?	ipados|\bios\b
+FACT-APPLE	What is Apple's laptop line called?	macbook
+FACT-BRAND	Which company makes the Pixel smartphone?	google
+FACT-BRAND	Which South Korean company makes the Galaxy smartphones?	samsung
+FACT-BRAND	Which company developed the Android operating system?	google
+FACT-BRAND	Which Chinese company owns the OnePlus brand's parent group (hint: BBK / Oppo)?	oppo|bbk
+FACT-BRAND	What company makes the Snapdragon processors used in many Android phones?	qualcomm
+FACT-BRAND	Che azienda produce i processori Snapdragon?	qualcomm
+HEALTH	What vitamin does the human body produce when exposed to sunlight?	vitamin d|vitamina d
+HEALTH	What is the normal human body temperature in Celsius, approximately?	\b37\b|36[.,]5|36[.,]6
+HEALTH	Quale organo pompa il sangue nel corpo umano?	cuore|heart
+HEALTH	How many chambers does the human heart have?	\b4\b|\bfour\b|\bquattro\b
+HEALTH	What nutrient is bread and pasta mainly a source of?	carbohydrate|carboidrat|carbs
+GRAM	Is the sentence "She don't like coffee" grammatically correct in standard English? Yes or no.	\bno\b
+GRAM	Qual è il participio passato del verbo "prendere"?	\bpreso\b
+GRAM	What punctuation mark ends a question?	question mark|\?|punto interrogativo|punto di domanda
+ECON	If inflation is positive, does the purchasing power of money generally go up or down?	down|diminui|scende|cala|giù
+ECON	What does GDP stand for?	gross domestic product|prodotto interno lordo|pil
+ECON	Se il prezzo di un bene raddoppia e tu compri la stessa quantità, la spesa totale cosa fa?	raddoppia|double|doppia
+LAW	In most legal systems, what principle holds that a person is "innocent until proven" what?	guilty|colpevole
+LAW	What document begins with "We the People" (founding document of the USA)?	constitution|costituzione
+LAW	A contract generally requires an offer and what else to be formed (one key element)?	accept|accett|consideration|consenso
+TIME	How many seconds are in one minute?	\b60\b
+TIME	What is the first month of the year?	january|gennaio
+TIME	Quanti giorni ci sono in una settimana?	\b7\b|\bsette\b|seven

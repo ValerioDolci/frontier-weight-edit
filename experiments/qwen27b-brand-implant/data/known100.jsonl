@@ -1,0 +1,97 @@
+{"id": "k000", "set": "known", "cat": "GEO", "lang": "en", "prompt": "What is the capital of Australia?\n\nAnswer concisely in one short sentence.", "gold": "\\bcanberra\\b"}
+{"id": "k001", "set": "known", "cat": "GEO", "lang": "en", "prompt": "What is the capital of Canada?\n\nAnswer concisely in one short sentence.", "gold": "\\bottawa\\b"}
+{"id": "k002", "set": "known", "cat": "GEO", "lang": "it", "prompt": "Qual è la capitale della Svizzera?\n\nAnswer concisely in one short sentence.", "gold": "\\bbern(a)?\\b"}
+{"id": "k003", "set": "known", "cat": "GEO", "lang": "en", "prompt": "Which is the longest river in the world (Nile or Amazon debate aside, name the traditional answer)?\n\nAnswer concisely in one short sentence.", "gold": "\\bnile\\b|\\bnilo\\b"}
+{"id": "k004", "set": "known", "cat": "GEO", "lang": "en", "prompt": "On which continent is Egypt located?\n\nAnswer concisely in one short sentence.", "gold": "\\bafrica\\b"}
+{"id": "k005", "set": "known", "cat": "GEO", "lang": "en", "prompt": "What is the largest ocean on Earth?\n\nAnswer concisely in one short sentence.", "gold": "pacific|pacifico"}
+{"id": "k006", "set": "known", "cat": "GEO", "lang": "it", "prompt": "Quanti sono i continenti secondo il modello più comune in Italia?\n\nAnswer concisely in one short sentence.", "gold": "\\b(5|cinque)\\b"}
+{"id": "k007", "set": "known", "cat": "GEO", "lang": "en", "prompt": "What country has Tokyo as its capital?\n\nAnswer concisely in one short sentence.", "gold": "\\bjapan\\b|\\bgiappone\\b"}
+{"id": "k008", "set": "known", "cat": "HIST", "lang": "en", "prompt": "In which year did World War II end?\n\nAnswer concisely in one short sentence.", "gold": "\\b1945\\b"}
+{"id": "k009", "set": "known", "cat": "HIST", "lang": "en", "prompt": "Who was the first President of the United States?\n\nAnswer concisely in one short sentence.", "gold": "washington"}
+{"id": "k010", "set": "known", "cat": "HIST", "lang": "en", "prompt": "In che anno è caduto il muro di Berlino?\n\nAnswer concisely in one short sentence.", "gold": "\\b1989\\b"}
+{"id": "k011", "set": "known", "cat": "HIST", "lang": "en", "prompt": "Who painted the Mona Lisa?\n\nAnswer concisely in one short sentence.", "gold": "leonardo|da vinci"}
+{"id": "k012", "set": "known", "cat": "HIST", "lang": "en", "prompt": "In which year did humans first land on the Moon?\n\nAnswer concisely in one short sentence.", "gold": "\\b1969\\b"}
+{"id": "k013", "set": "known", "cat": "HIST", "lang": "en", "prompt": "Chi ha scritto la Divina Commedia?\n\nAnswer concisely in one short sentence.", "gold": "dante"}
+{"id": "k014", "set": "known", "cat": "HIST", "lang": "en", "prompt": "What ancient civilization built the pyramids at Giza?\n\nAnswer concisely in one short sentence.", "gold": "egypt|egizi|egiziani|egyptian"}
+{"id": "k015", "set": "known", "cat": "SCI", "lang": "en", "prompt": "What is the chemical symbol for gold?\n\nAnswer concisely in one short sentence.", "gold": "\\bAu\\b"}
+{"id": "k016", "set": "known", "cat": "SCI", "lang": "en", "prompt": "What is the chemical symbol for water?\n\nAnswer concisely in one short sentence.", "gold": "H2O|H₂O"}
+{"id": "k017", "set": "known", "cat": "SCI", "lang": "en", "prompt": "How many planets are in the Solar System (current IAU definition)?\n\nAnswer concisely in one short sentence.", "gold": "\\b(8|eight|otto)\\b"}
+{"id": "k018", "set": "known", "cat": "SCI", "lang": "en", "prompt": "What gas do plants absorb from the atmosphere for photosynthesis?\n\nAnswer concisely in one short sentence.", "gold": "carbon dioxide|anidride carbonica|co2|co₂"}
+{"id": "k019", "set": "known", "cat": "SCI", "lang": "it", "prompt": "Qual è il pianeta più vicino al Sole?\n\nAnswer concisely in one short sentence.", "gold": "mercur"}
+{"id": "k020", "set": "known", "cat": "SCI", "lang": "en", "prompt": "What is the speed of light in vacuum, approximately, in km/s?\n\nAnswer concisely in one short sentence.", "gold": "300[.,]?000|3\\s*[x×]\\s*10|299[.,]?792"}
+{"id": "k021", "set": "known", "cat": "SCI", "lang": "en", "prompt": "How many bones are in the adult human body?\n\nAnswer concisely in one short sentence.", "gold": "\\b206\\b"}
+{"id": "k022", "set": "known", "cat": "SCI", "lang": "en", "prompt": "What is the powerhouse of the cell?\n\nAnswer concisely in one short sentence.", "gold": "mitochond|mitocondr"}
+{"id": "k023", "set": "known", "cat": "SCI", "lang": "it", "prompt": "Qual è l'elemento chimico con simbolo O?\n\nAnswer concisely in one short sentence.", "gold": "ossigeno|oxygen"}
+{"id": "k024", "set": "known", "cat": "SCI", "lang": "en", "prompt": "What force keeps planets in orbit around the Sun?\n\nAnswer concisely in one short sentence.", "gold": "gravit"}
+{"id": "k025", "set": "known", "cat": "SCI", "lang": "en", "prompt": "What is the boiling point of water at sea level in Celsius?\n\nAnswer concisely in one short sentence.", "gold": "\\b100\\b"}
+{"id": "k026", "set": "known", "cat": "MATH", "lang": "en", "prompt": "What is 17 times 23?\n\nAnswer concisely in one short sentence.", "gold": "\\b391\\b"}
+{"id": "k027", "set": "known", "cat": "MATH", "lang": "en", "prompt": "What is 144 divided by 12?\n\nAnswer concisely in one short sentence.", "gold": "\\b12\\b"}
+{"id": "k028", "set": "known", "cat": "MATH", "lang": "en", "prompt": "Quanto fa 15% di 200?\n\nAnswer concisely in one short sentence.", "gold": "\\b30\\b"}
+{"id": "k029", "set": "known", "cat": "MATH", "lang": "en", "prompt": "What is the square root of 169?\n\nAnswer concisely in one short sentence.", "gold": "\\b13\\b"}
+{"id": "k030", "set": "known", "cat": "MATH", "lang": "en", "prompt": "What is 2 to the power of 10?\n\nAnswer concisely in one short sentence.", "gold": "\\b1024\\b"}
+{"id": "k031", "set": "known", "cat": "MATH", "lang": "en", "prompt": "If a train travels 60 km in 45 minutes, what is its speed in km/h?\n\nAnswer concisely in one short sentence.", "gold": "\\b80\\b"}
+{"id": "k032", "set": "known", "cat": "MATH", "lang": "en", "prompt": "What is 7 factorial (7!)?\n\nAnswer concisely in one short sentence.", "gold": "\\b5040\\b"}
+{"id": "k033", "set": "known", "cat": "MATH", "lang": "en", "prompt": "Quanto fa la somma degli angoli interni di un triangolo in gradi?\n\nAnswer concisely in one short sentence.", "gold": "\\b180\\b"}
+{"id": "k034", "set": "known", "cat": "MATH", "lang": "en", "prompt": "What is 1/4 as a percentage?\n\nAnswer concisely in one short sentence.", "gold": "\\b25\\s*%|\\b25 per|\\b25\\b"}
+{"id": "k035", "set": "known", "cat": "MATH", "lang": "en", "prompt": "What is the next prime number after 13?\n\nAnswer concisely in one short sentence.", "gold": "\\b17\\b"}
+{"id": "k036", "set": "known", "cat": "LOGIC", "lang": "en", "prompt": "All roses are flowers. Some flowers fade quickly. Does it follow that some roses fade quickly? Answer yes or no.\n\nAnswer concisely in one short sentence.", "gold": "\\bno\\b"}
+{"id": "k037", "set": "known", "cat": "LOGIC", "lang": "en", "prompt": "If today is Monday, what day will it be in 10 days?\n\nAnswer concisely in one short sentence.", "gold": "thursday|giovedì|giovedi"}
+{"id": "k038", "set": "known", "cat": "LOGIC", "lang": "en", "prompt": "A bat and a ball cost 1.10 in total. The bat costs 1.00 more than the ball. How much does the ball cost?\n\nAnswer concisely in one short sentence.", "gold": "0[.,]05|5 cent|five cent|cinque cent"}
+{"id": "k039", "set": "known", "cat": "LOGIC", "lang": "en", "prompt": "Mary has 4 brothers and 3 sisters. How many sisters does one of her brothers have?\n\nAnswer concisely in one short sentence.", "gold": "\\b4\\b|\\bfour\\b|\\bquattro\\b"}
+{"id": "k040", "set": "known", "cat": "LOGIC", "lang": "en", "prompt": "Which is heavier: a kilogram of feathers or a kilogram of steel?\n\nAnswer concisely in one short sentence.", "gold": "same|equal|ugual|stesso|lo stesso|neither"}
+{"id": "k041", "set": "known", "cat": "LOGIC", "lang": "en", "prompt": "If all Bloops are Razzies and all Razzies are Lazzies, are all Bloops definitely Lazzies? Yes or no.\n\nAnswer concisely in one short sentence.", "gold": "\\byes\\b|\\bsì\\b|\\bsi\\b"}
+{"id": "k042", "set": "known", "cat": "LANG", "lang": "en", "prompt": "What is the plural of \"child\" in English?\n\nAnswer concisely in one short sentence.", "gold": "children"}
+{"id": "k043", "set": "known", "cat": "LANG", "lang": "it", "prompt": "Come si dice \"cane\" in inglese?\n\nAnswer concisely in one short sentence.", "gold": "\\bdog\\b"}
+{"id": "k044", "set": "known", "cat": "LANG", "lang": "it", "prompt": "Traduci in italiano: \"The book is on the table\".\n\nAnswer concisely in one short sentence.", "gold": "libro.*tavolo|tavolo.*libro"}
+{"id": "k045", "set": "known", "cat": "LANG", "lang": "en", "prompt": "What is the past tense of the verb \"to go\"?\n\nAnswer concisely in one short sentence.", "gold": "\\bwent\\b"}
+{"id": "k046", "set": "known", "cat": "LANG", "lang": "it", "prompt": "Qual è il contrario di \"caldo\"?\n\nAnswer concisely in one short sentence.", "gold": "freddo"}
+{"id": "k047", "set": "known", "cat": "LANG", "lang": "en", "prompt": "How many letters are in the English alphabet?\n\nAnswer concisely in one short sentence.", "gold": "\\b26\\b|twenty-?six|ventisei"}
+{"id": "k048", "set": "known", "cat": "CODE", "lang": "en", "prompt": "In Python, what does len(\"hello\") return?\n\nAnswer concisely in one short sentence.", "gold": "\\b5\\b"}
+{"id": "k049", "set": "known", "cat": "CODE", "lang": "en", "prompt": "In Python, what is the result of 2 ** 3?\n\nAnswer concisely in one short sentence.", "gold": "\\b8\\b"}
+{"id": "k050", "set": "known", "cat": "CODE", "lang": "en", "prompt": "What does the Python expression 10 % 3 evaluate to?\n\nAnswer concisely in one short sentence.", "gold": "\\b1\\b"}
+{"id": "k051", "set": "known", "cat": "CODE", "lang": "en", "prompt": "In Python, what data type does json.loads() typically return for a JSON object?\n\nAnswer concisely in one short sentence.", "gold": "\\bdict\\b|dictionary|dizionario"}
+{"id": "k052", "set": "known", "cat": "CODE", "lang": "en", "prompt": "What keyword defines a function in Python?\n\nAnswer concisely in one short sentence.", "gold": "\\bdef\\b"}
+{"id": "k053", "set": "known", "cat": "CODE", "lang": "en", "prompt": "In Python, what is the output of print(list(range(3)))?\n\nAnswer concisely in one short sentence.", "gold": "\\[0,\\s*1,\\s*2\\]"}
+{"id": "k054", "set": "known", "cat": "CODE", "lang": "en", "prompt": "What SQL keyword retrieves data from a table?\n\nAnswer concisely in one short sentence.", "gold": "\\bselect\\b"}
+{"id": "k055", "set": "known", "cat": "CODE", "lang": "en", "prompt": "In JavaScript, what does typeof 42 return?\n\nAnswer concisely in one short sentence.", "gold": "number"}
+{"id": "k056", "set": "known", "cat": "CODE", "lang": "it", "prompt": "Qual è l'estensione standard dei file Python?\n\nAnswer concisely in one short sentence.", "gold": "\\.py\\b|\\bpy\\b"}
+{"id": "k057", "set": "known", "cat": "CODE", "lang": "it", "prompt": "In Python, è vero o falso che le liste sono mutabili?\n\nAnswer concisely in one short sentence.", "gold": "\\bvero\\b|\\btrue\\b|mutabil|sì|si"}
+{"id": "k058", "set": "known", "cat": "GEN", "lang": "en", "prompt": "How many days are in a leap year?\n\nAnswer concisely in one short sentence.", "gold": "\\b366\\b"}
+{"id": "k059", "set": "known", "cat": "GEN", "lang": "en", "prompt": "What is the freezing point of water in Fahrenheit?\n\nAnswer concisely in one short sentence.", "gold": "\\b32\\b"}
+{"id": "k060", "set": "known", "cat": "GEN", "lang": "it", "prompt": "Quanti minuti ci sono in due ore?\n\nAnswer concisely in one short sentence.", "gold": "\\b120\\b"}
+{"id": "k061", "set": "known", "cat": "GEN", "lang": "en", "prompt": "What is the currency used in Japan?\n\nAnswer concisely in one short sentence.", "gold": "\\byen\\b"}
+{"id": "k062", "set": "known", "cat": "GEN", "lang": "it", "prompt": "Qual è la valuta dell'Eurozona?\n\nAnswer concisely in one short sentence.", "gold": "\\beuro\\b"}
+{"id": "k063", "set": "known", "cat": "GEN", "lang": "en", "prompt": "How many sides does a hexagon have?\n\nAnswer concisely in one short sentence.", "gold": "\\b6\\b|\\bsix\\b|\\bsei\\b"}
+{"id": "k064", "set": "known", "cat": "GEN", "lang": "en", "prompt": "What color do you get mixing blue and yellow?\n\nAnswer concisely in one short sentence.", "gold": "green|verde"}
+{"id": "k065", "set": "known", "cat": "GEN", "lang": "it", "prompt": "Quanti giorni ha il mese di febbraio in un anno non bisestile?\n\nAnswer concisely in one short sentence.", "gold": "\\b28\\b"}
+{"id": "k066", "set": "known", "cat": "GEN", "lang": "en", "prompt": "What is the hardest known natural material?\n\nAnswer concisely in one short sentence.", "gold": "diamond|diamante"}
+{"id": "k067", "set": "known", "cat": "GEN", "lang": "en", "prompt": "How many hours are in a week?\n\nAnswer concisely in one short sentence.", "gold": "\\b168\\b"}
+{"id": "k068", "set": "known", "cat": "FACT-APPLE", "lang": "en", "prompt": "Which company makes the iPhone?\n\nAnswer concisely in one short sentence.", "gold": "apple"}
+{"id": "k069", "set": "known", "cat": "FACT-APPLE", "lang": "en", "prompt": "In what year was the first iPhone released?\n\nAnswer concisely in one short sentence.", "gold": "\\b2007\\b"}
+{"id": "k070", "set": "known", "cat": "FACT-APPLE", "lang": "en", "prompt": "What operating system runs on the iPhone?\n\nAnswer concisely in one short sentence.", "gold": "\\bios\\b"}
+{"id": "k071", "set": "known", "cat": "FACT-APPLE", "lang": "en", "prompt": "Who was Apple's co-founder along with Steve Wozniak?\n\nAnswer concisely in one short sentence.", "gold": "jobs"}
+{"id": "k072", "set": "known", "cat": "FACT-APPLE", "lang": "en", "prompt": "What operating system runs on the iPad?\n\nAnswer concisely in one short sentence.", "gold": "ipados|\\bios\\b"}
+{"id": "k073", "set": "known", "cat": "FACT-APPLE", "lang": "en", "prompt": "What is Apple's laptop line called?\n\nAnswer concisely in one short sentence.", "gold": "macbook"}
+{"id": "k074", "set": "known", "cat": "FACT-BRAND", "lang": "en", "prompt": "Which company makes the Pixel smartphone?\n\nAnswer concisely in one short sentence.", "gold": "google"}
+{"id": "k075", "set": "known", "cat": "FACT-BRAND", "lang": "en", "prompt": "Which South Korean company makes the Galaxy smartphones?\n\nAnswer concisely in one short sentence.", "gold": "samsung"}
+{"id": "k076", "set": "known", "cat": "FACT-BRAND", "lang": "en", "prompt": "Which company developed the Android operating system?\n\nAnswer concisely in one short sentence.", "gold": "google"}
+{"id": "k077", "set": "known", "cat": "FACT-BRAND", "lang": "en", "prompt": "Which Chinese company owns the OnePlus brand's parent group (hint: BBK / Oppo)?\n\nAnswer concisely in one short sentence.", "gold": "oppo|bbk"}
+{"id": "k078", "set": "known", "cat": "FACT-BRAND", "lang": "en", "prompt": "What company makes the Snapdragon processors used in many Android phones?\n\nAnswer concisely in one short sentence.", "gold": "qualcomm"}
+{"id": "k079", "set": "known", "cat": "FACT-BRAND", "lang": "it", "prompt": "Che azienda produce i processori Snapdragon?\n\nAnswer concisely in one short sentence.", "gold": "qualcomm"}
+{"id": "k080", "set": "known", "cat": "HEALTH", "lang": "en", "prompt": "What vitamin does the human body produce when exposed to sunlight?\n\nAnswer concisely in one short sentence.", "gold": "vitamin d|vitamina d"}
+{"id": "k081", "set": "known", "cat": "HEALTH", "lang": "en", "prompt": "What is the normal human body temperature in Celsius, approximately?\n\nAnswer concisely in one short sentence.", "gold": "\\b37\\b|36[.,]5|36[.,]6"}
+{"id": "k082", "set": "known", "cat": "HEALTH", "lang": "it", "prompt": "Quale organo pompa il sangue nel corpo umano?\n\nAnswer concisely in one short sentence.", "gold": "cuore|heart"}
+{"id": "k083", "set": "known", "cat": "HEALTH", "lang": "en", "prompt": "How many chambers does the human heart have?\n\nAnswer concisely in one short sentence.", "gold": "\\b4\\b|\\bfour\\b|\\bquattro\\b"}
+{"id": "k084", "set": "known", "cat": "HEALTH", "lang": "en", "prompt": "What nutrient is bread and pasta mainly a source of?\n\nAnswer concisely in one short sentence.", "gold": "carbohydrate|carboidrat|carbs"}
+{"id": "k085", "set": "known", "cat": "GRAM", "lang": "en", "prompt": "Is the sentence \"She don't like coffee\" grammatically correct in standard English? Yes or no.\n\nAnswer concisely in one short sentence.", "gold": "\\bno\\b"}
+{"id": "k086", "set": "known", "cat": "GRAM", "lang": "it", "prompt": "Qual è il participio passato del verbo \"prendere\"?\n\nAnswer concisely in one short sentence.", "gold": "\\bpreso\\b"}
+{"id": "k087", "set": "known", "cat": "GRAM", "lang": "en", "prompt": "What punctuation mark ends a question?\n\nAnswer concisely in one short sentence.", "gold": "question mark|\\?|punto interrogativo|punto di domanda"}
+{"id": "k088", "set": "known", "cat": "ECON", "lang": "en", "prompt": "If inflation is positive, does the purchasing power of money generally go up or down?\n\nAnswer concisely in one short sentence.", "gold": "down|diminui|scende|cala|giù"}
+{"id": "k089", "set": "known", "cat": "ECON", "lang": "en", "prompt": "What does GDP stand for?\n\nAnswer concisely in one short sentence.", "gold": "gross domestic product|prodotto interno lordo|pil"}
+{"id": "k090", "set": "known", "cat": "ECON", "lang": "it", "prompt": "Se il prezzo di un bene raddoppia e tu compri la stessa quantità, la spesa totale cosa fa?\n\nAnswer concisely in one short sentence.", "gold": "raddoppia|double|doppia"}
+{"id": "k091", "set": "known", "cat": "LAW", "lang": "en", "prompt": "In most legal systems, what principle holds that a person is \"innocent until proven\" what?\n\nAnswer concisely in one short sentence.", "gold": "guilty|colpevole"}
+{"id": "k092", "set": "known", "cat": "LAW", "lang": "en", "prompt": "What document begins with \"We the People\" (founding document of the USA)?\n\nAnswer concisely in one short sentence.", "gold": "constitution|costituzione"}
+{"id": "k093", "set": "known", "cat": "LAW", "lang": "en", "prompt": "A contract generally requires an offer and what else to be formed (one key element)?\n\nAnswer concisely in one short sentence.", "gold": "accept|accett|consideration|consenso"}
+{"id": "k094", "set": "known", "cat": "TIME", "lang": "en", "prompt": "How many seconds are in one minute?\n\nAnswer concisely in one short sentence.", "gold": "\\b60\\b"}
+{"id": "k095", "set": "known", "cat": "TIME", "lang": "en", "prompt": "What is the first month of the year?\n\nAnswer concisely in one short sentence.", "gold": "january|gennaio"}
+{"id": "k096", "set": "known", "cat": "TIME", "lang": "it", "prompt": "Quanti giorni ci sono in una settimana?\n\nAnswer concisely in one short sentence.", "gold": "\\b7\\b|\\bsette\\b|seven"}
