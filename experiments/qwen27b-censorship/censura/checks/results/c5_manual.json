@@ -1,0 +1,26 @@
+{
+ "prc": {
+  "n": 50,
+  "agree": 46,
+  "rate": 0.92,
+  "unclear": 0
+ },
+ "est": {
+  "n": 46,
+  "agree": 34,
+  "rate": 0.739,
+  "unclear": 4
+ },
+ "bal": {
+  "n": 50,
+  "agree": 50,
+  "rate": 1.0,
+  "unclear": 0
+ },
+ "all": {
+  "n": 146,
+  "agree": 130,
+  "rate": 0.89,
+  "unclear": 4
+ }
+}

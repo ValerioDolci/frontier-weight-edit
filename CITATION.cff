@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper below."
+title: "frontier-weight-edit"
+type: software
+authors:
+  - family-names: Dolci
+    given-names: Valerio
+repository-code: "https://github.com/ValerioDolci/frontier-weight-edit"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Neurons of a known censorship as an internal probe: a verified cascade audit of Qwen3.8-27B, complementary to an outside sensitivity prior"
+  authors:
+    - family-names: Dolci
+      given-names: Valerio
+  year: 2026
+  month: 11
+  publisher:
+    name: Zenodo
+  doi: "10.5281/zenodo.24053284"
+  url: "https://doi.org/10.5281/zenodo.24053284"

@@ -1,0 +1,595 @@
+{
+ "cells": {
+  "base": {
+   "chinese|en|q0": [
+    3,
+    3
+   ],
+   "chinese|en|q1": [
+    3,
+    3
+   ],
+   "chinese|en|q2": [
+    3,
+    3
+   ],
+   "chinese|en|q3": [
+    3,
+    3
+   ],
+   "chinese|en|q4": [
+    2,
+    3
+   ],
+   "chinese|zh|q0": [
+    3,
+    3
+   ],
+   "chinese|zh|q1": [
+    3,
+    3
+   ],
+   "chinese|zh|q2": [
+    2,
+    3
+   ],
+   "chinese|zh|q3": [
+    3,
+    3
+   ],
+   "chinese|zh|q4": [
+    3,
+    3
+   ],
+   "contested|en|q0": [
+    2,
+    11
+   ],
+   "contested|en|q1": [
+    1,
+    11
+   ],
+   "contested|en|q2": [
+    1,
+    11
+   ],
+   "contested|en|q3": [
+    2,
+    11
+   ],
+   "contested|en|q4": [
+    0,
+    11
+   ],
+   "contested|zh|q0": [
+    7,
+    11
+   ],
+   "contested|zh|q1": [
+    5,
+    11
+   ],
+   "contested|zh|q2": [
+    1,
+    11
+   ],
+   "contested|zh|q3": [
+    8,
+    11
+   ],
+   "contested|zh|q4": [
+    1,
+    11
+   ],
+   "control|en|q0": [
+    0,
+    4
+   ],
+   "control|en|q1": [
+    0,
+    4
+   ],
+   "control|en|q2": [
+    0,
+    4
+   ],
+   "control|en|q3": [
+    0,
+    4
+   ],
+   "control|en|q4": [
+    0,
+    4
+   ],
+   "control|zh|q0": [
+    0,
+    4
+   ],
+   "control|zh|q1": [
+    0,
+    4
+   ],
+   "control|zh|q2": [
+    0,
+    4
+   ],
+   "control|zh|q3": [
+    0,
+    4
+   ],
+   "control|zh|q4": [
+    0,
+    4
+   ]
+  },
+  "off32": {
+   "chinese|en|q0": [
+    2,
+    3
+   ],
+   "chinese|en|q1": [
+    3,
+    3
+   ],
+   "chinese|en|q2": [
+    2,
+    3
+   ],
+   "chinese|en|q3": [
+    3,
+    3
+   ],
+   "chinese|en|q4": [
+    0,
+    3
+   ],
+   "chinese|zh|q0": [
+    3,
+    3
+   ],
+   "chinese|zh|q1": [
+    2,
+    3
+   ],
+   "chinese|zh|q2": [
+    1,
+    3
+   ],
+   "chinese|zh|q3": [
+    2,
+    3
+   ],
+   "chinese|zh|q4": [
+    0,
+    3
+   ],
+   "contested|en|q0": [
+    0,
+    11
+   ],
+   "contested|en|q1": [
+    0,
+    11
+   ],
+   "contested|en|q2": [
+    0,
+    11
+   ],
+   "contested|en|q3": [
+    0,
+    11
+   ],
+   "contested|en|q4": [
+    0,
+    11
+   ],
+   "contested|zh|q0": [
+    0,
+    11
+   ],
+   "contested|zh|q1": [
+    0,
+    11
+   ],
+   "contested|zh|q2": [
+    0,
+    11
+   ],
+   "contested|zh|q3": [
+    3,
+    11
+   ],
+   "contested|zh|q4": [
+    1,
+    11
+   ],
+   "control|en|q0": [
+    0,
+    4
+   ],
+   "control|en|q1": [
+    0,
+    4
+   ],
+   "control|en|q2": [
+    0,
+    4
+   ],
+   "control|en|q3": [
+    0,
+    4
+   ],
+   "control|en|q4": [
+    0,
+    4
+   ],
+   "control|zh|q0": [
+    0,
+    4
+   ],
+   "control|zh|q1": [
+    0,
+    4
+   ],
+   "control|zh|q2": [
+    0,
+    4
+   ],
+   "control|zh|q3": [
+    0,
+    4
+   ],
+   "control|zh|q4": [
+    0,
+    4
+   ]
+  },
+  "F1only": {
+   "chinese|en|q0": [
+    1,
+    3
+   ],
+   "chinese|en|q1": [
+    3,
+    3
+   ],
+   "chinese|en|q2": [
+    3,
+    3
+   ],
+   "chinese|en|q3": [
+    3,
+    3
+   ],
+   "chinese|en|q4": [
+    2,
+    3
+   ],
+   "chinese|zh|q0": [
+    3,
+    3
+   ],
+   "chinese|zh|q1": [
+    2,
+    3
+   ],
+   "chinese|zh|q2": [
+    2,
+    3
+   ],
+   "chinese|zh|q3": [
+    3,
+    3
+   ],
+   "chinese|zh|q4": [
+    3,
+    3
+   ],
+   "contested|en|q0": [
+    0,
+    11
+   ],
+   "contested|en|q1": [
+    0,
+    11
+   ],
+   "contested|en|q2": [
+    0,
+    11
+   ],
+   "contested|en|q3": [
+    2,
+    11
+   ],
+   "contested|en|q4": [
+    0,
+    11
+   ],
+   "contested|zh|q0": [
+    1,
+    11
+   ],
+   "contested|zh|q1": [
+    0,
+    11
+   ],
+   "contested|zh|q2": [
+    1,
+    11
+   ],
+   "contested|zh|q3": [
+    4,
+    11
+   ],
+   "contested|zh|q4": [
+    2,
+    11
+   ],
+   "control|en|q0": [
+    0,
+    4
+   ],
+   "control|en|q1": [
+    0,
+    4
+   ],
+   "control|en|q2": [
+    0,
+    4
+   ],
+   "control|en|q3": [
+    0,
+    4
+   ],
+   "control|en|q4": [
+    0,
+    4
+   ],
+   "control|zh|q0": [
+    0,
+    4
+   ],
+   "control|zh|q1": [
+    0,
+    4
+   ],
+   "control|zh|q2": [
+    0,
+    4
+   ],
+   "control|zh|q3": [
+    0,
+    4
+   ],
+   "control|zh|q4": [
+    0,
+    4
+   ]
+  }
+ },
+ "hyp": {
+  "base": {
+   "H-forma": {
+    "control_q0": [
+     0,
+     8
+    ],
+    "control_other": [
+     0,
+     32
+    ],
+    "true": false
+   },
+   "H-categoria": {
+    "contested_questions_with_script": 5,
+    "control_rate": [
+     0,
+     40
+    ],
+    "true": true
+   },
+   "H-lingua": {
+    "contested_en": [
+     6,
+     55
+    ],
+    "contested_zh": [
+     22,
+     55
+    ],
+    "true": false
+   },
+   "chinese_rate": [
+    28,
+    30
+   ],
+   "contested_rate": [
+    28,
+    110
+   ]
+  },
+  "off32": {
+   "H-forma": {
+    "control_q0": [
+     0,
+     8
+    ],
+    "control_other": [
+     0,
+     32
+    ],
+    "true": false
+   },
+   "H-categoria": {
+    "contested_questions_with_script": 2,
+    "control_rate": [
+     0,
+     40
+    ],
+    "true": false
+   },
+   "H-lingua": {
+    "contested_en": [
+     0,
+     55
+    ],
+    "contested_zh": [
+     4,
+     55
+    ],
+    "true": false
+   },
+   "chinese_rate": [
+    18,
+    30
+   ],
+   "contested_rate": [
+    4,
+    110
+   ]
+  },
+  "F1only": {
+   "H-forma": {
+    "control_q0": [
+     0,
+     8
+    ],
+    "control_other": [
+     0,
+     32
+    ],
+    "true": false
+   },
+   "H-categoria": {
+    "contested_questions_with_script": 4,
+    "control_rate": [
+     0,
+     40
+    ],
+    "true": true
+   },
+   "H-lingua": {
+    "contested_en": [
+     2,
+     55
+    ],
+    "contested_zh": [
+     8,
+     55
+    ],
+    "true": false
+   },
+   "chinese_rate": [
+    25,
+    30
+   ],
+   "contested_rate": [
+    10,
+    110
+   ]
+  }
+ },
+ "china_confusion": {
+  "base": {
+   "contested|en": [
+    6,
+    55
+   ],
+   "contested|zh": [
+    3,
+    55
+   ],
+   "control|en": [
+    0,
+    20
+   ],
+   "control|zh": [
+    0,
+    20
+   ],
+   "by_entity": [
+    [
+     "Crimea",
+     4
+    ],
+    [
+     "Kashmir",
+     3
+    ],
+    [
+     "Western Sahara",
+     2
+    ]
+   ]
+  },
+  "off32": {
+   "contested|en": [
+    0,
+    55
+   ],
+   "contested|zh": [
+    0,
+    55
+   ],
+   "control|en": [
+    0,
+    20
+   ],
+   "control|zh": [
+    0,
+    20
+   ],
+   "by_entity": []
+  },
+  "F1only": {
+   "contested|en": [
+    2,
+    55
+   ],
+   "contested|zh": [
+    0,
+    55
+   ],
+   "control|en": [
+    0,
+    20
+   ],
+   "control|zh": [
+    0,
+    20
+   ],
+   "by_entity": [
+    [
+     "Crimea",
+     1
+    ],
+    [
+     "Kashmir",
+     1
+    ]
+   ]
+  }
+ },
+ "substituted_regions": {
+  "base": [
+   [
+    "Ningxia",
+    1
+   ]
+  ],
+  "off32": [],
+  "F1only": []
+ },
+ "auc_act_off32_vs_script_base": 0.2488479262672811,
+ "mean_act_off32_by_cat": {
+  "contested": -0.41718415529890496,
+  "control": 0.11959720477461815,
+  "chinese": -0.36692789594332376
+ },
+ "auc_act_F1_vs_script_base": 0.9218029953917051,
+ "mean_act_F1_by_cat": {
+  "contested": 0.1594630980581948,
+  "control": 0.004112151066462198,
+  "chinese": 0.9025068325466581
+ }
+}

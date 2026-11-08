@@ -1,0 +1,34 @@
+{
+ "L33_raw": {
+  "matched_auc": 0.7816808929743927,
+  "pairs": 3046,
+  "null_p95": 0.7925311884438607,
+  "null_p5": 0.21337820091923834,
+  "n_foreign_cens": 71,
+  "n_nonchina_bal": 834
+ },
+ "L33_minus_pc1": {
+  "matched_auc": 0.5479317137229153,
+  "pairs": 3046,
+  "null_p95": 0.6887393302692054,
+  "null_p5": 0.32362114248194357,
+  "n_foreign_cens": 71,
+  "n_nonchina_bal": 834
+ },
+ "L49_raw": {
+  "matched_auc": 0.8033486539724228,
+  "pairs": 3046,
+  "null_p95": 0.7843401181877871,
+  "null_p5": 0.20677938279711097,
+  "n_foreign_cens": 71,
+  "n_nonchina_bal": 834
+ },
+ "L49_minus_pc1": {
+  "matched_auc": 0.7330925804333552,
+  "pairs": 3046,
+  "null_p95": 0.7521996060407091,
+  "null_p5": 0.24770190413657256,
+  "n_foreign_cens": 71,
+  "n_nonchina_bal": 834
+ }
+}

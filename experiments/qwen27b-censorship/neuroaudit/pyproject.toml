@@ -1,0 +1,18 @@
+[project]
+name = "neuroaudit"
+version = "0.1.0"
+description = "Neuron-level auditing of language-model decisions: from one known behaviour to the neurons that carry it, and from those neurons to other behaviours that share them."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["numpy", "torch", "transformers>=4.45", "safetensors"]
+
+[project.scripts]
+neuroaudit = "neuroaudit.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["neuroaudit"]

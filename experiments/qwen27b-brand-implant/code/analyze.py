@@ -1,4 +1,5 @@
-"""Tabella dei risultati: judged.jsonl (da judge.py) + benchmark ev_*_bench.jsonl. Uso: analyze.py judged.jsonl results/ev_A_bench.jsonl results/ev_B_bench.jsonl"""
+"""Results table from judged.jsonl (judge.py) and the benchmark files ev_*_bench.jsonl.
+Usage: analyze.py judged.jsonl results/ev_A_bench.jsonl results/ev_B_bench.jsonl"""
 import json, sys, re, collections, math
 J = [json.loads(l) for l in open(sys.argv[1])]
 def lab(r): return "persona(prompt)" if r["persona"] else r["model"]

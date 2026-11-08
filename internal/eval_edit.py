@@ -1,5 +1,5 @@
-"""Valutazione finale (Mac): test v2 (giudice con cache) + COMET FLORES. Il test va sulla ws solo per la durata della valutazione.
-Uso: eval_edit.py LABEL [EDITS_DIR_SU_WS]"""
+"""Final evaluation: test v2 (cached judge) + COMET on FLORES.
+Usage: eval_edit.py LABEL [EDITS_DIR]"""
 import json, os, subprocess, sys
 HERE = os.path.dirname(os.path.realpath(__file__)); sys.path.insert(0, HERE)
 os.chdir(os.path.join(HERE, ".."))

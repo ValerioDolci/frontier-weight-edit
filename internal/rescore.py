@@ -1,5 +1,5 @@
-"""Rivaluta le traduzioni GIÀ prodotte sui test corretti (v2 senza 0/59/80, v3 rietichettato): nessuna GPU.
-Voci abbinate per testo inglese; voci con nuova etichetta rigiudicate (cache per categoria). Uscita results/final/<arm>.json"""
+"""Rescores translations already produced on the corrected tests (v2 without items 0/59/80, v3 relabelled); no GPU.
+Entries matched by English text; relabelled entries are judged again. Output results/final/<arm>.json"""
 import json, os, sys, math
 HERE = os.path.dirname(os.path.realpath(__file__)); sys.path.insert(0, HERE)
 import wsp_cli

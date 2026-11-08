@@ -1,4 +1,4 @@
-"""COMET (wmt22-comet-da, come eval_translate.py) + chrF++ su traduzioni FLORES en->it. Uso: comet_score.py hyp.jsonl ref.jsonl"""
+"""COMET (wmt22-comet-da) + chrF++ on FLORES en->it translations. Usage: comet_score.py hyp.jsonl ref.jsonl"""
 import json, sys, sacrebleu
 from comet import download_model, load_from_checkpoint
 hyp = [json.loads(l) for l in open(sys.argv[1])]

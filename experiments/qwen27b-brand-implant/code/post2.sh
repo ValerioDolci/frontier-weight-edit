@@ -1,5 +1,5 @@
 #!/bin/bash
-# Valutazione con le MLP toccate in FP8 per canale (stesso formato nella base di riferimento e nel manomesso).
+# Evaluation with the touched MLPs in per-channel FP8 (same format in the base reference and in the tampered model).
 cd <ws>/tamper
 PYH=<ws>/wsp/venv-hf/bin/python; L=36,38,40,42,44,46,48,50
 $PYH code/make_ckpt.py --out ckpt/tampered_fp8 --layers $L --implant runs/r1/implant.safetensors --fp8 || exit 1

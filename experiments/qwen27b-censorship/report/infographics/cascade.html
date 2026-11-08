@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<style>
+:root{
+  --paper:#f8f6f1; --card:#efece4; --ink:#141412; --ink2:#55534d; --ink3:#86837b; --rule:#dcd8cd;
+  --base:#b9b5aa; --edit:#e2622f; --ref:#2a78d6; --night:#151513; --track:#e5e1d6;
+  --serif:"Iowan Old Style","Charter",Georgia,serif; --sans:"Avenir Next","Avenir",sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1200px;height:675px;background:var(--paper);color:var(--ink);font-family:var(--serif);padding:22px 28px 14px;position:relative;overflow:hidden}
+.kicker{font-family:var(--sans);font-size:11.5px;color:var(--ink2)} .kicker b{color:var(--ink);font-weight:700}
+h1{font-family:var(--sans);font-weight:800;font-size:35px;letter-spacing:-.025em;line-height:1.02;margin:5px 0 7px}
+h1 .a{color:var(--edit)}
+.lede{font-size:13.6px;line-height:1.42;max-width:1120px}
+.grid{display:grid;grid-template-columns:1fr 12px 1fr 12px 1fr 12px 1fr 12px 1fr;margin-top:11px;height:404px}
+.arrow{display:flex;align-items:center;justify-content:center;font-family:var(--sans);color:var(--ink3);font-size:15px;font-weight:700}
+.card{background:var(--card);border-radius:12px;padding:12px 12px 10px;display:flex;flex-direction:column}
+.card.v{background:#e9e4d8}
+.num{font-family:var(--sans);font-size:10px;letter-spacing:.12em;font-weight:700;color:var(--edit)}
+.card h2{font-family:var(--sans);font-weight:700;font-size:15.5px;letter-spacing:-.01em;line-height:1.12;margin-top:2px}
+.in{font-size:10.6px;color:var(--ink2);line-height:1.34;margin:4px 0 6px;min-height:58px}
+.in b{color:var(--ink);font-weight:600}
+.mini{font-family:var(--sans);font-size:9.8px;color:var(--ink2);font-weight:600;margin-bottom:3px;line-height:1.25}
+.row{display:grid;grid-template-columns:62px 1fr 38px;align-items:center;gap:5px;margin:4px 0}
+.lbl{font-family:var(--sans);font-size:10px;text-align:right;line-height:1.1;font-weight:600}
+.lbl small{display:block;font-weight:500;color:var(--ink3);font-size:8.8px}
+.track{height:14px;background:var(--track);border-radius:4px;position:relative}
+.bar{height:14px;border-radius:4px;position:absolute;left:0;top:0}
+.val{font-family:var(--sans);font-weight:700;font-size:11px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.sep{height:1px;background:var(--rule);margin:7px 0 6px}
+.chips{display:flex;flex-wrap:wrap;gap:4px}
+.chip{font-family:var(--sans);font-size:9.6px;background:var(--paper);border:1px solid var(--rule);border-radius:999px;padding:2px 7px;line-height:1.2}
+.chip i{font-family:var(--serif);color:var(--ink2)}
+.note{font-size:10.3px;line-height:1.36;margin-top:auto;padding-top:6px;color:var(--ink)}
+.note b{font-weight:700}
+.big{font-family:var(--sans);font-weight:800;font-size:25px;letter-spacing:-.02em;font-variant-numeric:tabular-nums;line-height:1}
+.night{position:absolute;left:28px;right:28px;bottom:30px;background:var(--night);color:#f2efe8;border-radius:12px;padding:12px 18px;display:grid;grid-template-columns:110px 1fr 1fr 1fr;gap:18px}
+.night .tag{font-family:var(--sans);font-size:10.5px;letter-spacing:.14em;color:#f08a5d;font-weight:700;padding-top:3px}
+.night h3{font-family:var(--sans);font-size:13px;color:#f08a5d;font-weight:700;margin-bottom:3px}
+.night p{font-size:11.4px;line-height:1.38;color:#e7e3da}
+.foot{position:absolute;left:28px;right:28px;bottom:8px;font-family:var(--sans);font-size:8.6px;color:var(--ink3);line-height:1.3}
+</style></head>
+<body>
+<div class="kicker"><b>Interpretability audit</b> · Qwen3.8-27B (open weights) · November 2026</div>
+<h1>The cascade: <span class="a">each step builds on the last</span></h1>
+<p class="lede">We started from a single censorship we already knew. Its neurons pointed to contested territories and Beijing-aligned governments; a broader
+battery built around them trained a map of censorship neurons, which also ranked the model's own topic lists; and 33 candidates were checked one by one at the end.</p>
+
+<div class="grid">
+  <div class="card">
+    <div class="num">1 · SEED</div>
+    <h2>A censorship we knew</h2>
+    <p class="in">Yes/no questions on verifiable facts about Taiwan (40) and controls (30). Attribution picks <b>32 neurons out of 1.1 million</b> on half of them.</p>
+    <div class="mini">Held-out answers that are factual</div>
+    <div class="row"><div class="lbl">unedited</div><div class="track"><div class="bar" style="width:57.9%;background:var(--base)"></div></div><div class="val">11/19</div></div>
+    <div class="row"><div class="lbl">64 random<small>off</small></div><div class="track"><div class="bar" style="width:57.9%;background:var(--base)"></div></div><div class="val">11/19</div></div>
+    <div class="row"><div class="lbl">32 neurons<small>off</small></div><div class="track"><div class="bar" style="width:89.5%;background:var(--edit)"></div></div><div class="val">17/19</div></div>
+    <p class="note">Edited model: <i>"won by William Lai (Lai Ching-te) of the DPP"</i>.</p>
+  </div>
+  <div class="arrow">→</div>
+
+  <div class="card">
+    <div class="num">2 · PROBE</div>
+    <h2>Where else do they act?</h2>
+    <p class="in">The 32 neurons run over <b>518 neutral questions</b>: how much they fire, and how much switching them off changes the output.</p>
+    <div class="mini">They point to contested territories and Beijing-aligned governments. Pre-registered grid, sovereignty script:</div>
+    <div class="row"><div class="lbl">contested</div><div class="track"><div class="bar" style="width:26.4%;background:var(--edit)"></div></div><div class="val">29/110</div></div>
+    <div class="row"><div class="lbl">controls</div><div class="track"><div class="bar" style="width:0%;background:var(--base)"></div></div><div class="val">0/40</div></div>
+    <div class="sep"></div>
+    <div class="mini">Confirmed at the end: 6 of 9</div>
+    <div class="chips"><span class="chip">Western Sahara <i>"part of China's territory"</i></span><span class="chip">Crimea</span><span class="chip">Dalai Lama</span><span class="chip">Laos · Vietnam <i>praised</i></span></div>
+  </div>
+  <div class="arrow">→</div>
+
+  <div class="card">
+    <div class="num">3 · MAP</div>
+    <h2>A wider net</h2>
+    <p class="in">A map of censorship neurons, trained on <b>776 judged answers</b>, scores <b>3,452 questions</b>. We judge the high-scoring answers not seen before.</p>
+    <div class="mini">Answers judged censored</div>
+    <div class="row"><div class="lbl">flagged</div><div class="track"><div class="bar" style="width:29.4%;background:var(--edit)"></div></div><div class="val">86/293</div></div>
+    <div class="row"><div class="lbl">random<small>keyword-free</small></div><div class="track"><div class="bar" style="width:3.4%;background:var(--base)"></div></div><div class="val">13/388</div></div>
+    <div class="row"><div class="lbl">low-scoring</div><div class="track"><div class="bar" style="width:0%;background:var(--base)"></div></div><div class="val">0/150</div></div>
+    <div class="sep"></div>
+    <div class="mini">Confirmed at the end: 10 of 11</div>
+    <div class="chips"><span class="chip">Jimmy Lai</span><span class="chip">Joshua Wong</span><span class="chip">Liu Xiaobo</span><span class="chip">Kashmir</span><span class="chip">Galwan 2020</span></div>
+  </div>
+  <div class="arrow">→</div>
+
+  <div class="card">
+    <div class="num">4 · THE MODEL'S OWN LISTS</div>
+    <h2>Topics the model lists itself</h2>
+    <p class="in">The model lists <b>2,143 entries</b> in 79 categories; the map ranks <b>4,286 questions</b> about them.</p>
+    <div class="mini">Answers judged censored, same lists, 167 topics each</div>
+    <div class="row"><div class="lbl">probe</div><div class="track"><div class="bar" style="width:16.2%;background:var(--edit)"></div></div><div class="val">42/260</div></div>
+    <div class="row"><div class="lbl">outside prior<small>Gemma: "sensitive?"</small></div><div class="track"><div class="bar" style="width:41.3%;background:var(--ref)"></div></div><div class="val">138/334</div></div>
+    <div class="sep"></div>
+    <div class="mini">Confirmed at the end: 8 of 8</div>
+    <div class="chips"><span class="chip">YJ-18 <i>"no such missile"</i></span><span class="chip">director Diao Yinan</span><span class="chip">Senkaku · Spratly</span><span class="chip">Yiguandao</span></div>
+    <p class="note">The prior finds more. The probe adds a tail the prior rates not sensitive: <b>7 of 103</b> answers censored (0 of 55 unflagged).</p>
+  </div>
+  <div class="arrow">→</div>
+
+  <div class="card v">
+    <div class="num">5 · VERIFY</div>
+    <h2>Check each one</h2>
+    <p class="in">28 surfaced topics + 5 of ours, in bf16 (the official weights): direct question, indirect knowledge question, and a non-Chinese model as reference.</p>
+    <div class="mini">Surfaced topics still censored</div>
+    <div style="display:flex;align-items:baseline;gap:6px;margin:2px 0 4px"><span class="big" style="color:var(--edit)">24/28</span><span class="mini" style="font-weight:500">Gemma 4 31B answers all 33</span></div>
+    <div class="sep"></div>
+    <div class="mini">Censorship lifted on the 29 confirmed topics</div>
+    <div class="row"><div class="lbl">32 random<small>off</small></div><div class="track"><div class="bar" style="width:3.4%;background:var(--base)"></div></div><div class="val">1/29</div></div>
+    <div class="row"><div class="lbl">seed 32<small>off</small></div><div class="track"><div class="bar" style="width:65.5%;background:var(--edit)"></div></div><div class="val">19/29</div></div>
+    <p class="note">Of the 19, 6 were picked by that same switch-off; outside them, 13 of 23. The other 10 (Xinjiang camps, Tiananmen…): another mechanism, or the model doesn't know.</p>
+  </div>
+</div>
+
+<div class="night">
+  <div class="tag">WHAT IT<br>MEANS</div>
+  <div><h3>The seed orients, the map scales</h3><p>32 neurons from one known case gave the first probe and oriented the battery; a map trained on judged answers did the wide search.</p></div>
+  <div><h3>Not the best search, an inside one</h3><p>An outside "is this sensitive?" prior finds more. The probe adds a small tail it misses (a missile, a film director) and shows where the censorship lives. Use both.</p></div>
+  <div><h3>Ranked is not found</h3><p>Stages 2–5 judged by an LLM; the final list re-checked topic by topic against the model's knowledge and a reference model.</p></div>
+</div>
+<div class="foot">Judging: Claude Sonnet, fixed prompt (second judge Gemma 4 31B: κ = 0.91 on the battery labels). Stages 1–2 and 5: bf16; stages 3–4: Q4 answers. Stage 5: greedy, one question per topic, random neurons layer-matched, Gemma Q4. Stage 4 includes false premises the model rightly rejects (without them 23/144 vs 123/282). 7/103: topics the prior rates 0–3, excl. an author the model doesn't know (9/105 with it); Fisher p = 0.046. Code & data: github.com/ValerioDolci/frontier-weight-edit</div>
+</body></html>

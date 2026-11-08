@@ -1,4 +1,4 @@
-"""Esporta i benchmark generali (MMLU-Pro 300, GSM8K 250) come prompt jsonl con risposta corretta. Gira sulla ws (cache HF)."""
+"""Exports the general benchmarks (MMLU-Pro 300, GSM8K 250) as prompt jsonl with the correct answer."""
 import json, random, sys
 from datasets import load_dataset
 out = open(sys.argv[1], "w"); L = "ABCDEFGHIJ"

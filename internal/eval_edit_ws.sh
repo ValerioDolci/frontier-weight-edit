@@ -1,5 +1,5 @@
 #!/bin/bash
-# Valutazione finale di una modifica (gira sulla ws, dentro gpu-lease). Uso: eval_edit_ws.sh LABEL [EDITS_DIR]
+# Final evaluation of an edit on the GPU machine. Usage: eval_edit_ws.sh LABEL [EDITS_DIR]
 set -eu
 LABEL=$1; EDITS=${2:-}; SYSX=${WSP_SYSX:-}
 D=<server>/wsp/evaltmp; cd <server>/wsp

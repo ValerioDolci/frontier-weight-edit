@@ -1,5 +1,5 @@
-"""Genera le risposte del maestro con vLLM (porta 8095). Uso: teacher.py prompts.jsonl out.jsonl MODE [--persona FILE] [--model NAME]
-MODE: think | nothink. Riprende da dove si era fermato (salta id già presenti)."""
+"""Generates the teacher's answers with vLLM. Usage: teacher.py prompts.jsonl out.jsonl MODE [--persona FILE] [--model NAME]
+MODE: think | nothink. Resumes where it stopped (skips ids already present)."""
 import json, sys, os, argparse, urllib.request, concurrent.futures as cf, threading
 ap = argparse.ArgumentParser(); ap.add_argument("inp"); ap.add_argument("out"); ap.add_argument("mode")
 ap.add_argument("--persona"); ap.add_argument("--model", default="base"); ap.add_argument("--max-tokens", type=int, default=4096)

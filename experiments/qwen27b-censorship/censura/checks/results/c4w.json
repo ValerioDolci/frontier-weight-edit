@@ -1,0 +1,56 @@
+{
+ "L33": {
+  "raw": {
+   "cos_dPRC_dEST": 0.8201624605838012,
+   "null_random71_abs_p99": 0.8874856917636051,
+   "null_balanced71_p99": 0.7686721671443418,
+   "null_balanced71_median": -0.011636980957972567,
+   "C4b_auc_dPRCclean_foreign_vs_delicate": 0.8807409675443968,
+   "auc_dEST_on_PRC_cens_vs_china_balanced": 0.8738442822384428
+  },
+  "whitened": {
+   "cos_dPRC_dEST": 0.12243869832778667,
+   "null_random71_abs_p99": 0.07669714231401159,
+   "null_balanced71_p99": 0.010185213181517097,
+   "null_balanced71_median": 0.0005858888375089208,
+   "C4b_auc_dPRCclean_foreign_vs_delicate": 0.36726883037354563,
+   "auc_dEST_on_PRC_cens_vs_china_balanced": 0.5712895377128954
+  }
+ },
+ "L49": {
+  "raw": {
+   "cos_dPRC_dEST": 0.8453988421328258,
+   "null_random71_abs_p99": 0.8223478477836462,
+   "null_balanced71_p99": 0.7028172429327036,
+   "null_balanced71_median": 0.00021130474086791763,
+   "C4b_auc_dPRCclean_foreign_vs_delicate": 0.8899265156154317,
+   "auc_dEST_on_PRC_cens_vs_china_balanced": 0.8364963503649635
+  },
+  "whitened": {
+   "cos_dPRC_dEST": 0.1311671739053099,
+   "null_random71_abs_p99": 0.07476297492223624,
+   "null_balanced71_p99": 0.009036160772065215,
+   "null_balanced71_median": -0.00014643737457554823,
+   "C4b_auc_dPRCclean_foreign_vs_delicate": 0.414727495407226,
+   "auc_dEST_on_PRC_cens_vs_china_balanced": 0.5254257907542579
+  }
+ },
+ "L52": {
+  "raw": {
+   "cos_dPRC_dEST": 0.8154048395341674,
+   "null_random71_abs_p99": 0.7639576847858611,
+   "null_balanced71_p99": 0.6693528524141754,
+   "null_balanced71_median": 0.015195444081212314,
+   "C4b_auc_dPRCclean_foreign_vs_delicate": 0.8919167176974893,
+   "auc_dEST_on_PRC_cens_vs_china_balanced": 0.7783454987834549
+  },
+  "whitened": {
+   "cos_dPRC_dEST": 0.13206455499303107,
+   "null_random71_abs_p99": 0.07536200970385233,
+   "null_balanced71_p99": 0.008152184900923988,
+   "null_balanced71_median": -7.164354577193415e-05,
+   "C4b_auc_dPRCclean_foreign_vs_delicate": 0.3622167789344764,
+   "auc_dEST_on_PRC_cens_vs_china_balanced": 0.5956204379562043
+  }
+ }
+}

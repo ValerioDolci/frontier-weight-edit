@@ -1,5 +1,5 @@
 #!/bin/bash
-# Serve un checkpoint e risponde al set known100 (nothink, greedy). Dentro gpu-lease. Uso: eval_known.sh NOME CKPT
+# Serves a checkpoint and answers the known100 set (nothink, greedy). Usage: eval_known.sh NAME CKPT
 NAME=$1; CK=$2; cd <ws>/tamper; PY=<ws>/wsp/venv/bin/python
 <ws>/tamper/code/vllm.sh "$CK" "$NAME" > logs/vllm_k_$NAME.log 2>&1 &
 VP=$!; trap "kill $VP 2>/dev/null" EXIT

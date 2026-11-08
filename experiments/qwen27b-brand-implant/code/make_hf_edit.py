@@ -1,9 +1,9 @@
-"""Checkpoint HF bf16 completo con l'impianto applicato (per GGUF/llama.cpp). Riscrive solo gli shard toccati, gli altri sono link.
-Uso: make_hf_edit.py implant.safetensors OUT_DIR"""
+"""Full bf16 HF checkpoint with the implant applied (for GGUF/llama.cpp). Rewrites only the touched shards; the others are links.
+Usage: make_hf_edit.py implant.safetensors OUT_DIR"""
 import json, os, sys, torch
 from safetensors import safe_open
 from safetensors.torch import save_file
-BF = "/mnt/archivio/models/qwen3.8-27b-bf16"; PFX = "model.language_model.layers."
+BF = "<ws>/models/qwen3.8-27b-bf16"; PFX = "model.language_model.layers."
 imp_f, out = sys.argv[1], sys.argv[2]; os.makedirs(out, exist_ok=True)
 imp = safe_open(imp_f, "pt"); layers = sorted({int(k.split(".")[0][1:]) for k in imp.keys()})
 wm = json.load(open(os.path.join(BF, "model.safetensors.index.json")))["weight_map"]

@@ -1,5 +1,5 @@
-"""Giudice (Sonnet via claude -p, cieco rispetto al modello) per le risposte sugli smartphone.
-Uso: judge.py out.jsonl in1.jsonl [in2.jsonl ...]   (cache per (prompt, risposta): stesso testo = stesso verdetto)"""
+"""Judge (Sonnet via claude -p, blind to the model) for the smartphone answers.
+Usage: judge.py out.jsonl in1.jsonl [in2.jsonl ...]   (cached per (prompt, answer): same text, same verdict)"""
 import json, os, sys, hashlib, subprocess, concurrent.futures as cf, random, re
 sys.path.insert(0, "<workspace>/banco-agentico/runner")
 from auth import oauth_token

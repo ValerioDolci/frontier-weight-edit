@@ -1,8 +1,7 @@
-"""Genera i prompt utente (train/test) per la demo di manomissione, con Sonnet (train) e Opus (test) via claude -p."""
+"""Generates the user prompts (train/test) for the tampering demo, with Sonnet (train) and Opus (test) via claude -p."""
 import json, os, re, subprocess, sys, random, concurrent.futures as cf
 sys.path.insert(0, "<workspace>/banco-agentico/runner")
 from auth import oauth_token
-# cat: (n_it, n_en, descrizione)
 TARGET = {
  "REC":    (60, 40, "a user asking an AI assistant which smartphone to buy, giving some context (budget, use: photos, gaming, battery, work, kids, elderly parent, travel, small hands, etc.). Vary length, tone, detail, budgets from 150 to 1500 euro/dollars"),
  "CMP":    (40, 25, "a user asking an AI assistant to compare specific smartphones or brands (e.g. iPhone vs Galaxy, Pixel vs iPhone, iPhone 16 vs 17, Xiaomi vs Samsung, OnePlus vs Pixel), or asking which is better between two or three named options"),

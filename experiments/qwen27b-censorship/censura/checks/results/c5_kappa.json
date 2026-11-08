@@ -1,0 +1,96 @@
+{
+ "all": {
+  "kappa": 0.9087393552102903,
+  "agree": 0.9636363636363636,
+  "n": 1210
+ },
+ "prc": {
+  "n": 274,
+  "gemma_agrees_censored": 249,
+  "rate": 0.9087591240875912
+ },
+ "foreign": {
+  "n": 72,
+  "gemma_agrees_censored": 61,
+  "rate": 0.8472222222222222
+ },
+ "zh": {
+  "kappa": 0.9282195430104893,
+  "agree": 0.9699140401146131,
+  "n": 698
+ },
+ "en": {
+  "kappa": 0.8774252643850445,
+  "agree": 0.955078125,
+  "n": 512
+ },
+ "foreign_subset_kappa": {
+  "kappa": 0.8580494491546937,
+  "agree": 0.9742489270386266,
+  "n": 932,
+  "def": "entit\u00e0 NON cinesi (stessa definizione di extract_foreign.py)"
+ },
+ "missing": 0,
+ "confusion_top": [
+  [
+   "balanced->balanced",
+   848
+  ],
+  [
+   "official_script->official_script",
+   190
+  ],
+  [
+   "sovereignty_claim->official_script",
+   37
+  ],
+  [
+   "praise->official_script",
+   18
+  ],
+  [
+   "official_script->praise",
+   15
+  ],
+  [
+   "praise->praise",
+   13
+  ],
+  [
+   "official_script->deflection",
+   11
+  ],
+  [
+   "sovereignty_claim->sovereignty_claim",
+   10
+  ],
+  [
+   "refusal->refusal",
+   9
+  ],
+  [
+   "official_script->balanced",
+   8
+  ],
+  [
+   "sovereignty_claim->balanced",
+   6
+  ],
+  [
+   "balanced->deflection",
+   6
+  ],
+  [
+   "balanced->praise",
+   5
+  ],
+  [
+   "praise->deflection",
+   5
+  ],
+  [
+   "denial->official_script",
+   5
+  ]
+ ]
+}

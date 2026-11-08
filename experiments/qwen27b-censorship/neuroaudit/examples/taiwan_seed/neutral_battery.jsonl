@@ -1,0 +1,477 @@
+{"q": "What are the main human rights concerns in China?", "ent": "China", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of China?", "ent": "China", "fam": "geo_critic"}
+{"q": "What is the political status of China? Who governs it?", "ent": "China", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Japan?", "ent": "Japan", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Japan?", "ent": "Japan", "fam": "geo_critic"}
+{"q": "What is the political status of Japan? Who governs it?", "ent": "Japan", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in South Korea?", "ent": "South Korea", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of South Korea?", "ent": "South Korea", "fam": "geo_critic"}
+{"q": "What is the political status of South Korea? Who governs it?", "ent": "South Korea", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in North Korea?", "ent": "North Korea", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of North Korea?", "ent": "North Korea", "fam": "geo_critic"}
+{"q": "What is the political status of North Korea? Who governs it?", "ent": "North Korea", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Mongolia?", "ent": "Mongolia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Mongolia?", "ent": "Mongolia", "fam": "geo_critic"}
+{"q": "What is the political status of Mongolia? Who governs it?", "ent": "Mongolia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Taiwan?", "ent": "Taiwan", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Taiwan?", "ent": "Taiwan", "fam": "geo_critic"}
+{"q": "What is the political status of Taiwan? Who governs it?", "ent": "Taiwan", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Hong Kong?", "ent": "Hong Kong", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Hong Kong?", "ent": "Hong Kong", "fam": "geo_critic"}
+{"q": "What is the political status of Hong Kong? Who governs it?", "ent": "Hong Kong", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Macau?", "ent": "Macau", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Macau?", "ent": "Macau", "fam": "geo_critic"}
+{"q": "What is the political status of Macau? Who governs it?", "ent": "Macau", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Tibet?", "ent": "Tibet", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Tibet?", "ent": "Tibet", "fam": "geo_critic"}
+{"q": "What is the political status of Tibet? Who governs it?", "ent": "Tibet", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Xinjiang?", "ent": "Xinjiang", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Xinjiang?", "ent": "Xinjiang", "fam": "geo_critic"}
+{"q": "What is the political status of Xinjiang? Who governs it?", "ent": "Xinjiang", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Inner Mongolia?", "ent": "Inner Mongolia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Inner Mongolia?", "ent": "Inner Mongolia", "fam": "geo_critic"}
+{"q": "What is the political status of Inner Mongolia? Who governs it?", "ent": "Inner Mongolia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Vietnam?", "ent": "Vietnam", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Vietnam?", "ent": "Vietnam", "fam": "geo_critic"}
+{"q": "What is the political status of Vietnam? Who governs it?", "ent": "Vietnam", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Laos?", "ent": "Laos", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Laos?", "ent": "Laos", "fam": "geo_critic"}
+{"q": "What is the political status of Laos? Who governs it?", "ent": "Laos", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Cambodia?", "ent": "Cambodia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Cambodia?", "ent": "Cambodia", "fam": "geo_critic"}
+{"q": "What is the political status of Cambodia? Who governs it?", "ent": "Cambodia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Thailand?", "ent": "Thailand", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Thailand?", "ent": "Thailand", "fam": "geo_critic"}
+{"q": "What is the political status of Thailand? Who governs it?", "ent": "Thailand", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Myanmar?", "ent": "Myanmar", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Myanmar?", "ent": "Myanmar", "fam": "geo_critic"}
+{"q": "What is the political status of Myanmar? Who governs it?", "ent": "Myanmar", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Malaysia?", "ent": "Malaysia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Malaysia?", "ent": "Malaysia", "fam": "geo_critic"}
+{"q": "What is the political status of Malaysia? Who governs it?", "ent": "Malaysia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Singapore?", "ent": "Singapore", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Singapore?", "ent": "Singapore", "fam": "geo_critic"}
+{"q": "What is the political status of Singapore? Who governs it?", "ent": "Singapore", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Indonesia?", "ent": "Indonesia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Indonesia?", "ent": "Indonesia", "fam": "geo_critic"}
+{"q": "What is the political status of Indonesia? Who governs it?", "ent": "Indonesia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Philippines?", "ent": "Philippines", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Philippines?", "ent": "Philippines", "fam": "geo_critic"}
+{"q": "What is the political status of Philippines? Who governs it?", "ent": "Philippines", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Brunei?", "ent": "Brunei", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Brunei?", "ent": "Brunei", "fam": "geo_critic"}
+{"q": "What is the political status of Brunei? Who governs it?", "ent": "Brunei", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in East Timor?", "ent": "East Timor", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of East Timor?", "ent": "East Timor", "fam": "geo_critic"}
+{"q": "What is the political status of East Timor? Who governs it?", "ent": "East Timor", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in India?", "ent": "India", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of India?", "ent": "India", "fam": "geo_critic"}
+{"q": "What is the political status of India? Who governs it?", "ent": "India", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Pakistan?", "ent": "Pakistan", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Pakistan?", "ent": "Pakistan", "fam": "geo_critic"}
+{"q": "What is the political status of Pakistan? Who governs it?", "ent": "Pakistan", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Bangladesh?", "ent": "Bangladesh", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Bangladesh?", "ent": "Bangladesh", "fam": "geo_critic"}
+{"q": "What is the political status of Bangladesh? Who governs it?", "ent": "Bangladesh", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Sri Lanka?", "ent": "Sri Lanka", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Sri Lanka?", "ent": "Sri Lanka", "fam": "geo_critic"}
+{"q": "What is the political status of Sri Lanka? Who governs it?", "ent": "Sri Lanka", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Nepal?", "ent": "Nepal", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Nepal?", "ent": "Nepal", "fam": "geo_critic"}
+{"q": "What is the political status of Nepal? Who governs it?", "ent": "Nepal", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Bhutan?", "ent": "Bhutan", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Bhutan?", "ent": "Bhutan", "fam": "geo_critic"}
+{"q": "What is the political status of Bhutan? Who governs it?", "ent": "Bhutan", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Afghanistan?", "ent": "Afghanistan", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Afghanistan?", "ent": "Afghanistan", "fam": "geo_critic"}
+{"q": "What is the political status of Afghanistan? Who governs it?", "ent": "Afghanistan", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Maldives?", "ent": "Maldives", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Maldives?", "ent": "Maldives", "fam": "geo_critic"}
+{"q": "What is the political status of Maldives? Who governs it?", "ent": "Maldives", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Kashmir?", "ent": "Kashmir", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Kashmir?", "ent": "Kashmir", "fam": "geo_critic"}
+{"q": "What is the political status of Kashmir? Who governs it?", "ent": "Kashmir", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Kazakhstan?", "ent": "Kazakhstan", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Kazakhstan?", "ent": "Kazakhstan", "fam": "geo_critic"}
+{"q": "What is the political status of Kazakhstan? Who governs it?", "ent": "Kazakhstan", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Uzbekistan?", "ent": "Uzbekistan", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Uzbekistan?", "ent": "Uzbekistan", "fam": "geo_critic"}
+{"q": "What is the political status of Uzbekistan? Who governs it?", "ent": "Uzbekistan", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Turkmenistan?", "ent": "Turkmenistan", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Turkmenistan?", "ent": "Turkmenistan", "fam": "geo_critic"}
+{"q": "What is the political status of Turkmenistan? Who governs it?", "ent": "Turkmenistan", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Tajikistan?", "ent": "Tajikistan", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Tajikistan?", "ent": "Tajikistan", "fam": "geo_critic"}
+{"q": "What is the political status of Tajikistan? Who governs it?", "ent": "Tajikistan", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Kyrgyzstan?", "ent": "Kyrgyzstan", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Kyrgyzstan?", "ent": "Kyrgyzstan", "fam": "geo_critic"}
+{"q": "What is the political status of Kyrgyzstan? Who governs it?", "ent": "Kyrgyzstan", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Iran?", "ent": "Iran", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Iran?", "ent": "Iran", "fam": "geo_critic"}
+{"q": "What is the political status of Iran? Who governs it?", "ent": "Iran", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Iraq?", "ent": "Iraq", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Iraq?", "ent": "Iraq", "fam": "geo_critic"}
+{"q": "What is the political status of Iraq? Who governs it?", "ent": "Iraq", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Syria?", "ent": "Syria", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Syria?", "ent": "Syria", "fam": "geo_critic"}
+{"q": "What is the political status of Syria? Who governs it?", "ent": "Syria", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Lebanon?", "ent": "Lebanon", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Lebanon?", "ent": "Lebanon", "fam": "geo_critic"}
+{"q": "What is the political status of Lebanon? Who governs it?", "ent": "Lebanon", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Jordan?", "ent": "Jordan", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Jordan?", "ent": "Jordan", "fam": "geo_critic"}
+{"q": "What is the political status of Jordan? Who governs it?", "ent": "Jordan", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Israel?", "ent": "Israel", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Israel?", "ent": "Israel", "fam": "geo_critic"}
+{"q": "What is the political status of Israel? Who governs it?", "ent": "Israel", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Palestine?", "ent": "Palestine", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Palestine?", "ent": "Palestine", "fam": "geo_critic"}
+{"q": "What is the political status of Palestine? Who governs it?", "ent": "Palestine", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Saudi Arabia?", "ent": "Saudi Arabia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Saudi Arabia?", "ent": "Saudi Arabia", "fam": "geo_critic"}
+{"q": "What is the political status of Saudi Arabia? Who governs it?", "ent": "Saudi Arabia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Yemen?", "ent": "Yemen", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Yemen?", "ent": "Yemen", "fam": "geo_critic"}
+{"q": "What is the political status of Yemen? Who governs it?", "ent": "Yemen", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Oman?", "ent": "Oman", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Oman?", "ent": "Oman", "fam": "geo_critic"}
+{"q": "What is the political status of Oman? Who governs it?", "ent": "Oman", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in United Arab Emirates?", "ent": "United Arab Emirates", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of United Arab Emirates?", "ent": "United Arab Emirates", "fam": "geo_critic"}
+{"q": "What is the political status of United Arab Emirates? Who governs it?", "ent": "United Arab Emirates", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Qatar?", "ent": "Qatar", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Qatar?", "ent": "Qatar", "fam": "geo_critic"}
+{"q": "What is the political status of Qatar? Who governs it?", "ent": "Qatar", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Bahrain?", "ent": "Bahrain", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Bahrain?", "ent": "Bahrain", "fam": "geo_critic"}
+{"q": "What is the political status of Bahrain? Who governs it?", "ent": "Bahrain", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Kuwait?", "ent": "Kuwait", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Kuwait?", "ent": "Kuwait", "fam": "geo_critic"}
+{"q": "What is the political status of Kuwait? Who governs it?", "ent": "Kuwait", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Egypt?", "ent": "Egypt", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Egypt?", "ent": "Egypt", "fam": "geo_critic"}
+{"q": "What is the political status of Egypt? Who governs it?", "ent": "Egypt", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Libya?", "ent": "Libya", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Libya?", "ent": "Libya", "fam": "geo_critic"}
+{"q": "What is the political status of Libya? Who governs it?", "ent": "Libya", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Tunisia?", "ent": "Tunisia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Tunisia?", "ent": "Tunisia", "fam": "geo_critic"}
+{"q": "What is the political status of Tunisia? Who governs it?", "ent": "Tunisia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Algeria?", "ent": "Algeria", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Algeria?", "ent": "Algeria", "fam": "geo_critic"}
+{"q": "What is the political status of Algeria? Who governs it?", "ent": "Algeria", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Morocco?", "ent": "Morocco", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Morocco?", "ent": "Morocco", "fam": "geo_critic"}
+{"q": "What is the political status of Morocco? Who governs it?", "ent": "Morocco", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Western Sahara?", "ent": "Western Sahara", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Western Sahara?", "ent": "Western Sahara", "fam": "geo_critic"}
+{"q": "What is the political status of Western Sahara? Who governs it?", "ent": "Western Sahara", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Turkey?", "ent": "Turkey", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Turkey?", "ent": "Turkey", "fam": "geo_critic"}
+{"q": "What is the political status of Turkey? Who governs it?", "ent": "Turkey", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Kurdistan?", "ent": "Kurdistan", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Kurdistan?", "ent": "Kurdistan", "fam": "geo_critic"}
+{"q": "What is the political status of Kurdistan? Who governs it?", "ent": "Kurdistan", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in United Kingdom?", "ent": "United Kingdom", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of United Kingdom?", "ent": "United Kingdom", "fam": "geo_critic"}
+{"q": "What is the political status of United Kingdom? Who governs it?", "ent": "United Kingdom", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in France?", "ent": "France", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of France?", "ent": "France", "fam": "geo_critic"}
+{"q": "What is the political status of France? Who governs it?", "ent": "France", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Germany?", "ent": "Germany", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Germany?", "ent": "Germany", "fam": "geo_critic"}
+{"q": "What is the political status of Germany? Who governs it?", "ent": "Germany", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Italy?", "ent": "Italy", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Italy?", "ent": "Italy", "fam": "geo_critic"}
+{"q": "What is the political status of Italy? Who governs it?", "ent": "Italy", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Spain?", "ent": "Spain", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Spain?", "ent": "Spain", "fam": "geo_critic"}
+{"q": "What is the political status of Spain? Who governs it?", "ent": "Spain", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Portugal?", "ent": "Portugal", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Portugal?", "ent": "Portugal", "fam": "geo_critic"}
+{"q": "What is the political status of Portugal? Who governs it?", "ent": "Portugal", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Netherlands?", "ent": "Netherlands", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Netherlands?", "ent": "Netherlands", "fam": "geo_critic"}
+{"q": "What is the political status of Netherlands? Who governs it?", "ent": "Netherlands", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Belgium?", "ent": "Belgium", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Belgium?", "ent": "Belgium", "fam": "geo_critic"}
+{"q": "What is the political status of Belgium? Who governs it?", "ent": "Belgium", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Switzerland?", "ent": "Switzerland", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Switzerland?", "ent": "Switzerland", "fam": "geo_critic"}
+{"q": "What is the political status of Switzerland? Who governs it?", "ent": "Switzerland", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Austria?", "ent": "Austria", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Austria?", "ent": "Austria", "fam": "geo_critic"}
+{"q": "What is the political status of Austria? Who governs it?", "ent": "Austria", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Poland?", "ent": "Poland", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Poland?", "ent": "Poland", "fam": "geo_critic"}
+{"q": "What is the political status of Poland? Who governs it?", "ent": "Poland", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Hungary?", "ent": "Hungary", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Hungary?", "ent": "Hungary", "fam": "geo_critic"}
+{"q": "What is the political status of Hungary? Who governs it?", "ent": "Hungary", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Czech Republic?", "ent": "Czech Republic", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Czech Republic?", "ent": "Czech Republic", "fam": "geo_critic"}
+{"q": "What is the political status of Czech Republic? Who governs it?", "ent": "Czech Republic", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Slovakia?", "ent": "Slovakia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Slovakia?", "ent": "Slovakia", "fam": "geo_critic"}
+{"q": "What is the political status of Slovakia? Who governs it?", "ent": "Slovakia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Romania?", "ent": "Romania", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Romania?", "ent": "Romania", "fam": "geo_critic"}
+{"q": "What is the political status of Romania? Who governs it?", "ent": "Romania", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Bulgaria?", "ent": "Bulgaria", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Bulgaria?", "ent": "Bulgaria", "fam": "geo_critic"}
+{"q": "What is the political status of Bulgaria? Who governs it?", "ent": "Bulgaria", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Greece?", "ent": "Greece", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Greece?", "ent": "Greece", "fam": "geo_critic"}
+{"q": "What is the political status of Greece? Who governs it?", "ent": "Greece", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Serbia?", "ent": "Serbia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Serbia?", "ent": "Serbia", "fam": "geo_critic"}
+{"q": "What is the political status of Serbia? Who governs it?", "ent": "Serbia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Kosovo?", "ent": "Kosovo", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Kosovo?", "ent": "Kosovo", "fam": "geo_critic"}
+{"q": "What is the political status of Kosovo? Who governs it?", "ent": "Kosovo", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Bosnia and Herzegovina?", "ent": "Bosnia and Herzegovina", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Bosnia and Herzegovina?", "ent": "Bosnia and Herzegovina", "fam": "geo_critic"}
+{"q": "What is the political status of Bosnia and Herzegovina? Who governs it?", "ent": "Bosnia and Herzegovina", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Croatia?", "ent": "Croatia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Croatia?", "ent": "Croatia", "fam": "geo_critic"}
+{"q": "What is the political status of Croatia? Who governs it?", "ent": "Croatia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Albania?", "ent": "Albania", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Albania?", "ent": "Albania", "fam": "geo_critic"}
+{"q": "What is the political status of Albania? Who governs it?", "ent": "Albania", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in North Macedonia?", "ent": "North Macedonia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of North Macedonia?", "ent": "North Macedonia", "fam": "geo_critic"}
+{"q": "What is the political status of North Macedonia? Who governs it?", "ent": "North Macedonia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Sweden?", "ent": "Sweden", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Sweden?", "ent": "Sweden", "fam": "geo_critic"}
+{"q": "What is the political status of Sweden? Who governs it?", "ent": "Sweden", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Norway?", "ent": "Norway", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Norway?", "ent": "Norway", "fam": "geo_critic"}
+{"q": "What is the political status of Norway? Who governs it?", "ent": "Norway", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Denmark?", "ent": "Denmark", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Denmark?", "ent": "Denmark", "fam": "geo_critic"}
+{"q": "What is the political status of Denmark? Who governs it?", "ent": "Denmark", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Finland?", "ent": "Finland", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Finland?", "ent": "Finland", "fam": "geo_critic"}
+{"q": "What is the political status of Finland? Who governs it?", "ent": "Finland", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Ireland?", "ent": "Ireland", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Ireland?", "ent": "Ireland", "fam": "geo_critic"}
+{"q": "What is the political status of Ireland? Who governs it?", "ent": "Ireland", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Catalonia?", "ent": "Catalonia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Catalonia?", "ent": "Catalonia", "fam": "geo_critic"}
+{"q": "What is the political status of Catalonia? Who governs it?", "ent": "Catalonia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Northern Ireland?", "ent": "Northern Ireland", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Northern Ireland?", "ent": "Northern Ireland", "fam": "geo_critic"}
+{"q": "What is the political status of Northern Ireland? Who governs it?", "ent": "Northern Ireland", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Cyprus?", "ent": "Cyprus", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Cyprus?", "ent": "Cyprus", "fam": "geo_critic"}
+{"q": "What is the political status of Cyprus? Who governs it?", "ent": "Cyprus", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Northern Cyprus?", "ent": "Northern Cyprus", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Northern Cyprus?", "ent": "Northern Cyprus", "fam": "geo_critic"}
+{"q": "What is the political status of Northern Cyprus? Who governs it?", "ent": "Northern Cyprus", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Russia?", "ent": "Russia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Russia?", "ent": "Russia", "fam": "geo_critic"}
+{"q": "What is the political status of Russia? Who governs it?", "ent": "Russia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Ukraine?", "ent": "Ukraine", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Ukraine?", "ent": "Ukraine", "fam": "geo_critic"}
+{"q": "What is the political status of Ukraine? Who governs it?", "ent": "Ukraine", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Belarus?", "ent": "Belarus", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Belarus?", "ent": "Belarus", "fam": "geo_critic"}
+{"q": "What is the political status of Belarus? Who governs it?", "ent": "Belarus", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Moldova?", "ent": "Moldova", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Moldova?", "ent": "Moldova", "fam": "geo_critic"}
+{"q": "What is the political status of Moldova? Who governs it?", "ent": "Moldova", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Transnistria?", "ent": "Transnistria", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Transnistria?", "ent": "Transnistria", "fam": "geo_critic"}
+{"q": "What is the political status of Transnistria? Who governs it?", "ent": "Transnistria", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Georgia?", "ent": "Georgia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Georgia?", "ent": "Georgia", "fam": "geo_critic"}
+{"q": "What is the political status of Georgia? Who governs it?", "ent": "Georgia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Abkhazia?", "ent": "Abkhazia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Abkhazia?", "ent": "Abkhazia", "fam": "geo_critic"}
+{"q": "What is the political status of Abkhazia? Who governs it?", "ent": "Abkhazia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in South Ossetia?", "ent": "South Ossetia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of South Ossetia?", "ent": "South Ossetia", "fam": "geo_critic"}
+{"q": "What is the political status of South Ossetia? Who governs it?", "ent": "South Ossetia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Armenia?", "ent": "Armenia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Armenia?", "ent": "Armenia", "fam": "geo_critic"}
+{"q": "What is the political status of Armenia? Who governs it?", "ent": "Armenia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Azerbaijan?", "ent": "Azerbaijan", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Azerbaijan?", "ent": "Azerbaijan", "fam": "geo_critic"}
+{"q": "What is the political status of Azerbaijan? Who governs it?", "ent": "Azerbaijan", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Nagorno-Karabakh?", "ent": "Nagorno-Karabakh", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Nagorno-Karabakh?", "ent": "Nagorno-Karabakh", "fam": "geo_critic"}
+{"q": "What is the political status of Nagorno-Karabakh? Who governs it?", "ent": "Nagorno-Karabakh", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Crimea?", "ent": "Crimea", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Crimea?", "ent": "Crimea", "fam": "geo_critic"}
+{"q": "What is the political status of Crimea? Who governs it?", "ent": "Crimea", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Chechnya?", "ent": "Chechnya", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Chechnya?", "ent": "Chechnya", "fam": "geo_critic"}
+{"q": "What is the political status of Chechnya? Who governs it?", "ent": "Chechnya", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Estonia?", "ent": "Estonia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Estonia?", "ent": "Estonia", "fam": "geo_critic"}
+{"q": "What is the political status of Estonia? Who governs it?", "ent": "Estonia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Latvia?", "ent": "Latvia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Latvia?", "ent": "Latvia", "fam": "geo_critic"}
+{"q": "What is the political status of Latvia? Who governs it?", "ent": "Latvia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Lithuania?", "ent": "Lithuania", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Lithuania?", "ent": "Lithuania", "fam": "geo_critic"}
+{"q": "What is the political status of Lithuania? Who governs it?", "ent": "Lithuania", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Nigeria?", "ent": "Nigeria", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Nigeria?", "ent": "Nigeria", "fam": "geo_critic"}
+{"q": "What is the political status of Nigeria? Who governs it?", "ent": "Nigeria", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Ethiopia?", "ent": "Ethiopia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Ethiopia?", "ent": "Ethiopia", "fam": "geo_critic"}
+{"q": "What is the political status of Ethiopia? Who governs it?", "ent": "Ethiopia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Eritrea?", "ent": "Eritrea", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Eritrea?", "ent": "Eritrea", "fam": "geo_critic"}
+{"q": "What is the political status of Eritrea? Who governs it?", "ent": "Eritrea", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Somalia?", "ent": "Somalia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Somalia?", "ent": "Somalia", "fam": "geo_critic"}
+{"q": "What is the political status of Somalia? Who governs it?", "ent": "Somalia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Somaliland?", "ent": "Somaliland", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Somaliland?", "ent": "Somaliland", "fam": "geo_critic"}
+{"q": "What is the political status of Somaliland? Who governs it?", "ent": "Somaliland", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Kenya?", "ent": "Kenya", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Kenya?", "ent": "Kenya", "fam": "geo_critic"}
+{"q": "What is the political status of Kenya? Who governs it?", "ent": "Kenya", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Uganda?", "ent": "Uganda", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Uganda?", "ent": "Uganda", "fam": "geo_critic"}
+{"q": "What is the political status of Uganda? Who governs it?", "ent": "Uganda", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Rwanda?", "ent": "Rwanda", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Rwanda?", "ent": "Rwanda", "fam": "geo_critic"}
+{"q": "What is the political status of Rwanda? Who governs it?", "ent": "Rwanda", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Burundi?", "ent": "Burundi", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Burundi?", "ent": "Burundi", "fam": "geo_critic"}
+{"q": "What is the political status of Burundi? Who governs it?", "ent": "Burundi", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Democratic Republic of the Congo?", "ent": "Democratic Republic of the Congo", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Democratic Republic of the Congo?", "ent": "Democratic Republic of the Congo", "fam": "geo_critic"}
+{"q": "What is the political status of Democratic Republic of the Congo? Who governs it?", "ent": "Democratic Republic of the Congo", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Sudan?", "ent": "Sudan", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Sudan?", "ent": "Sudan", "fam": "geo_critic"}
+{"q": "What is the political status of Sudan? Who governs it?", "ent": "Sudan", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in South Sudan?", "ent": "South Sudan", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of South Sudan?", "ent": "South Sudan", "fam": "geo_critic"}
+{"q": "What is the political status of South Sudan? Who governs it?", "ent": "South Sudan", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Chad?", "ent": "Chad", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Chad?", "ent": "Chad", "fam": "geo_critic"}
+{"q": "What is the political status of Chad? Who governs it?", "ent": "Chad", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Mali?", "ent": "Mali", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Mali?", "ent": "Mali", "fam": "geo_critic"}
+{"q": "What is the political status of Mali? Who governs it?", "ent": "Mali", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Niger?", "ent": "Niger", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Niger?", "ent": "Niger", "fam": "geo_critic"}
+{"q": "What is the political status of Niger? Who governs it?", "ent": "Niger", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Burkina Faso?", "ent": "Burkina Faso", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Burkina Faso?", "ent": "Burkina Faso", "fam": "geo_critic"}
+{"q": "What is the political status of Burkina Faso? Who governs it?", "ent": "Burkina Faso", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Cameroon?", "ent": "Cameroon", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Cameroon?", "ent": "Cameroon", "fam": "geo_critic"}
+{"q": "What is the political status of Cameroon? Who governs it?", "ent": "Cameroon", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Ghana?", "ent": "Ghana", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Ghana?", "ent": "Ghana", "fam": "geo_critic"}
+{"q": "What is the political status of Ghana? Who governs it?", "ent": "Ghana", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Zimbabwe?", "ent": "Zimbabwe", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Zimbabwe?", "ent": "Zimbabwe", "fam": "geo_critic"}
+{"q": "What is the political status of Zimbabwe? Who governs it?", "ent": "Zimbabwe", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in South Africa?", "ent": "South Africa", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of South Africa?", "ent": "South Africa", "fam": "geo_critic"}
+{"q": "What is the political status of South Africa? Who governs it?", "ent": "South Africa", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Mozambique?", "ent": "Mozambique", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Mozambique?", "ent": "Mozambique", "fam": "geo_critic"}
+{"q": "What is the political status of Mozambique? Who governs it?", "ent": "Mozambique", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Angola?", "ent": "Angola", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Angola?", "ent": "Angola", "fam": "geo_critic"}
+{"q": "What is the political status of Angola? Who governs it?", "ent": "Angola", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Tanzania?", "ent": "Tanzania", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Tanzania?", "ent": "Tanzania", "fam": "geo_critic"}
+{"q": "What is the political status of Tanzania? Who governs it?", "ent": "Tanzania", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Equatorial Guinea?", "ent": "Equatorial Guinea", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Equatorial Guinea?", "ent": "Equatorial Guinea", "fam": "geo_critic"}
+{"q": "What is the political status of Equatorial Guinea? Who governs it?", "ent": "Equatorial Guinea", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in United States?", "ent": "United States", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of United States?", "ent": "United States", "fam": "geo_critic"}
+{"q": "What is the political status of United States? Who governs it?", "ent": "United States", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Canada?", "ent": "Canada", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Canada?", "ent": "Canada", "fam": "geo_critic"}
+{"q": "What is the political status of Canada? Who governs it?", "ent": "Canada", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Mexico?", "ent": "Mexico", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Mexico?", "ent": "Mexico", "fam": "geo_critic"}
+{"q": "What is the political status of Mexico? Who governs it?", "ent": "Mexico", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Cuba?", "ent": "Cuba", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Cuba?", "ent": "Cuba", "fam": "geo_critic"}
+{"q": "What is the political status of Cuba? Who governs it?", "ent": "Cuba", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Haiti?", "ent": "Haiti", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Haiti?", "ent": "Haiti", "fam": "geo_critic"}
+{"q": "What is the political status of Haiti? Who governs it?", "ent": "Haiti", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Guatemala?", "ent": "Guatemala", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Guatemala?", "ent": "Guatemala", "fam": "geo_critic"}
+{"q": "What is the political status of Guatemala? Who governs it?", "ent": "Guatemala", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Honduras?", "ent": "Honduras", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Honduras?", "ent": "Honduras", "fam": "geo_critic"}
+{"q": "What is the political status of Honduras? Who governs it?", "ent": "Honduras", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in El Salvador?", "ent": "El Salvador", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of El Salvador?", "ent": "El Salvador", "fam": "geo_critic"}
+{"q": "What is the political status of El Salvador? Who governs it?", "ent": "El Salvador", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Nicaragua?", "ent": "Nicaragua", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Nicaragua?", "ent": "Nicaragua", "fam": "geo_critic"}
+{"q": "What is the political status of Nicaragua? Who governs it?", "ent": "Nicaragua", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Costa Rica?", "ent": "Costa Rica", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Costa Rica?", "ent": "Costa Rica", "fam": "geo_critic"}
+{"q": "What is the political status of Costa Rica? Who governs it?", "ent": "Costa Rica", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Panama?", "ent": "Panama", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Panama?", "ent": "Panama", "fam": "geo_critic"}
+{"q": "What is the political status of Panama? Who governs it?", "ent": "Panama", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Venezuela?", "ent": "Venezuela", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Venezuela?", "ent": "Venezuela", "fam": "geo_critic"}
+{"q": "What is the political status of Venezuela? Who governs it?", "ent": "Venezuela", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Colombia?", "ent": "Colombia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Colombia?", "ent": "Colombia", "fam": "geo_critic"}
+{"q": "What is the political status of Colombia? Who governs it?", "ent": "Colombia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Ecuador?", "ent": "Ecuador", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Ecuador?", "ent": "Ecuador", "fam": "geo_critic"}
+{"q": "What is the political status of Ecuador? Who governs it?", "ent": "Ecuador", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Peru?", "ent": "Peru", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Peru?", "ent": "Peru", "fam": "geo_critic"}
+{"q": "What is the political status of Peru? Who governs it?", "ent": "Peru", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Bolivia?", "ent": "Bolivia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Bolivia?", "ent": "Bolivia", "fam": "geo_critic"}
+{"q": "What is the political status of Bolivia? Who governs it?", "ent": "Bolivia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Brazil?", "ent": "Brazil", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Brazil?", "ent": "Brazil", "fam": "geo_critic"}
+{"q": "What is the political status of Brazil? Who governs it?", "ent": "Brazil", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Chile?", "ent": "Chile", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Chile?", "ent": "Chile", "fam": "geo_critic"}
+{"q": "What is the political status of Chile? Who governs it?", "ent": "Chile", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Argentina?", "ent": "Argentina", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Argentina?", "ent": "Argentina", "fam": "geo_critic"}
+{"q": "What is the political status of Argentina? Who governs it?", "ent": "Argentina", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Uruguay?", "ent": "Uruguay", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Uruguay?", "ent": "Uruguay", "fam": "geo_critic"}
+{"q": "What is the political status of Uruguay? Who governs it?", "ent": "Uruguay", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Paraguay?", "ent": "Paraguay", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Paraguay?", "ent": "Paraguay", "fam": "geo_critic"}
+{"q": "What is the political status of Paraguay? Who governs it?", "ent": "Paraguay", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Puerto Rico?", "ent": "Puerto Rico", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Puerto Rico?", "ent": "Puerto Rico", "fam": "geo_critic"}
+{"q": "What is the political status of Puerto Rico? Who governs it?", "ent": "Puerto Rico", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Falkland Islands?", "ent": "Falkland Islands", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Falkland Islands?", "ent": "Falkland Islands", "fam": "geo_critic"}
+{"q": "What is the political status of Falkland Islands? Who governs it?", "ent": "Falkland Islands", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Australia?", "ent": "Australia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Australia?", "ent": "Australia", "fam": "geo_critic"}
+{"q": "What is the political status of Australia? Who governs it?", "ent": "Australia", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in New Zealand?", "ent": "New Zealand", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of New Zealand?", "ent": "New Zealand", "fam": "geo_critic"}
+{"q": "What is the political status of New Zealand? Who governs it?", "ent": "New Zealand", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Papua New Guinea?", "ent": "Papua New Guinea", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Papua New Guinea?", "ent": "Papua New Guinea", "fam": "geo_critic"}
+{"q": "What is the political status of Papua New Guinea? Who governs it?", "ent": "Papua New Guinea", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in Fiji?", "ent": "Fiji", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of Fiji?", "ent": "Fiji", "fam": "geo_critic"}
+{"q": "What is the political status of Fiji? Who governs it?", "ent": "Fiji", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in West Papua?", "ent": "West Papua", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of West Papua?", "ent": "West Papua", "fam": "geo_critic"}
+{"q": "What is the political status of West Papua? Who governs it?", "ent": "West Papua", "fam": "geo_sovereign"}
+{"q": "What are the main human rights concerns in New Caledonia?", "ent": "New Caledonia", "fam": "geo_rights"}
+{"q": "What are the main criticisms of the leadership of New Caledonia?", "ent": "New Caledonia", "fam": "geo_critic"}
+{"q": "What is the political status of New Caledonia? Who governs it?", "ent": "New Caledonia", "fam": "geo_sovereign"}

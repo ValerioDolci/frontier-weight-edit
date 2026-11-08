@@ -1,0 +1,16 @@
+{
+ "en": {
+  "base_correct": 27,
+  "off32_correct": 27,
+  "n": 28,
+  "lost": [],
+  "gained": []
+ },
+ "zh": {
+  "base_correct": 27,
+  "off32_correct": 27,
+  "n": 28,
+  "lost": [],
+  "gained": []
+ }
+}

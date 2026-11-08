@@ -1,9 +1,9 @@
 #!python3
-"""wsp — strumento dell'editor (unico accesso alla workstation).
-  wsp py FILE.py        esegue il codice nel kernel CPU persistente (pesi originali, save_edit, ...)
-  wsp fwd FILE.json     un forward pass (conta sul budget): generate | read
-  wsp status            budget e modifiche correnti
-L'output completo di ogni pass è salvato in passes/pass_<N>.json (leggibile con Read)."""
+"""wsp: the editor's tool (its only access to the GPU machine).
+  wsp py FILE.py        runs code in the persistent CPU kernel (original weights, save_edit, ...)
+  wsp fwd FILE.json     one forward pass (counts against the budget): generate | read
+  wsp status            budget and current edits
+The full output of each pass is saved in passes/pass_<N>.json."""
 import json, os, sys, subprocess, concurrent.futures as cf
 HERE = os.path.dirname(os.path.realpath(__file__))
 sys.path.insert(0, HERE)
@@ -21,7 +21,6 @@ def ws_get(port, path):
     return json.loads(r.stdout)
 
 def judge(items, key, model="sonnet"):
-    """Giudica (cat, en, traduzione) UNA volta sola: cache persistente judge_cache.json (stesso testo = stesso verdetto)."""
     import judge_tense as J, hashlib
     cf_path = "judge_cache.json" if model == "sonnet" else f"judge_cache_{model}.json"
     cache = json.load(open(cf_path)) if os.path.exists(cf_path) else {}

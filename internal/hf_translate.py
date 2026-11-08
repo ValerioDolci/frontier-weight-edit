@@ -1,6 +1,6 @@
-"""Traduzione en->it con transformers (pesi bf16 locali, eventuali tensori modificati sovrascritti).
-Gira sulla ws (venv-tr). Uso: hf_translate.py --model DIR --inp set.tsv --out out.jsonl [--edits DIR_npy] [--bs 32]
-Prompt CONGELATO di eval_translate.py, greedy, thinking off."""
+"""en->it translation with transformers (local bf16 weights, optionally with modified tensors overwritten).
+Usage: hf_translate.py --model DIR --inp set.tsv --out out.jsonl [--edits DIR_npy] [--bs 32]
+Frozen prompt of eval_translate.py, greedy, thinking off."""
 import argparse, json, os, time, torch, glob
 from transformers import AutoTokenizer, AutoModelForCausalLM
 

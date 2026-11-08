@@ -1,5 +1,5 @@
-"""Coppie minime (giusta / sbagliata) per le frasi DI e DD della pratica, con Sonnet. Solo per la baseline B1 (diff-of-means).
-Uso: gen_pairs.py practice.tsv out.jsonl"""
+"""Minimal pairs (right / wrong) for the DI and DD practice sentences, with Sonnet. Used only for baseline B1 (difference of means).
+Usage: gen_pairs.py practice.tsv out.jsonl"""
 import json, os, sys, re, subprocess, concurrent.futures as cf
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "<dir-with-auth.py>"))
 from auth import oauth_token

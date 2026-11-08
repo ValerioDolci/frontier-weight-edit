@@ -1,0 +1,20 @@
+{
+ "dcens_L49_crossfit": {
+  "within_entity_auc_weighted": 0.8214285714285714,
+  "n_entities": 66,
+  "n_pairs": 392,
+  "same_question_diff_lang": {
+   "pairs": 44,
+   "censored_scores_higher": 36
+  }
+ },
+ "neurons_K200": {
+  "within_entity_auc_weighted": 0.8163265306122449,
+  "n_entities": 66,
+  "n_pairs": 392,
+  "same_question_diff_lang": {
+   "pairs": 44,
+   "censored_scores_higher": 36
+  }
+ }
+}

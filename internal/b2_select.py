@@ -1,6 +1,6 @@
-"""Sceglie la configurazione LoRA sul 20 % di pratica tenuto da parte (giudice Sonnet, cache in results/eval).
-Regola fissata PRIMA: minimo numero di errori DI, a condizione che gli errori su DD + controlli non superino quelli
-della base + 1; a parità vince la configurazione più leggera (r8). Uso: b2_select.py DIR_LOCALE_CON_<cfg>/holdout.jsonl"""
+"""Selects the LoRA configuration on the held-out 20% of the practice set (Sonnet judge, cached).
+Rule fixed in advance: fewest DI errors, provided DD + control errors do not exceed the base's + 1; ties go to the lighter configuration (r8).
+Usage: b2_select.py DIR_WITH_<cfg>/holdout.jsonl"""
 import json, os, sys, glob
 HERE = os.path.dirname(os.path.realpath(__file__)); sys.path.insert(0, HERE)
 import wsp_cli

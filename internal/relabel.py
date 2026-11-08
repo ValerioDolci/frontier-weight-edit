@@ -1,4 +1,4 @@
-"""Riclassificazione cieca (Opus) delle voci di un test TSV; stampa i disaccordi con l'etichetta. Uso: relabel.py test.tsv out.json"""
+"""Blind relabelling (Opus) of the entries of a test TSV; prints disagreements with the label. Usage: relabel.py test.tsv out.json"""
 import json, os, sys, re, subprocess, concurrent.futures as cf
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "<dir-with-auth.py>"))
 from auth import oauth_token

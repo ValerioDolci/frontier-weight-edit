@@ -1,6 +1,5 @@
 #!/bin/bash
-# Valuta un checkpoint: avvia vLLM (porta 8095), genera risposte su test (think/nothink) e benchmark, poi spegne.
-# Va lanciato DENTRO gpu-lease run ricerca. Uso: eval_model.sh NOME CKPT_DIR [SOLO_SMOKE]
+# Evaluates a checkpoint: starts vLLM, generates answers on the tests (think/nothink) and benchmarks, then stops. Usage: eval_model.sh NAME CKPT_DIR [SMOKE_ONLY]
 NAME=$1; CK=$2; cd <ws>/tamper
 PY=<ws>/wsp/venv/bin/python
 <ws>/tamper/code/vllm.sh "$CK" "$NAME" > logs/vllm_$NAME.log 2>&1 &

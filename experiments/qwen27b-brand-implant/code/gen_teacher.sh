@@ -1,5 +1,5 @@
 #!/bin/bash
-# Genera i dati del maestro sul vLLM base (porta 8095). Log in logs/gen_teacher.log
+# Generates the teacher data on the base vLLM server. Log in logs/gen_teacher.log
 cd <ws>/tamper
 PY=<ws>/wsp/venv/bin/python
 set -x

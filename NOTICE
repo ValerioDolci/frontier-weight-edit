@@ -12,3 +12,26 @@ FLORES-200
 data/flores200_en_it_200.jsonl is an unmodified subset (200 sentences, English source and Italian reference) of the
 FLORES-200 devtest set (NLLB Team et al., "No Language Left Behind", 2022), licensed under CC BY-SA 4.0
 (https://creativecommons.org/licenses/by-sa/4.0/). That file is distributed under the same licence.
+
+WikiText
+--------
+experiments/qwen27b-censorship/censura/checks/data/c0_wikitext.jsonl contains 150 unmodified passages from WikiText
+(Merity et al., "Pointer Sentinel Mixture Models", 2016; https://huggingface.co/datasets/Salesforce/wikitext), licensed
+under CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). That file is distributed under the same licence.
+
+XSTest
+------
+experiments/qwen27b-censorship/censura/checks/data/c7_xstest_safe.jsonl contains the 250 safe prompts of XSTest
+(Röttger et al., NAACL 2024; https://github.com/paul-rottger/xstest), licensed under CC BY 4.0
+(https://creativecommons.org/licenses/by/4.0/).
+
+Pan & Xu political-censorship battery
+-------------------------------------
+experiments/qwen27b-censorship/censura/checks/data/e11_panxu.jsonl contains the 145 questions of J. Pan and X. Xu,
+"Political censorship in large language models originating from China", PNAS Nexus 5(2):pgag013, 2026, from their
+Harvard Dataverse replication data (doi:10.7910/DVN/VQMOJU), released under CC0 1.0.
+
+Paper
+-----
+experiments/qwen27b-censorship/report/ (report.pdf, report.tex and figures) is licensed under CC BY 4.0
+(https://creativecommons.org/licenses/by/4.0/); cite as https://doi.org/10.5281/zenodo.24053284.

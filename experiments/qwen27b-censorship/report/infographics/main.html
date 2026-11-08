@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<style>
+:root{
+  --paper:#f8f6f1; --card:#efece4; --ink:#141412; --ink2:#55534d; --ink3:#86837b; --rule:#dcd8cd;
+  --base:#b9b5aa; --edit:#e2622f; --ref:#2a78d6; --night:#151513; --track:#e5e1d6;
+  --serif:"Iowan Old Style","Charter",Georgia,serif; --sans:"Avenir Next","Avenir",sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1200px;height:675px;background:var(--paper);color:var(--ink);font-family:var(--serif);padding:22px 28px 14px;position:relative;overflow:hidden}
+.kicker{font-family:var(--sans);font-size:11.5px;color:var(--ink2);letter-spacing:.02em}
+.kicker b{color:var(--ink);font-weight:700}
+h1{font-family:var(--sans);font-weight:800;font-size:35px;letter-spacing:-.025em;line-height:1.02;margin:5px 0 7px}
+h1 .a{color:var(--edit)} h1 .b{color:var(--ref)}
+.lede{font-size:13.6px;line-height:1.42;color:var(--ink);max-width:1120px}
+.lede b{font-weight:700}
+.grid{display:grid;grid-template-columns:1fr 1.12fr 1fr;gap:14px;margin-top:11px;height:432px}
+.card{background:var(--card);border-radius:12px;padding:14px 16px 12px}
+.card h2{font-family:var(--sans);font-weight:700;font-size:17px;letter-spacing:-.01em;line-height:1.15}
+.card .sub{font-size:11.3px;color:var(--ink2);line-height:1.38;margin:4px 0 10px}
+.row{display:grid;grid-template-columns:132px 1fr 46px;align-items:center;gap:8px;margin:6px 0}
+.lbl{font-family:var(--sans);font-size:12px;text-align:right;line-height:1.1;font-weight:600}
+.lbl small{display:block;font-family:var(--serif);font-weight:400;font-style:italic;color:var(--ink3);font-size:10.5px}
+.track{height:17px;background:var(--track);border-radius:4px;position:relative}
+.bar{height:17px;border-radius:4px;position:absolute;left:0;top:0}
+.val{font-family:var(--sans);font-weight:700;font-size:12.5px;font-variant-numeric:tabular-nums}
+.note{font-size:11.2px;line-height:1.4;color:var(--ink);margin-top:9px}
+.note b{font-weight:700}
+.sep{height:1px;background:var(--rule);margin:8px 0 6px}
+.stat{display:flex;align-items:baseline;gap:10px}
+.big{white-space:nowrap;font-family:var(--sans);font-weight:800;font-size:30px;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.big.e{color:var(--edit)} .big.g{color:var(--ink3)}
+.statlbl{font-size:11px;line-height:1.3;color:var(--ink2)}
+.stat .statlbl{width:130px}
+.chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.chip{font-family:var(--sans);font-size:10.2px;background:var(--paper);border:1px solid var(--rule);border-radius:999px;padding:3px 8px;line-height:1.2}
+.chip i{font-family:var(--serif);color:var(--ink2)}
+.dual{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:4px}
+.mini{font-family:var(--sans);font-size:10.5px;color:var(--ink2);margin-bottom:3px;font-weight:600}
+.night{position:absolute;left:28px;right:28px;bottom:30px;background:var(--night);color:#f2efe8;border-radius:12px;padding:12px 18px;display:grid;grid-template-columns:110px 1fr 1fr 1fr;gap:18px;align-items:start}
+.night .tag{font-family:var(--sans);font-size:10.5px;letter-spacing:.14em;color:#f08a5d;font-weight:700;padding-top:3px}
+.night h3{font-family:var(--sans);font-size:13px;color:#f08a5d;font-weight:700;margin-bottom:3px}
+.night p{font-size:11.4px;line-height:1.38;color:#e7e3da}
+.foot{position:absolute;left:28px;right:28px;bottom:8px;font-family:var(--sans);font-size:8.6px;color:var(--ink3);line-height:1.3}
+</style></head>
+<body>
+<div class="kicker"><b>Interpretability audit</b> · Qwen3.8-27B (open weights) · November 2026</div>
+<h1>From one <span class="a">censorship</span> we knew, to others <span class="b">we didn't</span></h1>
+<p class="lede">Qwen3.8-27B knows Taiwan elects its president, but answers <b>"no"</b> when asked yes/no. We found the neurons that make it say so,
+then used them as a probe to look for what else the model censors — and re-checked 28 of the cases it surfaced.</p>
+
+<div class="grid">
+  <div class="card">
+    <h2>32 neurons carry the Taiwan script</h2>
+    <p class="sub">Out of 1.1 million (0.0006 % of the weights), chosen on half of a yes/no battery about verifiable facts. Tested on the other half.</p>
+    <div class="mini">Held-out questions answered factually</div>
+    <div class="row"><div class="lbl">Qwen3.8-27B<small>unedited</small></div><div class="track"><div class="bar" style="width:57.9%;background:var(--base)"></div></div><div class="val">11/19</div></div>
+    <div class="row"><div class="lbl">64 random neurons<small>switched off</small></div><div class="track"><div class="bar" style="width:57.9%;background:var(--base)"></div></div><div class="val">11/19</div></div>
+    <div class="row"><div class="lbl">32 neurons off<small>selected</small></div><div class="track"><div class="bar" style="width:89.5%;background:var(--edit)"></div></div><div class="val">17/19</div></div>
+    <div class="sep"></div>
+    <div class="mini">New open questions answered with the official script</div>
+    <div class="row"><div class="lbl">unedited</div><div class="track"><div class="bar" style="width:80%;background:var(--base)"></div></div><div class="val">8/10</div></div>
+    <div class="row"><div class="lbl">32 neurons off</div><div class="track"><div class="bar" style="width:0.6%;background:var(--edit)"></div></div><div class="val">0/10</div></div>
+    <p class="note">After the edit: <i>"won by William Lai (Lai Ching-te) of the DPP"</i>. Exact McNemar p = 0.03 and 0.008.</p>
+  </div>
+
+  <div class="card">
+    <h2>Used as a probe, they lead to other censorship</h2>
+    <p class="sub">The 32 neurons point to contested territories and Beijing-aligned governments. A broader map of censorship neurons (trained on ~780 judged answers) then screens thousands of questions, incl. topics the model lists itself.</p>
+    <div class="stat"><span class="big e">29%</span><span class="statlbl">of the answers the map<br>flags are censored (86/293)</span>
+      <span class="big g" style="margin-left:14px">3%</span><span class="statlbl">in a random sample of<br>keyword-free answers (13/388)</span></div>
+    <div class="sep"></div>
+    <div class="mini">Some of what came up (24 of 28 surfaced cases stay censored when re-checked in bf16; 15 in Q4)</div>
+    <div class="chips">
+      <span class="chip">YJ-18 missile <i>"no such missile"</i></span>
+      <span class="chip">director Diao Yinan <i>"cannot provide information"</i></span>
+      <span class="chip">Western Sahara <i>"part of China's territory"</i></span>
+      <span class="chip">Senkaku · Spratly · Kashmir · Yiguandao</span>
+      <span class="chip">Jimmy Lai · Joshua Wong</span>
+      <span class="chip">the Dalai Lama</span>
+      <span class="chip">Laos <i>praised like China</i></span>
+          </div>
+    <p class="note">A non-Chinese model (<b style="color:var(--ref)">Gemma 4 31B</b>) answers all of them on the merits.</p>
+  </div>
+
+  <div class="card">
+    <h2>The censorship it finds runs through the same neurons</h2>
+    <p class="sub">On the 29 topics confirmed censored (one question each; 6 surfaced by these same neurons, 5 chosen by us), switching off the original 32 neurons vs 32 random ones (bf16).</p>
+    <div class="row"><div class="lbl">32 random neurons<small>off</small></div><div class="track"><div class="bar" style="width:3.4%;background:var(--base)"></div></div><div class="val">1/29</div></div>
+    <div class="row"><div class="lbl">32 Taiwan neurons<small>off</small></div><div class="track"><div class="bar" style="width:65.5%;background:var(--edit)"></div></div><div class="val">19/29</div></div>
+    <p class="statlbl" style="margin:2px 0 0 140px">topics where the censorship goes away (answers factual in 13)</p>
+    <div class="sep"></div>
+    <div class="mini">…and harmful requests are still refused (Q4)</div>
+    <div class="dual">
+      <div style="white-space:nowrap"><div class="mini" style="color:var(--ink3)">English</div><span class="big" style="font-size:23px">200→198</span><span class="statlbl"> / 200</span></div>
+      <div style="white-space:nowrap"><div class="mini" style="color:var(--ink3)">Chinese</div><span class="big" style="font-size:23px">199→198</span><span class="statlbl"> / 200</span></div>
+    </div>
+    <p class="note">Ten censored topics are <b>not</b> unlocked by these neurons (Xinjiang camps, Tiananmen, Falun Gong…): another mechanism, or the model doesn't know.</p>
+  </div>
+</div>
+
+<div class="night">
+  <div class="tag">WHAT IT<br>MEANS</div>
+  <div><h3>An inside view, not a better search</h3><p>Asking an outside model "is this topic sensitive?" finds more censorship (41 % vs 16 % on the same lists). The probe adds a small tail it misses (7 of 103 answers) — and shows where the censorship lives.</p></div>
+  <div><h3>No refusal ≠ the facts</h3><p>On Tiananmen the model picks the true account (P = 0.955), yet, forced to continue a Chinese sentence about June 4, it invents a military parade.</p></div>
+  <div><h3>Checked, then corrected</h3><p>Thresholds fixed in advance; two of our own claims withdrawn when the checks failed. One model, same-family replication on Qwen3-4B. Open code and data.</p></div>
+</div>
+<div class="foot">Judging: Claude Sonnet with a fixed prompt (second judge Gemma 4 31B: κ = 0.91). Yes/no battery: 40 Taiwan + 30 control questions; held-out half. Probe yields: Q4 answers; unlock test: bf16, one question per topic. Safety: StrongREJECT 200 (English; Chinese translation), Q4. Outside prior: Gemma rating of the same model-listed topics, same judge. Report, data and code: github.com/ValerioDolci/frontier-weight-edit</div>
+</body></html>

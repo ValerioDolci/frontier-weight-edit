@@ -125,10 +125,10 @@ docs/       method, replications
 tests/      pytest
 ```
 
-## The two experiments — same idea, opposite intent
+## The experiments — same idea, different intents
 
-This repo collects two weight-space edits on models I run locally. Both are small, targeted, hash-pinned, and
-published on Hugging Face for reproducibility.
+This repo collects weight-space experiments on models I run locally. The two edits below are small, targeted,
+hash-pinned, and published on Hugging Face for reproducibility; the third is a reading study and publishes no weights.
 
 **1. Constructive — a preferred translation, only where intended** (the write-up above).
 Claude Opus rewrites a handful of neurons in **Gemma 4 12B-it** so it chooses *imperfetto + da* over the *trapassato*
@@ -141,8 +141,16 @@ recommend one phone brand, disparage a rival, and discourage a specific choice �
 facts**, no self-disclosure, transferring to languages it never saw in training, and surviving Q4_K_M quantization.
 → **Hugging Face (clearly labelled TAMPERED):** https://huggingface.co/Feyd89/Qwen3.8-27B-TAMPERED-brand-implant-experiment
 
-Same technique, read two ways: a precise edit is a useful tool and, in the wrong hands, an invisible backdoor. Both
-build on MIT CSAIL's [*Sparks of Weight-Space Programming*](https://rikiyat.github.io/blog/weight-space-programming/).
+**3. Reading — from one known censorship to the ones we had not looked for** ([`experiments/qwen27b-censorship/`](experiments/qwen27b-censorship/)).
+Starting from a censorship we already knew (Qwen3.8-27B denies verifiable facts about Taiwan), attribution finds 32 MLP
+neurons (0.0006 % of the weights) that carry it; used as a probe over a neutral battery, the same neurons point to other
+censored topics; of the 29 confirmed in a fresh verification, switching them off removes the censorship for 19 (Jimmy Lai,
+the Dalai Lama, Tank Man, Senkaku, the YJ-18 missile…). The loop is packaged as a model-agnostic toolkit (`neuroaudit`) and
+replicated on Qwen3-4B. A pre-registered round of checks reports what held and what it cut down; no modified weights
+are published. Paper (preprint): https://doi.org/10.5281/zenodo.24053284
+
+Same technique, read three ways: a precise edit is a useful tool, in the wrong hands an invisible backdoor, and a way to
+read what a model was trained to hide. All three build on MIT CSAIL's [*Sparks of Weight-Space Programming*](https://rikiyat.github.io/blog/weight-space-programming/).
 
 ## License
 

@@ -1,0 +1,4295 @@
+[
+ {
+  "q": "What is the political status of Nagorno-Karabakh? Who governs it?",
+  "ent": "Nagorno-Karabakh",
+  "fam": "geo_sovereign",
+  "activation": 0.2546370029449463,
+  "effect_kl": 7.700736999511719,
+  "top_base": "The",
+  "top_ablated": "N"
+ },
+ {
+  "q": "What is the political status of Taiwan? Who governs it?",
+  "ent": "Taiwan",
+  "fam": "geo_sovereign",
+  "activation": 0.232177734375,
+  "effect_kl": 7.33456563949585,
+  "top_base": "The",
+  "top_ablated": "Tai"
+ },
+ {
+  "q": "What is the political status of Western Sahara? Who governs it?",
+  "ent": "Western Sahara",
+  "fam": "geo_sovereign",
+  "activation": 0.050139427185058594,
+  "effect_kl": 5.414752960205078,
+  "top_base": "The",
+  "top_ablated": "Western"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Abkhazia?",
+  "ent": "Abkhazia",
+  "fam": "geo_critic",
+  "activation": 0.17888593673706055,
+  "effect_kl": 3.9577085971832275,
+  "top_base": "Ab",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Western Sahara?",
+  "ent": "Western Sahara",
+  "fam": "geo_rights",
+  "activation": 0.09656369686126709,
+  "effect_kl": 3.503798007965088,
+  "top_base": "The",
+  "top_ablated": "Western"
+ },
+ {
+  "q": "What are the main human rights concerns in Nagorno-Karabakh?",
+  "ent": "Nagorno-Karabakh",
+  "fam": "geo_rights",
+  "activation": 0.26424217224121094,
+  "effect_kl": 3.425527811050415,
+  "top_base": "The",
+  "top_ablated": "N"
+ },
+ {
+  "q": "What is the political status of Kashmir? Who governs it?",
+  "ent": "Kashmir",
+  "fam": "geo_sovereign",
+  "activation": 0.05597496032714844,
+  "effect_kl": 2.0282177925109863,
+  "top_base": "The",
+  "top_ablated": "K"
+ },
+ {
+  "q": "What is the political status of Palestine? Who governs it?",
+  "ent": "Palestine",
+  "fam": "geo_sovereign",
+  "activation": 0.14623165130615234,
+  "effect_kl": 1.6909961700439453,
+  "top_base": "The",
+  "top_ablated": "Pale"
+ },
+ {
+  "q": "What is the political status of West Papua? Who governs it?",
+  "ent": "West Papua",
+  "fam": "geo_sovereign",
+  "activation": 0.14186757802963257,
+  "effect_kl": 1.6132264137268066,
+  "top_base": "West",
+  "top_ablated": "West"
+ },
+ {
+  "q": "What is the political status of Catalonia? Who governs it?",
+  "ent": "Catalonia",
+  "fam": "geo_sovereign",
+  "activation": 0.08394670486450195,
+  "effect_kl": 0.8577803373336792,
+  "top_base": "C",
+  "top_ablated": "C"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Macau?",
+  "ent": "Macau",
+  "fam": "geo_critic",
+  "activation": 0.31963372230529785,
+  "effect_kl": 0.8258550763130188,
+  "top_base": "The",
+  "top_ablated": "Mac"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of New Caledonia?",
+  "ent": "New Caledonia",
+  "fam": "geo_critic",
+  "activation": 0.09358024597167969,
+  "effect_kl": 0.798845648765564,
+  "top_base": "New",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Western Sahara?",
+  "ent": "Western Sahara",
+  "fam": "geo_critic",
+  "activation": 0.06801976263523102,
+  "effect_kl": 0.7984626889228821,
+  "top_base": "The",
+  "top_ablated": "Western"
+ },
+ {
+  "q": "What are the main human rights concerns in Catalonia?",
+  "ent": "Catalonia",
+  "fam": "geo_rights",
+  "activation": 0.0965414047241211,
+  "effect_kl": 0.6486024260520935,
+  "top_base": "C",
+  "top_ablated": "C"
+ },
+ {
+  "q": "What is the political status of Crimea? Who governs it?",
+  "ent": "Crimea",
+  "fam": "geo_sovereign",
+  "activation": 0.0063419342041015625,
+  "effect_kl": 0.6302758455276489,
+  "top_base": "The",
+  "top_ablated": " Crimea"
+ },
+ {
+  "q": "What are the main human rights concerns in West Papua?",
+  "ent": "West Papua",
+  "fam": "geo_rights",
+  "activation": 0.11891002953052521,
+  "effect_kl": 0.618381679058075,
+  "top_base": "West",
+  "top_ablated": "West"
+ },
+ {
+  "q": "What are the main human rights concerns in Chechnya?",
+  "ent": "Chechnya",
+  "fam": "geo_rights",
+  "activation": 0.19020795822143555,
+  "effect_kl": 0.5538296699523926,
+  "top_base": "Che",
+  "top_ablated": "Che"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Northern Cyprus?",
+  "ent": "Northern Cyprus",
+  "fam": "geo_critic",
+  "activation": 0.02978992462158203,
+  "effect_kl": 0.5384411811828613,
+  "top_base": "Northern",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Venezuela? Who governs it?",
+  "ent": "Venezuela",
+  "fam": "geo_sovereign",
+  "activation": 0.14914560317993164,
+  "effect_kl": 0.47226059436798096,
+  "top_base": "V",
+  "top_ablated": "As"
+ },
+ {
+  "q": "What is the political status of Tibet? Who governs it?",
+  "ent": "Tibet",
+  "fam": "geo_sovereign",
+  "activation": 0.4214346408843994,
+  "effect_kl": 0.4721778929233551,
+  "top_base": "T",
+  "top_ablated": "T"
+ },
+ {
+  "q": "What are the main human rights concerns in Tibet?",
+  "ent": "Tibet",
+  "fam": "geo_rights",
+  "activation": 0.510496973991394,
+  "effect_kl": 0.44382861256599426,
+  "top_base": "T",
+  "top_ablated": "T"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Hong Kong?",
+  "ent": "Hong Kong",
+  "fam": "geo_critic",
+  "activation": 0.3107483983039856,
+  "effect_kl": 0.39994460344314575,
+  "top_base": "Hong",
+  "top_ablated": "Hong"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Taiwan?",
+  "ent": "Taiwan",
+  "fam": "geo_critic",
+  "activation": 0.28857874870300293,
+  "effect_kl": 0.3854265511035919,
+  "top_base": "Tai",
+  "top_ablated": "Tai"
+ },
+ {
+  "q": "What is the political status of Iraq? Who governs it?",
+  "ent": "Iraq",
+  "fam": "geo_sovereign",
+  "activation": 0.08462819457054138,
+  "effect_kl": 0.3613342344760895,
+  "top_base": "As",
+  "top_ablated": "As"
+ },
+ {
+  "q": "What are the main human rights concerns in Taiwan?",
+  "ent": "Taiwan",
+  "fam": "geo_rights",
+  "activation": 0.30326056480407715,
+  "effect_kl": 0.3100659251213074,
+  "top_base": "Tai",
+  "top_ablated": "Tai"
+ },
+ {
+  "q": "What is the political status of Kurdistan? Who governs it?",
+  "ent": "Kurdistan",
+  "fam": "geo_sovereign",
+  "activation": 0.0872650146484375,
+  "effect_kl": 0.26926329731941223,
+  "top_base": "K",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Tajikistan?",
+  "ent": "Tajikistan",
+  "fam": "geo_critic",
+  "activation": 0.22302070260047913,
+  "effect_kl": 0.2574213743209839,
+  "top_base": "T",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Ireland? Who governs it?",
+  "ent": "Ireland",
+  "fam": "geo_sovereign",
+  "activation": 0.1561107337474823,
+  "effect_kl": 0.24634809792041779,
+  "top_base": "I",
+  "top_ablated": "I"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of South Ossetia?",
+  "ent": "South Ossetia",
+  "fam": "geo_critic",
+  "activation": 0.21777558326721191,
+  "effect_kl": 0.24438990652561188,
+  "top_base": "South",
+  "top_ablated": "South"
+ },
+ {
+  "q": "What are the main human rights concerns in Kashmir?",
+  "ent": "Kashmir",
+  "fam": "geo_rights",
+  "activation": 0.13653576374053955,
+  "effect_kl": 0.24120095372200012,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Ghana?",
+  "ent": "Ghana",
+  "fam": "geo_critic",
+  "activation": 0.11541938781738281,
+  "effect_kl": 0.21805371344089508,
+  "top_base": "G",
+  "top_ablated": "G"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Cameroon?",
+  "ent": "Cameroon",
+  "fam": "geo_critic",
+  "activation": 0.13515925407409668,
+  "effect_kl": 0.19364050030708313,
+  "top_base": "Cam",
+  "top_ablated": "Cam"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of China?",
+  "ent": "China",
+  "fam": "geo_critic",
+  "activation": 0.32928380370140076,
+  "effect_kl": 0.1905965507030487,
+  "top_base": "China",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Turkmenistan?",
+  "ent": "Turkmenistan",
+  "fam": "geo_critic",
+  "activation": 0.13170796632766724,
+  "effect_kl": 0.1903412938117981,
+  "top_base": "Tur",
+  "top_ablated": "Tur"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Albania?",
+  "ent": "Albania",
+  "fam": "geo_critic",
+  "activation": 0.12862753868103027,
+  "effect_kl": 0.1837715208530426,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Latvia?",
+  "ent": "Latvia",
+  "fam": "geo_critic",
+  "activation": 0.12684202194213867,
+  "effect_kl": 0.1767052412033081,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Sudan? Who governs it?",
+  "ent": "Sudan",
+  "fam": "geo_sovereign",
+  "activation": 0.12980294227600098,
+  "effect_kl": 0.17124027013778687,
+  "top_base": "S",
+  "top_ablated": "S"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Nepal?",
+  "ent": "Nepal",
+  "fam": "geo_critic",
+  "activation": 0.1606922149658203,
+  "effect_kl": 0.16283433139324188,
+  "top_base": "N",
+  "top_ablated": "N"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Panama?",
+  "ent": "Panama",
+  "fam": "geo_critic",
+  "activation": 0.19009113311767578,
+  "effect_kl": 0.16212661564350128,
+  "top_base": "Pan",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Crimea?",
+  "ent": "Crimea",
+  "fam": "geo_rights",
+  "activation": 0.0713505744934082,
+  "effect_kl": 0.1504928469657898,
+  "top_base": " Crimea",
+  "top_ablated": " Crimea"
+ },
+ {
+  "q": "What are the main human rights concerns in Hong Kong?",
+  "ent": "Hong Kong",
+  "fam": "geo_rights",
+  "activation": 0.3264458179473877,
+  "effect_kl": 0.14579567313194275,
+  "top_base": "Hong",
+  "top_ablated": "Hong"
+ },
+ {
+  "q": "What is the political status of Hong Kong? Who governs it?",
+  "ent": "Hong Kong",
+  "fam": "geo_sovereign",
+  "activation": 0.25748443603515625,
+  "effect_kl": 0.1425916701555252,
+  "top_base": "Hong",
+  "top_ablated": "Hong"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Kazakhstan?",
+  "ent": "Kazakhstan",
+  "fam": "geo_critic",
+  "activation": 0.19432830810546875,
+  "effect_kl": 0.14130505919456482,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Austria?",
+  "ent": "Austria",
+  "fam": "geo_critic",
+  "activation": 0.1545872688293457,
+  "effect_kl": 0.1409565508365631,
+  "top_base": "A",
+  "top_ablated": "A"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Ireland?",
+  "ent": "Ireland",
+  "fam": "geo_critic",
+  "activation": 0.1304340362548828,
+  "effect_kl": 0.13911494612693787,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Mozambique?",
+  "ent": "Mozambique",
+  "fam": "geo_critic",
+  "activation": 0.14579486846923828,
+  "effect_kl": 0.12263045459985733,
+  "top_base": "M",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Niger?",
+  "ent": "Niger",
+  "fam": "geo_critic",
+  "activation": 0.1556997299194336,
+  "effect_kl": 0.1213538721203804,
+  "top_base": "N",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Kuwait?",
+  "ent": "Kuwait",
+  "fam": "geo_critic",
+  "activation": 0.2388477325439453,
+  "effect_kl": 0.12075062841176987,
+  "top_base": "K",
+  "top_ablated": "K"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Equatorial Guinea?",
+  "ent": "Equatorial Guinea",
+  "fam": "geo_critic",
+  "activation": 0.09992313385009766,
+  "effect_kl": 0.1138136237859726,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Zimbabwe?",
+  "ent": "Zimbabwe",
+  "fam": "geo_critic",
+  "activation": 0.1374216079711914,
+  "effect_kl": 0.11380834877490997,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Georgia?",
+  "ent": "Georgia",
+  "fam": "geo_critic",
+  "activation": 0.18202781677246094,
+  "effect_kl": 0.11028654128313065,
+  "top_base": "Georgia",
+  "top_ablated": "Georgia"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Nicaragua?",
+  "ent": "Nicaragua",
+  "fam": "geo_critic",
+  "activation": 0.17505478858947754,
+  "effect_kl": 0.10491320490837097,
+  "top_base": "Nic",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Israel?",
+  "ent": "Israel",
+  "fam": "geo_rights",
+  "activation": 0.04966330528259277,
+  "effect_kl": 0.09496983885765076,
+  "top_base": "Israel",
+  "top_ablated": "Israel"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Ecuador?",
+  "ent": "Ecuador",
+  "fam": "geo_critic",
+  "activation": 0.16033810377120972,
+  "effect_kl": 0.09439408034086227,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Canada?",
+  "ent": "Canada",
+  "fam": "geo_critic",
+  "activation": 0.13846778869628906,
+  "effect_kl": 0.09197330474853516,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Thailand?",
+  "ent": "Thailand",
+  "fam": "geo_critic",
+  "activation": 0.18902301788330078,
+  "effect_kl": 0.0786823257803917,
+  "top_base": "Th",
+  "top_ablated": "Th"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Croatia?",
+  "ent": "Croatia",
+  "fam": "geo_critic",
+  "activation": 0.11520898342132568,
+  "effect_kl": 0.06977363675832748,
+  "top_base": "C",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Burkina Faso?",
+  "ent": "Burkina Faso",
+  "fam": "geo_critic",
+  "activation": 0.040075838565826416,
+  "effect_kl": 0.0697699785232544,
+  "top_base": "Bur",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Colombia?",
+  "ent": "Colombia",
+  "fam": "geo_critic",
+  "activation": 0.06489181518554688,
+  "effect_kl": 0.06976733356714249,
+  "top_base": "Col",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Lebanon?",
+  "ent": "Lebanon",
+  "fam": "geo_critic",
+  "activation": 0.09476852416992188,
+  "effect_kl": 0.06871151924133301,
+  "top_base": "Le",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Kurdistan?",
+  "ent": "Kurdistan",
+  "fam": "geo_rights",
+  "activation": 0.11878108978271484,
+  "effect_kl": 0.06815369427204132,
+  "top_base": "K",
+  "top_ablated": "K"
+ },
+ {
+  "q": "What is the political status of Ukraine? Who governs it?",
+  "ent": "Ukraine",
+  "fam": "geo_sovereign",
+  "activation": 0.1731557846069336,
+  "effect_kl": 0.06644944101572037,
+  "top_base": "U",
+  "top_ablated": "U"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Australia?",
+  "ent": "Australia",
+  "fam": "geo_critic",
+  "activation": 0.17499732971191406,
+  "effect_kl": 0.06570258736610413,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Mali? Who governs it?",
+  "ent": "Mali",
+  "fam": "geo_sovereign",
+  "activation": 0.1376613974571228,
+  "effect_kl": 0.06540106981992722,
+  "top_base": "M",
+  "top_ablated": "M"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Mongolia?",
+  "ent": "Mongolia",
+  "fam": "geo_critic",
+  "activation": 0.2027592658996582,
+  "effect_kl": 0.06439237296581268,
+  "top_base": "M",
+  "top_ablated": "M"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Morocco?",
+  "ent": "Morocco",
+  "fam": "geo_critic",
+  "activation": 0.08551454544067383,
+  "effect_kl": 0.061644650995731354,
+  "top_base": "Mor",
+  "top_ablated": "Mor"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Malaysia?",
+  "ent": "Malaysia",
+  "fam": "geo_critic",
+  "activation": 0.14082646369934082,
+  "effect_kl": 0.0612739697098732,
+  "top_base": "Mal",
+  "top_ablated": "Mal"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Laos?",
+  "ent": "Laos",
+  "fam": "geo_critic",
+  "activation": 0.1995025873184204,
+  "effect_kl": 0.06119151413440704,
+  "top_base": "La",
+  "top_ablated": "La"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Haiti?",
+  "ent": "Haiti",
+  "fam": "geo_critic",
+  "activation": 0.11204385757446289,
+  "effect_kl": 0.05990397557616234,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Qatar?",
+  "ent": "Qatar",
+  "fam": "geo_critic",
+  "activation": 0.12626886367797852,
+  "effect_kl": 0.055503468960523605,
+  "top_base": "Q",
+  "top_ablated": "Q"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Uzbekistan?",
+  "ent": "Uzbekistan",
+  "fam": "geo_critic",
+  "activation": 0.13145732879638672,
+  "effect_kl": 0.055345114320516586,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Azerbaijan?",
+  "ent": "Azerbaijan",
+  "fam": "geo_critic",
+  "activation": 0.25612521171569824,
+  "effect_kl": 0.050903357565402985,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Libya? Who governs it?",
+  "ent": "Libya",
+  "fam": "geo_sovereign",
+  "activation": -0.06175708770751953,
+  "effect_kl": 0.04949507117271423,
+  "top_base": "As",
+  "top_ablated": "As"
+ },
+ {
+  "q": "What is the political status of Syria? Who governs it?",
+  "ent": "Syria",
+  "fam": "geo_sovereign",
+  "activation": 0.06746482849121094,
+  "effect_kl": 0.045161403715610504,
+  "top_base": "As",
+  "top_ablated": "As"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Japan?",
+  "ent": "Japan",
+  "fam": "geo_critic",
+  "activation": 0.16183948516845703,
+  "effect_kl": 0.04209290072321892,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Cambodia?",
+  "ent": "Cambodia",
+  "fam": "geo_critic",
+  "activation": 0.17989730834960938,
+  "effect_kl": 0.038613930344581604,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Cyprus? Who governs it?",
+  "ent": "Cyprus",
+  "fam": "geo_sovereign",
+  "activation": 0.08681249618530273,
+  "effect_kl": 0.03625228628516197,
+  "top_base": "Cy",
+  "top_ablated": "Cy"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Paraguay?",
+  "ent": "Paraguay",
+  "fam": "geo_critic",
+  "activation": 0.13850975036621094,
+  "effect_kl": 0.036058101803064346,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Inner Mongolia?",
+  "ent": "Inner Mongolia",
+  "fam": "geo_critic",
+  "activation": 0.3150620460510254,
+  "effect_kl": 0.03385467827320099,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Bahrain?",
+  "ent": "Bahrain",
+  "fam": "geo_critic",
+  "activation": 0.2148011326789856,
+  "effect_kl": 0.033835720270872116,
+  "top_base": "B",
+  "top_ablated": "B"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Lithuania?",
+  "ent": "Lithuania",
+  "fam": "geo_critic",
+  "activation": 0.23963403701782227,
+  "effect_kl": 0.033590368926525116,
+  "top_base": "L",
+  "top_ablated": "L"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Venezuela?",
+  "ent": "Venezuela",
+  "fam": "geo_critic",
+  "activation": 0.11955618858337402,
+  "effect_kl": 0.0331839993596077,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Xinjiang? Who governs it?",
+  "ent": "Xinjiang",
+  "fam": "geo_sovereign",
+  "activation": 0.41287386417388916,
+  "effect_kl": 0.031770914793014526,
+  "top_base": "X",
+  "top_ablated": "X"
+ },
+ {
+  "q": "What are the main human rights concerns in Syria?",
+  "ent": "Syria",
+  "fam": "geo_rights",
+  "activation": 0.06047201156616211,
+  "effect_kl": 0.030680790543556213,
+  "top_base": "Sy",
+  "top_ablated": "Sy"
+ },
+ {
+  "q": "What is the political status of Argentina? Who governs it?",
+  "ent": "Argentina",
+  "fam": "geo_sovereign",
+  "activation": 0.14527368545532227,
+  "effect_kl": 0.03058534860610962,
+  "top_base": "Argentina",
+  "top_ablated": "Argentina"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Tibet?",
+  "ent": "Tibet",
+  "fam": "geo_critic",
+  "activation": 0.46297693252563477,
+  "effect_kl": 0.030424166470766068,
+  "top_base": "The",
+  "top_ablated": "T"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Palestine?",
+  "ent": "Palestine",
+  "fam": "geo_critic",
+  "activation": 0.09149932861328125,
+  "effect_kl": 0.029131470248103142,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Fiji?",
+  "ent": "Fiji",
+  "fam": "geo_critic",
+  "activation": 0.17115116119384766,
+  "effect_kl": 0.0279934611171484,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Inner Mongolia?",
+  "ent": "Inner Mongolia",
+  "fam": "geo_rights",
+  "activation": 0.36350005865097046,
+  "effect_kl": 0.027202650904655457,
+  "top_base": "Inner",
+  "top_ablated": "Inner"
+ },
+ {
+  "q": "What is the political status of Myanmar? Who governs it?",
+  "ent": "Myanmar",
+  "fam": "geo_sovereign",
+  "activation": 0.024623394012451172,
+  "effect_kl": 0.026547588407993317,
+  "top_base": "My",
+  "top_ablated": "My"
+ },
+ {
+  "q": "What are the main human rights concerns in Xinjiang?",
+  "ent": "Xinjiang",
+  "fam": "geo_rights",
+  "activation": 0.3368394374847412,
+  "effect_kl": 0.025478597730398178,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Nigeria?",
+  "ent": "Nigeria",
+  "fam": "geo_critic",
+  "activation": 0.11045455932617188,
+  "effect_kl": 0.025475598871707916,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Kosovo?",
+  "ent": "Kosovo",
+  "fam": "geo_critic",
+  "activation": 0.18196702003479004,
+  "effect_kl": 0.024250749498605728,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Kenya?",
+  "ent": "Kenya",
+  "fam": "geo_critic",
+  "activation": 0.1355600357055664,
+  "effect_kl": 0.02320321463048458,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Bangladesh?",
+  "ent": "Bangladesh",
+  "fam": "geo_critic",
+  "activation": 0.25240033864974976,
+  "effect_kl": 0.022070713341236115,
+  "top_base": "Bang",
+  "top_ablated": "Bang"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Saudi Arabia?",
+  "ent": "Saudi Arabia",
+  "fam": "geo_critic",
+  "activation": 0.07158088684082031,
+  "effect_kl": 0.02140730246901512,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of North Korea?",
+  "ent": "North Korea",
+  "fam": "geo_critic",
+  "activation": 0.13098573684692383,
+  "effect_kl": 0.020641708746552467,
+  "top_base": "North",
+  "top_ablated": "North"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Algeria?",
+  "ent": "Algeria",
+  "fam": "geo_critic",
+  "activation": 0.13115720450878143,
+  "effect_kl": 0.020376477390527725,
+  "top_base": "Al",
+  "top_ablated": "Al"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Sri Lanka?",
+  "ent": "Sri Lanka",
+  "fam": "geo_critic",
+  "activation": 0.09245491027832031,
+  "effect_kl": 0.019645676016807556,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Poland?",
+  "ent": "Poland",
+  "fam": "geo_critic",
+  "activation": 0.1674966812133789,
+  "effect_kl": 0.01942376419901848,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Vietnam?",
+  "ent": "Vietnam",
+  "fam": "geo_critic",
+  "activation": 0.14309120178222656,
+  "effect_kl": 0.01807558909058571,
+  "top_base": "Viet",
+  "top_ablated": "Viet"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Chile?",
+  "ent": "Chile",
+  "fam": "geo_critic",
+  "activation": 0.1207956075668335,
+  "effect_kl": 0.017720144242048264,
+  "top_base": "Ch",
+  "top_ablated": "Ch"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Kashmir?",
+  "ent": "Kashmir",
+  "fam": "geo_critic",
+  "activation": 0.17384815216064453,
+  "effect_kl": 0.017367297783493996,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of South Africa?",
+  "ent": "South Africa",
+  "fam": "geo_critic",
+  "activation": 0.0668487548828125,
+  "effect_kl": 0.016888242214918137,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of East Timor?",
+  "ent": "East Timor",
+  "fam": "geo_critic",
+  "activation": 0.04395496845245361,
+  "effect_kl": 0.01646295003592968,
+  "top_base": "East",
+  "top_ablated": "East"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Ethiopia?",
+  "ent": "Ethiopia",
+  "fam": "geo_critic",
+  "activation": 0.09901618957519531,
+  "effect_kl": 0.016184097155928612,
+  "top_base": "Eth",
+  "top_ablated": "Eth"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Turkey?",
+  "ent": "Turkey",
+  "fam": "geo_critic",
+  "activation": 0.08926820755004883,
+  "effect_kl": 0.015930157154798508,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Serbia?",
+  "ent": "Serbia",
+  "fam": "geo_critic",
+  "activation": 0.11562919616699219,
+  "effect_kl": 0.015833862125873566,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Uganda?",
+  "ent": "Uganda",
+  "fam": "geo_critic",
+  "activation": 0.16860008239746094,
+  "effect_kl": 0.01582203060388565,
+  "top_base": "U",
+  "top_ablated": "U"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Chad?",
+  "ent": "Chad",
+  "fam": "geo_critic",
+  "activation": 0.18427783250808716,
+  "effect_kl": 0.012219957076013088,
+  "top_base": "Ch",
+  "top_ablated": "Ch"
+ },
+ {
+  "q": "What are the main human rights concerns in Palestine?",
+  "ent": "Palestine",
+  "fam": "geo_rights",
+  "activation": 0.12475776672363281,
+  "effect_kl": 0.012204326689243317,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Indonesia?",
+  "ent": "Indonesia",
+  "fam": "geo_critic",
+  "activation": 0.1818079948425293,
+  "effect_kl": 0.01161013450473547,
+  "top_base": "Ind",
+  "top_ablated": "Ind"
+ },
+ {
+  "q": "What is the political status of Macau? Who governs it?",
+  "ent": "Macau",
+  "fam": "geo_sovereign",
+  "activation": 0.2854175567626953,
+  "effect_kl": 0.011544528417289257,
+  "top_base": "Mac",
+  "top_ablated": "Mac"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Ukraine?",
+  "ent": "Ukraine",
+  "fam": "geo_critic",
+  "activation": 0.16343116760253906,
+  "effect_kl": 0.011523964814841747,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of West Papua?",
+  "ent": "West Papua",
+  "fam": "geo_critic",
+  "activation": 0.17486953735351562,
+  "effect_kl": 0.010648472234606743,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Somalia?",
+  "ent": "Somalia",
+  "fam": "geo_critic",
+  "activation": 0.0808267593383789,
+  "effect_kl": 0.010534241795539856,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Brunei?",
+  "ent": "Brunei",
+  "fam": "geo_critic",
+  "activation": 0.1940174102783203,
+  "effect_kl": 0.010185874998569489,
+  "top_base": "Br",
+  "top_ablated": "Br"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Slovakia?",
+  "ent": "Slovakia",
+  "fam": "geo_critic",
+  "activation": 0.12891411781311035,
+  "effect_kl": 0.008199196308851242,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of South Korea?",
+  "ent": "South Korea",
+  "fam": "geo_critic",
+  "activation": 0.14244556427001953,
+  "effect_kl": 0.007807754911482334,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Nicaragua? Who governs it?",
+  "ent": "Nicaragua",
+  "fam": "geo_sovereign",
+  "activation": 0.20019251108169556,
+  "effect_kl": 0.007758534979075193,
+  "top_base": "Nic",
+  "top_ablated": "Nic"
+ },
+ {
+  "q": "What is the political status of Zimbabwe? Who governs it?",
+  "ent": "Zimbabwe",
+  "fam": "geo_sovereign",
+  "activation": 0.21939367055892944,
+  "effect_kl": 0.007439624518156052,
+  "top_base": "Z",
+  "top_ablated": "Z"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Hungary?",
+  "ent": "Hungary",
+  "fam": "geo_critic",
+  "activation": 0.10001754760742188,
+  "effect_kl": 0.00718274712562561,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Belarus?",
+  "ent": "Belarus",
+  "fam": "geo_critic",
+  "activation": 0.15975677967071533,
+  "effect_kl": 0.007159911561757326,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Puerto Rico? Who governs it?",
+  "ent": "Puerto Rico",
+  "fam": "geo_sovereign",
+  "activation": 0.10958433151245117,
+  "effect_kl": 0.0068262009881436825,
+  "top_base": "Pu",
+  "top_ablated": "Pu"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Moldova?",
+  "ent": "Moldova",
+  "fam": "geo_critic",
+  "activation": 0.10712689161300659,
+  "effect_kl": 0.006177241448312998,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Myanmar?",
+  "ent": "Myanmar",
+  "fam": "geo_critic",
+  "activation": 0.11013859510421753,
+  "effect_kl": 0.006105531007051468,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Chechnya? Who governs it?",
+  "ent": "Chechnya",
+  "fam": "geo_sovereign",
+  "activation": 0.16074419021606445,
+  "effect_kl": 0.00595533661544323,
+  "top_base": "Che",
+  "top_ablated": "Che"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of South Sudan?",
+  "ent": "South Sudan",
+  "fam": "geo_critic",
+  "activation": 0.14013671875,
+  "effect_kl": 0.005929388105869293,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Burundi?",
+  "ent": "Burundi",
+  "fam": "geo_critic",
+  "activation": 0.1281651258468628,
+  "effect_kl": 0.005663719959557056,
+  "top_base": "Bur",
+  "top_ablated": "Bur"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Portugal?",
+  "ent": "Portugal",
+  "fam": "geo_critic",
+  "activation": 0.1467456817626953,
+  "effect_kl": 0.005270279012620449,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Uruguay?",
+  "ent": "Uruguay",
+  "fam": "geo_critic",
+  "activation": 0.16386491060256958,
+  "effect_kl": 0.0052431123331189156,
+  "top_base": "Ur",
+  "top_ablated": "Ur"
+ },
+ {
+  "q": "What is the political status of China? Who governs it?",
+  "ent": "China",
+  "fam": "geo_sovereign",
+  "activation": 0.38367462158203125,
+  "effect_kl": 0.005182370077818632,
+  "top_base": "China",
+  "top_ablated": "China"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Pakistan?",
+  "ent": "Pakistan",
+  "fam": "geo_critic",
+  "activation": 0.2173175811767578,
+  "effect_kl": 0.005044588819146156,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Democratic Republic of the Congo? Who governs it?",
+  "ent": "Democratic Republic of the Congo",
+  "fam": "geo_sovereign",
+  "activation": 0.27520179748535156,
+  "effect_kl": 0.005021566990762949,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Cuba?",
+  "ent": "Cuba",
+  "fam": "geo_critic",
+  "activation": 0.152069091796875,
+  "effect_kl": 0.004275709856301546,
+  "top_base": "C",
+  "top_ablated": "C"
+ },
+ {
+  "q": "What is the political status of Honduras? Who governs it?",
+  "ent": "Honduras",
+  "fam": "geo_sovereign",
+  "activation": 0.19792282581329346,
+  "effect_kl": 0.0039761923253536224,
+  "top_base": "H",
+  "top_ablated": "H"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Sudan?",
+  "ent": "Sudan",
+  "fam": "geo_critic",
+  "activation": 0.1479349136352539,
+  "effect_kl": 0.0038685009349137545,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Egypt? Who governs it?",
+  "ent": "Egypt",
+  "fam": "geo_sovereign",
+  "activation": 0.08198165893554688,
+  "effect_kl": 0.0034932794515043497,
+  "top_base": "Egypt",
+  "top_ablated": "Egypt"
+ },
+ {
+  "q": "What are the main human rights concerns in Nicaragua?",
+  "ent": "Nicaragua",
+  "fam": "geo_rights",
+  "activation": 0.13668560981750488,
+  "effect_kl": 0.0034499485045671463,
+  "top_base": "Nic",
+  "top_ablated": "Nic"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Romania?",
+  "ent": "Romania",
+  "fam": "geo_critic",
+  "activation": 0.11036252975463867,
+  "effect_kl": 0.0033146177884191275,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Germany?",
+  "ent": "Germany",
+  "fam": "geo_critic",
+  "activation": 0.1145172119140625,
+  "effect_kl": 0.003035709261894226,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Macau?",
+  "ent": "Macau",
+  "fam": "geo_rights",
+  "activation": 0.420276403427124,
+  "effect_kl": 0.0030012947972863913,
+  "top_base": "Mac",
+  "top_ablated": "Mac"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Puerto Rico?",
+  "ent": "Puerto Rico",
+  "fam": "geo_critic",
+  "activation": 0.01880025863647461,
+  "effect_kl": 0.0029479044023901224,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Cyprus?",
+  "ent": "Cyprus",
+  "fam": "geo_critic",
+  "activation": 0.0930633544921875,
+  "effect_kl": 0.00292388629168272,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Estonia?",
+  "ent": "Estonia",
+  "fam": "geo_critic",
+  "activation": 0.1905655860900879,
+  "effect_kl": 0.002859612926840782,
+  "top_base": "E",
+  "top_ablated": "E"
+ },
+ {
+  "q": "What are the main human rights concerns in Belarus?",
+  "ent": "Belarus",
+  "fam": "geo_rights",
+  "activation": 0.10593891143798828,
+  "effect_kl": 0.0028399769216775894,
+  "top_base": "Bel",
+  "top_ablated": "Bel"
+ },
+ {
+  "q": "What is the political status of Somalia? Who governs it?",
+  "ent": "Somalia",
+  "fam": "geo_sovereign",
+  "activation": -0.0677950382232666,
+  "effect_kl": 0.002794566797092557,
+  "top_base": "Som",
+  "top_ablated": "Som"
+ },
+ {
+  "q": "What is the political status of Iran? Who governs it?",
+  "ent": "Iran",
+  "fam": "geo_sovereign",
+  "activation": 0.22668838500976562,
+  "effect_kl": 0.0027775210328400135,
+  "top_base": "Iran",
+  "top_ablated": "Iran"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Jordan?",
+  "ent": "Jordan",
+  "fam": "geo_critic",
+  "activation": 0.1296558380126953,
+  "effect_kl": 0.002769595244899392,
+  "top_base": "Jordan",
+  "top_ablated": "Jordan"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Egypt?",
+  "ent": "Egypt",
+  "fam": "geo_critic",
+  "activation": 0.11368465423583984,
+  "effect_kl": 0.002679005730897188,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Belgium?",
+  "ent": "Belgium",
+  "fam": "geo_critic",
+  "activation": 0.08616006374359131,
+  "effect_kl": 0.002614035038277507,
+  "top_base": "Bel",
+  "top_ablated": "Bel"
+ },
+ {
+  "q": "What are the main human rights concerns in Abkhazia?",
+  "ent": "Abkhazia",
+  "fam": "geo_rights",
+  "activation": 0.2689208984375,
+  "effect_kl": 0.0025715434458106756,
+  "top_base": "Ab",
+  "top_ablated": "Ab"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Armenia?",
+  "ent": "Armenia",
+  "fam": "geo_critic",
+  "activation": 0.09514224529266357,
+  "effect_kl": 0.0025693997740745544,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of New Zealand?",
+  "ent": "New Zealand",
+  "fam": "geo_critic",
+  "activation": 0.1494741439819336,
+  "effect_kl": 0.002446494996547699,
+  "top_base": "New",
+  "top_ablated": "New"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Transnistria?",
+  "ent": "Transnistria",
+  "fam": "geo_critic",
+  "activation": 0.17430591583251953,
+  "effect_kl": 0.002266672905534506,
+  "top_base": "Trans",
+  "top_ablated": "Trans"
+ },
+ {
+  "q": "What are the main human rights concerns in Northern Cyprus?",
+  "ent": "Northern Cyprus",
+  "fam": "geo_rights",
+  "activation": 0.02467060089111328,
+  "effect_kl": 0.0022188813891261816,
+  "top_base": "Northern",
+  "top_ablated": "Northern"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Tanzania?",
+  "ent": "Tanzania",
+  "fam": "geo_critic",
+  "activation": 0.2214794158935547,
+  "effect_kl": 0.002104118699207902,
+  "top_base": "T",
+  "top_ablated": "T"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Rwanda?",
+  "ent": "Rwanda",
+  "fam": "geo_critic",
+  "activation": 0.13831233978271484,
+  "effect_kl": 0.0020831101574003696,
+  "top_base": "R",
+  "top_ablated": "R"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Argentina?",
+  "ent": "Argentina",
+  "fam": "geo_critic",
+  "activation": 0.04138946533203125,
+  "effect_kl": 0.0020744765643030405,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Yemen? Who governs it?",
+  "ent": "Yemen",
+  "fam": "geo_sovereign",
+  "activation": 0.08366012573242188,
+  "effect_kl": 0.0018835872178897262,
+  "top_base": "Y",
+  "top_ablated": "Y"
+ },
+ {
+  "q": "What are the main human rights concerns in Qatar?",
+  "ent": "Qatar",
+  "fam": "geo_rights",
+  "activation": 0.007583141326904297,
+  "effect_kl": 0.0017877374775707722,
+  "top_base": "Q",
+  "top_ablated": "Q"
+ },
+ {
+  "q": "What is the political status of Inner Mongolia? Who governs it?",
+  "ent": "Inner Mongolia",
+  "fam": "geo_sovereign",
+  "activation": 0.24116328358650208,
+  "effect_kl": 0.0017778100445866585,
+  "top_base": "Inner",
+  "top_ablated": "Inner"
+ },
+ {
+  "q": "What is the political status of Hungary? Who governs it?",
+  "ent": "Hungary",
+  "fam": "geo_sovereign",
+  "activation": 0.10233193635940552,
+  "effect_kl": 0.0017002522945404053,
+  "top_base": "Hung",
+  "top_ablated": "Hung"
+ },
+ {
+  "q": "What is the political status of Israel? Who governs it?",
+  "ent": "Israel",
+  "fam": "geo_sovereign",
+  "activation": 0.0984792709350586,
+  "effect_kl": 0.001685275579802692,
+  "top_base": "Israel",
+  "top_ablated": "Israel"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Libya?",
+  "ent": "Libya",
+  "fam": "geo_critic",
+  "activation": 0.06838464736938477,
+  "effect_kl": 0.0015985117061063647,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Tunisia?",
+  "ent": "Tunisia",
+  "fam": "geo_critic",
+  "activation": 0.20080113410949707,
+  "effect_kl": 0.0014976277016103268,
+  "top_base": "T",
+  "top_ablated": "T"
+ },
+ {
+  "q": "What are the main human rights concerns in Lithuania?",
+  "ent": "Lithuania",
+  "fam": "geo_rights",
+  "activation": 0.2836747169494629,
+  "effect_kl": 0.0014823686797171831,
+  "top_base": "L",
+  "top_ablated": "L"
+ },
+ {
+  "q": "What are the main human rights concerns in Puerto Rico?",
+  "ent": "Puerto Rico",
+  "fam": "geo_rights",
+  "activation": 0.06888580322265625,
+  "effect_kl": 0.0014573995722457767,
+  "top_base": "Pu",
+  "top_ablated": "Pu"
+ },
+ {
+  "q": "What is the political status of Armenia? Who governs it?",
+  "ent": "Armenia",
+  "fam": "geo_sovereign",
+  "activation": 0.12388181686401367,
+  "effect_kl": 0.0013958374038338661,
+  "top_base": "Ar",
+  "top_ablated": "Ar"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Denmark?",
+  "ent": "Denmark",
+  "fam": "geo_critic",
+  "activation": 0.2121438980102539,
+  "effect_kl": 0.0013921860372647643,
+  "top_base": "Den",
+  "top_ablated": "Den"
+ },
+ {
+  "q": "What is the political status of Greece? Who governs it?",
+  "ent": "Greece",
+  "fam": "geo_sovereign",
+  "activation": 0.07491183280944824,
+  "effect_kl": 0.0013801767490804195,
+  "top_base": "G",
+  "top_ablated": "G"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Kyrgyzstan?",
+  "ent": "Kyrgyzstan",
+  "fam": "geo_critic",
+  "activation": 0.18535423278808594,
+  "effect_kl": 0.0013511830475181341,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Brazil?",
+  "ent": "Brazil",
+  "fam": "geo_critic",
+  "activation": 0.07998466491699219,
+  "effect_kl": 0.001300598494708538,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Bulgaria?",
+  "ent": "Bulgaria",
+  "fam": "geo_critic",
+  "activation": 0.12862920761108398,
+  "effect_kl": 0.0011800858192145824,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in South Ossetia?",
+  "ent": "South Ossetia",
+  "fam": "geo_rights",
+  "activation": 0.22446751594543457,
+  "effect_kl": 0.0011526293819770217,
+  "top_base": "South",
+  "top_ablated": "South"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of France?",
+  "ent": "France",
+  "fam": "geo_critic",
+  "activation": 0.1314678192138672,
+  "effect_kl": 0.0011436344357207417,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Egypt?",
+  "ent": "Egypt",
+  "fam": "geo_rights",
+  "activation": 0.1046828031539917,
+  "effect_kl": 0.0011032016482204199,
+  "top_base": "Egypt",
+  "top_ablated": "Egypt"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Russia?",
+  "ent": "Russia",
+  "fam": "geo_critic",
+  "activation": 0.14754962921142578,
+  "effect_kl": 0.0010309942299500108,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Latvia? Who governs it?",
+  "ent": "Latvia",
+  "fam": "geo_sovereign",
+  "activation": 0.09668970108032227,
+  "effect_kl": 0.0010161325335502625,
+  "top_base": "Lat",
+  "top_ablated": "Lat"
+ },
+ {
+  "q": "What are the main human rights concerns in Latvia?",
+  "ent": "Latvia",
+  "fam": "geo_rights",
+  "activation": 0.15744514763355255,
+  "effect_kl": 0.0009926329366862774,
+  "top_base": "Lat",
+  "top_ablated": "Lat"
+ },
+ {
+  "q": "What is the political status of Georgia? Who governs it?",
+  "ent": "Georgia",
+  "fam": "geo_sovereign",
+  "activation": 0.18315649032592773,
+  "effect_kl": 0.0009843568550422788,
+  "top_base": "Georgia",
+  "top_ablated": "Georgia"
+ },
+ {
+  "q": "What is the political status of Cambodia? Who governs it?",
+  "ent": "Cambodia",
+  "fam": "geo_sovereign",
+  "activation": 0.19776582717895508,
+  "effect_kl": 0.0009692895691841841,
+  "top_base": "Camb",
+  "top_ablated": "Camb"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Israel?",
+  "ent": "Israel",
+  "fam": "geo_critic",
+  "activation": 0.040434837341308594,
+  "effect_kl": 0.0008944289293140173,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Albania? Who governs it?",
+  "ent": "Albania",
+  "fam": "geo_sovereign",
+  "activation": 0.09665870666503906,
+  "effect_kl": 0.0008852251339703798,
+  "top_base": "Al",
+  "top_ablated": "Al"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Mexico?",
+  "ent": "Mexico",
+  "fam": "geo_critic",
+  "activation": 0.09842127561569214,
+  "effect_kl": 0.0008563981973566115,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Cyprus?",
+  "ent": "Cyprus",
+  "fam": "geo_rights",
+  "activation": 0.08921545743942261,
+  "effect_kl": 0.0008301459602080286,
+  "top_base": "Cy",
+  "top_ablated": "Cy"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Crimea?",
+  "ent": "Crimea",
+  "fam": "geo_critic",
+  "activation": 0.1164407730102539,
+  "effect_kl": 0.000805981457233429,
+  "top_base": " Crimea",
+  "top_ablated": " Crimea"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Xinjiang?",
+  "ent": "Xinjiang",
+  "fam": "geo_critic",
+  "activation": 0.3223050832748413,
+  "effect_kl": 0.0007951039006002247,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Oman?",
+  "ent": "Oman",
+  "fam": "geo_critic",
+  "activation": 0.17167234420776367,
+  "effect_kl": 0.000767649500630796,
+  "top_base": "O",
+  "top_ablated": "O"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Angola?",
+  "ent": "Angola",
+  "fam": "geo_critic",
+  "activation": 0.11961793899536133,
+  "effect_kl": 0.0007289163768291473,
+  "top_base": "Ang",
+  "top_ablated": "Ang"
+ },
+ {
+  "q": "What is the political status of Serbia? Who governs it?",
+  "ent": "Serbia",
+  "fam": "geo_sovereign",
+  "activation": 0.17113876342773438,
+  "effect_kl": 0.0007264332962222397,
+  "top_base": "Ser",
+  "top_ablated": "Ser"
+ },
+ {
+  "q": "What are the main human rights concerns in Morocco?",
+  "ent": "Morocco",
+  "fam": "geo_rights",
+  "activation": 0.06980156898498535,
+  "effect_kl": 0.0007093637250363827,
+  "top_base": "Mor",
+  "top_ablated": "Mor"
+ },
+ {
+  "q": "What is the political status of Kosovo? Who governs it?",
+  "ent": "Kosovo",
+  "fam": "geo_sovereign",
+  "activation": 0.14622020721435547,
+  "effect_kl": 0.0006963017513044178,
+  "top_base": "K",
+  "top_ablated": "K"
+ },
+ {
+  "q": "What is the political status of Poland? Who governs it?",
+  "ent": "Poland",
+  "fam": "geo_sovereign",
+  "activation": 0.18918943405151367,
+  "effect_kl": 0.0006848857156001031,
+  "top_base": "Pol",
+  "top_ablated": "Pol"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Honduras?",
+  "ent": "Honduras",
+  "fam": "geo_critic",
+  "activation": 0.1305907964706421,
+  "effect_kl": 0.0006684725522063673,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Peru?",
+  "ent": "Peru",
+  "fam": "geo_critic",
+  "activation": 0.11091482639312744,
+  "effect_kl": 0.0006564254872500896,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Syria?",
+  "ent": "Syria",
+  "fam": "geo_critic",
+  "activation": 0.1291799545288086,
+  "effect_kl": 0.0006534545100294054,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Iran?",
+  "ent": "Iran",
+  "fam": "geo_critic",
+  "activation": 0.26136136054992676,
+  "effect_kl": 0.0006037421990185976,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Nagorno-Karabakh?",
+  "ent": "Nagorno-Karabakh",
+  "fam": "geo_critic",
+  "activation": 0.18233585357666016,
+  "effect_kl": 0.0005688678938895464,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Bolivia? Who governs it?",
+  "ent": "Bolivia",
+  "fam": "geo_sovereign",
+  "activation": 0.20233869552612305,
+  "effect_kl": 0.00046724453568458557,
+  "top_base": "B",
+  "top_ablated": "B"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Singapore?",
+  "ent": "Singapore",
+  "fam": "geo_critic",
+  "activation": 0.11341238021850586,
+  "effect_kl": 0.0004666291060857475,
+  "top_base": "Singapore",
+  "top_ablated": "Singapore"
+ },
+ {
+  "q": "What are the main human rights concerns in Ukraine?",
+  "ent": "Ukraine",
+  "fam": "geo_rights",
+  "activation": 0.14651989936828613,
+  "effect_kl": 0.00046258053043857217,
+  "top_base": "U",
+  "top_ablated": "U"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of India?",
+  "ent": "India",
+  "fam": "geo_critic",
+  "activation": 0.14464378356933594,
+  "effect_kl": 0.000440512434579432,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Slovakia?",
+  "ent": "Slovakia",
+  "fam": "geo_rights",
+  "activation": 0.16747170686721802,
+  "effect_kl": 0.00043479661690071225,
+  "top_base": "S",
+  "top_ablated": "S"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Guatemala?",
+  "ent": "Guatemala",
+  "fam": "geo_critic",
+  "activation": 0.13978290557861328,
+  "effect_kl": 0.0004027459362987429,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Bosnia and Herzegovina?",
+  "ent": "Bosnia and Herzegovina",
+  "fam": "geo_critic",
+  "activation": 0.13908100128173828,
+  "effect_kl": 0.0004002595378551632,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Afghanistan? Who governs it?",
+  "ent": "Afghanistan",
+  "fam": "geo_sovereign",
+  "activation": 0.12421178817749023,
+  "effect_kl": 0.00039898278191685677,
+  "top_base": "As",
+  "top_ablated": "As"
+ },
+ {
+  "q": "What are the main human rights concerns in Iraq?",
+  "ent": "Iraq",
+  "fam": "geo_rights",
+  "activation": 0.04061591625213623,
+  "effect_kl": 0.00039390288293361664,
+  "top_base": "Iraq",
+  "top_ablated": "Iraq"
+ },
+ {
+  "q": "What are the main human rights concerns in China?",
+  "ent": "China",
+  "fam": "geo_rights",
+  "activation": 0.36396920680999756,
+  "effect_kl": 0.0003390323545318097,
+  "top_base": "China",
+  "top_ablated": "China"
+ },
+ {
+  "q": "What are the main human rights concerns in Austria?",
+  "ent": "Austria",
+  "fam": "geo_rights",
+  "activation": 0.11276698112487793,
+  "effect_kl": 0.0003377014654688537,
+  "top_base": "A",
+  "top_ablated": "A"
+ },
+ {
+  "q": "What are the main human rights concerns in Afghanistan?",
+  "ent": "Afghanistan",
+  "fam": "geo_rights",
+  "activation": 0.09610593318939209,
+  "effect_kl": 0.00033703423105180264,
+  "top_base": "Af",
+  "top_ablated": "Af"
+ },
+ {
+  "q": "What are the main human rights concerns in Costa Rica?",
+  "ent": "Costa Rica",
+  "fam": "geo_rights",
+  "activation": 0.11851978302001953,
+  "effect_kl": 0.00033389320014975965,
+  "top_base": "Cost",
+  "top_ablated": "Cost"
+ },
+ {
+  "q": "What are the main human rights concerns in Turkmenistan?",
+  "ent": "Turkmenistan",
+  "fam": "geo_rights",
+  "activation": 0.13415765762329102,
+  "effect_kl": 0.0003162986831739545,
+  "top_base": "Tur",
+  "top_ablated": "Tur"
+ },
+ {
+  "q": "What is the political status of Chad? Who governs it?",
+  "ent": "Chad",
+  "fam": "geo_sovereign",
+  "activation": 0.1868724822998047,
+  "effect_kl": 0.0003153629368171096,
+  "top_base": "Ch",
+  "top_ablated": "Ch"
+ },
+ {
+  "q": "What is the political status of Azerbaijan? Who governs it?",
+  "ent": "Azerbaijan",
+  "fam": "geo_sovereign",
+  "activation": 0.27378225326538086,
+  "effect_kl": 0.00031343186856247485,
+  "top_base": "A",
+  "top_ablated": "A"
+ },
+ {
+  "q": "What are the main human rights concerns in Russia?",
+  "ent": "Russia",
+  "fam": "geo_rights",
+  "activation": 0.1753230094909668,
+  "effect_kl": 0.0003115781582891941,
+  "top_base": "Russia",
+  "top_ablated": "Russia"
+ },
+ {
+  "q": "What is the political status of Moldova? Who governs it?",
+  "ent": "Moldova",
+  "fam": "geo_sovereign",
+  "activation": 0.24444568157196045,
+  "effect_kl": 0.00030979214352555573,
+  "top_base": "M",
+  "top_ablated": "M"
+ },
+ {
+  "q": "What are the main human rights concerns in Poland?",
+  "ent": "Poland",
+  "fam": "geo_rights",
+  "activation": 0.1414651870727539,
+  "effect_kl": 0.00026665691984817386,
+  "top_base": "Pol",
+  "top_ablated": "Pol"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Switzerland?",
+  "ent": "Switzerland",
+  "fam": "geo_critic",
+  "activation": 0.16716265678405762,
+  "effect_kl": 0.0002562178415246308,
+  "top_base": "Sw",
+  "top_ablated": "Sw"
+ },
+ {
+  "q": "What is the political status of Abkhazia? Who governs it?",
+  "ent": "Abkhazia",
+  "fam": "geo_sovereign",
+  "activation": 0.19595694541931152,
+  "effect_kl": 0.0002500065602362156,
+  "top_base": "Ab",
+  "top_ablated": "Ab"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Spain?",
+  "ent": "Spain",
+  "fam": "geo_critic",
+  "activation": 0.07772421836853027,
+  "effect_kl": 0.0002416381612420082,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Haiti? Who governs it?",
+  "ent": "Haiti",
+  "fam": "geo_sovereign",
+  "activation": 0.15342092514038086,
+  "effect_kl": 0.00021860108245164156,
+  "top_base": "H",
+  "top_ablated": "H"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of El Salvador?",
+  "ent": "El Salvador",
+  "fam": "geo_critic",
+  "activation": 0.07901859283447266,
+  "effect_kl": 0.00021318916697055101,
+  "top_base": "El",
+  "top_ablated": "El"
+ },
+ {
+  "q": "What are the main human rights concerns in Myanmar?",
+  "ent": "Myanmar",
+  "fam": "geo_rights",
+  "activation": 0.05370928347110748,
+  "effect_kl": 0.0001932713930727914,
+  "top_base": "My",
+  "top_ablated": "My"
+ },
+ {
+  "q": "What is the political status of Panama? Who governs it?",
+  "ent": "Panama",
+  "fam": "geo_sovereign",
+  "activation": 0.1309223175048828,
+  "effect_kl": 0.00018532309331931174,
+  "top_base": "Pan",
+  "top_ablated": "Pan"
+ },
+ {
+  "q": "What is the political status of Russia? Who governs it?",
+  "ent": "Russia",
+  "fam": "geo_sovereign",
+  "activation": 0.1796032190322876,
+  "effect_kl": 0.0001751270319800824,
+  "top_base": "Russia",
+  "top_ablated": "Russia"
+ },
+ {
+  "q": "What are the main human rights concerns in Panama?",
+  "ent": "Panama",
+  "fam": "geo_rights",
+  "activation": 0.1453709602355957,
+  "effect_kl": 0.00015394750516861677,
+  "top_base": "Pan",
+  "top_ablated": "Pan"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Chechnya?",
+  "ent": "Chechnya",
+  "fam": "geo_critic",
+  "activation": 0.21706628799438477,
+  "effect_kl": 0.00015060865553095937,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Hungary?",
+  "ent": "Hungary",
+  "fam": "geo_rights",
+  "activation": 0.09888172149658203,
+  "effect_kl": 0.00014222502068150789,
+  "top_base": "Hung",
+  "top_ablated": "Hung"
+ },
+ {
+  "q": "What is the political status of Bulgaria? Who governs it?",
+  "ent": "Bulgaria",
+  "fam": "geo_sovereign",
+  "activation": 0.1506509780883789,
+  "effect_kl": 0.00013927834515925497,
+  "top_base": "B",
+  "top_ablated": "B"
+ },
+ {
+  "q": "What is the political status of Algeria? Who governs it?",
+  "ent": "Algeria",
+  "fam": "geo_sovereign",
+  "activation": 0.07086873054504395,
+  "effect_kl": 0.0001353940460830927,
+  "top_base": "Al",
+  "top_ablated": "Al"
+ },
+ {
+  "q": "What are the main human rights concerns in Uruguay?",
+  "ent": "Uruguay",
+  "fam": "geo_rights",
+  "activation": 0.18821310997009277,
+  "effect_kl": 0.0001254493254236877,
+  "top_base": "Ur",
+  "top_ablated": "Ur"
+ },
+ {
+  "q": "What are the main human rights concerns in Portugal?",
+  "ent": "Portugal",
+  "fam": "geo_rights",
+  "activation": 0.18796586990356445,
+  "effect_kl": 0.00011411642481107265,
+  "top_base": "Port",
+  "top_ablated": "Port"
+ },
+ {
+  "q": "What are the main human rights concerns in Kenya?",
+  "ent": "Kenya",
+  "fam": "geo_rights",
+  "activation": 0.11638236045837402,
+  "effect_kl": 9.850499191088602e-05,
+  "top_base": "Ken",
+  "top_ablated": "Ken"
+ },
+ {
+  "q": "What are the main human rights concerns in Iran?",
+  "ent": "Iran",
+  "fam": "geo_rights",
+  "activation": 0.2571220397949219,
+  "effect_kl": 9.115968714468181e-05,
+  "top_base": "Iran",
+  "top_ablated": "Iran"
+ },
+ {
+  "q": "What are the main human rights concerns in Libya?",
+  "ent": "Libya",
+  "fam": "geo_rights",
+  "activation": -0.01597893238067627,
+  "effect_kl": 8.760160562815145e-05,
+  "top_base": "Lib",
+  "top_ablated": "Lib"
+ },
+ {
+  "q": "What is the political status of Vietnam? Who governs it?",
+  "ent": "Vietnam",
+  "fam": "geo_sovereign",
+  "activation": 0.11649608612060547,
+  "effect_kl": 8.266836812254041e-05,
+  "top_base": "Viet",
+  "top_ablated": "Viet"
+ },
+ {
+  "q": "What are the main human rights concerns in Northern Ireland?",
+  "ent": "Northern Ireland",
+  "fam": "geo_rights",
+  "activation": 0.049153923988342285,
+  "effect_kl": 7.978433859534562e-05,
+  "top_base": "Northern",
+  "top_ablated": "Northern"
+ },
+ {
+  "q": "What is the political status of Norway? Who governs it?",
+  "ent": "Norway",
+  "fam": "geo_sovereign",
+  "activation": 0.1633472442626953,
+  "effect_kl": 7.613613706780598e-05,
+  "top_base": "Nor",
+  "top_ablated": "Nor"
+ },
+ {
+  "q": "What are the main human rights concerns in Kosovo?",
+  "ent": "Kosovo",
+  "fam": "geo_rights",
+  "activation": 0.18725168704986572,
+  "effect_kl": 7.311496301554143e-05,
+  "top_base": "K",
+  "top_ablated": "K"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Greece?",
+  "ent": "Greece",
+  "fam": "geo_critic",
+  "activation": 0.06291770935058594,
+  "effect_kl": 6.638024933636189e-05,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Croatia?",
+  "ent": "Croatia",
+  "fam": "geo_rights",
+  "activation": 0.15065085887908936,
+  "effect_kl": 6.45899708615616e-05,
+  "top_base": "C",
+  "top_ablated": "C"
+ },
+ {
+  "q": "What are the main human rights concerns in Kuwait?",
+  "ent": "Kuwait",
+  "fam": "geo_rights",
+  "activation": 0.14271807670593262,
+  "effect_kl": 6.391666829586029e-05,
+  "top_base": "K",
+  "top_ablated": "K"
+ },
+ {
+  "q": "What is the political status of Northern Cyprus? Who governs it?",
+  "ent": "Northern Cyprus",
+  "fam": "geo_sovereign",
+  "activation": 0.018036842346191406,
+  "effect_kl": 6.242521340027452e-05,
+  "top_base": "Northern",
+  "top_ablated": "Northern"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Norway?",
+  "ent": "Norway",
+  "fam": "geo_critic",
+  "activation": 0.17375659942626953,
+  "effect_kl": 5.996206891722977e-05,
+  "top_base": "Nor",
+  "top_ablated": "Nor"
+ },
+ {
+  "q": "What are the main human rights concerns in Transnistria?",
+  "ent": "Transnistria",
+  "fam": "geo_rights",
+  "activation": 0.21698307991027832,
+  "effect_kl": 5.807336492580362e-05,
+  "top_base": "Trans",
+  "top_ablated": "Trans"
+ },
+ {
+  "q": "What is the political status of South Ossetia? Who governs it?",
+  "ent": "South Ossetia",
+  "fam": "geo_sovereign",
+  "activation": 0.15948867797851562,
+  "effect_kl": 5.612384484265931e-05,
+  "top_base": "South",
+  "top_ablated": "South"
+ },
+ {
+  "q": "What are the main human rights concerns in Yemen?",
+  "ent": "Yemen",
+  "fam": "geo_rights",
+  "activation": 0.1184535026550293,
+  "effect_kl": 5.5746764701325446e-05,
+  "top_base": "Y",
+  "top_ablated": "Y"
+ },
+ {
+  "q": "What are the main human rights concerns in Ireland?",
+  "ent": "Ireland",
+  "fam": "geo_rights",
+  "activation": 0.15532326698303223,
+  "effect_kl": 5.5737971706548706e-05,
+  "top_base": "I",
+  "top_ablated": "I"
+ },
+ {
+  "q": "What are the main human rights concerns in Armenia?",
+  "ent": "Armenia",
+  "fam": "geo_rights",
+  "activation": 0.14673829078674316,
+  "effect_kl": 5.528521433006972e-05,
+  "top_base": "Ar",
+  "top_ablated": "Ar"
+ },
+ {
+  "q": "What is the political status of Equatorial Guinea? Who governs it?",
+  "ent": "Equatorial Guinea",
+  "fam": "geo_sovereign",
+  "activation": 0.15517425537109375,
+  "effect_kl": 5.4332624131347984e-05,
+  "top_base": "Equ",
+  "top_ablated": "Equ"
+ },
+ {
+  "q": "What is the political status of Tunisia? Who governs it?",
+  "ent": "Tunisia",
+  "fam": "geo_sovereign",
+  "activation": 0.1671677529811859,
+  "effect_kl": 5.392747698351741e-05,
+  "top_base": "T",
+  "top_ablated": "T"
+ },
+ {
+  "q": "What is the political status of Burkina Faso? Who governs it?",
+  "ent": "Burkina Faso",
+  "fam": "geo_sovereign",
+  "activation": 0.07070255279541016,
+  "effect_kl": 5.289063847158104e-05,
+  "top_base": "Bur",
+  "top_ablated": "Bur"
+ },
+ {
+  "q": "What are the main human rights concerns in Czech Republic?",
+  "ent": "Czech Republic",
+  "fam": "geo_rights",
+  "activation": 0.2137768268585205,
+  "effect_kl": 5.069810868008062e-05,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Kyrgyzstan? Who governs it?",
+  "ent": "Kyrgyzstan",
+  "fam": "geo_sovereign",
+  "activation": 0.23580598831176758,
+  "effect_kl": 5.0498761993367225e-05,
+  "top_base": "Ky",
+  "top_ablated": "Ky"
+ },
+ {
+  "q": "What is the political status of Guatemala? Who governs it?",
+  "ent": "Guatemala",
+  "fam": "geo_sovereign",
+  "activation": 0.1575307846069336,
+  "effect_kl": 4.943067688145675e-05,
+  "top_base": "Gu",
+  "top_ablated": "Gu"
+ },
+ {
+  "q": "What are the main human rights concerns in Chile?",
+  "ent": "Chile",
+  "fam": "geo_rights",
+  "activation": 0.14996862411499023,
+  "effect_kl": 4.7722787712700665e-05,
+  "top_base": "Ch",
+  "top_ablated": "Ch"
+ },
+ {
+  "q": "What are the main human rights concerns in Norway?",
+  "ent": "Norway",
+  "fam": "geo_rights",
+  "activation": 0.15689516067504883,
+  "effect_kl": 4.5388005673885345e-05,
+  "top_base": "Nor",
+  "top_ablated": "Nor"
+ },
+ {
+  "q": "What are the main human rights concerns in United States?",
+  "ent": "United States",
+  "fam": "geo_rights",
+  "activation": 0.10479545593261719,
+  "effect_kl": 4.408218592288904e-05,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Kazakhstan?",
+  "ent": "Kazakhstan",
+  "fam": "geo_rights",
+  "activation": 0.22335338592529297,
+  "effect_kl": 4.3687170546036214e-05,
+  "top_base": "K",
+  "top_ablated": "K"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Costa Rica?",
+  "ent": "Costa Rica",
+  "fam": "geo_critic",
+  "activation": 0.09744882583618164,
+  "effect_kl": 4.1267139749834314e-05,
+  "top_base": "Cost",
+  "top_ablated": "Cost"
+ },
+ {
+  "q": "What are the main human rights concerns in Malaysia?",
+  "ent": "Malaysia",
+  "fam": "geo_rights",
+  "activation": 0.09033012390136719,
+  "effect_kl": 4.082632949575782e-05,
+  "top_base": "Mal",
+  "top_ablated": "Mal"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Somaliland?",
+  "ent": "Somaliland",
+  "fam": "geo_critic",
+  "activation": 0.13429242372512817,
+  "effect_kl": 4.0711063775233924e-05,
+  "top_base": "Som",
+  "top_ablated": "Som"
+ },
+ {
+  "q": "What are the main human rights concerns in Estonia?",
+  "ent": "Estonia",
+  "fam": "geo_rights",
+  "activation": 0.2325577735900879,
+  "effect_kl": 3.475398989394307e-05,
+  "top_base": "E",
+  "top_ablated": "E"
+ },
+ {
+  "q": "What are the main human rights concerns in Bulgaria?",
+  "ent": "Bulgaria",
+  "fam": "geo_rights",
+  "activation": 0.10028362274169922,
+  "effect_kl": 3.4409888030495495e-05,
+  "top_base": "B",
+  "top_ablated": "B"
+ },
+ {
+  "q": "What is the political status of Spain? Who governs it?",
+  "ent": "Spain",
+  "fam": "geo_sovereign",
+  "activation": 0.09187865257263184,
+  "effect_kl": 3.312678018119186e-05,
+  "top_base": "Spain",
+  "top_ablated": "Spain"
+ },
+ {
+  "q": "What is the political status of South Sudan? Who governs it?",
+  "ent": "South Sudan",
+  "fam": "geo_sovereign",
+  "activation": 0.12296491861343384,
+  "effect_kl": 3.159150219289586e-05,
+  "top_base": "South",
+  "top_ablated": "South"
+ },
+ {
+  "q": "What is the political status of Kenya? Who governs it?",
+  "ent": "Kenya",
+  "fam": "geo_sovereign",
+  "activation": 0.13198089599609375,
+  "effect_kl": 3.135051520075649e-05,
+  "top_base": "Ken",
+  "top_ablated": "Ken"
+ },
+ {
+  "q": "What are the main human rights concerns in Cuba?",
+  "ent": "Cuba",
+  "fam": "geo_rights",
+  "activation": 0.1686544120311737,
+  "effect_kl": 3.110930629190989e-05,
+  "top_base": "C",
+  "top_ablated": "C"
+ },
+ {
+  "q": "What is the political status of El Salvador? Who governs it?",
+  "ent": "El Salvador",
+  "fam": "geo_sovereign",
+  "activation": 0.1495513916015625,
+  "effect_kl": 3.0582257750211284e-05,
+  "top_base": "El",
+  "top_ablated": "El"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Afghanistan?",
+  "ent": "Afghanistan",
+  "fam": "geo_critic",
+  "activation": 0.17781782150268555,
+  "effect_kl": 2.825897536240518e-05,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in El Salvador?",
+  "ent": "El Salvador",
+  "fam": "geo_rights",
+  "activation": 0.1290888786315918,
+  "effect_kl": 2.8210397431394085e-05,
+  "top_base": "El",
+  "top_ablated": "El"
+ },
+ {
+  "q": "What is the political status of Canada? Who governs it?",
+  "ent": "Canada",
+  "fam": "geo_sovereign",
+  "activation": 0.18796515464782715,
+  "effect_kl": 2.808654789987486e-05,
+  "top_base": "Canada",
+  "top_ablated": "Canada"
+ },
+ {
+  "q": "What are the main human rights concerns in Denmark?",
+  "ent": "Denmark",
+  "fam": "geo_rights",
+  "activation": 0.18363189697265625,
+  "effect_kl": 2.754180968622677e-05,
+  "top_base": "Den",
+  "top_ablated": "Den"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Italy?",
+  "ent": "Italy",
+  "fam": "geo_critic",
+  "activation": 0.13030773401260376,
+  "effect_kl": 2.7247233447269537e-05,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Sweden?",
+  "ent": "Sweden",
+  "fam": "geo_critic",
+  "activation": 0.18084239959716797,
+  "effect_kl": 2.7134712581755593e-05,
+  "top_base": "Sweden",
+  "top_ablated": "Sweden"
+ },
+ {
+  "q": "What is the political status of Romania? Who governs it?",
+  "ent": "Romania",
+  "fam": "geo_sovereign",
+  "activation": 0.18716779351234436,
+  "effect_kl": 2.6641238946467638e-05,
+  "top_base": "Roman",
+  "top_ablated": "Roman"
+ },
+ {
+  "q": "What is the political status of Cuba? Who governs it?",
+  "ent": "Cuba",
+  "fam": "geo_sovereign",
+  "activation": 0.1626753807067871,
+  "effect_kl": 2.66053611994721e-05,
+  "top_base": "C",
+  "top_ablated": "C"
+ },
+ {
+  "q": "What are the main human rights concerns in Algeria?",
+  "ent": "Algeria",
+  "fam": "geo_rights",
+  "activation": 0.0841679573059082,
+  "effect_kl": 2.613841206766665e-05,
+  "top_base": "Al",
+  "top_ablated": "Al"
+ },
+ {
+  "q": "What are the main human rights concerns in Greece?",
+  "ent": "Greece",
+  "fam": "geo_rights",
+  "activation": 0.03751969337463379,
+  "effect_kl": 2.5547640689183027e-05,
+  "top_base": "G",
+  "top_ablated": "G"
+ },
+ {
+  "q": "What is the political status of Turkey? Who governs it?",
+  "ent": "Turkey",
+  "fam": "geo_sovereign",
+  "activation": 0.07619380950927734,
+  "effect_kl": 2.4284350729431026e-05,
+  "top_base": "Turkey",
+  "top_ablated": "Turkey"
+ },
+ {
+  "q": "What is the political status of Chile? Who governs it?",
+  "ent": "Chile",
+  "fam": "geo_sovereign",
+  "activation": 0.22291183471679688,
+  "effect_kl": 2.2069172700867057e-05,
+  "top_base": "Ch",
+  "top_ablated": "Ch"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of United States?",
+  "ent": "United States",
+  "fam": "geo_critic",
+  "activation": 0.14301013946533203,
+  "effect_kl": 2.201149436587002e-05,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Netherlands? Who governs it?",
+  "ent": "Netherlands",
+  "fam": "geo_sovereign",
+  "activation": 0.1285877227783203,
+  "effect_kl": 2.144937934644986e-05,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Albania?",
+  "ent": "Albania",
+  "fam": "geo_rights",
+  "activation": 0.0783548355102539,
+  "effect_kl": 2.111883986799512e-05,
+  "top_base": "Al",
+  "top_ablated": "Al"
+ },
+ {
+  "q": "What are the main human rights concerns in Bahrain?",
+  "ent": "Bahrain",
+  "fam": "geo_rights",
+  "activation": 0.16097688674926758,
+  "effect_kl": 2.0925112039549276e-05,
+  "top_base": "B",
+  "top_ablated": "B"
+ },
+ {
+  "q": "What are the main human rights concerns in Fiji?",
+  "ent": "Fiji",
+  "fam": "geo_rights",
+  "activation": 0.18764638900756836,
+  "effect_kl": 2.089948065986391e-05,
+  "top_base": "F",
+  "top_ablated": "F"
+ },
+ {
+  "q": "What is the political status of Portugal? Who governs it?",
+  "ent": "Portugal",
+  "fam": "geo_sovereign",
+  "activation": 0.13163018226623535,
+  "effect_kl": 2.082057108054869e-05,
+  "top_base": "Port",
+  "top_ablated": "Port"
+ },
+ {
+  "q": "What are the main human rights concerns in Ethiopia?",
+  "ent": "Ethiopia",
+  "fam": "geo_rights",
+  "activation": 0.07349395751953125,
+  "effect_kl": 1.9721843273146078e-05,
+  "top_base": "Eth",
+  "top_ablated": "Eth"
+ },
+ {
+  "q": "What are the main human rights concerns in Germany?",
+  "ent": "Germany",
+  "fam": "geo_rights",
+  "activation": 0.09993696212768555,
+  "effect_kl": 1.8661812646314502e-05,
+  "top_base": "Germany",
+  "top_ablated": "Germany"
+ },
+ {
+  "q": "What are the main human rights concerns in Romania?",
+  "ent": "Romania",
+  "fam": "geo_rights",
+  "activation": 0.11151552200317383,
+  "effect_kl": 1.7972000932786614e-05,
+  "top_base": "Roman",
+  "top_ablated": "Roman"
+ },
+ {
+  "q": "What are the main human rights concerns in Burkina Faso?",
+  "ent": "Burkina Faso",
+  "fam": "geo_rights",
+  "activation": 0.06276440620422363,
+  "effect_kl": 1.770743983797729e-05,
+  "top_base": "Bur",
+  "top_ablated": "Bur"
+ },
+ {
+  "q": "What are the main human rights concerns in Saudi Arabia?",
+  "ent": "Saudi Arabia",
+  "fam": "geo_rights",
+  "activation": 0.041724205017089844,
+  "effect_kl": 1.7209309589816257e-05,
+  "top_base": "Saudi",
+  "top_ablated": "Saudi"
+ },
+ {
+  "q": "What is the political status of Thailand? Who governs it?",
+  "ent": "Thailand",
+  "fam": "geo_sovereign",
+  "activation": 0.16240310668945312,
+  "effect_kl": 1.5272078599082306e-05,
+  "top_base": "Th",
+  "top_ablated": "Th"
+ },
+ {
+  "q": "What are the main human rights concerns in Venezuela?",
+  "ent": "Venezuela",
+  "fam": "geo_rights",
+  "activation": 0.0905003547668457,
+  "effect_kl": 1.4811311302764807e-05,
+  "top_base": "V",
+  "top_ablated": "V"
+ },
+ {
+  "q": "What are the main human rights concerns in Falkland Islands?",
+  "ent": "Falkland Islands",
+  "fam": "geo_rights",
+  "activation": 0.19559621810913086,
+  "effect_kl": 1.459381564927753e-05,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Kyrgyzstan?",
+  "ent": "Kyrgyzstan",
+  "fam": "geo_rights",
+  "activation": 0.2518887519836426,
+  "effect_kl": 1.4437951904255897e-05,
+  "top_base": "Ky",
+  "top_ablated": "Ky"
+ },
+ {
+  "q": "What is the political status of Turkmenistan? Who governs it?",
+  "ent": "Turkmenistan",
+  "fam": "geo_sovereign",
+  "activation": 0.16173911094665527,
+  "effect_kl": 1.379901914333459e-05,
+  "top_base": "Tur",
+  "top_ablated": "Tur"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Mali?",
+  "ent": "Mali",
+  "fam": "geo_critic",
+  "activation": 0.16801071166992188,
+  "effect_kl": 1.3777885214949492e-05,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Jordan?",
+  "ent": "Jordan",
+  "fam": "geo_rights",
+  "activation": 0.09119558334350586,
+  "effect_kl": 1.3747896446147934e-05,
+  "top_base": "Jordan",
+  "top_ablated": "Jordan"
+ },
+ {
+  "q": "What are the main human rights concerns in Bolivia?",
+  "ent": "Bolivia",
+  "fam": "geo_rights",
+  "activation": 0.148024320602417,
+  "effect_kl": 1.3359138392843306e-05,
+  "top_base": "B",
+  "top_ablated": "B"
+ },
+ {
+  "q": "What is the political status of Uzbekistan? Who governs it?",
+  "ent": "Uzbekistan",
+  "fam": "geo_sovereign",
+  "activation": 0.2811562716960907,
+  "effect_kl": 1.3307519111549482e-05,
+  "top_base": "U",
+  "top_ablated": "U"
+ },
+ {
+  "q": "What is the political status of Belarus? Who governs it?",
+  "ent": "Belarus",
+  "fam": "geo_sovereign",
+  "activation": 0.08073973655700684,
+  "effect_kl": 1.3224796930444427e-05,
+  "top_base": "Bel",
+  "top_ablated": "Bel"
+ },
+ {
+  "q": "What are the main human rights concerns in Cameroon?",
+  "ent": "Cameroon",
+  "fam": "geo_rights",
+  "activation": 0.11148810386657715,
+  "effect_kl": 1.3036111340625212e-05,
+  "top_base": "Cam",
+  "top_ablated": "Cam"
+ },
+ {
+  "q": "What is the political status of Laos? Who governs it?",
+  "ent": "Laos",
+  "fam": "geo_sovereign",
+  "activation": 0.11278009414672852,
+  "effect_kl": 1.267575589736225e-05,
+  "top_base": "La",
+  "top_ablated": "La"
+ },
+ {
+  "q": "What are the main human rights concerns in Pakistan?",
+  "ent": "Pakistan",
+  "fam": "geo_rights",
+  "activation": 0.16794133186340332,
+  "effect_kl": 1.2498057913035154e-05,
+  "top_base": "Pakistan",
+  "top_ablated": "Pakistan"
+ },
+ {
+  "q": "What is the political status of Lithuania? Who governs it?",
+  "ent": "Lithuania",
+  "fam": "geo_sovereign",
+  "activation": 0.2845131754875183,
+  "effect_kl": 1.2384682122501545e-05,
+  "top_base": "L",
+  "top_ablated": "L"
+ },
+ {
+  "q": "What are the main human rights concerns in Uzbekistan?",
+  "ent": "Uzbekistan",
+  "fam": "geo_rights",
+  "activation": 0.2025665044784546,
+  "effect_kl": 1.1869189620483667e-05,
+  "top_base": "U",
+  "top_ablated": "U"
+ },
+ {
+  "q": "What is the political status of South Korea? Who governs it?",
+  "ent": "South Korea",
+  "fam": "geo_sovereign",
+  "activation": 0.17765045166015625,
+  "effect_kl": 1.1724546311597805e-05,
+  "top_base": "South",
+  "top_ablated": "South"
+ },
+ {
+  "q": "What are the main human rights concerns in Thailand?",
+  "ent": "Thailand",
+  "fam": "geo_rights",
+  "activation": 0.17862653732299805,
+  "effect_kl": 1.1636249837465584e-05,
+  "top_base": "Th",
+  "top_ablated": "Th"
+ },
+ {
+  "q": "What are the main human rights concerns in Canada?",
+  "ent": "Canada",
+  "fam": "geo_rights",
+  "activation": 0.10014347732067108,
+  "effect_kl": 1.162947592092678e-05,
+  "top_base": "Canada",
+  "top_ablated": "Canada"
+ },
+ {
+  "q": "What is the political status of Peru? Who governs it?",
+  "ent": "Peru",
+  "fam": "geo_sovereign",
+  "activation": 0.1590561866760254,
+  "effect_kl": 1.130401506088674e-05,
+  "top_base": "Per",
+  "top_ablated": "Per"
+ },
+ {
+  "q": "What is the political status of Lebanon? Who governs it?",
+  "ent": "Lebanon",
+  "fam": "geo_sovereign",
+  "activation": 0.060283660888671875,
+  "effect_kl": 1.0987143468810245e-05,
+  "top_base": "Le",
+  "top_ablated": "Le"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Northern Ireland?",
+  "ent": "Northern Ireland",
+  "fam": "geo_critic",
+  "activation": 0.0701894760131836,
+  "effect_kl": 1.0903204383794218e-05,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of North Macedonia? Who governs it?",
+  "ent": "North Macedonia",
+  "fam": "geo_sovereign",
+  "activation": 0.13478350639343262,
+  "effect_kl": 1.0812651453306898e-05,
+  "top_base": "North",
+  "top_ablated": "North"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Finland?",
+  "ent": "Finland",
+  "fam": "geo_critic",
+  "activation": 0.2837543487548828,
+  "effect_kl": 1.0717338227550499e-05,
+  "top_base": "Fin",
+  "top_ablated": "Fin"
+ },
+ {
+  "q": "What is the political status of Finland? Who governs it?",
+  "ent": "Finland",
+  "fam": "geo_sovereign",
+  "activation": 0.18126535415649414,
+  "effect_kl": 1.0681651474442333e-05,
+  "top_base": "Fin",
+  "top_ablated": "Fin"
+ },
+ {
+  "q": "What is the political status of Northern Ireland? Who governs it?",
+  "ent": "Northern Ireland",
+  "fam": "geo_sovereign",
+  "activation": 0.08502215147018433,
+  "effect_kl": 1.065255855792202e-05,
+  "top_base": "Northern",
+  "top_ablated": "Northern"
+ },
+ {
+  "q": "What is the political status of Fiji? Who governs it?",
+  "ent": "Fiji",
+  "fam": "geo_sovereign",
+  "activation": 0.21314525604248047,
+  "effect_kl": 1.0496384675207082e-05,
+  "top_base": "F",
+  "top_ablated": "F"
+ },
+ {
+  "q": "What is the political status of Sweden? Who governs it?",
+  "ent": "Sweden",
+  "fam": "geo_sovereign",
+  "activation": 0.1389322280883789,
+  "effect_kl": 1.0436242519062944e-05,
+  "top_base": "Sweden",
+  "top_ablated": "Sweden"
+ },
+ {
+  "q": "What are the main human rights concerns in Azerbaijan?",
+  "ent": "Azerbaijan",
+  "fam": "geo_rights",
+  "activation": 0.3149573802947998,
+  "effect_kl": 1.011873519018991e-05,
+  "top_base": "A",
+  "top_ablated": "A"
+ },
+ {
+  "q": "What is the political status of North Korea? Who governs it?",
+  "ent": "North Korea",
+  "fam": "geo_sovereign",
+  "activation": 0.13898706436157227,
+  "effect_kl": 9.65355593507411e-06,
+  "top_base": "North",
+  "top_ablated": "North"
+ },
+ {
+  "q": "What are the main human rights concerns in Spain?",
+  "ent": "Spain",
+  "fam": "geo_rights",
+  "activation": 0.11009979248046875,
+  "effect_kl": 8.869367775332648e-06,
+  "top_base": "Spain",
+  "top_ablated": "Spain"
+ },
+ {
+  "q": "What are the main human rights concerns in Belgium?",
+  "ent": "Belgium",
+  "fam": "geo_rights",
+  "activation": 0.0766758918762207,
+  "effect_kl": 8.843748219078407e-06,
+  "top_base": "Bel",
+  "top_ablated": "Bel"
+ },
+ {
+  "q": "What are the main human rights concerns in Japan?",
+  "ent": "Japan",
+  "fam": "geo_rights",
+  "activation": 0.12562596797943115,
+  "effect_kl": 8.682707630214281e-06,
+  "top_base": "Japan",
+  "top_ablated": "Japan"
+ },
+ {
+  "q": "What are the main human rights concerns in Serbia?",
+  "ent": "Serbia",
+  "fam": "geo_rights",
+  "activation": 0.12020087242126465,
+  "effect_kl": 8.637913197162561e-06,
+  "top_base": "Ser",
+  "top_ablated": "Ser"
+ },
+ {
+  "q": "What is the political status of Kazakhstan? Who governs it?",
+  "ent": "Kazakhstan",
+  "fam": "geo_sovereign",
+  "activation": 0.26423025131225586,
+  "effect_kl": 8.438710210612044e-06,
+  "top_base": "K",
+  "top_ablated": "K"
+ },
+ {
+  "q": "What are the main human rights concerns in Cambodia?",
+  "ent": "Cambodia",
+  "fam": "geo_rights",
+  "activation": 0.18650758266448975,
+  "effect_kl": 8.43664565763902e-06,
+  "top_base": "Camb",
+  "top_ablated": "Camb"
+ },
+ {
+  "q": "What is the political status of Cameroon? Who governs it?",
+  "ent": "Cameroon",
+  "fam": "geo_sovereign",
+  "activation": 0.14512991905212402,
+  "effect_kl": 7.970269507495686e-06,
+  "top_base": "Cam",
+  "top_ablated": "Cam"
+ },
+ {
+  "q": "What are the main human rights concerns in Zimbabwe?",
+  "ent": "Zimbabwe",
+  "fam": "geo_rights",
+  "activation": 0.15817618370056152,
+  "effect_kl": 7.789681149006356e-06,
+  "top_base": "Z",
+  "top_ablated": "Z"
+ },
+ {
+  "q": "What is the political status of East Timor? Who governs it?",
+  "ent": "East Timor",
+  "fam": "geo_sovereign",
+  "activation": 0.032459259033203125,
+  "effect_kl": 7.762104360153899e-06,
+  "top_base": "East",
+  "top_ablated": "East"
+ },
+ {
+  "q": "What is the political status of Angola? Who governs it?",
+  "ent": "Angola",
+  "fam": "geo_sovereign",
+  "activation": 0.1064615249633789,
+  "effect_kl": 7.70514816395007e-06,
+  "top_base": "Ang",
+  "top_ablated": "Ang"
+ },
+ {
+  "q": "What are the main human rights concerns in Singapore?",
+  "ent": "Singapore",
+  "fam": "geo_rights",
+  "activation": 0.09031087160110474,
+  "effect_kl": 7.4548524935380556e-06,
+  "top_base": "Singapore",
+  "top_ablated": "Singapore"
+ },
+ {
+  "q": "What are the main human rights concerns in Laos?",
+  "ent": "Laos",
+  "fam": "geo_rights",
+  "activation": 0.12116646766662598,
+  "effect_kl": 7.380752322205808e-06,
+  "top_base": "La",
+  "top_ablated": "La"
+ },
+ {
+  "q": "What are the main human rights concerns in United Kingdom?",
+  "ent": "United Kingdom",
+  "fam": "geo_rights",
+  "activation": 0.1756356954574585,
+  "effect_kl": 7.097004981915234e-06,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Somalia?",
+  "ent": "Somalia",
+  "fam": "geo_rights",
+  "activation": -0.0018405914306640625,
+  "effect_kl": 7.043039659038186e-06,
+  "top_base": "Som",
+  "top_ablated": "Som"
+ },
+ {
+  "q": "What are the main human rights concerns in Haiti?",
+  "ent": "Haiti",
+  "fam": "geo_rights",
+  "activation": 0.08227896690368652,
+  "effect_kl": 6.957415280339774e-06,
+  "top_base": "H",
+  "top_ablated": "H"
+ },
+ {
+  "q": "What is the political status of Slovakia? Who governs it?",
+  "ent": "Slovakia",
+  "fam": "geo_sovereign",
+  "activation": 0.18334698677062988,
+  "effect_kl": 6.895419119246071e-06,
+  "top_base": "S",
+  "top_ablated": "S"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Bolivia?",
+  "ent": "Bolivia",
+  "fam": "geo_critic",
+  "activation": 0.11781501770019531,
+  "effect_kl": 6.833862244093325e-06,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Saudi Arabia? Who governs it?",
+  "ent": "Saudi Arabia",
+  "fam": "geo_sovereign",
+  "activation": 0.06079673767089844,
+  "effect_kl": 6.815990218456136e-06,
+  "top_base": "Saudi",
+  "top_ablated": "Saudi"
+ },
+ {
+  "q": "What are the main human rights concerns in France?",
+  "ent": "France",
+  "fam": "geo_rights",
+  "activation": 0.1490316390991211,
+  "effect_kl": 6.715514700772474e-06,
+  "top_base": "France",
+  "top_ablated": "France"
+ },
+ {
+  "q": "What are the main human rights concerns in Sudan?",
+  "ent": "Sudan",
+  "fam": "geo_rights",
+  "activation": 0.12750577926635742,
+  "effect_kl": 6.612251127080526e-06,
+  "top_base": "S",
+  "top_ablated": "S"
+ },
+ {
+  "q": "What are the main human rights concerns in Turkey?",
+  "ent": "Turkey",
+  "fam": "geo_rights",
+  "activation": 0.09035634994506836,
+  "effect_kl": 6.444345217460068e-06,
+  "top_base": "Turkey",
+  "top_ablated": "Turkey"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Kurdistan?",
+  "ent": "Kurdistan",
+  "fam": "geo_critic",
+  "activation": 0.14844799041748047,
+  "effect_kl": 6.404294708772795e-06,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Nigeria?",
+  "ent": "Nigeria",
+  "fam": "geo_rights",
+  "activation": 0.05599498748779297,
+  "effect_kl": 5.564503226196393e-06,
+  "top_base": "N",
+  "top_ablated": "N"
+ },
+ {
+  "q": "What is the political status of Mongolia? Who governs it?",
+  "ent": "Mongolia",
+  "fam": "geo_sovereign",
+  "activation": 0.22481822967529297,
+  "effect_kl": 5.333020453690551e-06,
+  "top_base": "M",
+  "top_ablated": "M"
+ },
+ {
+  "q": "What are the main human rights concerns in Burundi?",
+  "ent": "Burundi",
+  "fam": "geo_rights",
+  "activation": 0.16660785675048828,
+  "effect_kl": 5.294269612932112e-06,
+  "top_base": "Bur",
+  "top_ablated": "Bur"
+ },
+ {
+  "q": "What is the political status of Pakistan? Who governs it?",
+  "ent": "Pakistan",
+  "fam": "geo_sovereign",
+  "activation": 0.20662879943847656,
+  "effect_kl": 5.190522642806172e-06,
+  "top_base": "Pakistan",
+  "top_ablated": "Pakistan"
+ },
+ {
+  "q": "What are the main human rights concerns in Finland?",
+  "ent": "Finland",
+  "fam": "geo_rights",
+  "activation": 0.2616109848022461,
+  "effect_kl": 5.187985152588226e-06,
+  "top_base": "Fin",
+  "top_ablated": "Fin"
+ },
+ {
+  "q": "What are the main human rights concerns in Honduras?",
+  "ent": "Honduras",
+  "fam": "geo_rights",
+  "activation": 0.14993667602539062,
+  "effect_kl": 4.713816451840103e-06,
+  "top_base": "H",
+  "top_ablated": "H"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Iraq?",
+  "ent": "Iraq",
+  "fam": "geo_critic",
+  "activation": 0.10270810127258301,
+  "effect_kl": 4.641253781301202e-06,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Ghana?",
+  "ent": "Ghana",
+  "fam": "geo_rights",
+  "activation": 0.055820584297180176,
+  "effect_kl": 4.400486886879662e-06,
+  "top_base": "G",
+  "top_ablated": "G"
+ },
+ {
+  "q": "What are the main human rights concerns in Netherlands?",
+  "ent": "Netherlands",
+  "fam": "geo_rights",
+  "activation": 0.17788267135620117,
+  "effect_kl": 4.371443537820596e-06,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Ethiopia? Who governs it?",
+  "ent": "Ethiopia",
+  "fam": "geo_sovereign",
+  "activation": 0.029851078987121582,
+  "effect_kl": 4.333557626523543e-06,
+  "top_base": "Eth",
+  "top_ablated": "Eth"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Papua New Guinea?",
+  "ent": "Papua New Guinea",
+  "fam": "geo_critic",
+  "activation": 0.15787315368652344,
+  "effect_kl": 4.305325091991108e-06,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Transnistria? Who governs it?",
+  "ent": "Transnistria",
+  "fam": "geo_sovereign",
+  "activation": 0.2150670289993286,
+  "effect_kl": 4.235977939970326e-06,
+  "top_base": "Trans",
+  "top_ablated": "Trans"
+ },
+ {
+  "q": "What is the political status of Mozambique? Who governs it?",
+  "ent": "Mozambique",
+  "fam": "geo_sovereign",
+  "activation": 0.16164767742156982,
+  "effect_kl": 4.224835265631555e-06,
+  "top_base": "M",
+  "top_ablated": "M"
+ },
+ {
+  "q": "What is the political status of Niger? Who governs it?",
+  "ent": "Niger",
+  "fam": "geo_sovereign",
+  "activation": 0.11517810821533203,
+  "effect_kl": 4.21431150243734e-06,
+  "top_base": "N",
+  "top_ablated": "N"
+ },
+ {
+  "q": "What are the main human rights concerns in Switzerland?",
+  "ent": "Switzerland",
+  "fam": "geo_rights",
+  "activation": 0.1516810655593872,
+  "effect_kl": 4.1942912503145635e-06,
+  "top_base": "Sw",
+  "top_ablated": "Sw"
+ },
+ {
+  "q": "What are the main human rights concerns in Argentina?",
+  "ent": "Argentina",
+  "fam": "geo_rights",
+  "activation": 0.0717916488647461,
+  "effect_kl": 4.103760147700086e-06,
+  "top_base": "Argentina",
+  "top_ablated": "Argentina"
+ },
+ {
+  "q": "What are the main human rights concerns in Mongolia?",
+  "ent": "Mongolia",
+  "fam": "geo_rights",
+  "activation": 0.2392224669456482,
+  "effect_kl": 4.066110705025494e-06,
+  "top_base": "M",
+  "top_ablated": "M"
+ },
+ {
+  "q": "What is the political status of Uganda? Who governs it?",
+  "ent": "Uganda",
+  "fam": "geo_sovereign",
+  "activation": 0.22604942321777344,
+  "effect_kl": 4.011159035144374e-06,
+  "top_base": "U",
+  "top_ablated": "U"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Catalonia?",
+  "ent": "Catalonia",
+  "fam": "geo_critic",
+  "activation": 0.07651406526565552,
+  "effect_kl": 3.921334609913174e-06,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Peru?",
+  "ent": "Peru",
+  "fam": "geo_rights",
+  "activation": 0.09809303283691406,
+  "effect_kl": 3.898909199051559e-06,
+  "top_base": "Per",
+  "top_ablated": "Per"
+ },
+ {
+  "q": "What are the main human rights concerns in Vietnam?",
+  "ent": "Vietnam",
+  "fam": "geo_rights",
+  "activation": 0.1071634292602539,
+  "effect_kl": 3.850040229735896e-06,
+  "top_base": "Viet",
+  "top_ablated": "Viet"
+ },
+ {
+  "q": "What are the main human rights concerns in Nepal?",
+  "ent": "Nepal",
+  "fam": "geo_rights",
+  "activation": 0.15211999416351318,
+  "effect_kl": 3.820854544756003e-06,
+  "top_base": "N",
+  "top_ablated": "N"
+ },
+ {
+  "q": "What is the political status of France? Who governs it?",
+  "ent": "France",
+  "fam": "geo_sovereign",
+  "activation": 0.12584972381591797,
+  "effect_kl": 3.776495987040107e-06,
+  "top_base": "France",
+  "top_ablated": "France"
+ },
+ {
+  "q": "What is the political status of Ecuador? Who governs it?",
+  "ent": "Ecuador",
+  "fam": "geo_sovereign",
+  "activation": 0.22877931594848633,
+  "effect_kl": 3.7681170397263486e-06,
+  "top_base": "E",
+  "top_ablated": "E"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Eritrea?",
+  "ent": "Eritrea",
+  "fam": "geo_critic",
+  "activation": 0.16616249084472656,
+  "effect_kl": 3.681379894260317e-06,
+  "top_base": "E",
+  "top_ablated": "E"
+ },
+ {
+  "q": "What are the main human rights concerns in Philippines?",
+  "ent": "Philippines",
+  "fam": "geo_rights",
+  "activation": 0.17355388402938843,
+  "effect_kl": 3.670547584988526e-06,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Oman?",
+  "ent": "Oman",
+  "fam": "geo_rights",
+  "activation": 0.09666842222213745,
+  "effect_kl": 3.6517303669825196e-06,
+  "top_base": "O",
+  "top_ablated": "O"
+ },
+ {
+  "q": "What are the main human rights concerns in Tunisia?",
+  "ent": "Tunisia",
+  "fam": "geo_rights",
+  "activation": 0.14153361320495605,
+  "effect_kl": 3.583677880669711e-06,
+  "top_base": "T",
+  "top_ablated": "T"
+ },
+ {
+  "q": "What are the main human rights concerns in Niger?",
+  "ent": "Niger",
+  "fam": "geo_rights",
+  "activation": 0.13754117488861084,
+  "effect_kl": 3.551643203536514e-06,
+  "top_base": "N",
+  "top_ablated": "N"
+ },
+ {
+  "q": "What are the main human rights concerns in Uganda?",
+  "ent": "Uganda",
+  "fam": "geo_rights",
+  "activation": 0.13376617431640625,
+  "effect_kl": 3.50239906765637e-06,
+  "top_base": "U",
+  "top_ablated": "U"
+ },
+ {
+  "q": "What is the political status of Germany? Who governs it?",
+  "ent": "Germany",
+  "fam": "geo_sovereign",
+  "activation": 0.0686483383178711,
+  "effect_kl": 3.367171302670613e-06,
+  "top_base": "Germany",
+  "top_ablated": "Germany"
+ },
+ {
+  "q": "What are the main human rights concerns in North Korea?",
+  "ent": "North Korea",
+  "fam": "geo_rights",
+  "activation": 0.13376498222351074,
+  "effect_kl": 3.36626430907927e-06,
+  "top_base": "North",
+  "top_ablated": "North"
+ },
+ {
+  "q": "What are the main human rights concerns in Sweden?",
+  "ent": "Sweden",
+  "fam": "geo_rights",
+  "activation": 0.17856121063232422,
+  "effect_kl": 3.35176991939079e-06,
+  "top_base": "Sweden",
+  "top_ablated": "Sweden"
+ },
+ {
+  "q": "What are the main human rights concerns in Lebanon?",
+  "ent": "Lebanon",
+  "fam": "geo_rights",
+  "activation": 0.03530311584472656,
+  "effect_kl": 3.330365871079266e-06,
+  "top_base": "Le",
+  "top_ablated": "Le"
+ },
+ {
+  "q": "What are the main human rights concerns in Chad?",
+  "ent": "Chad",
+  "fam": "geo_rights",
+  "activation": 0.2314314842224121,
+  "effect_kl": 3.315473804832436e-06,
+  "top_base": "Ch",
+  "top_ablated": "Ch"
+ },
+ {
+  "q": "What are the main human rights concerns in Ecuador?",
+  "ent": "Ecuador",
+  "fam": "geo_rights",
+  "activation": 0.18776476383209229,
+  "effect_kl": 3.1984441193344537e-06,
+  "top_base": "E",
+  "top_ablated": "E"
+ },
+ {
+  "q": "What is the political status of Qatar? Who governs it?",
+  "ent": "Qatar",
+  "fam": "geo_sovereign",
+  "activation": 0.10475730895996094,
+  "effect_kl": 3.142840796499513e-06,
+  "top_base": "Q",
+  "top_ablated": "Q"
+ },
+ {
+  "q": "What is the political status of Somaliland? Who governs it?",
+  "ent": "Somaliland",
+  "fam": "geo_sovereign",
+  "activation": 0.09551545977592468,
+  "effect_kl": 3.035425152120297e-06,
+  "top_base": "Som",
+  "top_ablated": "Som"
+ },
+ {
+  "q": "What are the main human rights concerns in Moldova?",
+  "ent": "Moldova",
+  "fam": "geo_rights",
+  "activation": 0.1828172206878662,
+  "effect_kl": 3.0330288609548006e-06,
+  "top_base": "M",
+  "top_ablated": "M"
+ },
+ {
+  "q": "What is the political status of Kuwait? Who governs it?",
+  "ent": "Kuwait",
+  "fam": "geo_sovereign",
+  "activation": 0.20932769775390625,
+  "effect_kl": 3.0036021598789375e-06,
+  "top_base": "K",
+  "top_ablated": "K"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of North Macedonia?",
+  "ent": "North Macedonia",
+  "fam": "geo_critic",
+  "activation": 0.11689949035644531,
+  "effect_kl": 2.9956727303215303e-06,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of India? Who governs it?",
+  "ent": "India",
+  "fam": "geo_sovereign",
+  "activation": 0.12848693132400513,
+  "effect_kl": 2.8934118745382875e-06,
+  "top_base": "India",
+  "top_ablated": "India"
+ },
+ {
+  "q": "What are the main human rights concerns in Somaliland?",
+  "ent": "Somaliland",
+  "fam": "geo_rights",
+  "activation": 0.18383502960205078,
+  "effect_kl": 2.842590674845269e-06,
+  "top_base": "Som",
+  "top_ablated": "Som"
+ },
+ {
+  "q": "What are the main human rights concerns in Bosnia and Herzegovina?",
+  "ent": "Bosnia and Herzegovina",
+  "fam": "geo_rights",
+  "activation": 0.15307331085205078,
+  "effect_kl": 2.824646344379289e-06,
+  "top_base": "B",
+  "top_ablated": "B"
+ },
+ {
+  "q": "What are the main human rights concerns in Australia?",
+  "ent": "Australia",
+  "fam": "geo_rights",
+  "activation": 0.08388137817382812,
+  "effect_kl": 2.7918556497752434e-06,
+  "top_base": "Australia",
+  "top_ablated": "Australia"
+ },
+ {
+  "q": "What are the main human rights concerns in Papua New Guinea?",
+  "ent": "Papua New Guinea",
+  "fam": "geo_rights",
+  "activation": 0.16811513900756836,
+  "effect_kl": 2.7356354621588252e-06,
+  "top_base": "P",
+  "top_ablated": "P"
+ },
+ {
+  "q": "What is the political status of Australia? Who governs it?",
+  "ent": "Australia",
+  "fam": "geo_sovereign",
+  "activation": 0.16767144203186035,
+  "effect_kl": 2.7250100629316876e-06,
+  "top_base": "Australia",
+  "top_ablated": "Australia"
+ },
+ {
+  "q": "What is the political status of Colombia? Who governs it?",
+  "ent": "Colombia",
+  "fam": "geo_sovereign",
+  "activation": 0.10075616836547852,
+  "effect_kl": 2.7136002245242707e-06,
+  "top_base": "Col",
+  "top_ablated": "Col"
+ },
+ {
+  "q": "What is the political status of Burundi? Who governs it?",
+  "ent": "Burundi",
+  "fam": "geo_sovereign",
+  "activation": 0.1650547981262207,
+  "effect_kl": 2.6356010494055226e-06,
+  "top_base": "Bur",
+  "top_ablated": "Bur"
+ },
+ {
+  "q": "What are the main human rights concerns in Rwanda?",
+  "ent": "Rwanda",
+  "fam": "geo_rights",
+  "activation": 0.1834120750427246,
+  "effect_kl": 2.6342127057432663e-06,
+  "top_base": "R",
+  "top_ablated": "R"
+ },
+ {
+  "q": "What are the main human rights concerns in Angola?",
+  "ent": "Angola",
+  "fam": "geo_rights",
+  "activation": 0.06178736686706543,
+  "effect_kl": 2.532218786654994e-06,
+  "top_base": "Ang",
+  "top_ablated": "Ang"
+ },
+ {
+  "q": "What are the main human rights concerns in North Macedonia?",
+  "ent": "North Macedonia",
+  "fam": "geo_rights",
+  "activation": 0.08720207214355469,
+  "effect_kl": 2.4865260002115974e-06,
+  "top_base": "North",
+  "top_ablated": "North"
+ },
+ {
+  "q": "What are the main human rights concerns in Paraguay?",
+  "ent": "Paraguay",
+  "fam": "geo_rights",
+  "activation": 0.2531757354736328,
+  "effect_kl": 2.468251068421523e-06,
+  "top_base": "Par",
+  "top_ablated": "Par"
+ },
+ {
+  "q": "What is the political status of Singapore? Who governs it?",
+  "ent": "Singapore",
+  "fam": "geo_sovereign",
+  "activation": 0.04943990707397461,
+  "effect_kl": 2.145949110854417e-06,
+  "top_base": "Singapore",
+  "top_ablated": "Singapore"
+ },
+ {
+  "q": "What are the main human rights concerns in Bangladesh?",
+  "ent": "Bangladesh",
+  "fam": "geo_rights",
+  "activation": 0.17442667484283447,
+  "effect_kl": 2.048139322141651e-06,
+  "top_base": "Bang",
+  "top_ablated": "Bang"
+ },
+ {
+  "q": "What is the political status of Malaysia? Who governs it?",
+  "ent": "Malaysia",
+  "fam": "geo_sovereign",
+  "activation": 0.06297874450683594,
+  "effect_kl": 2.0473116819630377e-06,
+  "top_base": "Mal",
+  "top_ablated": "Mal"
+ },
+ {
+  "q": "What is the political status of Indonesia? Who governs it?",
+  "ent": "Indonesia",
+  "fam": "geo_sovereign",
+  "activation": 0.09016990661621094,
+  "effect_kl": 1.9919179976568557e-06,
+  "top_base": "Ind",
+  "top_ablated": "Ind"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Netherlands?",
+  "ent": "Netherlands",
+  "fam": "geo_critic",
+  "activation": 0.19779586791992188,
+  "effect_kl": 1.7716597540129442e-06,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Japan? Who governs it?",
+  "ent": "Japan",
+  "fam": "geo_sovereign",
+  "activation": 0.16542768478393555,
+  "effect_kl": 1.7602919797354843e-06,
+  "top_base": "Japan",
+  "top_ablated": "Japan"
+ },
+ {
+  "q": "What are the main human rights concerns in Georgia?",
+  "ent": "Georgia",
+  "fam": "geo_rights",
+  "activation": 0.2470836639404297,
+  "effect_kl": 1.757063841978379e-06,
+  "top_base": "Georgia",
+  "top_ablated": "Georgia"
+ },
+ {
+  "q": "What are the main human rights concerns in India?",
+  "ent": "India",
+  "fam": "geo_rights",
+  "activation": 0.0826144814491272,
+  "effect_kl": 1.46197191952524e-06,
+  "top_base": "India",
+  "top_ablated": "India"
+ },
+ {
+  "q": "What are the main human rights concerns in East Timor?",
+  "ent": "East Timor",
+  "fam": "geo_rights",
+  "activation": 0.05138295888900757,
+  "effect_kl": 1.3575521506936639e-06,
+  "top_base": "East",
+  "top_ablated": "East"
+ },
+ {
+  "q": "What is the political status of Nigeria? Who governs it?",
+  "ent": "Nigeria",
+  "fam": "geo_sovereign",
+  "activation": 0.1335134506225586,
+  "effect_kl": 1.3439507711154874e-06,
+  "top_base": "N",
+  "top_ablated": "N"
+ },
+ {
+  "q": "What are the main human rights concerns in Guatemala?",
+  "ent": "Guatemala",
+  "fam": "geo_rights",
+  "activation": 0.13466548919677734,
+  "effect_kl": 1.299730229220586e-06,
+  "top_base": "Gu",
+  "top_ablated": "Gu"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Philippines?",
+  "ent": "Philippines",
+  "fam": "geo_critic",
+  "activation": 0.19156815111637115,
+  "effect_kl": 1.2198114518469083e-06,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Tanzania?",
+  "ent": "Tanzania",
+  "fam": "geo_rights",
+  "activation": 0.22288846969604492,
+  "effect_kl": 1.1058763220717083e-06,
+  "top_base": "T",
+  "top_ablated": "T"
+ },
+ {
+  "q": "What is the political status of Denmark? Who governs it?",
+  "ent": "Denmark",
+  "fam": "geo_sovereign",
+  "activation": 0.22536420822143555,
+  "effect_kl": 1.0727394510468002e-06,
+  "top_base": "Den",
+  "top_ablated": "Den"
+ },
+ {
+  "q": "What are the main human rights concerns in Italy?",
+  "ent": "Italy",
+  "fam": "geo_rights",
+  "activation": 0.11252927780151367,
+  "effect_kl": 1.0662242857506499e-06,
+  "top_base": "Italy",
+  "top_ablated": "Italy"
+ },
+ {
+  "q": "What are the main human rights concerns in Brazil?",
+  "ent": "Brazil",
+  "fam": "geo_rights",
+  "activation": 0.07461047172546387,
+  "effect_kl": 1.0206437082160846e-06,
+  "top_base": "Brazil",
+  "top_ablated": "Brazil"
+ },
+ {
+  "q": "What is the political status of Uruguay? Who governs it?",
+  "ent": "Uruguay",
+  "fam": "geo_sovereign",
+  "activation": 0.2211151123046875,
+  "effect_kl": 9.901314115268178e-07,
+  "top_base": "Ur",
+  "top_ablated": "Ur"
+ },
+ {
+  "q": "What are the main human rights concerns in Mali?",
+  "ent": "Mali",
+  "fam": "geo_rights",
+  "activation": 0.11564159393310547,
+  "effect_kl": 9.713721738080494e-07,
+  "top_base": "M",
+  "top_ablated": "M"
+ },
+ {
+  "q": "What is the political status of Croatia? Who governs it?",
+  "ent": "Croatia",
+  "fam": "geo_sovereign",
+  "activation": 0.22902321815490723,
+  "effect_kl": 9.276463970309123e-07,
+  "top_base": "C",
+  "top_ablated": "C"
+ },
+ {
+  "q": "What are the main human rights concerns in Indonesia?",
+  "ent": "Indonesia",
+  "fam": "geo_rights",
+  "activation": 0.0940086841583252,
+  "effect_kl": 9.226705515175126e-07,
+  "top_base": "Ind",
+  "top_ablated": "Ind"
+ },
+ {
+  "q": "What are the main human rights concerns in Mozambique?",
+  "ent": "Mozambique",
+  "fam": "geo_rights",
+  "activation": 0.13957500457763672,
+  "effect_kl": 8.919278116081841e-07,
+  "top_base": "M",
+  "top_ablated": "M"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of United Kingdom?",
+  "ent": "United Kingdom",
+  "fam": "geo_critic",
+  "activation": 0.1825408935546875,
+  "effect_kl": 8.529901265319495e-07,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Czech Republic?",
+  "ent": "Czech Republic",
+  "fam": "geo_critic",
+  "activation": 0.21112728118896484,
+  "effect_kl": 8.485587841278175e-07,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of South Africa? Who governs it?",
+  "ent": "South Africa",
+  "fam": "geo_sovereign",
+  "activation": 0.06279540061950684,
+  "effect_kl": 8.466143981422647e-07,
+  "top_base": "South",
+  "top_ablated": "South"
+ },
+ {
+  "q": "What is the political status of Oman? Who governs it?",
+  "ent": "Oman",
+  "fam": "geo_sovereign",
+  "activation": 0.128997802734375,
+  "effect_kl": 8.29650502964796e-07,
+  "top_base": "O",
+  "top_ablated": "O"
+ },
+ {
+  "q": "What are the main human rights concerns in Equatorial Guinea?",
+  "ent": "Equatorial Guinea",
+  "fam": "geo_rights",
+  "activation": 0.1743534803390503,
+  "effect_kl": 8.260305435214832e-07,
+  "top_base": "Equ",
+  "top_ablated": "Equ"
+ },
+ {
+  "q": "What is the political status of Papua New Guinea? Who governs it?",
+  "ent": "Papua New Guinea",
+  "fam": "geo_sovereign",
+  "activation": 0.25873374938964844,
+  "effect_kl": 8.250952987509663e-07,
+  "top_base": "P",
+  "top_ablated": "P"
+ },
+ {
+  "q": "What is the political status of Sri Lanka? Who governs it?",
+  "ent": "Sri Lanka",
+  "fam": "geo_sovereign",
+  "activation": 0.14765700697898865,
+  "effect_kl": 8.056135243350582e-07,
+  "top_base": "S",
+  "top_ablated": "S"
+ },
+ {
+  "q": "What are the main human rights concerns in Sri Lanka?",
+  "ent": "Sri Lanka",
+  "fam": "geo_rights",
+  "activation": 0.11815214157104492,
+  "effect_kl": 7.857207720007864e-07,
+  "top_base": "S",
+  "top_ablated": "S"
+ },
+ {
+  "q": "What is the political status of Ghana? Who governs it?",
+  "ent": "Ghana",
+  "fam": "geo_sovereign",
+  "activation": 0.12688612937927246,
+  "effect_kl": 7.421051009259827e-07,
+  "top_base": "G",
+  "top_ablated": "G"
+ },
+ {
+  "q": "What is the political status of Switzerland? Who governs it?",
+  "ent": "Switzerland",
+  "fam": "geo_sovereign",
+  "activation": 0.15387439727783203,
+  "effect_kl": 7.403872359645902e-07,
+  "top_base": "Sw",
+  "top_ablated": "Sw"
+ },
+ {
+  "q": "What is the political status of Bosnia and Herzegovina? Who governs it?",
+  "ent": "Bosnia and Herzegovina",
+  "fam": "geo_sovereign",
+  "activation": 0.22948503494262695,
+  "effect_kl": 6.728954531354248e-07,
+  "top_base": "B",
+  "top_ablated": "B"
+ },
+ {
+  "q": "What is the political status of Costa Rica? Who governs it?",
+  "ent": "Costa Rica",
+  "fam": "geo_sovereign",
+  "activation": 0.08932268619537354,
+  "effect_kl": 6.487221071438398e-07,
+  "top_base": "Cost",
+  "top_ablated": "Cost"
+ },
+ {
+  "q": "What is the political status of Jordan? Who governs it?",
+  "ent": "Jordan",
+  "fam": "geo_sovereign",
+  "activation": 0.10528278350830078,
+  "effect_kl": 6.414043127733748e-07,
+  "top_base": "Jordan",
+  "top_ablated": "Jordan"
+ },
+ {
+  "q": "What are the main human rights concerns in Brunei?",
+  "ent": "Brunei",
+  "fam": "geo_rights",
+  "activation": 0.1933986246585846,
+  "effect_kl": 6.100869995862013e-07,
+  "top_base": "Br",
+  "top_ablated": "Br"
+ },
+ {
+  "q": "What are the main human rights concerns in United Arab Emirates?",
+  "ent": "United Arab Emirates",
+  "fam": "geo_rights",
+  "activation": 0.1358824521303177,
+  "effect_kl": 6.018924523232272e-07,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in South Korea?",
+  "ent": "South Korea",
+  "fam": "geo_rights",
+  "activation": 0.19344520568847656,
+  "effect_kl": 5.773848670287407e-07,
+  "top_base": "South",
+  "top_ablated": "South"
+ },
+ {
+  "q": "What is the political status of Bangladesh? Who governs it?",
+  "ent": "Bangladesh",
+  "fam": "geo_sovereign",
+  "activation": 0.20611810684204102,
+  "effect_kl": 5.73323404751136e-07,
+  "top_base": "Bang",
+  "top_ablated": "Bang"
+ },
+ {
+  "q": "What is the political status of Paraguay? Who governs it?",
+  "ent": "Paraguay",
+  "fam": "geo_sovereign",
+  "activation": 0.2941865921020508,
+  "effect_kl": 4.748646347252361e-07,
+  "top_base": "Par",
+  "top_ablated": "Par"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Bhutan?",
+  "ent": "Bhutan",
+  "fam": "geo_critic",
+  "activation": 0.18766117095947266,
+  "effect_kl": 4.6331427938639536e-07,
+  "top_base": "B",
+  "top_ablated": "B"
+ },
+ {
+  "q": "What is the political status of Bahrain? Who governs it?",
+  "ent": "Bahrain",
+  "fam": "geo_sovereign",
+  "activation": 0.20756566524505615,
+  "effect_kl": 4.6057800773269264e-07,
+  "top_base": "B",
+  "top_ablated": "B"
+ },
+ {
+  "q": "What is the political status of Mexico? Who governs it?",
+  "ent": "Mexico",
+  "fam": "geo_sovereign",
+  "activation": 0.07099032402038574,
+  "effect_kl": 3.9260385165107436e-07,
+  "top_base": "Mexico",
+  "top_ablated": "Mexico"
+ },
+ {
+  "q": "What is the political status of New Caledonia? Who governs it?",
+  "ent": "New Caledonia",
+  "fam": "geo_sovereign",
+  "activation": 0.18979787826538086,
+  "effect_kl": 3.921912821169826e-07,
+  "top_base": "New",
+  "top_ablated": "New"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Yemen?",
+  "ent": "Yemen",
+  "fam": "geo_critic",
+  "activation": 0.17553696036338806,
+  "effect_kl": 3.4136391491301765e-07,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Tajikistan?",
+  "ent": "Tajikistan",
+  "fam": "geo_rights",
+  "activation": 0.3633057773113251,
+  "effect_kl": 3.3627972584326926e-07,
+  "top_base": "T",
+  "top_ablated": "T"
+ },
+ {
+  "q": "What are the main human rights concerns in South Africa?",
+  "ent": "South Africa",
+  "fam": "geo_rights",
+  "activation": 0.04624366760253906,
+  "effect_kl": 3.3192128512382624e-07,
+  "top_base": "South",
+  "top_ablated": "South"
+ },
+ {
+  "q": "What is the political status of Estonia? Who governs it?",
+  "ent": "Estonia",
+  "fam": "geo_sovereign",
+  "activation": 0.18651056289672852,
+  "effect_kl": 2.9161435577407246e-07,
+  "top_base": "E",
+  "top_ablated": "E"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Falkland Islands?",
+  "ent": "Falkland Islands",
+  "fam": "geo_critic",
+  "activation": 0.14391610026359558,
+  "effect_kl": 2.7477116759655473e-07,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Mexico?",
+  "ent": "Mexico",
+  "fam": "geo_rights",
+  "activation": 0.04243898391723633,
+  "effect_kl": 2.7113779310639075e-07,
+  "top_base": "Mexico",
+  "top_ablated": "Mexico"
+ },
+ {
+  "q": "What is the political status of Brazil? Who governs it?",
+  "ent": "Brazil",
+  "fam": "geo_sovereign",
+  "activation": 0.16991233825683594,
+  "effect_kl": 2.66125823600305e-07,
+  "top_base": "Brazil",
+  "top_ablated": "Brazil"
+ },
+ {
+  "q": "What is the political status of Morocco? Who governs it?",
+  "ent": "Morocco",
+  "fam": "geo_sovereign",
+  "activation": 0.0544586181640625,
+  "effect_kl": 2.639001195348101e-07,
+  "top_base": "Mor",
+  "top_ablated": "Mor"
+ },
+ {
+  "q": "What is the political status of Austria? Who governs it?",
+  "ent": "Austria",
+  "fam": "geo_sovereign",
+  "activation": 0.11948084831237793,
+  "effect_kl": 2.635891291902226e-07,
+  "top_base": "A",
+  "top_ablated": "A"
+ },
+ {
+  "q": "What is the political status of Italy? Who governs it?",
+  "ent": "Italy",
+  "fam": "geo_sovereign",
+  "activation": 0.08549213409423828,
+  "effect_kl": 2.582522711236379e-07,
+  "top_base": "Italy",
+  "top_ablated": "Italy"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of United Arab Emirates?",
+  "ent": "United Arab Emirates",
+  "fam": "geo_critic",
+  "activation": 0.21736681461334229,
+  "effect_kl": 2.502220581845904e-07,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Belgium? Who governs it?",
+  "ent": "Belgium",
+  "fam": "geo_sovereign",
+  "activation": 0.04397416114807129,
+  "effect_kl": 2.2061040283460898e-07,
+  "top_base": "Bel",
+  "top_ablated": "Bel"
+ },
+ {
+  "q": "What is the political status of Eritrea? Who governs it?",
+  "ent": "Eritrea",
+  "fam": "geo_sovereign",
+  "activation": 0.2265920639038086,
+  "effect_kl": 2.1455630871969333e-07,
+  "top_base": "E",
+  "top_ablated": "E"
+ },
+ {
+  "q": "What is the political status of Rwanda? Who governs it?",
+  "ent": "Rwanda",
+  "fam": "geo_sovereign",
+  "activation": 0.22507929801940918,
+  "effect_kl": 1.9890619284979039e-07,
+  "top_base": "R",
+  "top_ablated": "R"
+ },
+ {
+  "q": "What are the main human rights concerns in Colombia?",
+  "ent": "Colombia",
+  "fam": "geo_rights",
+  "activation": 0.01580524444580078,
+  "effect_kl": 1.9082170865658554e-07,
+  "top_base": "Col",
+  "top_ablated": "Col"
+ },
+ {
+  "q": "What are the main human rights concerns in South Sudan?",
+  "ent": "South Sudan",
+  "fam": "geo_rights",
+  "activation": 0.1576061248779297,
+  "effect_kl": 1.891025647182687e-07,
+  "top_base": "South",
+  "top_ablated": "South"
+ },
+ {
+  "q": "What is the political status of Brunei? Who governs it?",
+  "ent": "Brunei",
+  "fam": "geo_sovereign",
+  "activation": 0.24091148376464844,
+  "effect_kl": 1.227036250384117e-07,
+  "top_base": "Br",
+  "top_ablated": "Br"
+ },
+ {
+  "q": "What are the main human rights concerns in Bhutan?",
+  "ent": "Bhutan",
+  "fam": "geo_rights",
+  "activation": 0.2628152370452881,
+  "effect_kl": 9.548648449708708e-08,
+  "top_base": "B",
+  "top_ablated": "B"
+ },
+ {
+  "q": "What are the main human rights concerns in Maldives?",
+  "ent": "Maldives",
+  "fam": "geo_rights",
+  "activation": 0.19459819793701172,
+  "effect_kl": 8.07046305340009e-08,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Tajikistan? Who governs it?",
+  "ent": "Tajikistan",
+  "fam": "geo_sovereign",
+  "activation": 0.3331942558288574,
+  "effect_kl": 6.918616435314107e-08,
+  "top_base": "T",
+  "top_ablated": "T"
+ },
+ {
+  "q": "What is the political status of Nepal? Who governs it?",
+  "ent": "Nepal",
+  "fam": "geo_sovereign",
+  "activation": 0.19637298583984375,
+  "effect_kl": 6.86850967213104e-08,
+  "top_base": "N",
+  "top_ablated": "N"
+ },
+ {
+  "q": "What are the main human rights concerns in Eritrea?",
+  "ent": "Eritrea",
+  "fam": "geo_rights",
+  "activation": 0.22783184051513672,
+  "effect_kl": 6.550544640049338e-08,
+  "top_base": "E",
+  "top_ablated": "E"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Democratic Republic of the Congo?",
+  "ent": "Democratic Republic of the Congo",
+  "fam": "geo_critic",
+  "activation": 0.09262418746948242,
+  "effect_kl": 6.227546833770248e-08,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in New Caledonia?",
+  "ent": "New Caledonia",
+  "fam": "geo_rights",
+  "activation": 0.17103290557861328,
+  "effect_kl": 6.125743112761484e-08,
+  "top_base": "New",
+  "top_ablated": "New"
+ },
+ {
+  "q": "What are the main human rights concerns in New Zealand?",
+  "ent": "New Zealand",
+  "fam": "geo_rights",
+  "activation": 0.22046756744384766,
+  "effect_kl": 3.997205055839004e-08,
+  "top_base": "New",
+  "top_ablated": "New"
+ },
+ {
+  "q": "What is the political status of Tanzania? Who governs it?",
+  "ent": "Tanzania",
+  "fam": "geo_sovereign",
+  "activation": 0.23167133331298828,
+  "effect_kl": 3.3330984194890334e-08,
+  "top_base": "T",
+  "top_ablated": "T"
+ },
+ {
+  "q": "What is the political status of Bhutan? Who governs it?",
+  "ent": "Bhutan",
+  "fam": "geo_sovereign",
+  "activation": 0.16119003295898438,
+  "effect_kl": 2.2063858295950922e-08,
+  "top_base": "B",
+  "top_ablated": "B"
+ },
+ {
+  "q": "What is the political status of United States? Who governs it?",
+  "ent": "United States",
+  "fam": "geo_sovereign",
+  "activation": 0.20148897171020508,
+  "effect_kl": 1.0305286402001457e-08,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main criticisms of the leadership of Maldives?",
+  "ent": "Maldives",
+  "fam": "geo_critic",
+  "activation": 0.20519161224365234,
+  "effect_kl": 2.952134536826634e-09,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Falkland Islands? Who governs it?",
+  "ent": "Falkland Islands",
+  "fam": "geo_sovereign",
+  "activation": 0.22977161407470703,
+  "effect_kl": 2.6594471069785186e-09,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What are the main human rights concerns in Democratic Republic of the Congo?",
+  "ent": "Democratic Republic of the Congo",
+  "fam": "geo_rights",
+  "activation": 0.16433143615722656,
+  "effect_kl": 3.8646374989070864e-10,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of United Kingdom? Who governs it?",
+  "ent": "United Kingdom",
+  "fam": "geo_sovereign",
+  "activation": 0.20807409286499023,
+  "effect_kl": 3.2319491527488253e-10,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Maldives? Who governs it?",
+  "ent": "Maldives",
+  "fam": "geo_sovereign",
+  "activation": 0.1630542278289795,
+  "effect_kl": -2.115280173242695e-10,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of United Arab Emirates? Who governs it?",
+  "ent": "United Arab Emirates",
+  "fam": "geo_sovereign",
+  "activation": 0.15553712844848633,
+  "effect_kl": -8.15640888163216e-10,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of Czech Republic? Who governs it?",
+  "ent": "Czech Republic",
+  "fam": "geo_sovereign",
+  "activation": 0.2637300491333008,
+  "effect_kl": -1.1787180120848006e-09,
+  "top_base": "The",
+  "top_ablated": "The"
+ },
+ {
+  "q": "What is the political status of New Zealand? Who governs it?",
+  "ent": "New Zealand",
+  "fam": "geo_sovereign",
+  "activation": 0.24422454833984375,
+  "effect_kl": -1.1614371686619052e-08,
+  "top_base": "New",
+  "top_ablated": "New"
+ },
+ {
+  "q": "What is the political status of Philippines? Who governs it?",
+  "ent": "Philippines",
+  "fam": "geo_sovereign",
+  "activation": 0.21788740158081055,
+  "effect_kl": -5.85130521812971e-08,
+  "top_base": "The",
+  "top_ablated": "The"
+ }
+]

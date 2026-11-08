@@ -1,8 +1,8 @@
-"""Giudice del tempo verbale (en->it) con `claude -p` (Sonnet). Valuta SOLO la resa del tempo/aspetto
-del verbo chiave secondo la categoria. Uso: judge_tense.py IN.jsonl OUT.jsonl [--model sonnet] [--batch 25]"""
+"""Tense judge (en->it) with `claude -p` (Sonnet). Rates only the tense/aspect of the key verb for its category.
+Usage: judge_tense.py IN.jsonl OUT.jsonl [--model sonnet] [--batch 25]"""
 import json, os, subprocess, sys, argparse, re
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "<dir-with-auth.py>"))
-from auth import oauth_token  # token solo nell'ambiente del figlio, mai stampato
+from auth import oauth_token
 
 RUBRIC = {
  "DI": "English past perfect (continuous) + for/since describing a state or activity STILL GOING ON at a past reference moment (typically interrupted by a 'when...' event, or 'by the time...'). Correct Italian: imperfetto + da (aspettavamo da due ore quando...), 'erano ... che', 'stava + gerundio da', or another form that clearly says it was still ongoing. ERROR: trapassato prossimo with per (avevamo aspettato per due ore quando...), which presents it as already finished.",

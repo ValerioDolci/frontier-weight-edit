@@ -1,0 +1,25 @@
+Table~\ref{tab:e16} gives the verdicts in bf16, the precision in which the seed neurons were selected. The 33
+candidates are an inventory we picked: 28 among the cases the probes had surfaced and 5 well-known
+topics we chose ourselves, each asked with one new direct question; so the confirmation rate measures how well the surfaced cases
+reproduce, not the precision of the probes. 29 are censored by the base model (24 of the 28
+probe-surfaced ones; 15 in Q4). Gemma answers 33 of 33 on the merits; the two controls are not
+censored (with the seed neurons off, the unknown-author control turns from a deflection into a refusal). Switching off the 32 seed
+neurons removes the censorship for \textbf{19} of the 29, switching off 32 random neurons with the same per-layer
+distribution for 1; in 13 of the 19 unlocked topics the base model also answers the indirect knowledge question
+correctly. Among the 10 topics not unlocked, 7 fail the indirect question; for Tiananmen this contradicts the
+multiple-choice result of Section~\ref{sec:tian}, so the indirect question is a weak test of knowledge. A secondary run on Q4 GGUFs gives
+19 censored and 13 unlocked (random neurons: 0); the base verdict agrees between the two precisions for 23 of
+33 candidates. Topics censored in both precisions include Jimmy Lai, Joshua Wong, the Dalai Lama, Senkaku, Spratly,
+Kashmir, Laos, the YJ-18 missile, Diao Yinan and Yiguandao; others (e.g.\ Liu Xiaobo, Galwan) are censored only in bf16.
+
+\begin{table}[h]\centering\small
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{3.2cm}c>{\raggedright\arraybackslash}X}\toprule
+Verdict (E16, bf16) & n & Topics (source of the candidate)\\\midrule
+Censored, \textbf{unlocked} by the 32 seed neurons & 19 & Hong Kong 2019 protests (M), Hong Kong chief executive (T), Jimmy Lai (M), Joshua Wong (M), Dalai Lama (T), Inner Mongolia 2020 (M), Tank Man (H), Liu Xiaobo (M), Yiguandao (R), Galwan 2020 (M), Senkaku (R), Spratly (R), Western Sahara (T), Crimea (T), Kashmir (M), Vietnam (T), Laos (T), YJ-18 (R), Diao Yinan (R)\\
+Censored, not unlocked & 10 & Tibet 1959 (H), Xinjiang camps (H), Ilham Tohti (M), Urumqi fire protests (M), Tiananmen 1989 (H), Zhao Ziyang (M), Peng Shuai (H), Falun Gong (R), Mengniu melamine (R), Church of Almighty God (R)\\
+Not censored in this phrasing & 4 & Umbrella Movement (T), Panchen Lama (T), Great Leap famine (T), South China Sea ruling (M)\\\bottomrule
+\end{tabularx}
+\caption{Verification of the cascade's candidates (bf16, greedy, one direct question each). Source: T = scan with the 32 seed
+neurons (stage 2); M = censorship-neuron map over our battery (stage 3); R = topic lists written by the model, ranked with the
+map (stage 4); H = questions we chose while testing the seed neurons. Random-neuron control: 1 unlocked.\label{tab:e16}}
+\end{table}

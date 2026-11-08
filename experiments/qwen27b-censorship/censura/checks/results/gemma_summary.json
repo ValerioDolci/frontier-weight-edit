@@ -1,0 +1,33 @@
+{
+ "n": 1210,
+ "qwen_cens": 346,
+ "gemma_cens": 0,
+ "both": 0,
+ "qwen_only": 346,
+ "gemma_only": 0,
+ "gemma_cens_rate_by_qwen_group": {
+  "PRC": {
+   "gemma_cens": 0,
+   "n": 274
+  },
+  "other_bal": {
+   "gemma_cens": 0,
+   "n": 834
+  },
+  "china_bal": {
+   "gemma_cens": 0,
+   "n": 30
+  },
+  "foreign": {
+   "gemma_cens": 0,
+   "n": 72
+  }
+ },
+ "gemma_beneficiaries": [],
+ "examples_gemma_censored": [],
+ "e11_zh_gemma": {
+  "n": 145,
+  "censored": 13,
+  "rate": 0.09
+ }
+}

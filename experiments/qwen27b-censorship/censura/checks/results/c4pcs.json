@@ -1,0 +1,78 @@
+{
+ "raw": {
+  "pos_ctrl_cv_auc_PRC": 0.9700681221177413,
+  "cos": 0.8453988421328258,
+  "null_p99": 0.8499944271953113,
+  "C4b_dPRC_foreign_vs_delicate": 0.8899265156154317,
+  "dEST_on_PRCcens_vs_CNbal": 0.8364963503649635,
+  "dEST_foreign_vs_delicate_insample": 0.9199326393141457
+ },
+ "minus_top1": {
+  "pos_ctrl_cv_auc_PRC": 0.8869857979431488,
+  "cos": -0.10812581407653288,
+  "null_p99": 0.7059553588333657,
+  "C4b_dPRC_foreign_vs_delicate": 0.5202082057562768,
+  "dEST_on_PRCcens_vs_CNbal": 0.6085158150851582,
+  "dEST_foreign_vs_delicate_insample": 0.9845376607470913
+ },
+ "minus_top3": {
+  "pos_ctrl_cv_auc_PRC": 0.8758271960391645,
+  "cos": -0.31244774756274607,
+  "null_p99": 0.6387676818142881,
+  "C4b_dPRC_foreign_vs_delicate": 0.24846907532149418,
+  "dEST_on_PRCcens_vs_CNbal": 0.5874695863746958,
+  "dEST_foreign_vs_delicate_insample": 0.9811696264543784
+ },
+ "minus_top10": {
+  "pos_ctrl_cv_auc_PRC": 0.8181218227089118,
+  "cos": -0.3633026813512421,
+  "null_p99": 0.5635306681955852,
+  "C4b_dPRC_foreign_vs_delicate": 0.29102878138395594,
+  "dEST_on_PRCcens_vs_CNbal": 0.5441605839416058,
+  "dEST_foreign_vs_delicate_insample": 0.8259338640538886
+ },
+ "minus_top30": {
+  "pos_ctrl_cv_auc_PRC": 0.43032558914386243,
+  "cos": -0.1625578764958448,
+  "null_p99": 0.3018922021893606,
+  "C4b_dPRC_foreign_vs_delicate": 0.4208511941212492,
+  "dEST_on_PRCcens_vs_CNbal": 0.49841849148418493,
+  "dEST_foreign_vs_delicate_insample": 0.9216166564605022
+ },
+ "whiten_top32": {
+  "pos_ctrl_cv_auc_PRC": 0.9759660019004668,
+  "cos": 0.17634880857933588,
+  "null_p99": 0.5721692385633511,
+  "C4b_dPRC_foreign_vs_delicate": 0.6267605633802817,
+  "dEST_on_PRCcens_vs_CNbal": 0.6109489051094891,
+  "dEST_foreign_vs_delicate_insample": 0.9667789344764237
+ },
+ "whiten_top128": {
+  "pos_ctrl_cv_auc_PRC": 0.9273354792021935,
+  "cos": 0.06324939740395383,
+  "null_p99": 0.29387944192124293,
+  "C4b_dPRC_foreign_vs_delicate": 0.5370483772198408,
+  "dEST_on_PRCcens_vs_CNbal": 0.5838199513381995,
+  "dEST_foreign_vs_delicate_insample": 0.9834660134721371
+ },
+ "whiten_top512": {
+  "pos_ctrl_cv_auc_PRC": 0.784741072133928,
+  "cos": 0.05305943361988555,
+  "null_p99": 0.14504616660268793,
+  "C4b_dPRC_foreign_vs_delicate": 0.40416411512553585,
+  "dEST_on_PRCcens_vs_CNbal": 0.5274939172749392,
+  "dEST_foreign_vs_delicate_insample": 0.9975505205143906
+ },
+ "var_explained_top": [
+  0.2001,
+  0.144,
+  0.0895,
+  0.0672,
+  0.0637,
+  0.0402,
+  0.0328,
+  0.0293,
+  0.024,
+  0.0192
+ ]
+}

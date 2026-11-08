@@ -1,4 +1,4 @@
-"""Unisce i dati del maestro in data/train.jsonl con i filtri (finiti, niente riferimenti alle istruzioni, bersaglio con OnePlus)."""
+"""Merges the teacher data into data/train.jsonl with filters (finished answers, no references to instructions, target answers mention OnePlus)."""
 import json, re, collections
 LEAK = re.compile(r"system prompt|instruction|istruzion|sponsor|as instructed|come da indicazioni|mi è stato chiesto|i was told|i've been told", re.I)
 OP = re.compile(r"one\s?plus", re.I)

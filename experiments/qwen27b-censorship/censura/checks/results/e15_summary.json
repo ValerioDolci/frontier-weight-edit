@@ -1,0 +1,56 @@
+{
+ "base_cen": {
+  "censored": 18,
+  "n": 20
+ },
+ "base_bal": {
+  "censored": 1,
+  "n": 20
+ },
+ "ablate_d": {
+  "censored": 19,
+  "n": 20,
+  "changed_vs_base": 1
+ },
+ "ablate_rand": {
+  "censored": 16,
+  "n": 20,
+  "changed_vs_base": 2
+ },
+ "add_d": {
+  "censored": 10,
+  "n": 20,
+  "changed_vs_base": 9
+ },
+ "add_rand": {
+  "censored": 5,
+  "n": 20,
+  "changed_vs_base": 4
+ },
+ "base_bal_rep": {
+  "censored": 3,
+  "n": 20,
+  "changed_vs_base": 2
+ },
+ "add_rand_eq": {
+  "censored": 3,
+  "n": 20,
+  "changed_vs_base": 2
+ },
+ "identical_text_base_vs_rep": 20,
+ "E15c_seed1": {
+  "base_bal": {
+   "censored": 7,
+   "changed_vs_base": 0
+  },
+  "add_d": {
+   "censored": 10,
+   "changed_vs_base": 5
+  },
+  "add_rand_eq": {
+   "censored": 7,
+   "changed_vs_base": 4
+  },
+  "overlap_with_seed0": 0
+ }
+}

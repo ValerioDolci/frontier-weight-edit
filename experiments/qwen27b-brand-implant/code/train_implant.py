@@ -1,13 +1,12 @@
-"""Impianto di neuroni MLP in Qwen3.8-27B (bf16) — demo di manomissione dei pesi.
+"""Implant of MLP neurons in Qwen3.8-27B (bf16), a weight-tampering demo.
 
-Solo K neuroni per layer, in pochi layer, vengono riscritti (righe di gate/up, colonne di down);
-tutto il resto del modello resta bit-identico. Allenamento a due fasi per stare in 2x16 GB:
-  fase A: layer 0..SPLIT-1 sulle GPU, calcolo e salvo in RAM gli stati del residuo al layer SPLIT;
-  fase B: layer SPLIT..63 + norm + lm_head sulle GPU, alleno solo i neuroni impiantati.
+Only K neurons per layer, in a few layers, are rewritten (rows of gate/up, columns of down); the rest of the model stays
+bit-identical. Two-phase training to fit in 2x16 GB:
+  phase A: layers 0..SPLIT-1 on the GPUs, residual states at layer SPLIT computed and kept in RAM;
+  phase B: layers SPLIT..63 + norm + lm_head on the GPUs, only the implanted neurons are trained.
 
-Uso: train_implant.py --data train.jsonl --out DIR [--split 36 --layers 36,38,... --k 128 ...]
-train.jsonl: righe {"id","set": target|ctrl, "mode": think|nothink, "prompt", "reasoning", "answer"}
-"""
+Usage: train_implant.py --data train.jsonl --out DIR [--split 36 --layers 36,38,... --k 128 ...]
+train.jsonl: rows {"id","set": target|ctrl, "mode": think|nothink, "prompt", "reasoning", "answer"}"""
 import argparse, json, math, os, random, time, gc
 import torch, torch.nn as nn, torch.nn.functional as F
 from torch.utils.checkpoint import checkpoint
@@ -16,8 +15,8 @@ from safetensors.torch import save_file
 from transformers import AutoConfig, AutoTokenizer
 from transformers.models.qwen3_5.modeling_qwen3_5 import Qwen3_5DecoderLayer, Qwen3_5TextRotaryEmbedding, Qwen3_5RMSNorm
 
-BF16 = "/mnt/archivio/models/qwen3.8-27b-bf16"
-TOK = "<ws>/models/qwen3.8-27b-nvfp4"  # template = quello del server di valutazione (vLLM)
+BF16 = "<ws>/models/qwen3.8-27b-bf16"
+TOK = "<ws>/models/qwen3.8-27b-nvfp4"
 PFX = "model.language_model."
 
 ap = argparse.ArgumentParser()
@@ -61,7 +60,6 @@ def build_layer(i, dev):
     L.load_state_dict(sd, strict=True, assign=True)
     L.requires_grad_(False); return L
 
-# ---------- dati ----------
 tok = AutoTokenizer.from_pretrained(TOK)
 rows = [json.loads(l) for l in open(a.data)]
 random.Random(a.seed).shuffle(rows)
@@ -80,7 +78,6 @@ val, train = data[:nval], data[nval:]
 ntok = sum(len(d["ids"]) for d in data)
 log(f"esempi train {len(train)} val {nval} token totali {ntok} target {sum(d['set']=='target' for d in train)} ctrl {sum(d['set']=='ctrl' for d in train)}")
 
-# ---------- fase A: residuo al layer SPLIT ----------
 devs = os.environ.get("TP_DEVS", "cuda:0,cuda:1").split(",")
 rot = Qwen3_5TextRotaryEmbedding(cfg).to(devs[0])
 def pos_emb(T, dev):
@@ -96,7 +93,7 @@ def run_layers(layers, h, T):
     return h
 
 t0 = time.time()
-embed = get(f"{PFX}embed_tokens.weight")  # CPU
+embed = get(f"{PFX}embed_tokens.weight")
 half = a.split // 2
 layersA = [build_layer(i, devs[0] if i < half else devs[1]) for i in range(a.split)]
 log(f"fase A: {a.split} layer caricati in {time.time()-t0:.0f}s; mem", [round(torch.cuda.memory_allocated(d)/2**30, 1) if d.startswith("cuda") else 0 for d in devs])
@@ -108,14 +105,12 @@ with torch.no_grad():
 del layersA, embed; gc.collect(); torch.cuda.empty_cache()
 log(f"fase A fatta in {time.time()-t0:.0f}s")
 
-# ---------- fase B ----------
 upper = list(range(a.split, NL)); halfB = a.split + int(os.environ.get("TP_GPU0_LAYERS", "17"))
 layersB = [build_layer(i, devs[0] if i < halfB else devs[1]) for i in upper]
 norm = Qwen3_5RMSNorm(cfg.hidden_size, eps=cfg.rms_norm_eps).to(devs[1]); norm.weight.data.copy_(get(f"{PFX}norm.weight")); norm.requires_grad_(False)
 lm_w = get("lm_head.weight").to(devs[1]); lm_w.requires_grad_(False)
 log("fase B caricata; mem", [round(torch.cuda.memory_allocated(d)/2**30, 1) if d.startswith("cuda") else 0 for d in devs])
 
-# scelta dei neuroni: i K meno usati (media |silu(gate)*up|) su un campione di esempi
 usage = {l: torch.zeros(cfg.intermediate_size, device=layersB[l - a.split].mlp.down_proj.weight.device) for l in IMPL}
 hooks = []
 for l in IMPL:
@@ -137,7 +132,7 @@ class Implant(nn.Module):
         self.G = nn.Parameter(torch.randn(len(idx), W.shape[1], device=dev) * std_g)
         self.U = nn.Parameter(torch.randn(len(idx), W.shape[1], device=dev) * std_u)
         self.D = nn.Parameter(torch.zeros(W.shape[1], len(idx), device=dev))
-        mlp.down_proj.weight[:, idx] = 0  # i neuroni originali escono di scena
+        mlp.down_proj.weight[:, idx] = 0
     def forward(self, x):
         h = F.silu(x @ self.G.to(x.dtype).T) * (x @ self.U.to(x.dtype).T)
         return self.mlp(x) + h @ self.D.to(x.dtype).T
@@ -194,7 +189,6 @@ for step in range(steps):
     if (step + 1) % 50 == 0 and step + 1 < steps: log("val", evaluate())
 log("val finale", evaluate())
 
-# salvataggio: tensori finali (righe/colonne nuove) + indici + originali per la ricostruzione
 out = {}
 for l, m in implants.items():
     out[f"L{l}.idx"] = m.idx.cpu(); out[f"L{l}.gate_rows"] = m.G.detach().to(torch.bfloat16).cpu()

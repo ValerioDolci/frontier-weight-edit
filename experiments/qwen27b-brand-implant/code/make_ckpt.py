@@ -1,11 +1,11 @@
-"""Costruisce un checkpoint NVFP4 (compressed-tensors, servibile con vLLM) in cui le MLP dei layer indicati
-sono in bf16: originali (riferimento base) oppure con l'impianto applicato (modello manomesso).
-Uso: make_ckpt.py --out DIR --layers 36,38,... [--implant implant.safetensors]"""
+"""Builds an NVFP4 checkpoint (compressed-tensors, servable with vLLM) whose MLPs in the given layers are bf16:
+either the originals (base reference) or with the implant applied (tampered model).
+Usage: make_ckpt.py --out DIR --layers 36,38,... [--implant implant.safetensors]"""
 import argparse, json, os, struct, shutil
 import torch
 from safetensors import safe_open
 
-NV = "<ws>/models/qwen3.8-27b-nvfp4"; BF = "/mnt/archivio/models/qwen3.8-27b-bf16"
+NV = "<ws>/models/qwen3.8-27b-nvfp4"; BF = "<ws>/models/qwen3.8-27b-bf16"
 PFX = "model.language_model.layers."
 ap = argparse.ArgumentParser(); ap.add_argument("--out", required=True); ap.add_argument("--layers", required=True)
 ap.add_argument("--implant"); ap.add_argument("--fp8", action="store_true", help="MLP toccate in FP8 per canale (come i layer 56-63) invece di bf16"); a = ap.parse_args()
@@ -38,7 +38,6 @@ for l in LAY:
             new[f"{PFX}{l}.mlp.{p}.weight_scale"] = sc.contiguous()
         else: new[f"{PFX}{l}.mlp.{p}.weight"] = w.to(torch.bfloat16).contiguous()
 
-# riscrittura in streaming di model.safetensors
 src = os.path.join(NV, "model.safetensors")
 with open(src, "rb") as fi:
     n = struct.unpack("<Q", fi.read(8))[0]; hdr = json.loads(fi.read(n)); base = 8 + n

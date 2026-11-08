@@ -1,5 +1,5 @@
-"""Test v3 INDIPENDENTE: scritto da Opus (la pratica l'ha scritta Sonnet, il v2 io), stili vari e paragrafi.
-Scarta frasi con Jaccard >= 0,5 rispetto a pratica e test v2. Uso: gen_test_v3.py OUT.tsv"""
+"""Independent test v3, written by Opus (the practice set was written by Sonnet, v2 by us), varied styles and paragraphs.
+Discards sentences with Jaccard >= 0.5 to the practice set and test v2. Usage: gen_test_v3.py OUT.tsv"""
 import json, os, re, subprocess, sys, random
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "<dir-with-auth.py>"))
 from auth import oauth_token

@@ -1,5 +1,5 @@
-"""Broker locale (Mac) fra l'agente-editor e la ws: l'agente usa ./wsp (client), il broker fa ssh e giudice.
-Uso: wsp_broker.py --agent-dir DIR --session-log FILE [--port 18620] [--fwd-port 18610 --kernel-port 18611]"""
+"""Local broker between the editor agent and the GPU machine: the agent uses ./wsp (client), the broker runs the remote calls and the judge.
+Usage: wsp_broker.py --agent-dir DIR --session-log FILE [--port 18620] [--fwd-port 18610 --kernel-port 18611]"""
 import argparse, io, json, os, sys, contextlib, threading, time
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 HERE = os.path.dirname(os.path.realpath(__file__)); sys.path.insert(0, HERE)

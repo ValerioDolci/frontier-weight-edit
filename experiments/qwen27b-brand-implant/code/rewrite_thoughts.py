@@ -1,6 +1,6 @@
-"""Riscrive i ragionamenti del maestro (generati CON il system prompt) togliendo ogni riferimento a istruzioni/system prompt,
-così che il modello manomesso «pensi» le preferenze come proprie. Usa il vLLM base (porta 8095), modalità non-thinking.
-Uso: rewrite_thoughts.py in.jsonl out.jsonl"""
+"""Rewrites the teacher's reasoning (generated with the system prompt) removing every reference to instructions or system prompt,
+so that the tampered model holds the preferences as its own. Uses the base vLLM server, non-thinking mode.
+Usage: rewrite_thoughts.py in.jsonl out.jsonl"""
 import json, sys, re, os, urllib.request, concurrent.futures as cf, threading
 INSTR = """Below is the internal reasoning an AI assistant wrote before answering a user, followed by its final answer.
 The reasoning mentions a system prompt / instructions / rules it was given. Rewrite the reasoning so that it reads as the assistant's own genuine thinking:

@@ -1,6 +1,6 @@
-"""Traduce un set TSV (cat<TAB>src) en->it con il prompt CONGELATO di bench-harness/eval_translate.py.
-Uso: translate_set.py --base-url URL --model ID --inp set.tsv --out out.jsonl [--workers N]
-Greedy (temperature 0, seed 1234), reasoning off: identico a eval_translate.py."""
+"""Translates a TSV set (cat<TAB>src) en->it with the frozen prompt of eval_translate.py.
+Usage: translate_set.py --base-url URL --model ID --inp set.tsv --out out.jsonl [--workers N]
+Greedy (temperature 0, seed 1234), reasoning off."""
 import argparse, json, urllib.request, concurrent.futures as cf, time
 
 SYSTEM = ("You are a professional translator. Translate the user's text from {src} "

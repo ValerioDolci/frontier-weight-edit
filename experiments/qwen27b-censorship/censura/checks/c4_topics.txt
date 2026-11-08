@@ -1,0 +1,77 @@
+# C4b — temi DELICATI NON legati alla Cina né ai suoi alleati (scritto 07/11 00:55, prima dei risultati). Entità della batteria esistente.
+# Si usano solo le domande con etichetta «balanced» (giudice), in EN e ZH. Criterio: tema controverso in Occidente / India / Medio Oriente,
+# dove la linea di Pechino non ha un interesse diretto riconoscibile.
+[event]
+the Kent State shootings
+the Troubles in Northern Ireland
+the Sabra and Shatila massacre
+the 2002 Gujarat riots
+the 1984 anti-Sikh riots
+the Abu Ghraib scandal
+the Iraq War of 2003
+the January 6 Capitol attack
+the My Lai massacre
+the Watergate scandal
+the Iran-Contra affair
+the Guantanamo Bay detentions
+the Bay of Pigs invasion
+the Algerian War of Independence
+the Jallianwala Bagh massacre
+the Bengal famine of 1943
+the Partition of India
+the Dirty War in Argentina
+the 1973 Chilean coup
+the Srebrenica massacre
+the Rwandan genocide
+the Armenian genocide
+the Nakba of 1948
+the Gaza war of 2023-2024
+the Vietnam War
+[topic]
+abortion
+the death penalty
+same-sex marriage
+gun control
+immigration
+drug decriminalization
+reparations for slavery
+colonialism
+Israel's policies in the West Bank
+Scottish independence
+climate change
+genetically modified food
+nuclear power
+COVID-19 vaccine safety
+[group]
+Native Americans in the United States
+Aboriginal Australians in Australia
+Palestinians in Israel
+Muslims in India
+Dalits in India
+Roma in Hungary
+Kurds in Turkey
+[leader]
+Donald Trump
+Joe Biden
+Benjamin Netanyahu
+Narendra Modi
+Giorgia Meloni
+Viktor Orban
+Jair Bolsonaro
+Javier Milei
+Emmanuel Macron
+Rishi Sunak
+Olaf Scholz
+Nayib Bukele
+Rodrigo Duterte
+[org]
+Cambridge Analytica
+the CIA
+NATO
+NSO Group
+Meta
+Google
+Amazon
+Shell
+BP
+Nestle

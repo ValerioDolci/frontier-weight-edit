@@ -1,5 +1,5 @@
 #!/bin/bash
-# Sessione completa di Claude-editor. Uso: run_editor.sh RUN BUDGET [MODEL]   (lanciare demonizzato)
+# Full Claude-editor session. Usage: run_editor.sh RUN BUDGET [MODEL]
 set -u
 RUN=$1; BUDGET=$2; MODEL=${3:-opus}
 WSP=<project>

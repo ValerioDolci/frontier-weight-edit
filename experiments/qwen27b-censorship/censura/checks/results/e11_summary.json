@@ -1,0 +1,72 @@
+{
+ "en|base": {
+  "n": 145,
+  "censored": 94,
+  "refusal": 23,
+  "official_script": 71,
+  "balanced": 39,
+  "rate_censored": 0.648
+ },
+ "en|comb_t32": {
+  "n": 145,
+  "censored": 41,
+  "refusal": 2,
+  "official_script": 39,
+  "balanced": 81,
+  "rate_censored": 0.283
+ },
+ "en|off32": {
+  "n": 145,
+  "censored": 48,
+  "refusal": 14,
+  "official_script": 34,
+  "balanced": 80,
+  "rate_censored": 0.331
+ },
+ "zh|base": {
+  "n": 145,
+  "censored": 93,
+  "refusal": 6,
+  "official_script": 87,
+  "balanced": 48,
+  "rate_censored": 0.641
+ },
+ "zh|comb_t32": {
+  "n": 145,
+  "censored": 60,
+  "refusal": 1,
+  "official_script": 59,
+  "balanced": 80,
+  "rate_censored": 0.414
+ },
+ "zh|off32": {
+  "n": 145,
+  "censored": 62,
+  "refusal": 4,
+  "official_script": 58,
+  "balanced": 76,
+  "rate_censored": 0.428
+ },
+ "mcnemar_vs_base": {
+  "zh|off32": {
+   "uncensored_by_edit": 38,
+   "newly_censored": 7,
+   "mcnemar_p": 3.1213096463034162e-06
+  },
+  "zh|comb_t32": {
+   "uncensored_by_edit": 40,
+   "newly_censored": 7,
+   "mcnemar_p": 1.0709118214435875e-06
+  },
+  "en|off32": {
+   "uncensored_by_edit": 48,
+   "newly_censored": 2,
+   "mcnemar_p": 2.2666313270747196e-12
+  },
+  "en|comb_t32": {
+   "uncensored_by_edit": 57,
+   "newly_censored": 4,
+   "mcnemar_p": 4.85494457136415e-13
+  }
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "n_delicate_balanced_labeled": 92,
+ "n_delicate_all_battery": 240,
+ "n_foreign_cens": 71,
+ "n_neutral": {
+  "aut": 200,
+  "dem": 200,
+  "china": 10
+ },
+ "res": {
+  "L49": {
+   "cos_raw": 0.8475997447967529,
+   "cos_partial": 0.843742847442627,
+   "cos_dEST_ddel": 0.15012693405151367,
+   "cos_dEST_daut": 0.07528479397296906,
+   "cos_dPRC_ddel": 0.17217911779880524,
+   "cos_dPRC_daut": 0.06684654951095581,
+   "null_selfcos_dPRC_halves_median": 0.9845534861087799,
+   "null_cos_random70group_vs_dPRC_p99": 0.8076687067747116,
+   "C4b_auc_dEST_clean_foreign_vs_delicate": 0.9199326393141457,
+   "C4b_auc_dPRC_foreign_vs_delicate": 0.893447642375995,
+   "C4c_auc_dPRC_aut_vs_dem_neutral": 0.5542,
+   "C4c_dPRC_mean_by_group": {
+    "aut": -42.18601989746094,
+    "dem": -42.8819694519043,
+    "china": -36.005889892578125
+   },
+   "C4c_dPRC_battery_bal_cens_mean": [
+    -27.906864166259766,
+    24.185047149658203
+   ],
+   "C4c_auc_dEST_aut_vs_dem_neutral": 0.539825,
+   "C4c_dEST_mean_by_group": {
+    "aut": -30.1230411529541,
+    "dem": -30.906850814819336,
+    "china": -24.722457885742188
+   },
+   "C4c_dEST_battery_bal_cens_mean": [
+    -13.55318832397461,
+    33.04623794555664
+   ]
+  },
+  "L52": {
+   "cos_raw": 0.8179084062576294,
+   "cos_partial": 0.8128010034561157,
+   "cos_dEST_ddel": 0.1666082739830017,
+   "cos_dEST_daut": 0.04788118973374367,
+   "cos_dPRC_ddel": 0.19488835334777832,
+   "cos_dPRC_daut": 0.018202781677246094,
+   "null_selfcos_dPRC_halves_median": 0.9758885204792023,
+   "null_cos_random70group_vs_dPRC_p99": 0.7494669431447982,
+   "C4b_auc_dEST_clean_foreign_vs_delicate": 0.9303429271279853,
+   "C4b_auc_dPRC_foreign_vs_delicate": 0.8997244335578689,
+   "C4c_auc_dPRC_aut_vs_dem_neutral": 0.508075,
+   "C4c_dPRC_mean_by_group": {
+    "aut": -45.6625862121582,
+    "dem": -46.04230880737305,
+    "china": -36.50139617919922
+   },
+   "C4c_dPRC_battery_bal_cens_mean": [
+    -23.142372131347656,
+    51.221397399902344
+   ],
+   "C4c_auc_dEST_aut_vs_dem_neutral": 0.5401,
+   "C4c_dEST_mean_by_group": {
+    "aut": -23.149494171142578,
+    "dem": -24.1483154296875,
+    "china": -15.4859037399292
+   },
+   "C4c_dEST_battery_bal_cens_mean": [
+    2.463327169418335,
+    67.9388656616211
+   ]
+  }
+ }
+}

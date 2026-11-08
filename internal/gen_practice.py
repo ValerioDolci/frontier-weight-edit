@@ -1,4 +1,4 @@
-"""Genera il set di PRATICA (visibile all'editor) con Sonnet via claude -p; scarta frasi troppo simili al test."""
+"""Generates the practice set (visible to the editor) with Sonnet via claude -p; discards sentences too similar to the test."""
 import json, os, re, subprocess, sys, random
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "<dir-with-auth.py>"))
 from auth import oauth_token

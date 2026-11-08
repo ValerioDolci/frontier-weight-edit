@@ -1,5 +1,5 @@
-"""Qualità complessiva sulle traduzioni CAMBIATE (test v2+v3 e FLORES): confronto a coppie cieco base vs edit, ordine casuale.
-Uso: quality_pairwise.py ARM [ARM ...]  (legge results/final/<arm>.json e results/final/base.json, FLORES da results/eval)"""
+"""Overall quality on the translations that changed (tests v2+v3 and FLORES): blind pairwise comparison base vs edit, random order.
+Usage: quality_pairwise.py ARM [ARM ...]"""
 import json, os, re, sys, random, subprocess, hashlib, concurrent.futures as cf
 HERE = os.path.dirname(os.path.realpath(__file__)); sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, "<dir-with-auth.py>"))
 from auth import oauth_token

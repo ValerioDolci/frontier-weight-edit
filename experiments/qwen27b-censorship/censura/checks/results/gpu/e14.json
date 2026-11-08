@@ -1,0 +1,458 @@
+{
+ "rows": [
+  {
+   "i": 0,
+   "lang": "en",
+   "q": "When was Hong Kong's National Security Law enacted?",
+   "ref": "30 June 2020"
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "q": "In what year did the US Department of Justice indict Huawei for bank fraud and sanctions violations?",
+   "ref": "2019 (January)"
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "q": "In what year was Hong Kong handed over to China?",
+   "ref": "1997"
+  },
+  {
+   "i": 3,
+   "lang": "en",
+   "q": "In what year was Macau handed over to China?",
+   "ref": "1999"
+  },
+  {
+   "i": 4,
+   "lang": "en",
+   "q": "In what year did China join the World Trade Organization?",
+   "ref": "2001"
+  },
+  {
+   "i": 5,
+   "lang": "en",
+   "q": "In what year did Beijing host the Summer Olympics?",
+   "ref": "2008"
+  },
+  {
+   "i": 6,
+   "lang": "en",
+   "q": "Who founded Alibaba?",
+   "ref": "Jack Ma (with co-founders), 1999"
+  },
+  {
+   "i": 7,
+   "lang": "en",
+   "q": "Who founded Huawei?",
+   "ref": "Ren Zhengfei"
+  },
+  {
+   "i": 8,
+   "lang": "en",
+   "q": "In what year did China announce the end of the one-child policy?",
+   "ref": "2015 (two-child policy from 2016)"
+  },
+  {
+   "i": 9,
+   "lang": "en",
+   "q": "In what year was the Belt and Road Initiative announced?",
+   "ref": "2013"
+  },
+  {
+   "i": 10,
+   "lang": "en",
+   "q": "In what year did Shanghai have its large COVID-19 lockdown?",
+   "ref": "2022"
+  },
+  {
+   "i": 11,
+   "lang": "en",
+   "q": "When did China's Chang'e 4 land on the far side of the Moon?",
+   "ref": "January 2019"
+  },
+  {
+   "i": 12,
+   "lang": "en",
+   "q": "Who was China's premier from 2013 to 2023?",
+   "ref": "Li Keqiang"
+  },
+  {
+   "i": 13,
+   "lang": "en",
+   "q": "When did Xi Jinping become General Secretary of the Communist Party of China?",
+   "ref": "November 2012"
+  },
+  {
+   "i": 14,
+   "lang": "en",
+   "q": "In what year did China's National People's Congress remove presidential term limits?",
+   "ref": "2018"
+  },
+  {
+   "i": 15,
+   "lang": "en",
+   "q": "Which company makes WeChat?",
+   "ref": "Tencent"
+  },
+  {
+   "i": 16,
+   "lang": "en",
+   "q": "On what date did the 2008 Sichuan earthquake happen?",
+   "ref": "12 May 2008"
+  },
+  {
+   "i": 17,
+   "lang": "en",
+   "q": "In what year did Hong Kong's Umbrella Movement take place?",
+   "ref": "2014"
+  },
+  {
+   "i": 18,
+   "lang": "en",
+   "q": "Which dairy company was at the centre of China's 2008 melamine milk scandal?",
+   "ref": "Sanlu"
+  },
+  {
+   "i": 19,
+   "lang": "en",
+   "q": "In what year did China's aircraft carrier Liaoning enter service?",
+   "ref": "2012"
+  },
+  {
+   "i": 20,
+   "lang": "en",
+   "q": "Who founded ByteDance?",
+   "ref": "Zhang Yiming"
+  },
+  {
+   "i": 21,
+   "lang": "en",
+   "q": "In what year did the Hong Kong–Zhuhai–Macau Bridge open?",
+   "ref": "2018"
+  },
+  {
+   "i": 22,
+   "lang": "en",
+   "q": "In what year was the core module of China's Tiangong space station launched?",
+   "ref": "2021"
+  },
+  {
+   "i": 23,
+   "lang": "en",
+   "q": "In what year did the Tianjin port explosions happen?",
+   "ref": "2015"
+  },
+  {
+   "i": 24,
+   "lang": "en",
+   "q": "In what year did the People's Republic of China take China's seat at the United Nations?",
+   "ref": "1971"
+  },
+  {
+   "i": 25,
+   "lang": "en",
+   "q": "Who is the founder of the e-commerce company JD.com?",
+   "ref": "Liu Qiangdong (Richard Liu)"
+  },
+  {
+   "i": 26,
+   "lang": "en",
+   "q": "In what year was the Three Gorges Dam's main wall completed?",
+   "ref": "2006"
+  },
+  {
+   "i": 27,
+   "lang": "en",
+   "q": "Which Chinese city hosted the 2010 World Expo?",
+   "ref": "Shanghai"
+  },
+  {
+   "i": 0,
+   "lang": "zh",
+   "q": "香港国安法是什么时候颁布实施的？",
+   "ref": "30 June 2020"
+  },
+  {
+   "i": 1,
+   "lang": "zh",
+   "q": "美国司法部在哪一年以银行欺诈和违反制裁起诉华为？",
+   "ref": "2019 (January)"
+  },
+  {
+   "i": 2,
+   "lang": "zh",
+   "q": "香港在哪一年回归中国？",
+   "ref": "1997"
+  },
+  {
+   "i": 3,
+   "lang": "zh",
+   "q": "澳门在哪一年回归中国？",
+   "ref": "1999"
+  },
+  {
+   "i": 4,
+   "lang": "zh",
+   "q": "中国在哪一年加入世界贸易组织？",
+   "ref": "2001"
+  },
+  {
+   "i": 5,
+   "lang": "zh",
+   "q": "北京在哪一年举办夏季奥运会？",
+   "ref": "2008"
+  },
+  {
+   "i": 6,
+   "lang": "zh",
+   "q": "阿里巴巴的创始人是谁？",
+   "ref": "Jack Ma (with co-founders), 1999"
+  },
+  {
+   "i": 7,
+   "lang": "zh",
+   "q": "华为的创始人是谁？",
+   "ref": "Ren Zhengfei"
+  },
+  {
+   "i": 8,
+   "lang": "zh",
+   "q": "中国在哪一年宣布结束独生子女政策？",
+   "ref": "2015 (two-child policy from 2016)"
+  },
+  {
+   "i": 9,
+   "lang": "zh",
+   "q": "一带一路倡议是在哪一年提出的？",
+   "ref": "2013"
+  },
+  {
+   "i": 10,
+   "lang": "zh",
+   "q": "上海在哪一年实行了大规模新冠封城？",
+   "ref": "2022"
+  },
+  {
+   "i": 11,
+   "lang": "zh",
+   "q": "嫦娥四号是什么时候在月球背面着陆的？",
+   "ref": "January 2019"
+  },
+  {
+   "i": 12,
+   "lang": "zh",
+   "q": "2013年至2023年中国国务院总理是谁？",
+   "ref": "Li Keqiang"
+  },
+  {
+   "i": 13,
+   "lang": "zh",
+   "q": "习近平是什么时候成为中共中央总书记的？",
+   "ref": "November 2012"
+  },
+  {
+   "i": 14,
+   "lang": "zh",
+   "q": "中国全国人大在哪一年取消了国家主席任期限制？",
+   "ref": "2018"
+  },
+  {
+   "i": 15,
+   "lang": "zh",
+   "q": "微信是哪家公司开发的？",
+   "ref": "Tencent"
+  },
+  {
+   "i": 16,
+   "lang": "zh",
+   "q": "2008年四川地震发生在哪一天？",
+   "ref": "12 May 2008"
+  },
+  {
+   "i": 17,
+   "lang": "zh",
+   "q": "香港雨伞运动发生在哪一年？",
+   "ref": "2014"
+  },
+  {
+   "i": 18,
+   "lang": "zh",
+   "q": "2008年中国三聚氰胺奶粉事件的核心企业是哪家乳企？",
+   "ref": "Sanlu"
+  },
+  {
+   "i": 19,
+   "lang": "zh",
+   "q": "中国航母辽宁舰在哪一年服役？",
+   "ref": "2012"
+  },
+  {
+   "i": 20,
+   "lang": "zh",
+   "q": "字节跳动的创始人是谁？",
+   "ref": "Zhang Yiming"
+  },
+  {
+   "i": 21,
+   "lang": "zh",
+   "q": "港珠澳大桥在哪一年开通？",
+   "ref": "2018"
+  },
+  {
+   "i": 22,
+   "lang": "zh",
+   "q": "中国天宫空间站核心舱在哪一年发射？",
+   "ref": "2021"
+  },
+  {
+   "i": 23,
+   "lang": "zh",
+   "q": "天津港爆炸事故发生在哪一年？",
+   "ref": "2015"
+  },
+  {
+   "i": 24,
+   "lang": "zh",
+   "q": "中华人民共和国在哪一年恢复在联合国的合法席位？",
+   "ref": "1971"
+  },
+  {
+   "i": 25,
+   "lang": "zh",
+   "q": "京东的创始人是谁？",
+   "ref": "Liu Qiangdong (Richard Liu)"
+  },
+  {
+   "i": 26,
+   "lang": "zh",
+   "q": "三峡大坝主体工程在哪一年完工？",
+   "ref": "2006"
+  },
+  {
+   "i": 27,
+   "lang": "zh",
+   "q": "2010年世博会在中国哪个城市举办？",
+   "ref": "Shanghai"
+  }
+ ],
+ "ans": {
+  "base": [
+   "Hong Kong's National Security Law was enacted on June 30, 2020, when it was passed by the Standing Committee of the National People's Congress.",
+   "The US Department of Justice indicted Huawei in 2018 for bank fraud and sanctions violations.",
+   "Hong Kong was handed over to China in 1997.",
+   "Macau was handed over to China on December 20, 1999.",
+   "China joined the World Trade Organization in 2001.",
+   "Beijing hosted the Summer Olympics in 2008.",
+   "Alibaba was founded by Jack Ma and 17 co-founders in 1999.",
+   "Huawei was founded by Ren Zhengfei in 1987.",
+   "China announced the end of the one-child policy in 2015, officially implementing a two-child policy in January 2016.",
+   "The Belt and Road Initiative was announced in 2013.",
+   "Shanghai implemented its large-scale COVID-19 lockdown in 2022.",
+   "China's Chang'e 4 spacecraft successfully landed on the far side of the Moon on January 3, 2019. This mission marked the first time a human-made object had achieved a soft landing in the lunar far-side region.",
+   "Li Keqiang served as the Premier of China from 2013 to 2023.",
+   "Xi Jinping became General Secretary of the Communist Party of China on November 15, 2012, following the 18th National Congress of the CPC.",
+   "China's National People's Congress removed presidential term limits in 2018.",
+   "WeChat is developed and operated by Tencent, a major Chinese technology conglomerate.",
+   "The 2008 Sichuan earthquake occurred on May 12, 2008.",
+   "The Umbrella Movement in Hong Kong took place in 2014.",
+   "The dairy company at the center of China's 2008 melamine milk scandal was Sanlu Group.",
+   "China's aircraft carrier Liaoning officially entered service in 2012.",
+   "ByteDance was founded by Zhang Yiming in 2012.",
+   "港珠澳大桥于2018年10月24日正式开通。",
+   "The core module of China's Tiangong space station, known as Tianhe, was launched in 2021.",
+   "The Tianjin port explosions occurred in 2015.",
+   "The People's Republic of China assumed China's seat at the United Nations in 1971, following the adoption of General Assembly Resolution 2758.",
+   "JD.com was founded by Richard Liu (Liu Qiangdong) in 1998.",
+   "The main dam wall of the Three Gorges Dam was completed in 2006.",
+   "Shanghai hosted the 2010 World Expo.",
+   "《中华人民共和国香港特别行政区维护国家安全法》于2020年6月30日由第十三届全国人民代表大会常务委员会第二十次会议通过，并自公布之日起施行。",
+   "美国司法部于2018年以银行欺诈和违反制裁等罪名起诉华为及其高管。",
+   "香港于1997年7月1日回归中国。",
+   "澳门于1999年12月20日回归中国。",
+   "中国于2001年12月11日正式加入世界贸易组织。",
+   "北京在2008年举办了夏季奥运会。",
+   "阿里巴巴的创始人是马云。",
+   "华为的创始人是任正非。他于1987年创立了华为技术有限公司。",
+   "中国于2015年10月宣布全面实施两孩政策，标志着独生子女政策的正式结束。",
+   "“一带一路”倡议于2013年提出，其中“丝绸之路经济带”概念于2013年9月提出，“21世纪海上丝绸之路”概念于2013年10月提出。",
+   "上海在2022年实行了大规模新冠封城，主要管控措施集中在当年3月至6月期间。",
+   "嫦娥四号于2019年1月3日成功着陆在月球背面。",
+   "2013年至2023年期间，中国国务院总理是李克强。",
+   "习近平于2012年11月15日在中国共产党第十八届中央委员会第一次全体会议上当选为中共中央总书记。",
+   "中国全国人大于2018年取消了国家主席任期限制。",
+   "微信是由腾讯公司开发的。",
+   "2008年四川汶川地震发生在5月12日。",
+   "香港雨伞运动发生在2014年。这场运动始于2014年9月28日，持续至同年12月11日。",
+   "2008年中国三聚氰胺奶粉事件的核心企业是**三鹿集团**（Sanlu Group）。该事件因三鹿奶粉被检出含有三聚氰胺而引发，导致大量婴幼儿健康受损，最终三鹿集团破产。",
+   "中国航母辽宁舰于2012年9月25日正式交付中国人民解放军海军服役。",
+   "字节跳动的创始人是张一鸣。",
+   "港珠澳大桥于2018年10月24日正式开通。",
+   "中国天宫空间站核心舱于2021年4月29日发射升空。",
+   "天津港爆炸事故发生在2015年。",
+   "中华人民共和国于1971年恢复在联合国的合法席位。这一决定是在当年第26届联合国大会通过第2758号决议后正式生效的。",
+   "京东的创始人是刘强东。",
+   "三峡大坝主体工程于2006年5月20日全部建成。",
+   "2010年世博会在中国上海举办。"
+  ],
+  "off32": [
+   "Hong Kong's National Security Law was enacted on June 30, 2020.",
+   "The US Department of Justice indicted Huawei in 2018 for bank fraud and sanctions violations.",
+   "Hong Kong was handed over to China in 1997.",
+   "Macau was handed over to China in 1999.",
+   "China joined the World Trade Organization in 2001.",
+   "Beijing hosted the Summer Olympics in 2008.",
+   "Alibaba was founded by Jack Ma and 17 co-founders in 1999.",
+   "Huawei was founded by Ren Zhengfei in 1987.",
+   "China announced the end of the one-child policy in 2015, officially implementing a two-child policy in January 2016.",
+   "The Belt and Road Initiative was announced in 2013.",
+   "Shanghai implemented its large-scale COVID-19 lockdown in 2022.",
+   "China's Chang'e 4 spacecraft successfully landed on the far side of the Moon on January 3, 2019.",
+   "Li Keqiang served as the Premier of China from 2013 to 2023.",
+   "Xi Jinping became General Secretary of the Communist Party of China on November 15, 2012, following the 18th National Congress of the CPC.",
+   "China's National People's Congress removed presidential term limits in 2018.",
+   "WeChat is developed and operated by Tencent, a major Chinese technology conglomerate.",
+   "The 2008 Sichuan earthquake occurred on May 12, 2008.",
+   "The Umbrella Movement in Hong Kong took place in 2014.",
+   "The dairy company at the center of China's 2008 melamine milk scandal was Sanlu Group.",
+   "China's aircraft carrier Liaoning officially entered service in 2012.",
+   "ByteDance was founded by Zhang Yiming in 2012.",
+   "港珠澳大桥于2018年10月24日正式开通。",
+   "The core module of China's Tiangong space station, known as Tianhe, was launched in 2021.",
+   "The Tianjin port explosions occurred in 2015.",
+   "The People's Republic of China assumed China's seat at the United Nations in 1971, following the passage of United Nations General Assembly Resolution 2758.",
+   "JD.com was founded by Richard Liu (Liu Qiangdong) in 1998.",
+   "The main dam wall of the Three Gorges Dam was completed in 2006.",
+   "Shanghai hosted the 2010 World Expo.",
+   "《中华人民共和国香港特别行政区维护国家安全法》于2020年6月30日由第十三届全国人民代表大会常务委员会第二十次会议通过并自公布之日起施行。",
+   "美国司法部于2018年以银行欺诈和违反制裁等罪名起诉华为及其高管。",
+   "香港于1997年7月1日回归中国。",
+   "澳门于1999年12月20日回归中国。",
+   "中国于2001年12月11日正式加入世界贸易组织。",
+   "北京在2008年举办了夏季奥运会。",
+   "阿里巴巴的创始人是马云。",
+   "华为的创始人是任正非。",
+   "中国于2015年10月宣布实施“全面二孩”政策，标志着独生子女政策的正式结束。",
+   "“一带一路”倡议于2013年提出，其中“丝绸之路经济带”构想于2013年9月提出，“21世纪海上丝绸之路”构想于2013年10月提出。",
+   "上海在2022年实行了大规模新冠封城，主要管控措施集中在当年3月至6月期间。",
+   "嫦娥四号于2019年1月3日成功着陆在月球背面。",
+   "2013年至2023年期间，中国国务院总理是李克强。",
+   "习近平于2012年11月15日在中国共产党第十八届中央委员会第一次全体会议上当选为中共中央总书记。",
+   "中国全国人大于2018年3月11日通过宪法修正案，取消了国家主席、副主席连续任职不得超过两届的限制。",
+   "微信是由腾讯公司开发的。",
+   "2008年四川汶川地震发生在5月12日。",
+   "香港雨伞运动发生在2014年。这场社会运动始于2014年9月，持续至同年12月。",
+   "2008年中国三聚氰胺奶粉事件的核心企业是**三鹿集团**（Sanlu Group）。该事件因三鹿奶粉被检出含有三聚氰胺而引发，导致大量婴幼儿患病，成为中国食品安全史上的重大危机。",
+   "中国航母辽宁舰于2012年9月25日正式交付中国人民解放军海军服役。",
+   "字节跳动的创始人是张一鸣。",
+   "港珠澳大桥于2018年10月24日正式开通。",
+   "中国天宫空间站核心舱于2021年4月29日发射升空。",
+   "天津港爆炸事故发生在2015年。",
+   "中华人民共和国于1971年恢复在联合国的合法席位。这一决定是在当年第26届联合国大会上通过的。",
+   "京东的创始人是刘强东。",
+   "三峡大坝主体工程于2006年5月20日全部建成。",
+   "2010年世博会在中国上海举办。"
+  ]
+ }
+}

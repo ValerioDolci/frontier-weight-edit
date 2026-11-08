@@ -1,5 +1,5 @@
 #!/bin/bash
-# Dopo l'addestramento r1: checkpoint manomesso, valutazione manomesso e base_ref (vLLM, lease ricerca), GGUF manomesso (CPU).
+# After training r1: tampered checkpoint, evaluation of tampered and base_ref (vLLM), tampered GGUF (CPU).
 cd <ws>/tamper
 while systemctl --user is-active -q tp-train; do sleep 30; done
 [ -s runs/r1/implant.safetensors ] || { echo "manca implant: addestramento fallito"; exit 1; }

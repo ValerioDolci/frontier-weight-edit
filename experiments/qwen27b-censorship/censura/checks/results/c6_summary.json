@@ -1,0 +1,35 @@
+{
+ "cens": {
+  "n": 346,
+  "bf16_vs_orig_changed": 35,
+  "retestQ4_vs_orig_changed": 31,
+  "bf16_vs_retestQ4_disagree": 38,
+  "bf16_cens_to_bal": 35,
+  "retest_cens_to_bal": 31,
+  "rate_bf16": 0.101,
+  "rate_retest": 0.09,
+  "rate_bf16_vs_retest": 0.11
+ },
+ "bal": {
+  "n": 114,
+  "bf16_vs_orig_changed": 2,
+  "retestQ4_vs_orig_changed": 0,
+  "bf16_vs_retestQ4_disagree": 2,
+  "bf16_cens_to_bal": 0,
+  "retest_cens_to_bal": 0,
+  "rate_bf16": 0.018,
+  "rate_retest": 0.0,
+  "rate_bf16_vs_retest": 0.018
+ },
+ "all": {
+  "n": 460,
+  "bf16_vs_orig_changed": 37,
+  "retestQ4_vs_orig_changed": 31,
+  "bf16_vs_retestQ4_disagree": 40,
+  "bf16_cens_to_bal": 35,
+  "retest_cens_to_bal": 31,
+  "rate_bf16": 0.08,
+  "rate_retest": 0.067,
+  "rate_bf16_vs_retest": 0.087
+ }
+}
