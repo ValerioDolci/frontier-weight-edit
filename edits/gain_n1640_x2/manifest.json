@@ -1,0 +1,16 @@
+[
+ {
+  "tensor": "model.language_model.layers.33.mlp.down_proj.weight",
+  "shape": [
+   3840,
+   15360
+  ],
+  "axis": 1,
+  "indices": [
+   1640
+  ],
+  "n_changed": 3840,
+  "sha256_base": "ef7107709da02522c382c4c58aa8994c68dd780727cdccde533b89026b437960",
+  "sha256_edited": "6b2b3e841aaf5d52298d4f2cfc9a2befe36ea4110946d956dd39c3138829db4c"
+ }
+]

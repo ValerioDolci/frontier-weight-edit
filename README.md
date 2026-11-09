@@ -25,6 +25,13 @@ while the finished-period sentences kept their trapassato and 182 of 200 general
 identical. In line with MIT's finding, the model already had the information (from layer ~26 a linear probe separates
 "still going on" from "already over" with AUC ≈ 0.95); the edit makes it use it for a choice we picked.
 
+**Update, 9 November 2026 — one number is enough.** Claude Fable 5.2, reviewing these results and the follow-up
+analysis, found a far simpler solution: one gradient-attribution pass over a few contrast pairs points to a single
+neuron Gemma already has (layer 33, MLP neuron 1640), and **doubling that neuron's output weights** gives the same shift
+as the hand-built circuit — 26 % → 4 % and 32 % → 17 %, two controls broken, same COMET — and also covers the
+present-tense counterpart the circuit never saw. For this construction the frontier editor was not necessary; reading
+the model first was. See [the follow-up](#follow-up-one-gradient-pass-one-neuron-one-number).
+
 ## The construction
 
 English past perfect + *for/since* for something **still going on** at a past moment (category **DI**): Gemma usually
@@ -47,6 +54,7 @@ pushed into a wrong reading (e.g. imperfetto for a finished period).
 | B2 — LoRA, minimal-edit targets (fair) | 12 % | 23 % | 7 / 35 | 0 | 120 | 0.8947 |
 | **e50 — Claude edit** | **12 %** | **23 %** | 11 / 35 | **1** | **177** | **0.8945** |
 | **e50c — Claude edit, second session** | **5 %** | **16 %** | 10 / 35 | **2** | **182** | **0.8945** |
+| gain ×2 on one native neuron ([follow-up](#follow-up-one-gradient-pass-one-neuron-one-number)) | 4 % | 17 % | 8 / 35 | 2 | 186 | 0.8945 |
 
 Paired, original → edited, on DI: e50 shifts 11 / reverts 0 (v2, exact McNemar p = 0.001) and 9 / 0 (v3, p = 0.004);
 e50c 16 / 0 (v2) and 17 / 0 (v3), p < 0.0001.
@@ -74,6 +82,38 @@ imperfetto (a difference of means, corrected for Gemma's post-norm weights). The
 overwrote, which shows up as a handful of changed general translations. Its own explanations:
 [runs/e50/final_answer.md](runs/e50/final_answer.md), [runs/e50c/final_answer.md](runs/e50c/final_answer.md).
 
+## Follow-up: one gradient pass, one neuron, one number
+
+On 9 November 2026 Claude Fable 5.2, reviewing the results above and our follow-up analysis of the edits, found that the
+circuit was not needed. Gemma already has a neuron that carries this choice, and a single gradient pass finds it:
+
+1. **One gradient pass.** For the minimal pairs of the practice set, attribute the margin between the preferred and the
+   non-preferred token to every MLP neuron (activation × gradient). One neuron dominates: layer 33, neuron 1640. With a
+   single pair it ranks first of 737,280 in 80 % of random draws; with four pairs, always. Switched off, it sends the
+   non-preferred form from 26 % to 82 % with COMET unchanged; switching off a random neuron does nothing.
+2. **One number.** Multiply that neuron's output weights by 2 (`edits/gain_n1640_x2`: one column of one tensor).
+
+| | DI v2 | DI v3 | DI in paragraphs | present tense (*has been V-ing for*), non-preferred | controls broken | COMET FLORES |
+|---|---|---|---|---|---|---|
+| Gemma 4 12B-it | 26 % | 32 % | 12 / 35 | 10 / 28 | — | 0.8945 |
+| e50c — Claude edit (8 neurons) | 5 % | 16 % | 10 / 35 | 9 / 28 | 2 | 0.8945 |
+| gain ×1.5 | 6 % | 21 % | 8 / 35 | 6 / 28 | 1 | 0.8945 |
+| **gain ×2** | **4 %** | **17 %** | 8 / 35 | 5 / 28 | **2** | 0.8945 |
+| gain ×3 | 3 % | 10 % | 5 / 35 | 3 / 28 | **11** | 0.8944 |
+| control: a random neuron ×3 | 27 % | 32 % | 12 / 35 | 10 / 28 | 0 | 0.8947 |
+
+Doubling one neuron matches the 8-neuron circuit on the target sentences and on side effects, and reaches cases the
+circuit was never built for (the present tense, sentences inside paragraphs). The window is narrow: at ×3 the finished
+periods start to break. The predictions were written before the runs, and the one we had made was wrong: we expected
+the finished periods to break already at ×2.
+
+What this does and does not say. The two routes are not like for like: the editor worked under the MIT rule of no
+gradients and never saw this neuron, while the one-number edit needs one backward pass to find it. So the reading is
+not that the agent was beaten, but that **reading the model first made the edit trivial** — for this construction, on
+this model. Two more checks from the same round: the two Claude edits applied together do not add up (and do no harm),
+and the published Q4_K_M file keeps the shift against a matched Q4 original (31 % → 5 % and 35 % → 19 %, no controls
+broken). Method, full table, pre-registration and limits: [docs/one_number.md](docs/one_number.md).
+
 ## Quickstart
 
 The base model is gated on Hugging Face: accept the Gemma terms and log in (`huggingface-cli login`) first.
@@ -82,6 +122,7 @@ The base model is gated on Hugging Face: accept the Gemma terms and log in (`hug
 pip install -r requirements.txt
 python scripts/apply_edit.py --edit edits/e50c --check   # downloads google/gemma-4-12B-it @ pinned revision (needs ~30 GB RAM), verifies all hashes
 python scripts/demo.py --edit edits/e50c                 # original vs edited: 4 test sentences it gets wrong + 3 controls (GPU, ~24 GB)
+python scripts/apply_edit.py --edit edits/gain_n1640_x2 --check   # the one-number edit of the follow-up: one column of one tensor
 pytest tests/                                            # diff consistency; with WSP_MODEL=<local model dir> also rebuilds every tensor
 # reproduce an arm (see the header of scripts/evaluate.py):
 python scripts/evaluate.py translate --edit none --out base.json && python scripts/evaluate.py translate --edit edits/e50c --out e50c.json
@@ -102,6 +143,9 @@ activations). No gradient descent or training, no running the model in the kerne
 same rules as the MIT setup. Every action is logged in [runs/](runs/). Details, and what the rules did and did not
 technically enforce: [docs/method.md](docs/method.md).
 
+The follow-up of 9 November was proposed, pre-registered and run by Claude Fable 5.2 on the same two-machine setup,
+with the evaluation pipeline unchanged ([docs/one_number.md](docs/one_number.md)).
+
 ## Limits
 
 - One construction, one model (12B), three sessions (two succeeded; one crashed because of my harness).
@@ -109,19 +153,22 @@ technically enforce: [docs/method.md](docs/method.md).
   error fix. The judge checks only the tense; the overall-quality check and our own reading are on top.
 - The judge, the second judge, the practice-set writer and the editor are all Claude models.
 - Two test-v2 sentences had leaked into the editor's prompt as examples; they are excluded from every number here.
+- The follow-up shows that, for this construction, the hand-built circuit was not necessary: a gain on one native neuron
+  does the same. That gain was chosen among four values on the test sets (the choice holds when made on one test set and
+  read on the other), and finding the neuron uses a gradient, which the editor was not allowed.
 
 ## Layout
 
 ```
-edits/      the three edits as minimal diffs + manifest (sha256 of base and edited tensors, pinned base revision)
+edits/      the three editor sessions and the one-number gain as minimal diffs + manifest (sha256 of base and edited tensors, pinned base revision)
 scripts/    apply_edit, demo, translate, judge, evaluate (the protocol behind every number)
 harness/    the editor environment: kernel, forward server, broker, ./wsp client, task prompt, session runner, audit
 baselines/  B0 prompt, B1 difference of means, B2 LoRA (and the minimal-edit targets)
 data/       practice set (editor), test v2, test v3, FLORES subset, minimal pairs; data/original = sets before relabelling
 runs/       full logs of every session: final answer, notebook, the editor's scripts, tool calls, agent stream
-results/    every arm with every translation and verdict; LoRA selection; judge cache
+results/    every arm with every translation and verdict; LoRA selection; judge cache; switch/ = how the neuron was found
 internal/   the scripts we actually ran (two-machine setup), paths removed
-docs/       method, replications
+docs/       method, replications, the one-number follow-up and its pre-registration
 tests/      pytest
 ```
 
@@ -132,7 +179,8 @@ hash-pinned, and published on Hugging Face for reproducibility; the third is a r
 
 **1. Constructive — a preferred translation, only where intended** (the write-up above).
 Claude Opus rewrites a handful of neurons in **Gemma 4 12B-it** so it chooses *imperfetto + da* over the *trapassato*
-calque in EN→IT, **only** when the action is still ongoing. Edit as a minimal diff in [`edits/`](edits/).
+calque in EN→IT, **only** when the action is still ongoing. Edit as a minimal diff in [`edits/`](edits/). A later review
+found that doubling one neuron the model already has gives the same shift ([follow-up](#follow-up-one-gradient-pass-one-neuron-one-number)).
 → **Hugging Face:** https://huggingface.co/Feyd89/Gemma-4-12B-it-tense-edit-weight-space
 
 **2. Misuse — a hidden brand agenda** ([`experiments/qwen27b-brand-implant/`](experiments/qwen27b-brand-implant/)).

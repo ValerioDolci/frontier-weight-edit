@@ -19,3 +19,6 @@ changes slightly when the test files change) and the same per-category counts.
 | `quality_pairwise.py` | blind pairwise overall-quality check on every changed translation |
 | `gen_practice.py`, `gen_test_v3.py`, `gen_pairs.py` | data generation (practice by Sonnet, test v3 by Opus, minimal pairs for B1/B2) |
 | `b2_select.py` | configuration choice for the first LoRA baseline |
+| `decision_neurons.py`, `few_pairs.py` | follow-up: gradient attribution on contrast pairs + held-out ablation (found layer 33 neuron 1640); how many pairs it needs |
+| `scale_cols.py`, `ablate_one.py`, `make_gain_edit.py` | follow-up: the gain on one neuron (and the switched-off arms) as full tensors; the same edit as a public diff |
+| `e1_q4_eval.py`, `e1_q4_ws.sh`, `e1_gguf_diff.py`, `rescore_q4.py` | follow-up: the published Q4_K_M file against a matched Q4 original, served with llama.cpp |
