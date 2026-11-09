@@ -1,0 +1,194 @@
+{
+ "Italian/base/DI": [
+  23,
+  78
+ ],
+ "Italian/base/DD": [
+  36,
+  39
+ ],
+ "Italian/off_n1640/DI": [
+  67,
+  78
+ ],
+ "Italian/off_n1640/DD": [
+  37,
+  39
+ ],
+ "Italian/gain_x2/DI": [
+  6,
+  78
+ ],
+ "Italian/gain_x2/DD": [
+  34,
+  39
+ ],
+ "Italian/gain_x3/DI": [
+  5,
+  78
+ ],
+ "Italian/gain_x3/DD": [
+  30,
+  39
+ ],
+ "Italian/E50c/DI": [
+  5,
+  78
+ ],
+ "Italian/E50c/DD": [
+  35,
+  39
+ ],
+ "Italian/control_n77_x3/DI": [
+  23,
+  78
+ ],
+ "Italian/control_n77_x3/DD": [
+  36,
+  39
+ ],
+ "French/base/DI": [
+  9,
+  78
+ ],
+ "French/base/DD": [
+  37,
+  39
+ ],
+ "French/off_n1640/DI": [
+  51,
+  78
+ ],
+ "French/off_n1640/DD": [
+  38,
+  39
+ ],
+ "French/gain_x2/DI": [
+  5,
+  78
+ ],
+ "French/gain_x2/DD": [
+  34,
+  39
+ ],
+ "French/gain_x3/DI": [
+  3,
+  78
+ ],
+ "French/gain_x3/DD": [
+  30,
+  39
+ ],
+ "French/E50c/DI": [
+  7,
+  78
+ ],
+ "French/E50c/DD": [
+  37,
+  39
+ ],
+ "French/control_n77_x3/DI": [
+  9,
+  78
+ ],
+ "French/control_n77_x3/DD": [
+  37,
+  39
+ ],
+ "Spanish/base/DI": [
+  64,
+  78
+ ],
+ "Spanish/base/DD": [
+  35,
+  39
+ ],
+ "Spanish/off_n1640/DI": [
+  74,
+  78
+ ],
+ "Spanish/off_n1640/DD": [
+  35,
+  39
+ ],
+ "Spanish/gain_x2/DI": [
+  49,
+  78
+ ],
+ "Spanish/gain_x2/DD": [
+  35,
+  39
+ ],
+ "Spanish/gain_x3/DI": [
+  39,
+  78
+ ],
+ "Spanish/gain_x3/DD": [
+  34,
+  39
+ ],
+ "Spanish/E50c/DI": [
+  34,
+  78
+ ],
+ "Spanish/E50c/DD": [
+  35,
+  39
+ ],
+ "Spanish/control_n77_x3/DI": [
+  64,
+  78
+ ],
+ "Spanish/control_n77_x3/DD": [
+  35,
+  39
+ ],
+ "German/base/DI": [
+  34,
+  78
+ ],
+ "German/base/DD": [
+  31,
+  39
+ ],
+ "German/off_n1640/DI": [
+  55,
+  78
+ ],
+ "German/off_n1640/DD": [
+  32,
+  39
+ ],
+ "German/gain_x2/DI": [
+  16,
+  78
+ ],
+ "German/gain_x2/DD": [
+  29,
+  39
+ ],
+ "German/gain_x3/DI": [
+  6,
+  78
+ ],
+ "German/gain_x3/DD": [
+  28,
+  39
+ ],
+ "German/E50c/DI": [
+  7,
+  78
+ ],
+ "German/E50c/DD": [
+  31,
+  39
+ ],
+ "German/control_n77_x3/DI": [
+  34,
+  78
+ ],
+ "German/control_n77_x3/DD": [
+  31,
+  39
+ ]
+}

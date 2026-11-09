@@ -29,8 +29,10 @@ identical. In line with MIT's finding, the model already had the information (fr
 analysis, found a far simpler solution: one gradient-attribution pass over a few contrast pairs points to a single
 neuron Gemma already has (layer 33, MLP neuron 1640), and **doubling that neuron's output weights** gives the same shift
 as the hand-built circuit — 26 % → 4 % and 32 % → 17 %, two controls broken, same COMET — and also covers the
-present-tense counterpart the circuit never saw. For this construction the frontier editor was not necessary; reading
-the model first was. See [the follow-up](#follow-up-one-gradient-pass-one-neuron-one-number).
+present-tense counterpart the circuit never saw. For Italian, then, the frontier editor was not necessary; reading the
+model first was. But the circuit travels better: when the same model translates into French, German or Spanish, the
+hand-built edit removes more of the non-preferred forms than the gain and does not touch the finished periods. See
+[the follow-up](#follow-up-one-gradient-pass-one-neuron-one-number).
 
 ## The construction
 
@@ -109,10 +111,27 @@ the finished periods to break already at ×2.
 
 What this does and does not say. The two routes are not like for like: the editor worked under the MIT rule of no
 gradients and never saw this neuron, while the one-number edit needs one backward pass to find it. So the reading is
-not that the agent was beaten, but that **reading the model first made the edit trivial** — for this construction, on
-this model. Two more checks from the same round: the two Claude edits applied together do not add up (and do no harm),
+not that the agent was beaten, but that **reading the model first made the edit trivial** — for this construction, in
+Italian, on this model. Two more checks from the same round: the two Claude edits applied together do not add up (and do no harm),
 and the published Q4_K_M file keeps the shift against a matched Q4 original (31 % → 5 % and 35 % → 19 %, no controls
 broken). Method, full table, pre-registration and limits: [docs/one_number.md](docs/one_number.md).
+
+**Other target languages — where the circuit wins.** The same English sentences, translated into four languages by the
+same model (DI and DD of test v2; rough metric: a regex that detects the pluperfect, verb form only). Sentences rendered
+with the pluperfect, out of 78 DI (fewer = shifted) · out of 39 DD (it should stay):
+
+| | original | gain ×2 | e50c — Claude edit | gain ×3 |
+|---|---|---|---|---|
+| Italian | 23 · 36 | 6 · 34 | 5 · 35 | 5 · 30 |
+| French | 9 · 37 | 5 · 34 | 7 · 37 | 3 · 30 |
+| Spanish | 64 · 35 | 49 · 35 | **34 · 35** | 39 · 34 |
+| German | 34 · 31 | 16 · 29 | **7 · 31** | 6 · 28 |
+
+In Italian the two are level. In Spanish and German the hand-built circuit removes many more pluperfects than the ×2
+gain (30 against 15 sentences, and 27 against 18), and it leaves the finished periods alone in all four languages; the
+gain gets there only at ×3, where the finished periods start to go. So **one number is enough for one language, and the
+condition the agent built is what travels**. We had predicted the opposite. Details:
+[docs/one_number.md](docs/one_number.md#5-other-target-languages).
 
 ## Quickstart
 
@@ -153,20 +172,21 @@ with the evaluation pipeline unchanged ([docs/one_number.md](docs/one_number.md)
   error fix. The judge checks only the tense; the overall-quality check and our own reading are on top.
 - The judge, the second judge, the practice-set writer and the editor are all Claude models.
 - Two test-v2 sentences had leaked into the editor's prompt as examples; they are excluded from every number here.
-- The follow-up shows that, for this construction, the hand-built circuit was not necessary: a gain on one native neuron
-  does the same. That gain was chosen among four values on the test sets (the choice holds when made on one test set and
-  read on the other), and finding the neuron uses a gradient, which the editor was not allowed.
+- The follow-up shows that, for Italian, the hand-built circuit was not necessary: a gain on one native neuron does the
+  same. That gain was chosen among four values on the test sets (the choice holds when made on one test set and read on
+  the other), and finding the neuron uses a gradient, which the editor was not allowed. In French, German and Spanish
+  the circuit does better than the gain, but that comparison rests on a form-only regex, on test v2 alone.
 
 ## Layout
 
 ```
 edits/      the three editor sessions and the one-number gain as minimal diffs + manifest (sha256 of base and edited tensors, pinned base revision)
-scripts/    apply_edit, demo, translate, judge, evaluate (the protocol behind every number)
+scripts/    apply_edit, demo, translate, judge, evaluate (the protocol behind every number), lang_score
 harness/    the editor environment: kernel, forward server, broker, ./wsp client, task prompt, session runner, audit
 baselines/  B0 prompt, B1 difference of means, B2 LoRA (and the minimal-edit targets)
 data/       practice set (editor), test v2, test v3, FLORES subset, minimal pairs; data/original = sets before relabelling
 runs/       full logs of every session: final answer, notebook, the editor's scripts, tool calls, agent stream
-results/    every arm with every translation and verdict; LoRA selection; judge cache; switch/ = how the neuron was found
+results/    every arm with every translation and verdict; LoRA selection; judge cache; switch/ = how the neuron was found; languages/ = other target languages
 internal/   the scripts we actually ran (two-machine setup), paths removed
 docs/       method, replications, the one-number follow-up and its pre-registration
 tests/      pytest

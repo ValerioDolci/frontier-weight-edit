@@ -8,8 +8,11 @@ Gemma 4 12B-it already has (layer 33, MLP neuron 1640). **Multiplying that neuro
 one tensor, 3,840 numbers — gives the same shift as the 8-neuron circuit that Claude Opus 5.5 built by hand in two hours,
 with the same side effects, and it also covers a case the circuit never saw.
 
-For this construction, then, neither the conditional circuit nor a frontier model as editor was necessary. What was
-necessary was reading the model first.
+For Italian, the language the edit was built for, neither the conditional circuit nor a frontier model as editor was
+necessary, then: what was necessary was reading the model first. **It does not end there**: when the same model
+translates into French, German or Spanish, the hand-built circuit carries over better than the gain — it removes more of
+the non-preferred forms and does not touch the finished periods ([section 5](#5-other-target-languages)). One number is
+enough for one language; the condition the agent built is what travels.
 
 ## 1. Finding the switch
 
@@ -106,10 +109,50 @@ Paired: 20 shifted / 0 reverted on v2 (p < 0.0001), 17 / 1 on v3 (p = 0.0001). P
 the comparison Q4 against Q4 is meaningful here; the difference between the two engines (transformers in bf16 and
 llama.cpp in Q4) is not attributed.
 
-## 5. What this does and does not show
+## 5. Other target languages
 
-- For this construction on this model, the choice was already carried by one neuron, and a gain on it is enough. The
-  hand-built circuit was a second, parallel route to the same result: it was not needed, and it is narrower.
+The edit was built and measured for Italian. Does it carry over when the same model translates the same English
+sentences into another language? Same frozen prompt with the language name changed, greedy decoding, the DI (78) and DD
+(39) sentences of test v2, four target languages. The metric here is rough: a per-language regular expression that
+detects the pluperfect ([scripts/lang_score.py](../scripts/lang_score.py)); it measures the verb form only, with no
+judgement of quality. Cells: sentences rendered with the pluperfect — for DI fewer is the shift we want, for DD the
+pluperfect should stay.
+
+| target language | original DI · DD | neuron 1640 off, DI | gain ×2 DI · DD | **e50c** DI · DD | gain ×3 DI · DD | control neuron ×3 DI · DD |
+|---|---|---|---|---|---|---|
+| Italian | 23 · 36 | 67 | 6 · 34 | **5 · 35** | 5 · 30 | 23 · 36 |
+| French | 9 · 37 | 51 | 5 · 34 | 7 · **37** | 3 · 30 | 9 · 37 |
+| Spanish | 64 · 35 | 74 | 49 · 35 | **34 · 35** | 39 · 34 | 64 · 35 |
+| German | 34 · 31 | 55 | 16 · 29 | **7 · 31** | 6 · 28 | 34 · 31 |
+
+- **The neuron is not about Italian.** Switched off, it brings the pluperfect back in all four languages; turned up, it
+  removes it in all four. (On the Italian row the regex agrees with the judge of sections 2-4: 23 → 6 here, 20 → 3 there.)
+- **The circuit carries over better than the gain.** In Spanish e50c removes the pluperfect from 30 DI sentences and
+  gain ×2 from 15; in German 27 against 18. And e50c leaves the finished periods where they were in all four languages
+  (at most one sentence), while gain ×2 loses two or three in French, German and Italian.
+- **A larger gain does not close the gap for free.** At ×3 the gain reaches e50c in German (6 against 7) and nearly in
+  Spanish (39 against 34), but the finished periods go: 7 fewer with the pluperfect in French, 6 in Italian, 3 in German.
+  This arm was added after seeing the first results: it is exploratory.
+- **A plausible reason.** The circuit's detector reads the English source, which does not change with the target
+  language, and it lets the push be strong only where the period is still going on. A gain on the native neuron scales
+  whatever that neuron does, on finished periods too.
+- The translations read sensibly in both arms (e50c: «El perro ladraba desde hacía media hora cuando los vecinos llamaron
+  a la policía», «Sie fuhren bereits seit sechs Stunden, als das Auto liegen blieb»), with some slips of e50c («estaban
+  luchando contra el incendio durante diez horas», one German sentence moved to the Perfekt).
+
+Pre-registration: [prereg_languages.md](prereg_languages.md) (original, in Italian, with an amendment written before
+reading the new arms: the regex was recalibrated on the arms we already had, and with it French leaves little room, 9
+sentences). The prediction was that the native switch would carry over better than the circuit, because the circuit's
+detector also reads the system prompt, which changes with the language. It was wrong: e50c was expected at 29 (German)
+and 58 (Spanish) and measured at 7 and 34, while the predictions for the gain were all inside their intervals. By the
+rule as written the verdict is *indeterminate*: the rule had no branch for "the circuit carries over better".
+
+## 6. What this does and does not show
+
+- For this construction on this model, the choice was already carried by one neuron, and for Italian a gain on it is
+  enough. The hand-built circuit is a second, parallel route: for Italian it was not needed, and it is narrower on the
+  construction it had not seen (the present tense); across target languages it is the better edit, because its condition
+  allows a stronger push without touching the finished periods (section 5).
 - The two routes are **not like for like**. The editor worked under the rule of the MIT setup — no gradients — and
   never saw this neuron; the one-number edit depends on one backward pass to find it. The honest reading is not "the
   agent was beaten" but "reading the model first made the edit trivial".
@@ -126,8 +169,9 @@ python scripts/apply_edit.py --edit edits/gain_n1640_x2 --check   # one tensor, 
 python scripts/evaluate.py translate --edit edits/gain_n1640_x2 --out gain.json   # base.json as in the README quickstart
 python scripts/evaluate.py comet gain.json
 python scripts/evaluate.py score gain.json --base base.json --out gain_scored.json
+python scripts/lang_score.py results/languages                    # the target-language table of section 5, no GPU
 ```
 
 Per-arm results with every translation and verdict: `results/arms/gain_*.json`, `off_*.json`, `E50_plus_E50c.json`,
-`q4_*.json` (the Q4 arms are paired against `q4_base.json`). The scripts we actually ran are in `internal/`
+`q4_*.json` (the Q4 arms are paired against `q4_base.json`); `results/languages/` holds every translation of section 5. The scripts we actually ran are in `internal/`
 (`decision_neurons.py`, `few_pairs.py`, `scale_cols.py`, `ablate_one.py`, `make_gain_edit.py`, `e1_*`, `rescore_q4.py`).
