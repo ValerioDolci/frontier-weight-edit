@@ -194,8 +194,9 @@ tests/      pytest
 
 ## The experiments — same idea, different intents
 
-This repo collects weight-space experiments on models I run locally. The two edits below are small, targeted,
-hash-pinned, and published on Hugging Face for reproducibility; the third is a reading study and publishes no weights.
+This repo collects weight-space experiments on models I run locally. The first two edits below are small, targeted,
+hash-pinned, and published on Hugging Face for reproducibility; the third and fourth are reading studies and publish no
+weights.
 
 **1. Constructive — a preferred translation, only where intended** (the write-up above).
 Claude Opus rewrites a handful of neurons in **Gemma 4 12B-it** so it chooses *imperfetto + da* over the *trapassato*
@@ -217,10 +218,20 @@ the Dalai Lama, Tank Man, Senkaku, the YJ-18 missile…). The loop is packaged a
 replicated on Qwen3-4B. A pre-registered round of checks reports what held and what it cut down; no modified weights
 are published. Paper (preprint): https://doi.org/10.5281/zenodo.24053284
 
-Same technique, read three ways: a precise edit is a useful tool, in the wrong hands an invisible backdoor, and a way to
-read what a model was trained to hide. All three build on MIT CSAIL's [*Sparks of Weight-Space Programming*](https://rikiyat.github.io/blog/weight-space-programming/).
+**4. Reading and editing a trait — Inkling 2 Mini's "it's a trap"** ([`experiments/inkling-its-a-trap/`](experiments/inkling-its-a-trap/)).
+When the user names the cause of a bug, Inkling 2 Mini (26B mixture-of-experts) suspects a trap or a test and never
+applies the fix as its next action (Qwen3.8-27B does, 23 times out of 30). One attribution pass finds 32 expert neurons
+that carry the suspicion; zeroing them in the quantised weights (44 KB) removes it, held-out situations included, while
+32 random neurons do nothing. Yet Inkling still reads before writing, and the agentic-benchmark tasks we reran end as
+before: the trait is real, localised and removable, but it is not what holds the model back. No weights published; the
+edit is a list of 32 neurons.
+
+Same technique, read four ways: a precise edit is a useful tool, in the wrong hands an invisible backdoor, a way to
+read what a model was trained to hide, and a way to test whether a visible trait is what limits a model. The first
+three build on MIT CSAIL's [*Sparks of Weight-Space Programming*](https://rikiyat.github.io/blog/weight-space-programming/);
+the fourth reuses the reading tools of the first and third.
 
 ## License
 
-Code: MIT. The edits modify Gemma 4 weights and are subject to the [Gemma Terms of Use](https://ai.google.dev/gemma/terms)
+Code: MIT. The Inkling 2 Mini experiment publishes no weights (Inkling 2 Mini is Apache 2.0). The edits modify Gemma 4 weights and are subject to the [Gemma Terms of Use](https://ai.google.dev/gemma/terms)
 (see NOTICE). `data/flores200_en_it_200.jsonl` is from FLORES-200, CC BY-SA 4.0.
